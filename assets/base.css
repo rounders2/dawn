@@ -1293,20 +1293,26 @@ details[open] > .share-button__fallback {
   margin-right: 1rem;
 }
 
-.share-button__fallback {
+.share-button__message:not(:empty) {
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   background: rgb(var(--color-background));
   display: flex;
   align-items: center;
-  padding: 2rem;
   position: absolute;
   top: 3rem;
   left: 0.1rem;
   z-index: 3;
   width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding: 0.8rem 0 0.8rem 1.5rem;
   flex-direction: column;
   min-width: 31rem;
   box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
+}
+
+.share-button__message:not(:empty):not(.hidden) ~ * {
+  display: none;
 }
 
 .share-button__fallback .button {
@@ -1314,8 +1320,8 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__fallback .icon-clipboard {
-  width: 1.5rem;
-  height: 1.5rem;
+  height: 1.4rem;
+  width: 1.8rem;
 }
 
 .share-button__message:not(:empty) {
