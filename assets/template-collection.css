@@ -21,6 +21,12 @@
   .collection .title-wrapper-with-link--no-heading {
     margin-top: 6rem;
   }
+
+  .collection-left-column-filters {
+    margin: 0 2rem 0 5rem;
+    max-width: var(--page-width);
+  }
+
 }
 
 @media screen and (max-width: 989px) {
