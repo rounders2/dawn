@@ -78,8 +78,8 @@
         "80ea5411-491b-4cee-9b5c-dc1c5b134845"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "hide_variants": false,
+        "enable_sticky_info": false,
+        "hide_variants": true,
         "enable_video_looping": false
       }
     },
