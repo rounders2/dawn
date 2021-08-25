@@ -462,9 +462,6 @@
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
-        <div class="medium-hide small-hide collection-left-column-filters">
-          left column
-        </div>        
         <div class="loading-overlay"></div>
 
         <p class="collection-product-count light" role="status">
@@ -485,7 +482,9 @@
     {%- else -%}
       <div class="collection page-width">
         <div class="loading-overlay"></div>
-
+        <div class="medium-hide small-hide collection-left-column-filters">
+          left column
+        </div>
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col negative-margin product-grid
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
