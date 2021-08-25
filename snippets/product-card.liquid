@@ -111,10 +111,9 @@
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
         {%- endif -%}
-testing
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
-            {{ product_card_product.title | escape }}
+            {% if productTitleHasParts %}{{ newProductTitle_parts[0] }}{{ newProductTitle_parts[1] }} {% else %} {{ product.title }} {% endif %}
           </span>
         {%- endif -%}
 
