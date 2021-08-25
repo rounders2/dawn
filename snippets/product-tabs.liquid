@@ -17,17 +17,13 @@
               <div class="summary__title">
                 {% render 'icon-accordion', icon: block.settings.icon %}
                 <h2 class="h4 accordion__title">
-                  {% if tab_parts.size > 1 %}
-                    {{ tab_parts[1] }}
-                  {% else %}
                   {{ tab_parts[0] }}
-                  {% endif %}
                 </h2>
               </div>
                 {% render 'icon-caret' %}
               </summary>
               <div class="accordion__content rte">
-                {{ tab_parts[0] }}
+                {{ tab_parts[1] }}
               </div>
             </details>
           </div>
