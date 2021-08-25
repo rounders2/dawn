@@ -80,10 +80,6 @@ class CollectionFiltersForm extends HTMLElement {
     document.getElementById('CollectionProductGrid').innerHTML = new DOMParser().parseFromString(html, 'text/html').getElementById('CollectionProductGrid').innerHTML;
   }
 
-  const innerHTML = new DOMParser()
-        .parseFromString(html, 'text/html')
-        .getElementById('CollectionProductGrid').innerHTML;
-
   renderProductCount(html) {
     const count = new DOMParser().parseFromString(html, 'text/html').getElementById('CollectionProductCount').innerHTML
     const container = document.getElementById('CollectionProductCount');
@@ -94,7 +90,6 @@ class CollectionFiltersForm extends HTMLElement {
       containerDesktop.innerHTML = count;
       containerDesktop.classList.remove('loading');
     }
-    document.getElementById('CollectionProductGrid').innerHTML = innerHTML;
   }
 
   renderFilters(html, event) {
