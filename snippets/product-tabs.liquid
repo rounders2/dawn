@@ -2,7 +2,7 @@
 {% assign auto_heading_end = '</h3>' %}
 {% assign desc_tabs = description_last_part | split: auto_heading %}
 {% assign first_tab = true %}
-<details>
+
 
   {% for tab in desc_tabs %}
 
@@ -11,25 +11,27 @@
         {% assign tab_parts = tab | split: auto_heading_end %}
 
           {% if tab_parts.size > 1 %}
-          <summary>
-          <div class="summary__title">
-            {% render 'icon-accordion', icon: block.settings.icon %}
-            <h2 class="h4 accordion__title">
-              {{ tab_parts[0] }}
-            </h2>
-          </div>
-            {% render 'icon-caret' %}
-          </summary>
-          {% else %}
+          <details>
             <summary>
             <div class="summary__title">
               {% render 'icon-accordion', icon: block.settings.icon %}
               <h2 class="h4 accordion__title">
-                {{ tab_parts[1] }}
+                {{ tab_parts[0] }}
               </h2>
             </div>
               {% render 'icon-caret' %}
             </summary>
+            {% else %}
+              <summary>
+              <div class="summary__title">
+                {% render 'icon-accordion', icon: block.settings.icon %}
+                <h2 class="h4 accordion__title">
+                  {{ tab_parts[1] }}
+                </h2>
+              </div>
+                {% render 'icon-caret' %}
+              </summary>
+            </details>
           {% endif %}
       {% endunless %}
 
@@ -48,4 +50,5 @@
         </div>
       {% endunless %}
     {% endfor %}
-</details>
+
+</div>
