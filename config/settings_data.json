@@ -1,14 +1,14 @@
 {
   "current": {
     "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#334FB4",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
+    "colors_accent_1": "#445958",
+    "colors_accent_2": "#990000",
+    "colors_text": "#1a1b18",
+    "colors_outline_button_labels": "#445958",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "type_header_font": "unica_one_n4",
+    "type_body_font": "karla_n4",
     "social_facebook_link": "https:\/\/facebook.com\/good2goco",
     "social_instagram_link": "https:\/\/instagram.com\/good2goco",
     "sections": {
