@@ -1227,6 +1227,40 @@ deferred-media {
   position: relative;
 }
 
+.share-button details {
+  width: fit-content;
+}
+
+.share-button__button {
+  font-size: 1.4rem;
+  display: flex;
+  min-height: 2.4rem;
+  align-items: center;
+  color: rgba(var(--color-link), var(--alpha-link));
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.share-button__button:hover, details[open] > .share-button__button {
+  color: rgb(var(--color-link));
+}
+
+details[open] > .share-button__fallback {
+  animation: animateMenuOpen var(--duration-default) ease;
+}
+
+.share-button__button:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}
+
+.share-button__button,
+.share-button__fallback button {
+  cursor: pointer;
+  background: rgb(var(--color-background));
+  border: none;
+}
+
 .share-button__button .icon-share {
   margin-right: 1rem;
 }
