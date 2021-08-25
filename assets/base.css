@@ -1314,8 +1314,8 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__fallback .icon-clipboard {
-  height: 1.4rem;
-  width: 1.8rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .share-button__message:not(:empty) {
