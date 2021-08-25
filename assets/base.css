@@ -1254,6 +1254,34 @@ details[open] > .share-button__fallback {
   text-underline-offset: 0.3rem;
 }
 
+.share-button__fallback button {
+  width: 4.4rem;
+  height: 4.4rem;
+  padding: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-button__fallback button:hover {
+  color: rgba(var(--color-foreground),.75);
+}
+
+.share-button__fallback button:hover svg {
+  transform: scale(1.07);
+}
+
+.share-button__close:not(.hidden) + .share-button__copy {
+  display: none;
+}
+
+.share-button__fallback .field__input {
+  box-shadow: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
 .share-button__button,
 .share-button__fallback button {
   cursor: pointer;
@@ -1278,7 +1306,7 @@ details[open] > .share-button__fallback {
   width: 100%;
   flex-direction: column;
   min-width: 31rem;
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);  
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
 }
 
 .share-button__fallback .button {
