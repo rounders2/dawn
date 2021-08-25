@@ -620,6 +620,10 @@ details > * {
   text-decoration-thickness: 0.2rem;
 }
 
+.icon-arrow {
+  width: 1.5rem;
+}
+
 /* arrow animation */
 .animate-arrow .icon-arrow path {
   transform: translateX(-0.25rem);
@@ -641,7 +645,7 @@ summary .icon-caret {
   position: absolute;
   height: 0.6rem;
   right: 1.5rem;
-  top: calc(50% - 0.35rem);
+  top: calc(50% - 0.2rem);
 }
 
 summary::-webkit-details-marker {
@@ -729,6 +733,25 @@ summary::-webkit-details-marker {
 .focus-none {
   box-shadow: none !important;
   outline: 0 !important;
+}
+
+.focus-offset:focus-visible {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 1rem;
+  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+    0 0 0.2rem 1.2rem rgba(var(--color-foreground), 0.3);
+}
+
+.focus-offset:focus {
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  outline-offset: 1rem;
+  box-shadow: 0 0 0 1rem rgb(var(--color-background)),
+    0 0 0.2rem 1.2rem rgba(var(--color-foreground), 0.3);
+}
+
+.focus-offset:focus:not(:focus-visible) {
+  outline: 0;
+  box-shadow: none;
 }
 
 /* component-title */
