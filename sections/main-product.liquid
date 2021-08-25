@@ -104,7 +104,7 @@
 
               {%- if description_parts.size > 1 -%}
                 <div class="product__accordion accordion" id="last_product_description" {{ block.shopify_attributes }}>
-                    {% include 'product-tabs' tab_parts: tab_parts[0] %}
+                    {% include 'product-tabs' product.description: description_parts %}
                 </div>
               {%- endif -%}
 
