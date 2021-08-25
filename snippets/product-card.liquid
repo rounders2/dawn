@@ -13,6 +13,30 @@
     {% render 'product-card', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
+{% assign productTitleHasParts = false %}
+{% assign newProductTitle = product.title | downcase %}
+{% assign newVendorTitle = product.vendor | downcase %}
+{% if  newProductTitle contains newVendorTitle %}
+  {% if newProductTitle == newVendorTitle %}
+  {% assign productTitleHasParts = false %}
+  {% elsif newProductTitle contains 'waterpure technologies' %}
+      {% assign productTitleHasParts = true %}
+      {% assign newProductTitle_parts = newProductTitle | split: 'waterpure technologies' %}
+  {% else %}
+  {% assign productTitleHasParts = true %}
+  {% assign newProductTitle_parts = newProductTitle | split: newVendorTitle %}
+  {% endif %}
+{% elsif newProductTitle contains 'readywise' %}
+  {% assign productTitleHasParts = true %}
+  {% assign newProductTitle_parts = newProductTitle | split: 'readywise' %}
+{% elsif newProductTitle contains 'original swat' %}
+  {% assign productTitleHasParts = true %}
+  {% assign newProductTitle_parts = newProductTitle | split: 'original swat' %}
+{% else %}
+  {% assign productTitleHasParts = false %}
+{% endif %}
+
+
 <div class="card-wrapper">
   <a href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
     <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
@@ -87,10 +111,9 @@
           <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
           <div class="caption-with-letter-spacing light">{{ product_card_product.vendor }}</div>
         {%- endif -%}
-
+testing
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
-            hlelo
             {{ product_card_product.title | escape }}
           </span>
         {%- endif -%}
