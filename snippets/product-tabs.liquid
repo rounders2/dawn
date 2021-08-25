@@ -1,15 +1,43 @@
+{% assign auto_heading= '<h3>' %}
+{% assign auto_heading_end = '</h3>' %}
+{% assign desc_tabs = description_last_part | split: auto_heading %}
+{% assign first_tab = true %}
 <details>
-  <summary>
-    <div class="summary__title">
-      {% render 'icon-accordion', icon: block.settings.icon %}
-      <h2 class="h4 accordion__title">
-        {{ block.settings.heading | default: block.settings.page.title }}
-      </h2>
-    </div>
-    {% render 'icon-caret' %}
-  </summary>
-  <div class="accordion__content rte">
-    {{ block.settings.content }}
-    {{ block.settings.page.content }}
-  </div>
+
+  {% for tab in desc_tabs %}
+    <summary>
+      {% assign tab_size = tab | strip_html | strip | size %}
+      {% unless tab_size == 0 %}
+        {% assign tab_parts = tab | split: auto_heading_end %}
+
+          {% if tab_parts.size > 1 %}
+          <div class="summary__title">
+            {% render 'icon-accordion', icon: block.settings.icon %}
+            <h2 class="h4 accordion__title">
+              {{ {{ tab_parts[0] }}}}
+            </h2>
+          </div>
+          {% render 'icon-caret' %}
+          {% else %}
+            <div class="tab__title" tabindex="0">{{ section.settings.tabs_title }}</div>
+            <div class="accordion__content rte">{{ tab_parts[0] }}</div>
+          {% endif %}
+      {% endunless %}
+    </summary>
+  {% endfor %}
+
+    {% for tab in desc_tabs %}
+      {% assign tab_size = tab | strip_html | strip | size %}
+      {% unless tab_size == 0 %}
+        {% assign tab_parts = tab | split: auto_heading_end %}
+        <div class="tab__content" id="tab-{{ forloop.index }}">
+          {% if tab_parts.size > 1 %}
+            {{ tab_parts[1] }}
+          {% else %}
+            <div class="tab__title" tabindex="0">{{ section.settings.tabs_title }}</div>
+            <div class="accordion__content rte">{{ tab_parts[0] }}</div>
+          {% endif %}
+        </div>
+      {% endunless %}
+    {% endfor %}
 </details>
