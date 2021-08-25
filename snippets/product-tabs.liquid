@@ -11,17 +11,7 @@
         {% assign tab_parts = tab | split: auto_heading_end %}
 
           {% if tab_parts.size > 1 %}
-          <details>
-            <summary>
-            <div class="summary__title">
-              {% render 'icon-accordion', icon: block.settings.icon %}
-              <h2 class="h4 accordion__title">
-                {{ tab_parts[0] }}
-              </h2>
-            </div>
-              {% render 'icon-caret' %}
-            </summary>
-            {% else %}
+            <details>
               <summary>
               <div class="summary__title">
                 {% render 'icon-accordion', icon: block.settings.icon %}
@@ -31,6 +21,8 @@
               </div>
                 {% render 'icon-caret' %}
               </summary>
+                  {% render 'icon-caret' %}
+
             </details>
           {% endif %}
       {% endunless %}
