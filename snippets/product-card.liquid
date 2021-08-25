@@ -113,7 +113,7 @@
         {%- endif -%}
         {%- if product_card_product.featured_media -%}
           <span class="card-information__text h5">
-            {% if productTitleHasParts %}{{ newProductTitle_parts[0] }}{{ newProductTitle_parts[1] }} {% else %} {{ product.title }} {% endif %}
+{% if productTitleHasParts %}{{ newProductTitle_parts[0] }}{{ newProductTitle_parts[1] }} {% else %} {{ product_card_product.title | escape }} {% endif %}            
           </span>
         {%- endif -%}
 
