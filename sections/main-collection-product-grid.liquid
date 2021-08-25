@@ -459,7 +459,10 @@
 
 <div id="CollectionProductGrid">
 
-  <div class="medium-hide small-hide collection-left-column-filters">left column</div>
+  <div class="medium-hide small-hide collection-left-column-filters">
+    left column
+  </div>
+  
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
