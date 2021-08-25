@@ -26,6 +26,10 @@
     margin: 0 2rem 0 5rem;
     max-width: var(--page-width);
   }
+  #CollectionProductGrid {
+    display:flex;
+    flex-direction:column;
+  }
 
 }
 
