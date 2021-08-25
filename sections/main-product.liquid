@@ -93,9 +93,20 @@
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
+            {%- assign description_parts = product.description | split: '<!-- split -->' -%}
+            {%- assign all_parts = product.description | split: '<!-- split -->' -%}
+            {%- assign description_first_part = description_parts | first -%}
+            {%- assign description_last_part = description_parts | last -%}
+            {%- assign description_parts_count = all_parts | size %}
               <div class="product__description rte">
-                {{ product.description }}
+                {{ description_first_part }}
               </div>
+
+              {%- if description_parts.size > 1 -%}
+                    {% include 'product-tabs'  %}
+              {%- endif -%}
+
+
             {%- endif -%}
           {%- when 'custom_liquid' -%}
             {{ block.settings.custom_liquid }}
@@ -122,7 +133,7 @@
               <label class="form__label" for="Quantity-{{ section.id }}">
                 {{ 'products.product.quantity.label' | t }}
               </label>
-              
+
               <quantity-input class="quantity">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>

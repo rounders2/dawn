@@ -769,8 +769,11 @@ summary::-webkit-details-marker {
   font-size: 1.52941em;
   line-height: 1.1;
   z-index: 1;
-  border: 1px solid #375550;
   transition: all .2s ease;
+}
+
+.collection .title-wrapper-with-link .title {
+    border: 1px solid #375550;
 }
 
 .title-wrapper {
