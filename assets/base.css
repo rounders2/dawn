@@ -1290,6 +1290,7 @@ details[open] > .share-button__fallback {
 }
 
 .share-button__button .icon-share {
+  margin-right: 1rem;
 }
 
 .share-button__message:not(:empty) {
@@ -1958,7 +1959,6 @@ input[type='checkbox'] {
 .header__icon:hover .icon {
   color: rgba(255,255,255, 0.75);
 }
-
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
