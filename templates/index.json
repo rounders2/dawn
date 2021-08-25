@@ -6,17 +6,17 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand"
+            "heading": "GET READY. BE READY"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_1": "SHOP SHOES",
+            "button_link_1": "shopify:\/\/collections\/altama-shoes-boots",
+            "button_style_secondary_1": true,
+            "button_label_2": "SHOP GEAR",
+            "button_link_2": "shopify:\/\/collections\/outdoor-gear",
             "button_style_secondary_2": false
           }
         }
@@ -26,6 +26,8 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/altama-boot.jpg",
+        "image_2": "shopify:\/\/shop_images\/fenix-HM65R.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
