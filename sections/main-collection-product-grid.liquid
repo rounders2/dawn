@@ -482,6 +482,7 @@
     {%- else -%}
       <div class="collection page-width">
         <div class="loading-overlay"></div>
+        <div style="display:flex;flex-direction:row;">
         <div class="medium-hide small-hide collection-left-column-filters">
           left column
         </div>
@@ -496,6 +497,7 @@
             </li>
           {%- endfor -%}
         </ul>
+      </div>
 
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}
