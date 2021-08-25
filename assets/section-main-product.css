@@ -40,13 +40,13 @@
 
 @media screen and (min-width: 990px) {
   .product:not(.product--no-media) .product__media-wrapper {
-    max-width: 44%;
+    max-width: 54%;
     width: calc(44% - 1rem / 2);
   }
 
   .product:not(.product--no-media) .product__info-wrapper {
     padding-left: 4rem;
-    max-width: 56%;
+    max-width: 46%;
     width: calc(56% - 1rem / 2);
   }
 }
