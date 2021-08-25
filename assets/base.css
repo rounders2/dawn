@@ -1376,7 +1376,11 @@ details[open] > .share-button__fallback {
 
 .field__input:focus,
 .select__select:focus,
-.field input:focus {
+.field input:focus,
+.customer .field input:focus,
+.customer select:focus,
+.localization-form__select:focus {
+  outline: transparent;
   box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55),
     0 0 0 0.3rem rgb(var(--color-background)),
     0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
@@ -1396,7 +1400,7 @@ details[open] > .share-button__fallback {
   height: 0.6rem;
   pointer-events: none;
   position: absolute;
-  top: calc(50% - 0.35rem);
+  top: calc(50% - 0.2rem);
   right: 1.5rem;
 }
 
