@@ -1268,14 +1268,17 @@ details[open] > .share-button__fallback {
 .share-button__fallback {
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   background: rgb(var(--color-background));
+  display: flex;
+  align-items: center;
   padding: 2rem;
   position: absolute;
-  top: 4rem;
-  left: -0.1rem;
+  top: 3rem;
+  left: 0.1rem;
   z-index: 3;
   width: 100%;
-  display: flex;
   flex-direction: column;
+  min-width: 31rem;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);  
 }
 
 .share-button__fallback .button {
