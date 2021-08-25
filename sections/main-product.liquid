@@ -93,8 +93,13 @@
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
+            {%- assign description_parts = product.description | split: '<!-- split -->' -%}
+            {%- assign all_parts = product.description | split: '<!-- split -->' -%}
+            {%- assign description_first_part = description_parts | first -%}
+            {%- assign description_last_part = description_parts | last -%}
+            {%- assign description_parts_count = all_parts | size %}
               <div class="product__description rte">
-                {{ product.description }}
+                {{ description_first_part }}
               </div>
             {%- endif -%}
           {%- when 'custom_liquid' -%}
