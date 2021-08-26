@@ -481,11 +481,10 @@
     {%- else -%}
       <div class="collection page-width">
         <div class="loading-overlay"></div>
-
 <div class="grid grid--2-col">
 <div class="grid--4-col-tablet grid__item">testing</div>
         <ul id="main-collection-product-grid" data-id="{{ section.id }}" class="
-          grid grid--2-col negative-margin product-grid grid__item
+          grid grid--2-col negative-margin product-grid
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %}">
@@ -496,7 +495,6 @@
           {%- endfor -%}
         </ul>
 </div>
-
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}
         {%- endif -%}
