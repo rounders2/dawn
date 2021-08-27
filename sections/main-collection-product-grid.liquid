@@ -276,7 +276,7 @@
         {% if section.settings.enable_filtering %}
         <div class="">
           {%- unless collection.filters == empty -%}
-          <p class="facets__heading caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
+          <p class="caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
           {%- endunless -%}
 
           {%- for filter in collection.filters -%}
