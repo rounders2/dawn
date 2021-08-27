@@ -1,8 +1,9 @@
 <style>
-
+.facets__form {
+  display:block;
+}
 </style>
 
-    {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
     {%- unless section.settings.collapse_on_larger_devices -%}
     <collection-filters-form class="facets small-hide">
       <form id="CollectionFiltersForm" class="facets__form">
@@ -218,4 +219,3 @@
 </form>
 </collection-filters-form>
 {%- endunless -%}
-{%- endif -%}
