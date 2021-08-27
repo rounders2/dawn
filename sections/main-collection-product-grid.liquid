@@ -272,11 +272,11 @@
     {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
     {%- unless section.settings.collapse_on_larger_devices -%}
     <collection-filters-form class="facets small-hide">
-      <form id="CollectionFiltersForm" class="">
+      <form id="CollectionFiltersForm" class="facets__form">
         {% if section.settings.enable_filtering %}
-        <div class="">
+        <div class="facets__wrapper">
           {%- unless collection.filters == empty -%}
-          <p class="caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
+          <p class="facets__heading caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
           {%- endunless -%}
 
           {%- for filter in collection.filters -%}
