@@ -657,7 +657,7 @@ summary::-webkit-details-marker {
 }
 
 .disclosure-has-popup[open] > summary::before {
-  position: fixed;
+  /*position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
@@ -666,7 +666,7 @@ summary::-webkit-details-marker {
   display: block;
   cursor: default;
   content: ' ';
-  background: transparent;
+  background: transparent;*/
 }
 
 .disclosure-has-popup > summary::before {
