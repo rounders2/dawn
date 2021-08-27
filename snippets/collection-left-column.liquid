@@ -30,11 +30,8 @@
 </style>
 
     {%- unless section.settings.collapse_on_larger_devices -%}
-    
-    <div class="active-facets active-facets-desktop">
-      {%- for filter in collection.filters -%}
-      {%- for value in filter.active_values -%}
 
+    <div class="active-facets active-facets-desktop">
       <div class="collection-product-count light" role="status">
         <p id="CollectionProductCountDesktop" class="collection-product-count__text">
           {%- if collection.products_count == collection.all_products_count -%}
@@ -48,7 +45,11 @@
             <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
           </svg>
         </div>
-      </div>
+      </div> 
+
+      {%- for filter in collection.filters -%}
+      {%- for value in filter.active_values -%}
+
 
       <facet-remove>
         <a href="{{ value.url_to_remove }}" class="active-facets__button active-facets__button--light">
