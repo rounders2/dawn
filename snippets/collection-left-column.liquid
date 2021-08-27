@@ -26,6 +26,9 @@
   .disclosure-has-popup[open]>summary+* {
     /*z-index:initial;*/
   }
+  .collection-product-count {
+    display:block;
+  }
 }
 </style>
 
@@ -46,7 +49,6 @@
           </svg>
         </div>
       </div>
-<br><br>
       {%- for filter in collection.filters -%}
       {%- for value in filter.active_values -%}
 
