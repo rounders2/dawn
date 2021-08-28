@@ -1,7 +1,12 @@
 <style>
 @media (min-width:750px) {
+  .left-column-grid-wrap {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: minmax(100px, auto);
+  }
   .collection-left-column {
-    width:25rem;
+    width:30rem;
   }
   .facets__form {
     display:block
