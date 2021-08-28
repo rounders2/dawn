@@ -90,9 +90,6 @@
       <form id="CollectionFiltersForm" class="facets__form">
         {% if section.settings.enable_filtering %}
         <div class="facets__wrapper">
-          {%- unless collection.filters == empty -%}
-          <p class="facets__heading caption-large">{{ 'sections.collection_template.filter_by_label' | t }}</p>
-          {%- endunless -%}
 
           {%- for filter in collection.filters -%}
           {%- assign total_active_values = total_active_values | plus: filter.active_values.size -%}
