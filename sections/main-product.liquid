@@ -209,7 +209,7 @@
                                 form="product-form-{{ section.id }}"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
-                          <label class="{{ value | handleize }}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                          <label class="{{ value | handleize }} {%- if option.name == 'color' -%}color-swatch{%- endif -%}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
                             {{ value }}
                           </label>
                         {%- endfor -%}
