@@ -54,17 +54,17 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "da7c4d96-3c43-4605-a198-028339ca17d8": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Customer Care",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "da7c4d96-3c43-4605-a198-028339ca17d8"
         ],
         "settings": {
           "color_scheme": "background-2",
