@@ -51,6 +51,7 @@
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.2);
   padding-top: 3rem;
   padding-bottom: 3rem;
+  backgrounnd: var(--color-base-background-1);
 }
 
 .footer__content-bottom:only-child {
