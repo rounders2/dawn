@@ -58,7 +58,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Customer Care",
-              "menu": "footer"
+              "menu": "customer-care"
             }
           }
         },
