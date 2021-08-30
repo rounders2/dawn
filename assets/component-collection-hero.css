@@ -571,6 +571,10 @@
   line-height: 1.5;
 }
 
+.media model-viewer, .media.collection-hero__image-container {
+  background:none;
+}
+
 .media model-viewer, .media.collection-hero__image-container img {
   max-width:150px;
   display:block;
