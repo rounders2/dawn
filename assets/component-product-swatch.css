@@ -202,6 +202,6 @@
       lime 25%, red 25% 50%, cyan 50% 75%, yellow 75% );
     }
 
-.color-swatch.black-ansi-rx-happy-gray-green-polar {
+.color-swatch.black-ansi-rx-happy-gray-green-polar, .color-swatch.black-ansi-rx-happy-gray-green {
   background: linear-gradient(to bottom left, #000 50%, #616661 50%);
 }
