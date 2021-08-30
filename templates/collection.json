@@ -3,15 +3,7 @@
     "title": {
       "type": "main-collection-title",
       "settings": {
-        "show_collection_breadcrumbs": false,
         "show_collection_title": false
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false
       }
     },
     "product-grid": {
@@ -26,6 +18,13 @@
         "enable_filtering": true,
         "enable_sorting": true,
         "collapse_on_larger_devices": false
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
       }
     }
   },
