@@ -477,20 +477,6 @@
 {%- if first_3d_model -%}
   <script type="application/json" id="ProductJSON-{{ product.id }}">
     {{ product.media | where: 'media_type', 'model' | json }}
-
-    $('[data-swatch-options]').on('change', 'input[type=radio]', function(e) {
-      var $btn = $(this);
-      var optionName = $btn.prop('name');
-
-      var $singleOptionSelector = $('#' + $btn.data('related'));
-      // console.log("The related singleOptionSelector is", $singleOptionSelector[0]);
-
-      var selectedOption = $btn.val();
-      // console.log("The selected option is: " + selectedOption);
-
-      $singleOptionSelector.val(selectedOption).trigger('change');
-    });
-  });       
   </script>
 
   <script src="{{ 'product-model.js' | asset_url }}" defer></script>
