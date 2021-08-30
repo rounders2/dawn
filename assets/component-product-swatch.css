@@ -5,4 +5,6 @@
   text-indent:-999px;
 }
 
-.color-swatch
+.color-swatch.black {
+  background:#000;
+}
