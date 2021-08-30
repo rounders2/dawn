@@ -572,7 +572,6 @@
 }
 
 .media model-viewer, .media.collection-hero__image-container img {
-  object-fit:contain;
   max-width:150px;
   display:block;
   position:relative;
