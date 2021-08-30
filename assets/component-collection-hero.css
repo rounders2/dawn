@@ -571,6 +571,10 @@
   line-height: 1.5;
 }
 
+.collection-hero__image-container img {
+  object-fit:contain;
+}
+
 @media screen and (min-width: 750px) {
   .collection-hero__title + .collection-hero__description {
     font-size: 1.8rem;
