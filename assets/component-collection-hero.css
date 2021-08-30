@@ -590,7 +590,7 @@
   margin: 0;
 }
 
-.collection-hero--with-image .collection-hero__text-wrapper {
+.collection-hero--with-image .collection-hero__inner {
   padding: 5rem 0 4rem;
   max-width:600px;
   background:rgba(255,255,255,.8);
