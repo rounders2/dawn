@@ -1,5 +1,12 @@
 .collection-hero--with-image {
   background-color: rgba(var(--color-foreground), 0.04);
+  @media (min-width:1113px){
+    background-attachment: fixed !important;
+  }
+  @media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    background-size: contain;
+    background-attachment: scroll !important;
+  }  
 }
 
 .collection-hero.adler-axes {
