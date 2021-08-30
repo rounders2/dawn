@@ -194,18 +194,18 @@
   background:url('{{'coyote-winter.png' | asset_url}}')no-repeat center;
 }
 
-.color-swatch.black-ansi-rx-happy-gray-green-polar {
-  background: linear-gradient(to bottom left, #000 50%, #5a6e5a 50%);
+.color-swatch.hawaii-happy-gray-green-polar, .color-swatch.ansi-rx-matte-black-hd-gray-green-polarized, .color-swatch.ansi-rx-matte-black-hd-gray-green, .color-swatch.ansi-rx-black-hd-gray-green-polarized, .color-swatch.black-happy-gray-green-polar, .color-swatch.black-hd-gray-green-polarized, .color-swatch.matte-black-hd-gray-green-polarized, .color-swatch.black-hd-gray-green-polar, .color-swatch.black-ansi-rx-happy-gray-green-polar, .color-swatch.soft-matte-black-happy-gray-green-polar, .color-swatch.matte-black-ansi-rx-happy-gray-green-polar {
+  background: linear-gradient(to bottom left, #5a6e5a 50%, #000 50%);
 }
 
-.color-swatch.black-ansi-rx-happy-gray-green,.color-swatch.soft-matte-black-happy-gray-green-polar {
+.color-swatch.ansi-rx-black-hd-gray-green, .color-swatch.matte-black-happy-gray-green, .color-swatch.sosi-ansi-rx-matte-black-happy-gray-green, .color-swatch.sosi-ansi-rx-black-happy-gray-green, .color-swatch.black-happy-gray-green, .color-swatch.black-ansi-rx-happy-gray-green, .color-swatch.matte-black-ansi-rx-happy-gray-green, .color-swatch.matte-black-hd-gray-green, .color-swatch.soft-matte-black-happy-gray-green, .color-swatch.black-hd-gray-green {
   background: linear-gradient(to bottom left, #616661 50%, #000 50%);
 }
 
-.color-swatch.matte-black-ansi-rx-happy-gray-green-polar, .color-swatch.matte-black-ansi-rx-happy-gray-green, .color-swatch.soft-matte-black-happy-gray-green {
-  background: linear-gradient(to bottom left, #616661 50%, #000 50%);
-}
-
-.color-swatch.matte-black-happy-bronze-polar-with-blue-spectra-mirror {
+.color-swatch.matte-black-happy-bronze-polar-with-blue-spectra-mirror, .color-swatch.soft-matte-black-happy-dark-gray-green-polar-with-dark-blue-spectra-mirror {
   background: linear-gradient(to bottom left, #2954c5 50%, #000 50%);
+}
+
+.color-swatch.matte-camo-happy-gray-green-polar {
+  background: linear-gradient(to bottom left, #5a6e5a 50%, #4a433a 50%);
 }
