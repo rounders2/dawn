@@ -571,6 +571,12 @@
   line-height: 1.5;
 }
 
+.collection-hero--with-image .collection-hero__text-wrapper {
+  background:rgba(255,255,255,.8);
+  padding:5rem;
+  margin:auto;
+}
+
 .media model-viewer, .media.collection-hero__image-container {
   background:none;
 }
@@ -601,9 +607,6 @@
 
   .collection-hero--with-image .collection-hero__text-wrapper {
     max-width:600px;
-    background:rgba(255,255,255,.8);
-    padding:5rem;
-    margin:auto;
   }
   .collection-hero__description p {
     line-height:1.5em;
