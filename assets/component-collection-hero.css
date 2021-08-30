@@ -1,12 +1,5 @@
 .collection-hero--with-image {
   background-color: rgba(var(--color-foreground), 0.04);
-  @media (min-width:1113px){
-    background-attachment: fixed !important;
-  }
-  @media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-    background-size: contain;
-    background-attachment: scroll !important;
-  }  
 }
 
 .collection-hero.adler-axes {
@@ -602,7 +595,12 @@
 }
 
 
-
+@media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .collection-hero {
+    background-size: contain;
+    background-attachment: scroll !important;    
+  }
+}
 
 
 @media screen and (max-width: 749px) {
@@ -612,6 +610,9 @@
 }
 
 @media screen and (min-width: 750px) {
+  .collection-hero {
+    background-attachment: fixed !important;
+  }
   .collection-hero--with-image .collection-hero__text-wrapper {
     padding: 4rem 2rem 4rem 0;
     flex-basis: 50%;
