@@ -6,9 +6,7 @@
   border: 1px solid #ccc;
 }
 .product-form__input input[type='radio']:checked + label.color-swatch {
-  outline: 1px solid #999
-  border:1px solid #fff;
-  margin:2px;
+  outline: 1px solid #999;
 }
 
 
