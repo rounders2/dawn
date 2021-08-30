@@ -5,6 +5,120 @@
   /*text-indent:-999px;*/
 }
 
-.color-swatch.black {
+.color-swatch.black,.color-swatch.black, .color-swatch.matte-black, .color-swatch.foundry-black, .color-swatch[class*="black"]   {
   background:#000;
 }
+  .color-swatch.stainless-steel {
+    background:#a0a3a7;
+  }
+  .color-swatch[class*="camo"], .color-swatch.multicam {
+    background:url('{{'multicam_50x.png' | asset_url}}')no-repeat center;
+  }
+  .color-swatch.coyote-brown, .color-swatch[class*="coyote"] {
+    background:#69451A;
+  }
+  .color-swatch.light-brown, .color-swatch.tan-book-tan-cover {
+    background:#C4AA8C;
+  }
+  .color-swatch.aloe {
+    background:#D5D141;
+  }
+  .color-swatch.brown {
+    background:#5D4132;
+  }
+  .color-swatch.navy {
+    background:#141B49;
+  }
+  .color-swatch.coal, .color-swatch.charcoal {
+    background:#65666B;
+  }
+  .color-swatch.grey {
+    background:#65666B;
+  }
+  .color-swatch.green {
+    background:#bbc26d;
+  }
+  .color-swatch.purple {
+    background:#ab6dc2;
+  }
+  .color-swatch.teal, .color-swatch.ocean-teal {
+    background:#37C3C5;
+  }
+  .color-swatch.khaki, .color-swatch.tan  {
+    background:#E7E3D3;
+  }
+  .color-swatch.lagoon {
+    background:#468C93;
+  }
+  .color-swatch.od-green, .color-swatch.foliage-green  {
+    background:#585E4F;
+  }
+  .color-swatch.hammertone-green {
+    background:#61776D;
+  }
+  .color-swatch.blue  {
+    background:#42b3f5;
+  }
+  .color-swatch.blaze-orange  {
+    background:#F2762F;
+  }
+  .color-swatch.orange  {
+    background:#f5ad42;
+  }
+  .color-swatch.nightfall  {
+    background:#585e73;
+  }
+  .color-swatch.recon  {
+    background:#D2C899;
+  }
+  .color-swatch.wine  {
+    background:#542a32;
+  }
+  .color-swatch[class*="yellow"]  {
+    background:#ffde4a;
+  }
+  .color-swatch[class*="asphalt"], .color-swatch[class*="ashpalt"]  {
+    background:#5a5f63;
+  }
+  .color-swatch[class*="red"]  {
+    background:#c41616;
+  }
+  .color-swatch[class*="midnight"]  {
+    background:#2B2B42;
+  }
+  .color-swatch[class*="blue-"] {
+    background:#2954C5;
+  }
+  .color-swatch[class*="grey-"] {
+    background:#666;
+  }
+  .color-swatch[class*="wolf"] {
+    background:#DBD7D1;
+  }
+  .color-swatch[class*="pink-"] {
+    background:#D6AAC9;
+  }
+  .color-swatch[class*="green-"], .color-swatch.moss-green {
+    background:#999F76;
+  }
+  .color-swatch[class*="purple-"] {
+    background:#B28BC8;
+  }
+  .color-swatch[class*="light-green-"] {
+    background:#D3E6B2;
+  }
+  .color-swatch[class*="light-teal-"] {
+    background:#8FDFE5;
+  }
+  .color-swatch[class*="dark-teal-"] {
+    background:#50979B;
+  }
+  .color-swatch[class*="light-blue-"] {
+    background:#D5EFF0;
+  }
+  .color-swatch[class*="clear-"], .color-swatch[class*="white"], .color-swatch.polar  {
+    background:#fff;
+  }
+  .color-swatch[class*="green-fish-"]  {
+    background:#95A556;
+  }
