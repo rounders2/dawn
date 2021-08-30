@@ -576,6 +576,7 @@
   max-width:150px !important;
   display:block;
   position:relative;
+  margin:0 auto;
 }
 
 @media screen and (min-width: 750px) {
