@@ -597,7 +597,7 @@
   padding:30px;
   margin:auto;
 }
-  .collection-hero--with-image .collection-hero__text-wrapperp {
+  .collection-hero__description p {
     line-height:1.5em;
     margin-bottom:20px;
     text-align:justify;
