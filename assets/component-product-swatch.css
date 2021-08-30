@@ -2,4 +2,7 @@
   width:45px;
   height:45px;
   overflow:hidden;
+  text-indent:-999px;
 }
+
+.color-swatch
