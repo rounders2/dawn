@@ -2,10 +2,10 @@
   width:45px;
   height:45px;
   overflow:hidden;
-  /*text-indent:-999px;*/
+  text-indent:-999px;
 }
 
-.product-form__input input[type=radio]+label
+
 
 .color-swatch.black,.color-swatch.black, .color-swatch.matte-black, .color-swatch.foundry-black, .color-swatch[class*="black"]   {
   background-color:#000;
