@@ -205,3 +205,7 @@
 .color-swatch.matte-black-ansi-rx-happy-gray-green-polar, .color-swatch.matte-black-ansi-rx-happy-gray-green  {
   background: linear-gradient(to bottom left, #000 50%, #616661 50%);
 }
+
+.color-swatch.matte-black-happy-bronze-polar-with-blue-spectra-mirror {
+  background: linear-gradient(to bottom left, #000 50%, #2954c5 50%);
+}
