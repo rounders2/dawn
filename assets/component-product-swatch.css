@@ -4,7 +4,9 @@
   overflow:hidden;
   text-indent:-999px;
 }
-
+.product-form__input input[type='radio']:checked + label.color-swatch {
+  outline: 1px solid #293331
+}
 
 
 .color-swatch.black,.color-swatch.black, .color-swatch.matte-black, .color-swatch.foundry-black, .color-swatch[class*="black"]   {
