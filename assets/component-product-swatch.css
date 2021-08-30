@@ -195,5 +195,8 @@
 }
 
 .color-swatch.black-ansi-rx-happy-gray-green-polar {
-  background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+  background: linear-gradient(to left,
+    lime 25%, red 25%, red 50%, cyan 50%, cyan 75%, yellow 75% );
+  background: linear-gradient(to left,
+      lime 25%, red 25% 50%, cyan 50% 75%, yellow 75% );
 }
