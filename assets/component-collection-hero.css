@@ -573,6 +573,8 @@
 
 .collection-hero__image-container img {
   object-fit:contain;
+  margin:0 auto 20px auto;
+  max-width:150px;
 }
 
 @media screen and (min-width: 750px) {
