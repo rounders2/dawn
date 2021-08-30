@@ -1,124 +1,125 @@
-.color-swatch {
+.product-form__input input[type=radio]+label.color-swatch {
   width:45px;
   height:45px;
   overflow:hidden;
   /*text-indent:-999px;*/
 }
 
-.color-swatch.black,.color-swatch.black, .color-swatch.matte-black, .color-swatch.foundry-black, .color-swatch[class*="black"]   {
+
+.product-form__input input[type=radio]+label.color-swatch.black,.product-form__input input[type=radio]+label.color-swatch.black, .product-form__input input[type=radio]+label.color-swatch.matte-black, .product-form__input input[type=radio]+label.color-swatch.foundry-black, .product-form__input input[type=radio]+label.color-swatch[class*="black"]   {
   background-color:#000;
 }
-  .color-swatch.stainless-steel {
+  .product-form__input input[type=radio]+label.color-swatch.stainless-steel {
     background-color:#a0a3a7;
   }
-  .color-swatch[class*="camo"], .color-swatch.multicam {
+  .product-form__input input[type=radio]+label.color-swatch[class*="camo"], .product-form__input input[type=radio]+label.color-swatch.multicam {
     background-color:url('{{'multicam_50x.png' | asset_url}}')no-repeat center;
   }
-  .color-swatch.coyote-brown, .color-swatch[class*="coyote"] {
+  .product-form__input input[type=radio]+label.color-swatch.coyote-brown, .product-form__input input[type=radio]+label.color-swatch[class*="coyote"] {
     background-color:#69451A;
   }
-  .color-swatch.light-brown, .color-swatch.tan-book-tan-cover {
+  .product-form__input input[type=radio]+label.color-swatch.light-brown, .product-form__input input[type=radio]+label.color-swatch.tan-book-tan-cover {
     background-color:#C4AA8C;
   }
-  .color-swatch.aloe {
+  .product-form__input input[type=radio]+label.color-swatch.aloe {
     background-color:#D5D141;
   }
-  .color-swatch.brown {
+  .product-form__input input[type=radio]+label.color-swatch.brown {
     background-color:#5D4132;
   }
-  .color-swatch.navy {
+  .product-form__input input[type=radio]+label.color-swatch.navy {
     background-color:#141B49;
   }
-  .color-swatch.coal, .color-swatch.charcoal {
+  .product-form__input input[type=radio]+label.color-swatch.coal, .product-form__input input[type=radio]+label.color-swatch.charcoal {
     background-color:#65666B;
   }
-  .color-swatch.grey {
+  .product-form__input input[type=radio]+label.color-swatch.grey {
     background-color:#65666B;
   }
-  .color-swatch.green {
+  .product-form__input input[type=radio]+label.color-swatch.green {
     background-color:#bbc26d;
   }
-  .color-swatch.purple {
+  .product-form__input input[type=radio]+label.color-swatch.purple {
     background-color:#ab6dc2;
   }
-  .color-swatch.teal, .color-swatch.ocean-teal {
+  .product-form__input input[type=radio]+label.color-swatch.teal, .product-form__input input[type=radio]+label.color-swatch.ocean-teal {
     background-color:#37C3C5;
   }
-  .color-swatch.khaki, .color-swatch.tan  {
+  .product-form__input input[type=radio]+label.color-swatch.khaki, .product-form__input input[type=radio]+label.color-swatch.tan  {
     background-color:#E7E3D3;
   }
-  .color-swatch.lagoon {
+  .product-form__input input[type=radio]+label.color-swatch.lagoon {
     background-color:#468C93;
   }
-  .color-swatch.od-green, .color-swatch.foliage-green  {
+  .product-form__input input[type=radio]+label.color-swatch.od-green, .product-form__input input[type=radio]+label.color-swatch.foliage-green  {
     background-color:#585E4F;
   }
-  .color-swatch.hammertone-green {
+  .product-form__input input[type=radio]+label.color-swatch.hammertone-green {
     background-color:#61776D;
   }
-  .color-swatch.blue  {
+  .product-form__input input[type=radio]+label.color-swatch.blue  {
     background-color:#42b3f5;
   }
-  .color-swatch.blaze-orange  {
+  .product-form__input input[type=radio]+label.color-swatch.blaze-orange  {
     background-color:#F2762F;
   }
-  .color-swatch.orange  {
+  .product-form__input input[type=radio]+label.color-swatch.orange  {
     background-color:#f5ad42;
   }
-  .color-swatch.nightfall  {
+  .product-form__input input[type=radio]+label.color-swatch.nightfall  {
     background-color:#585e73;
   }
-  .color-swatch.recon  {
+  .product-form__input input[type=radio]+label.color-swatch.recon  {
     background-color:#D2C899;
   }
-  .color-swatch.wine  {
+  .product-form__input input[type=radio]+label.color-swatch.wine  {
     background-color:#542a32;
   }
-  .color-swatch[class*="yellow"]  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="yellow"]  {
     background-color:#ffde4a;
   }
-  .color-swatch[class*="asphalt"], .color-swatch[class*="ashpalt"]  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="asphalt"], .product-form__input input[type=radio]+label.color-swatch[class*="ashpalt"]  {
     background-color:#5a5f63;
   }
-  .color-swatch[class*="red"]  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="red"]  {
     background-color:#c41616;
   }
-  .color-swatch[class*="midnight"]  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="midnight"]  {
     background-color:#2B2B42;
   }
-  .color-swatch[class*="blue-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="blue-"] {
     background-color:#2954C5;
   }
-  .color-swatch[class*="grey-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="grey-"] {
     background-color:#666;
   }
-  .color-swatch[class*="wolf"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="wolf"] {
     background-color:#DBD7D1;
   }
-  .color-swatch[class*="pink-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="pink-"] {
     background-color:#D6AAC9;
   }
-  .color-swatch[class*="green-"], .color-swatch.moss-green {
+  .product-form__input input[type=radio]+label.color-swatch[class*="green-"], .product-form__input input[type=radio]+label.color-swatch.moss-green {
     background-color:#999F76;
   }
-  .color-swatch[class*="purple-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="purple-"] {
     background-color:#B28BC8;
   }
-  .color-swatch[class*="light-green-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="light-green-"] {
     background-color:#D3E6B2;
   }
-  .color-swatch[class*="light-teal-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="light-teal-"] {
     background-color:#8FDFE5;
   }
-  .color-swatch[class*="dark-teal-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="dark-teal-"] {
     background-color:#50979B;
   }
-  .color-swatch[class*="light-blue-"] {
+  .product-form__input input[type=radio]+label.color-swatch[class*="light-blue-"] {
     background-color:#D5EFF0;
   }
-  .color-swatch[class*="clear-"], .color-swatch[class*="white"], .color-swatch.polar  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="clear-"], .product-form__input input[type=radio]+label.color-swatch[class*="white"], .product-form__input input[type=radio]+label.color-swatch.polar  {
     background-color:#fff;
   }
-  .color-swatch[class*="green-fish-"]  {
+  .product-form__input input[type=radio]+label.color-swatch[class*="green-fish-"]  {
     background-color:#95A556;
   }
