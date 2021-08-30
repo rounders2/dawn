@@ -193,3 +193,7 @@
 .color-swatch.coyote-winter  {
   background:url('{{'coyote-winter.png' | asset_url}}')no-repeat center;
 }
+
+.color-swatch.black-ansi-rx-happy-gray-green-polar {
+  background: linear-gradient(to bottom left, cyan 50%, palegoldenrod 50%);
+}
