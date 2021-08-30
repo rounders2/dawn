@@ -201,7 +201,7 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                      <fieldset class="js product-form__input">
+                      <fieldset class="js product-form__input" data-swatch-options>
                         <legend class="form__label">{{ option.name }}:
                           {% if option.name == 'Color' %}
                           <span data-selected-value>{{option.selected_value}}</span>
