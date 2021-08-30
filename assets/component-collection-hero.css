@@ -625,7 +625,6 @@
     background-attachment: fixed !important;
   }
   .collection-hero--with-image .collection-hero__text-wrapper {
-    padding: 4rem 2rem 4rem 0;
     flex-basis: 50%;
   }
 
