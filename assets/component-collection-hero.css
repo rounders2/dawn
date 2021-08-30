@@ -571,9 +571,9 @@
   line-height: 1.5;
 }
 
-.collection-hero__image-container img {
+.media model-viewer, .media.collection-hero__image-container img {
   object-fit:contain;
-  max-width:150px !important;
+  max-width:150px;
   display:block;
   position:relative;
   margin:0 auto;
