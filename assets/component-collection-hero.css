@@ -589,10 +589,9 @@
   }
 
   .collection-hero--with-image .collection-hero__text-wrapper {
-    padding: 5rem 0 4rem;
     max-width:600px;
     background:rgba(255,255,255,.8);
-    padding:30px;
+    padding:5rem;
     margin:auto;
   }
   .collection-hero__description p {
@@ -602,7 +601,7 @@
   }
   .collection-hero--with-image .collection-hero__text-wrapper a {
     border-bottom:1px solid #444;
-  }  
+  }
 }
 
 
