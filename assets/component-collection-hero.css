@@ -127,7 +127,7 @@
   background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/drinks-banners.jpg?v=1611101895')no-repeat center left;
   background-size:cover;
 }
-.collection-hero.emergency-essentials {
+.collection-hero.emergency-essentials-food {
   background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/emergencyessentials-banner.jpg?v=1610750058')no-repeat center;
   background-size:cover;
 }
@@ -523,7 +523,7 @@
 .collection-hero.x-vision {
   background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/x-vision-collection.jpg?v=1617254803')no-repeat center;
   background-size:cover;
-} 
+}
 
 .collection-hero__inner {
   display: flex;
