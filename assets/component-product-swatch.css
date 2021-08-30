@@ -1,5 +1,7 @@
-.color-swatch {
-  width:45px
+
+
+.product-form__input input[type=radio]+label.color-swatch {
+  width:45px;
   height:45px;
   overflow:hidden;
 }
