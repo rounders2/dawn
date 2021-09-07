@@ -37,9 +37,9 @@
 
       <a href="{{ all_products[colour_and_handle.last].url}}">
         {% if colour_and_handle.first == option.selected_value %}
-          <label class="{{ colour_and_handle.first | handleize }} color-swatch selected"></label>
+          <span class="{{ colour_and_handle.first | handleize }} color-swatch selected"></span>
         {% else %}
-          <label class="{{ colour_and_handle.first | handleize }} color-swatch"></label>
+          <span class="{{ colour_and_handle.first | handleize }} color-swatch"></span>
         {% endif %}
       </a>
 
