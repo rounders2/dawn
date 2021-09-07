@@ -6,6 +6,11 @@
   text-indent:-999px;
   border: 1px solid #ccc;
 }
+
+.color-swatch.selected {
+  border: 2px solid black;
+}
+
 .product-form__input input[type='radio']:checked + label.color-swatch {
   outline: 1px solid #999;
 }
