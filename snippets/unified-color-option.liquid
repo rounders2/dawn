@@ -34,7 +34,7 @@
 
   {% for available_option in available_colours %}
     {% assign colour_and_handle = available_option | split: "::" %}
-    <label class="{{ colour_and_handle.first | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}">
+    <label class="{{ colour_and_handle.first | handleize }} color-swatch">
       <a href="{{ all_products[colour_and_handle.last].url}}">
         {% if colour_and_handle.first == option.selected_value %}
           <span class="selected swatch {{colour_and_handle.first | handleize}}"></span>
@@ -44,18 +44,4 @@
       </a>
     </label>
   {% endfor  %}
-
-
-
-  {%- for value in option.values -%}
-    <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-           name="{{ option.name }}"
-           value="{{ value | escape }}"
-           form="product-form-{{ section.id }}"
-           {% if option.selected_value == value %}checked{% endif %}
-    >
-    <label class="{{ value | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
-      {{ value }}
-    </label>
-  {%- endfor -%}
 </fieldset>
