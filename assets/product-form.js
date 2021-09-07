@@ -38,34 +38,3 @@ if (!customElements.get('product-form')) {
     }
   });
 }
-
-$(function() {
-  // console.log("harvestright-swatch loaded");
-  $('[data-swatch-options]').on('change', 'input[type=radio]', function(e) {
-    var $btn = $(this);
-    var optionName = $btn.prop('name');
-
-    var $singleOptionSelector = $('#' + $btn.data('related'));
-    // console.log("The related singleOptionSelector is", $singleOptionSelector[0]);
-
-    var selectedOption = $btn.val();
-    // console.log("The selected option is: " + selectedOption);
-
-    $singleOptionSelector.val(selectedOption).trigger('change');
-
-    // display addendum for Size which is stored in product metafields
-    if (optionName == "Size") {
-      $('.size-addendum').hide();
-      $('[data-size-addendum="'+ selectedOption + '"]').show();
-    }
-
-    if (optionName == "Finish") {
-      $('.swatch-finish span[data-selected-value]').text(selectedOption);
-    }
-    if (optionName == "Color") {
-      $('.swatch-color span[data-selected-value]').text(selectedOption);
-    }
-
-    momocato.update();
-  });
-});
