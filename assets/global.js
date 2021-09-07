@@ -627,14 +627,12 @@ class VariantRadios extends VariantSelects {
   }
 
   updateOptions() {
-    console.log("update options called");
-    const colorRadioButtons = Array.from(this.querySelectorAll('input[name=Color]'));
-
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
     });
 
+    const colorRadioButtons = Array.from(this.querySelectorAll('input[name=Color]'));
     if (colorRadioButtons.length) {
       this.querySelector('[data-selected-value]').innerText = this.options[0];
     }
