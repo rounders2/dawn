@@ -34,15 +34,15 @@
 
   {% for available_option in available_colours %}
     {% assign colour_and_handle = available_option | split: "::" %}
-    <label class="{{ colour_and_handle.first | handleize }} color-swatch">
+
       <a href="{{ all_products[colour_and_handle.last].url}}">
         {% if colour_and_handle.first == option.selected_value %}
-          <span class="selected swatch {{colour_and_handle.first | handleize}}"></span>
+          <label class="{{ colour_and_handle.first | handleize }} color-swatch selected">{{colour_and_handle.first}}</label>
         {% else %}
-          <span class="swatch {{colour_and_handle.first | handleize}}"></span>
+          <label class="{{ colour_and_handle.first | handleize }} color-swatch">{{colour_and_handle.first}}</label>
         {% endif %}
       </a>
-      {{colour_and_handle.first}}
+
     </label>
   {% endfor  %}
 
