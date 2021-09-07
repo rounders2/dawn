@@ -631,6 +631,7 @@ class VariantRadios extends VariantSelects {
     const colorRadioButtons = Array.from(this.querySelectorAll('input[name=Color]'));
     const selectedColor = colorRadioButtons.find(el => el.hasAttribute('checked'));
     if (selectedColor) {
+      console.log("We have a selectedColor");
       this.querySelector('[data-selected-value]').innerText = selectedColor.value;
     }
 
