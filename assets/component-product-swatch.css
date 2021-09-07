@@ -8,7 +8,7 @@
 }
 
 .color-swatch.selected {
-  border: 2px solid black;
+  border: 1px solid red;
 }
 
 .product-form__input input[type='radio']:checked + label.color-swatch {
