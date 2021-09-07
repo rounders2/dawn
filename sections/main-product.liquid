@@ -205,6 +205,11 @@ console.log("main-product.liquid loaded {{template}}");
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
+                    {%- if option.name == 'Color' and template == "product.unified-style" -%}
+                      <script>
+                       console.log("{{option.name}} boom");
+                      </script>
+                    {% endif %}
                       <fieldset class="js product-form__input" data-swatch-options>
                         <legend class="form__label">{{ option.name }}:
                           {% if option.name == 'Color' %}
