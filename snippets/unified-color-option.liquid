@@ -42,7 +42,7 @@
                  name="{{ option.name }}"
                  value="{{ value | escape }}"
                  form="product-form-{{ section.id }}"
-                 {% if option.selected_value == value %}checked{% endif %}
+                 checked>
         {% else %}
           <span class="{{ colour_and_handle.first | handleize }} color-swatch"></span>
         {% endif %}
