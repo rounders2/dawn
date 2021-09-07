@@ -11,7 +11,7 @@
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
 <script>
-console.log("main-product.liquid loaded");
+console.log("main-product.liquid loaded {{template}}");
 </script>
 
 {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
