@@ -634,7 +634,6 @@ class VariantRadios extends VariantSelects {
       this.querySelector('[data-selected-value]').innerText = selectedColor.value;
     }
 
-    Array.from(all).find(el => el.hasAttribute("checked"))
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
