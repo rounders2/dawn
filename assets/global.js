@@ -627,7 +627,6 @@ class VariantRadios extends VariantSelects {
   }
 
   updateOptions() {
-    console.log("Updating options");
     const fieldsets = Array.from(this.querySelectorAll('fieldset'));
     this.options = fieldsets.map((fieldset) => {
       return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
@@ -636,7 +635,6 @@ class VariantRadios extends VariantSelects {
     // updates the color name
     const colorRadioButtons = Array.from(this.querySelectorAll('input[name=Color]'));
     if (colorRadioButtons.length) {
-      console.log("updating color name");
       this.querySelector('[data-selected-value]').innerText = this.options[0];
     }
 
