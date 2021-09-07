@@ -38,6 +38,11 @@
       <a href="{{ all_products[colour_and_handle.last].url}}">
         {% if colour_and_handle.first == option.selected_value %}
           <span class="{{ colour_and_handle.first | handleize }} color-swatch selected"></span>
+          <input type="hidden" id="{{ section.id }}-{{ option.name }}-{{ option.values[0] }}"
+                 name="{{ option.name }}"
+                 value="{{ value | escape }}"
+                 form="product-form-{{ section.id }}"
+                 {% if option.selected_value == value %}checked{% endif %}
         {% else %}
           <span class="{{ colour_and_handle.first | handleize }} color-swatch"></span>
         {% endif %}
