@@ -636,7 +636,6 @@ class VariantRadios extends VariantSelects {
     });
 
     if (colorRadioButtons.length) {
-      console.log("We have a selectedColor", selectedColor);
       this.querySelector('[data-selected-value]').innerText = this.options[0];
     }
 
