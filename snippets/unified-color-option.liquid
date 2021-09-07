@@ -1,6 +1,26 @@
+{% assign related_partial_sku_parts = product.variants.first.sku | split: "-" %}
+{% assign related_partial_sku = related_partial_sku_parts.first | append: "-" | append: related_partial_sku_parts[1] %}
+{% assign related_partial_sku_length = related_partial_sku | size %}
+
+{% assign available_colours = "" | split: "" %}
+{% assign unified_style_collection = collections['unified-style'] %}
+{% for p in unified_style_collection.products %}
+  {% assign possible_match = p.variants.first.sku | slice: 0, related_partial_sku_length %}
+  {% if possible_match == related_partial_sku %}
+    {% for product_option in p.options_with_values %}
+      {% if product_option.name == "Color" %}
+        {% assign product_colour = product_option.values.first | append: "::" | append: p.handle | split: "," %}
+      {% endif %}
+    {% endfor %}
+    {% assign available_colours = available_colours | concat: product_colour %}
+  {% endif %}
+{% endfor %}
+{% assign available_colours = available_colours | sort %}
+
 <script>
-  console.log("{{option.name}} boom");
+ console.log("{{option.name}} boom");
 </script>
+
 
 <fieldset class="js product-form__input" data-swatch-options>
   <legend class="form__label">{{ option.name }}:
