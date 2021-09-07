@@ -1,4 +1,5 @@
 .color-swatch {
+  display: inline-block;
   width:45px;
   height:45px;
   overflow:hidden;
