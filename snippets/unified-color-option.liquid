@@ -40,7 +40,7 @@
           <span class="{{ colour_and_handle.first | handleize }} color-swatch selected"></span>
           <input type="hidden" id="{{ section.id }}-{{ option.name }}-0"
                  name="{{ option.name }}"
-                 value="{{ value | escape }}"
+                 value="{{ colour_and_handle.first | escape }}"
                  form="product-form-{{ section.id }}"
                  checked>
         {% else %}
