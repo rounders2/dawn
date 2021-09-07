@@ -1,3 +1,23 @@
 <script>
   console.log("{{option.name}} boom");
 </script>
+
+<fieldset class="js product-form__input" data-swatch-options>
+  <legend class="form__label">{{ option.name }}:
+    {% if option.name == 'Color' %}
+      <span data-selected-value>{{option.selected_value}}</span>
+    {% endif %}
+  </legend>
+
+  {%- for value in option.values -%}
+    <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
+           name="{{ option.name }}"
+           value="{{ value | escape }}"
+           form="product-form-{{ section.id }}"
+           {% if option.selected_value == value %}checked{% endif %}
+    >
+    <label class="{{ value | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+      {{ value }}
+    </label>
+  {%- endfor -%}
+</fieldset>
