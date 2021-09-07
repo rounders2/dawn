@@ -32,15 +32,16 @@
     {% endif %}
   </legend>
 
-  {%- for value in option.values -%}
-    <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
-           name="{{ option.name }}"
-           value="{{ value | escape }}"
-           form="product-form-{{ section.id }}"
-           {% if option.selected_value == value %}checked{% endif %}
-    >
-    <label class="{{ value | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
-      {{ value }}
+  {% for available_option in available_colours %}
+    {% assign colour_and_handle = available_option | split: "::" %}
+    <label class="{{ value | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}">
+      <a href="{{ all_products[colour_and_handle.last].url}}">
+        {% if colour_and_handle.first == option.selected_value %}
+          <span class="selected swatch {{colour_and_handle.first | handleize}}"></span>
+        {% else %}
+          <span class="swatch {{colour_and_handle.first | handleize}}"></span>
+        {% endif %}
+      </a>
     </label>
-  {%- endfor -%}
+  {% endfor  %}
 </fieldset>
