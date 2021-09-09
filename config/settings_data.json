@@ -30,7 +30,7 @@
             "type": "announcement",
             "settings": {
               "text": "*Free Shipping on $99 or More* CALL TOLL FREE 1.833.424.3777",
-              "color_scheme": "accent-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
