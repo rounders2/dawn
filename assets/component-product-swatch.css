@@ -9,6 +9,7 @@
   overflow:hidden;
   text-indent:-999px;
   border: 1px solid #ccc;
+  margin: .7rem .5rem .2rem 0;
 }
 
 .color-swatch.selected {
