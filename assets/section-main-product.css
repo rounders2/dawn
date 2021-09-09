@@ -109,6 +109,11 @@
 }
 
 /* Form Elements */
+
+.form-element-wrapper{
+  display:flex;
+  flex-direction:row;
+}
 .product-form__input {
   flex: 0 0 100%;
   padding: 0;
