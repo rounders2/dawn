@@ -1,6 +1,6 @@
 <ul id="slides">
   {%- for block in section.blocks -%}
-    <li class="slide">
+    <li class="slide showing">
       {%- case block.type -%}
         {%- when 'announcement' -%}
 
@@ -28,7 +28,7 @@
 <style>
 #slides {
   position: relative;
-  height: 20px;
+  height: 50px;
   padding: 0px;
   margin: 0px;
   list-style-type: none;
