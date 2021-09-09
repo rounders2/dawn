@@ -49,11 +49,22 @@
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
+.slide p {
+  transform: translate(100rem);
 
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
 .showing {
   opacity: 1;
   z-index: 2;
 }
+.showing p {
+  transform: translate(0rem);
+}
+
 </style>
 
 <script>
