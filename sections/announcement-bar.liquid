@@ -36,20 +36,22 @@
 
 .slide {
   position: absolute;
-  left: 0px;
+  right: -100px;
   top: 0px;
   width: 100%;
   height: 100%;
   opacity: 0;
   z-index: 1;
 
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
-  transition: opacity 1s;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .showing {
+  right: -100px;
+  left:0;
   opacity: 1;
   z-index: 2;
 }
