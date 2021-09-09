@@ -1,6 +1,6 @@
 <ul id="slides">
   {%- for block in section.blocks -%}
-    <li class="slide ">
+    <li class="slide {%- if blocks[0] -%}showing{%- endif -%} ">
       {%- case block.type -%}
         {%- when 'announcement' -%}
 
