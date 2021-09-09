@@ -1,9 +1,9 @@
 <ul id="slides">
   {%- for block in section.blocks -%}
-
+    <li class="slide">
       {%- case block.type -%}
         {%- when 'announcement' -%}
-        <li class="slide" {%- if section.blocks[0] -%} showing {%- endif -%}>
+
           <div class="announcement-bar color-{{ block.settings.color_scheme }}" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
             {%- if block.settings.text != blank -%}
               {%- if block.settings.link != blank -%}
@@ -20,9 +20,8 @@
               {%- endif -%}
             {%- endif -%}
           </div>
-        </li>
       {%- endcase -%}
-
+    </li>
   {%- endfor -%}
 </ul>
 
