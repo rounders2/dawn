@@ -1,6 +1,6 @@
 <ul id="slides">
   {%- for block in section.blocks -%}
-    <li class="slide {%- if block[0] -%}showing{%- endif -%}">
+    <li class="slide {%- if block[0] -%}showing{%- endif -%} color-{{ block.settings.color_scheme }}">
       {%- case block.type -%}
         {%- when 'announcement' -%}
 
@@ -27,7 +27,7 @@
 
 <style>
 #slides {
-  background:#000;
+  /*background:#000;*/
   position: relative;
   height: 50px;
   padding: 0px;
