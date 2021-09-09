@@ -1,9 +1,6 @@
 <ul id="slides">
   {%- for block in section.blocks -%}
-    {% if forloop.first == true %}
-      {% assign first_block = block %}
-    {% endif %}
-    <li class="slide {%- if first_block -%}showing{% endif %}">
+    <li class="slide showing">
       {%- case block.type -%}
         {%- when 'announcement' -%}
 
