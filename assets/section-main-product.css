@@ -116,7 +116,7 @@
 }
 .button-wrapper {
   flex: 0 0 75%;
-  max-width:100rem;
+  max-width:30rem;
 }
 .product-form__input {
   flex: 0 0 25%;
