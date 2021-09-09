@@ -116,6 +116,7 @@
 }
 .product-form__buttons {
   flex: 0 0 75%;
+  width:100%;
 }
 .product-form__input {
   flex: 0 0 25%;
