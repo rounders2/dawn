@@ -8,7 +8,8 @@
   height:45px;
   overflow:hidden;
   text-indent:-999px;
-  border: 1px solid #ccc;
+  border:.1rem solid rgba(var(--color-foreground),.55);
+  border-radius: .25rem;
   margin: .7rem .5rem .2rem 0;
 }
 
