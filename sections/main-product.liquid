@@ -259,7 +259,7 @@
                 </variant-selects>
               {%- endif -%}
             {%- endunless -%}
-
+<div  style="display:flex;flex-direction:row;">
             <noscript>
               <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
                 <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
@@ -327,7 +327,7 @@
                 </template>
               </pickup-availability>
             </div>
-
+</div>
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- endcase -%}
         {%- endfor -%}
