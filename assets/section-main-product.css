@@ -114,6 +114,9 @@
   display:flex;
   flex-direction:row;
 }
+.product-form__buttons {
+  flex: 0 0 75%;
+}
 .product-form__input {
   flex: 0 0 25%;
   padding: 0;
