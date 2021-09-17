@@ -114,6 +114,13 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   grid-template-areas: 'product-image product-content';
 }
 
+.predictive-search__item--link.collection--link {
+  grid-template-columns: 1fr;
+  grid-column-gap: 0rem;
+  grid-template-areas: 'product-content';
+}
+
+
 .predictive-search__item-content {
   grid-area: product-content;
   display: flex;
