@@ -53,6 +53,7 @@ class DetailsModal extends HTMLElement {
     removeTrapFocus(focusToggle ? this.summaryToggle : null);
     this.detailsContainer.removeAttribute('open');
     document.body.removeEventListener('click', this.onBodyClickEvent);
+    document.body.classList.remove('overflow-hidden');
   }
 }
 
