@@ -52,7 +52,6 @@
     {%- endif -%}
     <div class="template-search__search">
       {%- if settings.predictive_search_enabled -%}
-      you using this bruh?
         <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
       {%- endif -%}
         <form action="{{ routes.search_url }}" method="get" role="search" class="search">
