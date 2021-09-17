@@ -52,6 +52,7 @@
     {%- endif -%}
     <div class="template-search__search">
       {%- if settings.predictive_search_enabled -%}
+        <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
         <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
       {%- endif -%}
         <form action="{{ routes.search_url }}" method="get" role="search" class="search">
@@ -169,6 +170,17 @@
                       </div>
                     </div>
                   </a>
+
+                  {%- when 'collection' -%}
+                    <a href="{{ collection.url }}" class="card-wrapper">
+                      <div class="card card--search card--soft card--text-only">
+                        <div class="card__inner">
+                          <div class="card__content"><h2 class="card__text h3">{{ collection.title | truncate: 50 | escape }}</h2></div>
+                        </div>
+                      </div>
+                    </a>
+
+
                 {%- when 'page' -%}
                   <a href="{{ item.url }}" class="card-wrapper">
                     <div class="card card--search card--soft card--text-only">

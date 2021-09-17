@@ -33,16 +33,19 @@
           </a>
         </li>
       {%- endfor -%}
-      <h2 id="predictive-search-products" class="predictive-search__heading">
-        {{ 'templates.search.collections' | t }}
 
-        <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-          <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-        </svg>
-      </h2>
+      {%- if predictive_search.resources.collections.size > 0 -%}
+        <h2 id="predictive-search-products" class="predictive-search__heading">
+          {{ 'templates.search.collections' | t }}
+
+          <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+          </svg>
+        </h2>
+      {%- endif -%}
       {%- for collection in predictive_search.resources.collections -%}
-        <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
-          <a href="{{ collection.url }}" class="predictive-search__item predictive-search__item--link link link--text" tabindex="-1">
+        <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item " role="option" aria-selected="false">
+          <a href="{{ collection.url }}" class="predictive-search__item predictive-search__item--link link link--text collection--link" tabindex="-1">
             <div class="predictive-search__item-content{% unless settings.predictive_search_show_vendor or settings.predictive_search_show_price %} predictive-search__item-content--centered{% endunless %}">
               <h3 class="predictive-search__item-heading h5">{{ collection.title }}</h3>
             </div>
@@ -51,7 +54,7 @@
       {%- endfor -%}
       <li id="predictive-search-option-search-keywords" class="predictive-search__list-item" role="option">
         <button class="predictive-search__item predictive-search__item--term link link--text h5 animate-arrow" tabindex="-1">
-          {{ 'templates.search.search_for' | t: terms: predictive_search.terms }}
+          {{ 'templates.search.search_for' | t: terms: predictive_search.terms, count: search.results_count }} 
           {% render 'icon-arrow' %}
         </button>
       </li>

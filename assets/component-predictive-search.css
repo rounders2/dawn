@@ -85,6 +85,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 
 .predictive-search__list-item:nth-last-child(2) {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  padding-bottom:1rem;
 }
 
 .predictive-search__list-item[aria-selected="true"] > *,
@@ -113,6 +114,14 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   grid-column-gap: 2rem;
   grid-template-areas: 'product-image product-content';
 }
+
+.predictive-search__item--link.collection--link {
+  grid-template-columns: 1fr;
+  grid-column-gap: 1rem;
+  grid-template-areas: 'product-content';
+  padding: 0rem 2rem;
+}
+
 
 .predictive-search__item-content {
   grid-area: product-content;
