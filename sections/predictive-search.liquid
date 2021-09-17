@@ -35,7 +35,9 @@
       {%- endfor -%}
 
         <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
+          <div class="predictive-search__item-content{% unless settings.predictive_search_show_vendor or settings.predictive_search_show_price %} predictive-search__item-content--centered{% endunless %}">
   hello there
+          </div>
         </li>
 
       <li id="predictive-search-option-search-keywords" class="predictive-search__list-item" role="option">
