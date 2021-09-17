@@ -2,10 +2,532 @@
   background-color: rgba(var(--color-foreground), 0.04);
 }
 
+.collection-hero.adler-axes {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/adler-banner-2.jpg?v=1610921693')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.all-american-canner {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/allamericancanner-banner.jpg?v=1610746301')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.alpineaire {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/alpineaire-collection.jpg?v=1627693785')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augasonfarms-banner.jpg?v=1610747063')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-drinks {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augason-drinks-banner.jpg?v=1611794536')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-buckets {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augason-farms-buckets-banner.jpg?v=1611794855')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-emergency-buckets {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augusan-efood.jpg?v=1617256481')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-fruit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augason-fruits-banners.jpg?v=1611793877')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-vegetables {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augason-veggie-banner.jpg?v=1611793877')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.augason-farms-soups {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/augason-soup-banner.jpg?v=1611794183')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.axes {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/axes-banner.jpg?v=1611167148')no-repeat center bottom;
+  background-size:cover;
+}
+.collection-hero.berkey {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/berkey-banner.jpg?v=1610747545')no-repeat center bottom;
+  background-size:cover;
+}
+.collection-hero.biolite {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/biolite-banner-2.jpg?v=1610756696')no-repeat center right;
+  background-size:cover;
+}
+.collection-hero.botanium {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/botanium-closeup.png?v=1610732815')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.bradley-smoker {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/bradley-collection.jpg?v=1617248568')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.bradley-smokers {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/bradley-smokers-banner.jpg?v=1617338201')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.bradley-bisquettes {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/bradley-bisquettes-banner.jpg?v=1617338748')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.bradley-accessories {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/bradley-accessories-banner.jpg?v=1617339253')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.brinsea {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/brinsea.jpg?v=1626287536')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.cooking-appliances {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/cooking-appliances-banner.jpg?v=1611729174')no-repeat center right;
+  background-size:cover;
+}
+.collection-hero.country-living {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/countryliving-banner.jpg?v=1610749470')no-repeat center right;
+  background-size:cover;
+}
+.collection-hero.clothing-footware {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/outdoor-clothes.jpg?v=1617646976')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.eberlestock {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/eberlestock.jpg?v=1626982783')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.footwear {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-footwear.jpg?v=1617647212')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.mens-footwear {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-mens-footwear.jpg?v=1617647616')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.womens-footwear {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-womens-footwear.jpg?v=1617648152')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.bug-armor-socks {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-bug-armor-socks.jpg?v=1617648497')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.fits-sock {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-fits-socks.jpg?v=1617648976')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.socks {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-socks-banner.jpg?v=1617649080')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.dogtra {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/dogtra-banner.jpg?v=1620840028')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.drinks {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/drinks-banners.jpg?v=1611101895')no-repeat center left;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-food {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/emergencyessentials-banner.jpg?v=1610750058')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-fruit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-fruit-banner.jpg?v=1617309570')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-vegetables {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-veggie-banner.jpg?v=1617309659')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-soups{
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-soup-banner.jpg?v=1617309756')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-buckets {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-bucket-banner.jpg?v=1617310453')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-meats-proteins {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-protein.jpg?v=1617322287')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.emergency-essentials-grains-beans {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/ee-grains-banner.jpg?v=1617322471')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.entrees {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/entrees-banner.jpg?v=1611102203')no-repeat center left;
+  background-size:cover;
+}
+.collection-hero.excalibur {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/excalibur-banner.jpg?v=1610750411')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.flashlights {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/fenix-banner.jpg?v=1610750752')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.fenix-flashlight {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/fenix-banner-camping.jpg?v=1610751148')no-repeat left center;
+  background-size:cover;
+}
+.collection-hero.bike-lights {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/fenix-bikelights-banner.jpg?v=1617327506')no-repeat left center;
+  background-size:cover;
+}
+.collection-hero.ecoflow {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-ecoflow.jpg?v=1628276013')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.headlamps {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/fenix-headlamp-banner2.jpg?v=1617327964')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.lanterns {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/fenix-lanterns-banner.jpg?v=1617326662')no-repeat center top;
+  background-size:cover;
+}
+.collection-hero.franklins-finest {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/franklinscoffee-banner_68c560cd-ab8a-4b35-ae6e-b01d7550a4f8.jpg?v=1610774315')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.fruit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rw-fruit-banner.jpg?v=1617324342')no-repeat bottom center;
+  background-size:cover;
+}
+
+.collection-hero.food-storage-supplies {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/food-storage-supplies-banner.jpg?v=1611727978')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.gluten-free {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/glutenfree-banner.jpg?v=1611106430')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.gear {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/gear-banner.jpg?v=1611709452')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.goal-zero {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/gz-banner-2.jpg?v=1610756021')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.grains-beans, .collection-hero.augason-farms-grains-beans {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/grains-beans-banner.jpg?v=1611103476')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.grayl {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-grayl.jpg?v=1628532001')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.happy-daisy {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/happydaisy-banner.jpg?v=1613083714')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.happy-yak {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/happyyak-banner2.jpg?v=1610752493')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.harvest-right {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/harvestright-banner-2.jpg?v=1610753937')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.harvest-right-pharmaceutical {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/pharmaceutical-banner.jpg?v=1611729679')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.home-freeze-dryers {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/home-freeze-dryers-banner.jpg?v=1611729469')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.hultafors {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/hultafors-banner.jpg?v=1610752903')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.hultafors-axes {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/hultafors-axes-banner2.jpg?v=1617328500')no-repeat top ;
+  background-size:cover;
+}
+.collection-hero.hultafors-axe-handles {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/hultafors-axes-banner.jpg?v=1617328337')no-repeat top ;
+  background-size:cover;
+}
+.collection-hero.hultafors-axe-accessories {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/hultafor-accessories-banner2.jpg?v=1617329763')no-repeat top ;
+  background-size:cover;
+}
+.collection-hero.hultafors-tools {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/hultafors-tools-banner.jpg?v=1617328231')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.jackery {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-jackery.jpg?v=1628276014')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.jetboil {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/jetboil-banner.jpg?v=1610753183')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.katadyn {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-katadyn.jpg?v=1627693785')no-repeat right;
+  background-size:cover;
+}
+.collection-hero.king-sharpening-stones {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/icebear-banner.jpg?v=1611009409')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.knives {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/knife-banner.jpg?v=1611168487')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.knife-axe-sharpening {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/sharpening-banner.jpg?v=1617325888')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.klymit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/klymit-collection.jpg?v=1617247597')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.lem {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/lem-banners.jpg?v=1625786703')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.lifestraw {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/lifestraw-banner3.jpg?v=1611097336')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.meat, .collection-hero.augason-farms-meats-proteins {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/meat-banner.jpg?v=1611105582')no-repeat bottom center;
+  background-size:cover;
+}
+.collection-hero.mre {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/mre-banner.jpg?v=1611708491')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.mylar {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/mylar-bag-banner.jpg?v=1617340491')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.mylar-bag-sealers {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/mylar-banner.jpg?v=1617339864')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.mpowerd {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-mpowered.jpg?v=1628532444')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.mountain-house {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/mountainhouse-banner.jpg?v=1610753679')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.ohio-stoneware {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-ohio-stoneware.jpg?v=1624489940')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.omeals {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/omeals-banner.jpg?v=1611708728')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.original-s-w-a-t {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/original-swatbanner.jpg?v=1610772878')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.pelican {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/pelican-collection-banner.jpg?v=1627685521  ')no-repeat right top;
+  background-size:cover;
+}
+.collection-hero.primus {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/primus-banners.jpg?v=1620841445')no-repeat left top;
+  background-size:cover;
+}
+.collection-hero.portable-power {
+  background:url('https://cdn.shopify.com/s/files/1/0062/4374/5910/files/power-banner.jpg?v=1617341145')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.solar-generator {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/goalzero-solargenerator.jpg?v=1617342195')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.solar-kits {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/goalzero-generator.jpg?v=1617341574')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.solar-lighting {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/solar-lighting-banner.jpg?v=1617342585')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.rations {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rations-banner.jpg?v=1611709005')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.ready-hour {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/readyhour-banner.jpg?v=1610773803')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.wise, .collection-hero.readywise {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/readywise-banner.jpg?v=1610774879')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.wise-starter-kits {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rw-starterkit-banner.jpg?v=1617324913')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.survival-kit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rw-backpack-banner.jpg?v=1617325596')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.meat-and-protein {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rw-meat-banner.jpg?v=1617322688')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.rite-in-the-rain {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/riteintherain-banner.jpg?v=1611704042')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.seeds, .collection-hero.heirloom-non-gmo-seeds {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/seeds-banner.jpg?v=1611709231')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.seychelle {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/seychelles-banner.jpg?v=1610775256')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.silky-saw {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/silkysaw-banner.jpg?v=1610775614')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.silky-saw-1 {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/silkysaw-banner-1.jpg?v=1611770725')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.silky-saw-replacement-blade {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/silkysaw-replacement-banner.jpg?v=1617329922')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.solar {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/solar-banner.jpg?v=1611728406')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.solo-stove {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/solostove-banner.jpg?v=1610775946')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.firepit {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/firepits-banner.jpg?v=1617343786')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.solar-panel {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/solar-panel-banner.jpg?v=1611731191')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.soups {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/soup-banner.jpg?v=1611101184')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spy-optics {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spyoptics-collection.jpg?v=1617254432')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spypoint-banner.jpg?v=1610776295')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint-camera {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spycamera-colection-banner.jpg?v=1617336186')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint-power {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spypoint-power-banner.jpg?v=1617336851')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint-memory {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spypoint-memory-banner2.jpg?v=1617337386')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint-security {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spypoint-memory-banner.jpg?v=1617337156')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.spypoint-installation {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/spypoint-installation-banner.jpg?v=1617337581')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.stanley {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/stanley-banner.jpg?v=1610776588')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.steripen {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-steripen.jpg?v=1627698340')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.storage-food {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/storage-food-banner.jpg?v=1611100615')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.survival {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/survival-banner.jpg?v=1617326086')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.tattler {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/tattler-banner.jpg?v=1610777037')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.timber-framing {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/mhg-banners.jpg?v=1611088171')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.tormek {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/tormek-banner2.jpg?v=1611099277')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.vegan {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/vegan-banner.jpg?v=1611105906')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.vegetables {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/veggies-banner.jpg?v=1611103196')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.vegetables-1 {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/rw-veggie-banner.jpg?v=1617324503')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.vegetarian {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/vegetarian-banner.jpg?v=1611106105')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.weaver-leather {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/weaver-banner.jpg?v=1611099756')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.water {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/water-banner.jpg?v=1611121178')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.waterpure {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/waterpure-banner.jpg?v=1612907393')no-repeat center right;
+  background-size:cover;
+}
+.collection-hero.waterbrick {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/waterbrick2-banner.jpg?v=1611166811')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.water-storage {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/waterstorage-banner.jpg?v=1611123371')no-repeat top center;
+  background-size:cover;
+}
+.collection-hero.wood-stoves {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/wood-stoves-banner.jpg?v=1611730648')no-repeat center;
+  background-size:cover;
+}
+.collection-hero.x-vision {
+  background:url('//cdn.shopify.com/s/files/1/0062/4374/5910/files/x-vision-collection.jpg?v=1617254803')no-repeat center;
+  background-size:cover;
+}
+
 .collection-hero__inner {
   display: flex;
-  flex-direction: column; 
-  margin-bottom: 2rem; 
+  flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .collection-hero--with-image .collection-hero__inner {
@@ -49,6 +571,23 @@
   line-height: 1.5;
 }
 
+.collection-hero--with-image .collection-hero__text-wrapper {
+  background:rgba(255,255,255,.8);
+  padding:5rem;
+  margin:auto;
+}
+
+.media model-viewer, .media.collection-hero__image-container {
+  background:none;
+}
+
+.media model-viewer, .media.collection-hero__image-container img {
+  max-width:150px;
+  display:block;
+  position:relative;
+  margin:0 auto 20px auto;
+}
+
 @media screen and (min-width: 750px) {
   .collection-hero__title + .collection-hero__description {
     font-size: 1.8rem;
@@ -62,32 +601,51 @@
   .collection-hero--with-image .collection-hero__description {
     max-width: 100%;
   }
+  .collection-hero--with-image .collection-hero__title {
+    margin: 0;
+  }
+
+  .collection-hero--with-image .collection-hero__text-wrapper {
+    max-width:600px;
+  }
+  .collection-hero__description p {
+    line-height:1.5em;
+    margin-bottom:20px;
+    text-align:justify;
+  }
+  .collection-hero--with-image .collection-hero__text-wrapper a {
+    border-bottom:1px solid #444;
+  }
 }
 
-.collection-hero--with-image .collection-hero__title {
-  margin: 0;
+
+
+@media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .collection-hero {
+    background-size: contain;
+    background-attachment: scroll !important;
+  }
 }
 
-.collection-hero--with-image .collection-hero__text-wrapper {
-  padding: 5rem 0 4rem;
-}
 
 @media screen and (max-width: 749px) {
   .collection-hero__image-container {
-    height: 20rem;
+    /*height: 20rem;*/
   }
 }
 
 @media screen and (min-width: 750px) {
+  .collection-hero {
+    background-attachment: fixed !important;
+  }
   .collection-hero--with-image .collection-hero__text-wrapper {
-    padding: 4rem 2rem 4rem 0;
     flex-basis: 50%;
   }
 
   .collection-hero__image-container {
-    align-self: stretch;
-    flex: 1 0 50%;
-    margin-left: 3rem;
-    min-height: 20rem;
+    /*align-self: stretch;
+    flex: 1 0 50%;*/
+    /*margin-left: 3rem;*/
+    /*min-height: 20rem;*/
   }
 }

@@ -18,20 +18,28 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
+          "05c538ad-358f-4e41-b696-54a7fe59c311": {
+            "type": "announcement",
+            "settings": {
+              "text": "DUE TO HIGH ORDER VOLUMES - PLEASE ALLOW 7-10 BUSINESS DAYS FOR ORDERS TO BE PROCESSED.",
+              "color_scheme": "inverse",
+              "link": ""
+            }
+          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Wel*Free Shipping on $99 or More* CALL TOLL FREE 1.833.424.3777",
+              "text": "*Free Shipping on $99 or More* CALL TOLL FREE 1.833.424.3777",
               "color_scheme": "inverse",
               "link": ""
             }
           }
         },
         "block_order": [
+          "05c538ad-358f-4e41-b696-54a7fe59c311",
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -50,21 +58,21 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Company",
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "text",
+          "da7c4d96-3c43-4605-a198-028339ca17d8": {
+            "type": "link_list",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Customer Care",
+              "menu": "customer-care"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "da7c4d96-3c43-4605-a198-028339ca17d8"
         ],
         "settings": {
           "color_scheme": "background-2",
@@ -77,9 +85,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -106,8 +112,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         }
       }
     },
@@ -127,13 +132,11 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {
-              }
+              "settings": {}
             },
             "text": {
               "type": "text",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [

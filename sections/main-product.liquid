@@ -1,5 +1,6 @@
 {% comment %}theme-check-disable TemplateLength{% endcomment %}
 {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-swatch.css' | asset_url | stylesheet_tag }}
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-rte.css' | asset_url | stylesheet_tag }}
@@ -200,8 +201,16 @@
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
-                      <fieldset class="js product-form__input">
-                        <legend class="form__label">{{ option.name }}</legend>
+                    {%- if option.name == 'Color' and template == "product.unified-style" -%}
+                      {% include "unified-color-option", option: option, product: product %}
+                    {% else %}
+                      <fieldset class="js product-form__input" data-swatch-options>
+                        <legend class="form__label">{{ option.name }}:
+                          {% if option.name == 'Color' %}
+                          <span data-selected-value>{{option.selected_value}}</span>
+                          {% endif %}
+                        </legend>
+
                         {%- for value in option.values -%}
                           <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
                                 name="{{ option.name }}"
@@ -209,11 +218,12 @@
                                 form="product-form-{{ section.id }}"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
-                          <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
+                          <label class="{{ value | handleize }} {%- if option.name == 'Color' -%}color-swatch{%- endif -%}"  for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
                             {{ value }}
                           </label>
                         {%- endfor -%}
                       </fieldset>
+                    {% endif %}
                   {%- endfor -%}
                   <script type="application/json">
                     {{ product.variants | json }}
@@ -249,75 +259,75 @@
                 </variant-selects>
               {%- endif -%}
             {%- endunless -%}
-
-            <noscript>
-              <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
-                <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
-                <div class="select">
-                  <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
-                    {%- for variant in product.variants -%}
-                      <option
-                        {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
-                        {% if variant.available == false %}disabled{% endif %}
-                        value="{{ variant.id }}"
-                      >
-                        {{ variant.title }}
-                        {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
-                        - {{ variant.price | money | strip_html }}
-                      </option>
-                    {%- endfor -%}
-                  </select>
-                  {% render 'icon-caret' %}
-                </div>
-              </div>
-            </noscript>
-          {%- when 'buy_buttons' -%}
-            <div {{ block.shopify_attributes }}>
-              <product-form class="product-form">
-                {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
-                  <div class="product-form__buttons">
-                    <button
-                      type="submit"
-                      name="add"
-                      class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
-                    {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
-                    >
-                        {%- if product.selected_or_first_available_variant.available -%}
-                          {{ 'products.product.add_to_cart' | t }}
-                        {%- else -%}
-                          {{ 'products.product.sold_out' | t }}
-                        {%- endif -%}
-                    </button>
-                    {%- if block.settings.show_dynamic_checkout -%}
-                      {{ form | payment_button }}
-                    {%- endif -%}
+            <div class="form-element-wrapper">
+              <noscript>
+                <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
+                  <label class="form__label" for="Variants-{{ section.id }}">{{ 'products.product.product_variants' | t }}</label>
+                  <div class="select">
+                    <select name="id" id="Variants-{{ section.id }}" class="select__select" form="product-form">
+                      {%- for variant in product.variants -%}
+                        <option
+                          {% if variant == product.selected_or_first_available_variant %}selected="selected"{% endif %}
+                          {% if variant.available == false %}disabled{% endif %}
+                          value="{{ variant.id }}"
+                        >
+                          {{ variant.title }}
+                          {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
+                          - {{ variant.price | money | strip_html }}
+                        </option>
+                      {%- endfor -%}
+                    </select>
+                    {% render 'icon-caret' %}
                   </div>
-                {%- endform -%}
-              </product-form>
-
-              {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
-
-              {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
-
-              <pickup-availability class="product__pickup-availabilities no-js-hidden"
-                {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %} available{% endif %}
-                data-base-url="{{ shop.url }}{{ routes.root_url }}"
-                data-variant-id="{{ product.selected_or_first_available_variant.id }}"
-                data-has-only-default-variant="{{ product.has_only_default_variant }}"
-              >
-                <template>
-                  <pickup-availability-preview class="pickup-availability-preview">
-                    {% render 'icon-unavailable' %}
-                    <div class="pickup-availability-info">
-                      <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
-                      <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
+                </div>
+              </noscript>
+            {%- when 'buy_buttons' -%}
+              <div {{ block.shopify_attributes }} class="button-wrapper">
+                <product-form class="product-form">
+                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                    <div class="product-form__buttons">
+                      <button
+                        type="submit"
+                        name="add"
+                        class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
+                      {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+                      >
+                          {%- if product.selected_or_first_available_variant.available -%}
+                            {{ 'products.product.add_to_cart' | t }}
+                          {%- else -%}
+                            {{ 'products.product.sold_out' | t }}
+                          {%- endif -%}
+                      </button>
+                      {%- if block.settings.show_dynamic_checkout -%}
+                        {{ form | payment_button }}
+                      {%- endif -%}
                     </div>
-                  </pickup-availability-preview>
-                </template>
-              </pickup-availability>
-            </div>
+                  {%- endform -%}
+                </product-form>
 
+                {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+
+                {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+
+                <pickup-availability class="product__pickup-availabilities no-js-hidden"
+                  {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %} available{% endif %}
+                  data-base-url="{{ shop.url }}{{ routes.root_url }}"
+                  data-variant-id="{{ product.selected_or_first_available_variant.id }}"
+                  data-has-only-default-variant="{{ product.has_only_default_variant }}"
+                >
+                  <template>
+                    <pickup-availability-preview class="pickup-availability-preview">
+                      {% render 'icon-unavailable' %}
+                      <div class="pickup-availability-info">
+                        <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}</p>
+                        <button class="pickup-availability-button link link--text underlined-link">{{ 'products.product.pickup_availability.refresh' | t }}</button>
+                      </div>
+                    </pickup-availability-preview>
+                  </template>
+                </pickup-availability>
+              </div>
+            </div>
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- endcase -%}
         {%- endfor -%}

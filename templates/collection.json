@@ -1,10 +1,9 @@
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
+    "title": {
+      "type": "main-collection-title",
       "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false
+        "show_collection_title": false
       }
     },
     "product-grid": {
@@ -20,10 +19,18 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": false
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true
+      }
     }
   },
   "order": [
-    "banner",
-    "product-grid"
+    "title",
+    "product-grid",
+    "banner"
   ]
 }

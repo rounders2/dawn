@@ -1372,9 +1372,9 @@ details[open] > .share-button__fallback {
 .field__input:focus-visible,
 .select__select:focus-visible,
 .field input:focus-visible {
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55),
+  /*box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55),
     0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);*/
 }
 
 .field__input:focus,
@@ -1384,9 +1384,9 @@ details[open] > .share-button__fallback {
 .customer select:focus,
 .localization-form__select:focus {
   outline: transparent;
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55),
+  /*box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55),
     0 0 0 0.3rem rgb(var(--color-background)),
-    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);*/
 }
 
 .text-area,

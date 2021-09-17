@@ -1,0 +1,53 @@
+{% assign related_partial_sku_parts = product.variants.first.sku | split: "-" %}
+{% assign related_partial_sku = related_partial_sku_parts.first | append: "-" | append: related_partial_sku_parts[1] %}
+{% assign related_partial_sku_length = related_partial_sku | size %}
+
+{% assign available_colours = "" | split: "" %}
+{% assign unified_style_collection = collections['unified-style'] %}
+{% for p in unified_style_collection.products %}
+  {% assign possible_match = p.variants.first.sku | slice: 0, related_partial_sku_length %}
+  {% if possible_match == related_partial_sku %}
+    {% for product_option in p.options_with_values %}
+      {% if product_option.name == "Color" %}
+        {% assign product_colour = product_option.values.first | append: "::" | append: p.handle | split: "," %}
+      {% endif %}
+    {% endfor %}
+    {% assign available_colours = available_colours | concat: product_colour %}
+  {% endif %}
+{% endfor %}
+{% assign available_colours = available_colours | sort %}
+
+<script>
+ console.log("{{option.name}} boom");
+ {% for available_option in available_colours %}
+   console.log("{{ available_option }}");
+ {% endfor %}
+</script>
+
+
+<fieldset class="js product-form__input" data-swatch-options>
+  <legend class="form__label">{{ option.name }}:
+    {% if option.name == 'Color' %}
+      <span data-selected-value>{{option.selected_value}}</span>
+    {% endif %}
+  </legend>
+
+  {% for available_option in available_colours %}
+    {% assign colour_and_handle = available_option | split: "::" %}
+
+      <a href="{{ all_products[colour_and_handle.last].url}}">
+        {% if colour_and_handle.first == option.selected_value %}
+          <span class="{{ colour_and_handle.first | handleize }} color-swatch selected"></span>
+          <input type="hidden" id="{{ section.id }}-{{ option.name }}-0"
+                 name="{{ option.name }}"
+                 value="{{ colour_and_handle.first | escape }}"
+                 form="product-form-{{ section.id }}"
+                 checked>
+        {% else %}
+          <span class="{{ colour_and_handle.first | handleize }} color-swatch"></span>
+        {% endif %}
+      </a>
+
+    </label>
+  {% endfor  %}
+</fieldset>
