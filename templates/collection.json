@@ -3,7 +3,6 @@
     "title": {
       "type": "main-collection-title",
       "settings": {
-        "show_collection_title": false
       }
     },
     "product-grid": {
