@@ -9,6 +9,8 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "unica_one_n4",
     "type_body_font": "karla_n4",
+    "predictive_search_show_vendor": false,
+    "predictive_search_show_price": true,
     "social_facebook_link": "https:\/\/facebook.com\/good2goco",
     "social_instagram_link": "https:\/\/instagram.com\/good2goco",
     "currency_code_enabled": false,
@@ -39,7 +41,8 @@
           "05c538ad-358f-4e41-b696-54a7fe59c311",
           "announcement-bar-0"
         ],
-        "settings": {}
+        "settings": {
+        }
       },
       "header": {
         "type": "header",
@@ -85,7 +88,9 @@
         }
       }
     },
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
@@ -112,7 +117,8 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         }
       }
     },
@@ -132,11 +138,13 @@
           "blocks": {
             "menu": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [

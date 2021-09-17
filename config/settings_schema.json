@@ -188,8 +188,8 @@
     ]
   },
   {
-      "name": "Search",
-      "settings": [
+    "name": "Search",
+    "settings": [
       {
         "type": "checkbox",
         "id": "predictive_search_enabled",
