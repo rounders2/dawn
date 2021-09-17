@@ -85,6 +85,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 
 .predictive-search__list-item:nth-last-child(2) {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  margin-bottom:2rem;
 }
 
 .predictive-search__list-item[aria-selected="true"] > *,
@@ -97,10 +98,6 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 .predictive-search__list-item:hover .predictive-search__item-heading {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
-}
-
-predictive-search__list-item:last-child {
-  margin-top:20px;
 }
 
 .predictive-search__item {
