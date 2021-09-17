@@ -77,7 +77,8 @@
               {%- endif -%}
             >
             <label class="field__label" for="Search-In-Template">{{ 'general.search.search' | t }}</label>
-            <input type="hidden" name="type" value="product,page" />
+            <input type="hidden" name="type" value="product,article" />
+            <input type="hidden" name="sort_by" value="relevance" />
             <input type="hidden" name="options[unavailable_products]" value="hide" />
             <input name="options[prefix]" type="hidden" value="last">
 
