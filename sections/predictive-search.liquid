@@ -43,8 +43,8 @@
         </h2>
       {%- endif -%}
       {%- for collection in predictive_search.resources.collections -%}
-        <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
-          <a href="{{ collection.url }}" class="predictive-search__item predictive-search__item--link link link--text" tabindex="-1">
+        <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item " role="option" aria-selected="false">
+          <a href="{{ collection.url }}" class="predictive-search__item predictive-search__item--link link" tabindex="-1">
             <div class="predictive-search__item-content{% unless settings.predictive_search_show_vendor or settings.predictive_search_show_price %} predictive-search__item-content--centered{% endunless %}">
               <h3 class="predictive-search__item-heading h5">{{ collection.title }}</h3>
             </div>
