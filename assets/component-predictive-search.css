@@ -99,6 +99,10 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   text-underline-offset: 0.3rem;
 }
 
+predictive-search__list-item:last-child {
+  margin-top:20px;
+}
+
 .predictive-search__item {
   display: flex;
   padding: 1rem 2rem;
@@ -118,7 +122,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
   grid-template-columns: 1fr;
   grid-column-gap: 1rem;
   grid-template-areas: 'product-content';
-  padding: 0rem 2rem;  
+  padding: 0rem 2rem;
 }
 
 
