@@ -37,8 +37,7 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search",
-      "templates_search_products": "PRODUCTS"
+      "search": "Search"
     },
     "cart": {
       "view": "View my cart ({{ count }})",
