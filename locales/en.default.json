@@ -151,7 +151,7 @@
       "page": "Page",
       "products": "Products",
       "collections": "Collections",
-      "search_for": "Search for",
+      "search_for": "See More Results for {{ terms }}",
       "results_with_count": {
         "one": "{{ count }} result found for “{{ terms }}”",
         "other": "{{ count }} results found for “{{ terms }}”"
