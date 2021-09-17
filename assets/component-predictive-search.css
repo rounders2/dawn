@@ -116,7 +116,7 @@ predictive-search[loading] .predictive-search__results-list:first-child {
 
 .predictive-search__item--link.collection--link {
   grid-template-columns: 1fr;
-  grid-column-gap: 0rem;
+  grid-column-gap: 1rem;
   grid-template-areas: 'product-content';
 }
 
