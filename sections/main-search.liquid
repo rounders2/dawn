@@ -52,6 +52,7 @@
     {%- endif -%}
     <div class="template-search__search">
       {%- if settings.predictive_search_enabled -%}
+        <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
         <predictive-search data-loading-text="{{ 'accessibility.loading' | t }}">
       {%- endif -%}
         <form action="{{ routes.search_url }}" method="get" role="search" class="search">
