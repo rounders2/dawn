@@ -49,7 +49,7 @@
         "settings": {
           "logo": "shopify:\/\/shop_images\/g2glogo-white.png",
           "logo_width": 180,
-          "logo_position": "top-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
           "enable_sticky_header": true
