@@ -17,7 +17,7 @@
     <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center;background-size:cover;background-attachment:fixed;">
     </div>
   {%- endif -%}
-  <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};justify-content: left">
+  <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};justify-content: {{ section.settings.desktop_text_box_position2 }}">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -68,6 +68,26 @@
           "value": "flex-end",
           "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__3.label"
         }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_box_position2",
+      "options": [
+      {
+        "value": "flex-start",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__1.label"
+      },
+      {
+        "value": "center",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__2.label"
+      },
+      {
+        "value": "flex-end",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__3.label"
+      }
       ],
       "default": "center",
       "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.label"
