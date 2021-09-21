@@ -744,7 +744,7 @@
       }
     },
     "image-banner-parallax": {
-      "name": "Image banner",
+      "name": "Image banner Parallax",
       "settings": {
         "image": {
           "label": "First image"
