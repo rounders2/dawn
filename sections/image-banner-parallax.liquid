@@ -17,7 +17,7 @@
     <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center;background-size:cover;background-attachment:fixed;">
     </div>
   {%- endif -%}
-  <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};justify-content: {{ section.settings.desktop_text_box_position }};">
+  <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};justify-content: left">
     <div class="banner__box color-{{ section.settings.color_scheme }}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
