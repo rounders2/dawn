@@ -761,7 +761,7 @@
           },
           "label": "Desktop text position"
         },
-        "desktop_text_box_position2": {
+        "desktop_text_box_position_b": {
           "options__1": {
             "label": "Left"
           },
