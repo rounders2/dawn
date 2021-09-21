@@ -63,11 +63,44 @@
         "show_image_outline": true,
         "show_vendor": true
       }
+    },
+    "1632196176b7d86d91": {
+      "type": "image-banner",
+      "blocks": {
+        "1632196176b7d86d91-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Are Your Ready?"
+          }
+        },
+        "28f06f2e-e081-4348-adab-8670e179ea88": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "START HERE",
+            "button_link_1": "shopify:\/\/collections\/emergency-essentials-food",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1632196176b7d86d91-0",
+        "28f06f2e-e081-4348-adab-8670e179ea88"
+      ],
+      "settings": {
+        "desktop_text_box_position": "center",
+        "color_scheme": "inverse",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "1629904620f6cd3f3a"
+    "1629904620f6cd3f3a",
+    "1632196176b7d86d91"
   ]
 }
