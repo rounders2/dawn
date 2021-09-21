@@ -12,7 +12,7 @@
   {%- endstyle -%}
 
 
-<div id="Banner-{{ section.id }}" class="banner-parallax">
+<div id="Banner-{{ section.id }}" class="banner banner-parallax">
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center; ">
     </div>
