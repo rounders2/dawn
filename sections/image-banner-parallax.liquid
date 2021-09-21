@@ -1,10 +1,9 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
   {%- style -%}
-    #Banner-{{ section.id }}::before, #Banner-{{ section.id }} .banner__media::before {
-      padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;
-      content: '';
-      display: block;
+    .banner.banner-parallax {
+      min-height:20rem;
+    }
     }
   {%- endstyle -%}
 
