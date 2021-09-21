@@ -761,7 +761,7 @@
           },
           "label": "Desktop text position"
         },
-        "desktop_text_box_position_b": {
+        "desktop_text_box_alignment": {
           "options__1": {
             "label": "Left"
           },
@@ -771,7 +771,7 @@
           "options__3": {
             "label": "Right"
           },
-          "label": "Desktop horizontal text position"
+          "label": "Desktop horizontal text alignment"
         }
       },
       "blocks": {
