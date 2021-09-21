@@ -64,37 +64,31 @@
         "show_vendor": true
       }
     },
-    "1632196176b7d86d91": {
-      "type": "image-banner",
+    "163219982388a274c3": {
+      "type": "image-banner-parallax",
       "blocks": {
-        "1632196176b7d86d91-0": {
+        "163219982388a274c3-0": {
           "type": "heading",
           "settings": {
-            "heading": "Are Your Ready?"
+            "heading": "ARE YOU READY?"
           }
         },
-        "28f06f2e-e081-4348-adab-8670e179ea88": {
+        "163219982388a274c3-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "START HERE",
             "button_link_1": "shopify:\/\/collections\/emergency-essentials-food",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": false
           }
         }
       },
       "block_order": [
-        "1632196176b7d86d91-0",
-        "28f06f2e-e081-4348-adab-8670e179ea88"
+        "163219982388a274c3-0",
+        "163219982388a274c3-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/photo-1564032236772-dfc27a12feda.jpg",
-        "desktop_text_box_position": "flex-start",
-        "color_scheme": "inverse",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "desktop_text_box_position": "center"
       }
     }
   },
@@ -102,6 +96,6 @@
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
-    "1632196176b7d86d91"
+    "163219982388a274c3"
   ]
 }
