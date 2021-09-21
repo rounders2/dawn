@@ -749,9 +749,6 @@
         "image": {
           "label": "First image"
         },
-        "image_2": {
-          "label": "Second image"
-        },
         "desktop_text_box_position": {
           "options__1": {
             "label": "Top"
@@ -763,6 +760,18 @@
             "label": "Bottom"
           },
           "label": "Desktop text position"
+        },
+        "desktop_text_box_position2": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop horizontal text position"
         }
       },
       "blocks": {
