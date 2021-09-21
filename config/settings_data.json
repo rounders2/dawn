@@ -78,7 +78,7 @@
           "da7c4d96-3c43-4605-a198-028339ca17d8"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Stay in the Know",
           "show_social": true,
