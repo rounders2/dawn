@@ -126,6 +126,19 @@
         "desktop_text_box_position": "center",
         "desktop_text_box_alignment": "center"
       }
+    },
+    "1632499752a6ca6671": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Good2Know",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
@@ -133,6 +146,7 @@
     "featured_products",
     "1629904620f6cd3f3a",
     "163219982388a274c3",
-    "163249896333c51b4e"
+    "163249896333c51b4e",
+    "1632499752a6ca6671"
   ]
 }
