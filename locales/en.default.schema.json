@@ -780,6 +780,9 @@
           "settings": {
             "heading": {
               "label": "Heading"
+            },
+            "color_header": {
+              "label": "Color"
             }
           }
         },
