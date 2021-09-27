@@ -64,19 +64,6 @@
         "show_vendor": true
       }
     },
-    "1632499752a6ca6671": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Good2Know",
-        "blog": "good2goblog",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "soft_background": true,
-        "show_view_all": true
-      }
-    },
     "1632781790de98d9e3": {
       "type": "image-banner-parallax",
       "blocks": {
@@ -137,14 +124,27 @@
         "desktop_text_box_position": "center",
         "desktop_text_box_alignment": "center"
       }
+    },
+    "1632499752a6ca6671": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Good2Know",
+        "blog": "good2goblog",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": true,
+        "show_view_all": true
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
-    "1632499752a6ca6671",
     "1632781790de98d9e3",
-    "163278179749da6232"
+    "163278179749da6232",
+    "1632499752a6ca6671"
   ]
 }
