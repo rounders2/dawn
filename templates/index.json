@@ -76,12 +76,42 @@
         "soft_background": true,
         "show_view_all": true
       }
+    },
+    "1632783540e806397d": {
+      "type": "image-banner-parallax",
+      "blocks": {
+        "1632783540e806397d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ARE YOU READY?",
+            "color_header": "#FFFFFF"
+          }
+        },
+        "1632783540e806397d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "START HERE",
+            "button_link_1": "shopify:\/\/collections\/freeze-dried-and-dehydrated-vegetables",
+            "button_style_secondary_1": false
+          }
+        }
+      },
+      "block_order": [
+        "1632783540e806397d-0",
+        "1632783540e806397d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo-1564032236772-dfc27a12feda.jpg",
+        "desktop_text_box_position": "center",
+        "desktop_text_box_alignment": "left"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
-    "1632499752a6ca6671"
+    "1632499752a6ca6671",
+    "1632783540e806397d"
   ]
 }
