@@ -100,9 +100,9 @@
         "blog": "good2goblog",
         "post_limit": 3,
         "show_image": true,
-        "show_date": false,
+        "show_date": true,
         "show_author": false,
-        "soft_background": true,
+        "soft_background": false,
         "show_view_all": true
       }
     },
