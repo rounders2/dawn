@@ -124,7 +124,7 @@
         "163278179749da6232-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Food &amp; Emergency Supplies\nWe’re Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>"
+            "text": "<h2 style=\"margin-top:3px;font-size:1.5em;color:#fff;font-weight:normal;\">Food &amp; Emergency Supplies<\/h2>\n<p>Food &amp; Emergency Supplies\nWe’re Canada's source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we've got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>"
           }
         }
       },
