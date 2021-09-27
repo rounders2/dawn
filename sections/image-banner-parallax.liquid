@@ -23,11 +23,11 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="banner__heading h1 extra-large" {{ block.shopify_attributes }} style="{{ block.settings.color_header }}">
+            <h2 class="banner__heading h1 extra-large" {{ block.shopify_attributes }} style="color:{{ block.settings.color_header }}">
               <span>{{ block.settings.heading | escape }}</span>
             </h2>
           {%- when 'text' -%}
-            <div class="banner__text" {{ block.shopify_attributes }} style="{{ block.settings.color_text }}">
+            <div class="banner__text" {{ block.shopify_attributes }} style="color:{{ block.settings.color_text }}">
               <span>{{ block.settings.text }}</span>
             </div>
           {%- when 'buttons' -%}
