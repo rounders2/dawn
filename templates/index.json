@@ -64,19 +64,6 @@
         "show_vendor": true
       }
     },
-    "1632499752a6ca6671": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Good2Know",
-        "blog": "good2goblog",
-        "post_limit": 3,
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "soft_background": true,
-        "show_view_all": true
-      }
-    },
     "1632783540e806397d": {
       "type": "image-banner-parallax",
       "blocks": {
@@ -105,13 +92,55 @@
         "desktop_text_box_position": "center",
         "desktop_text_box_alignment": "left"
       }
+    },
+    "1632499752a6ca6671": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Good2Know",
+        "blog": "good2goblog",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": true,
+        "show_view_all": true
+      }
+    },
+    "1632783790cc55e1c4": {
+      "type": "image-banner-parallax",
+      "blocks": {
+        "1632783790cc55e1c4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SURVIVAL GEAR",
+            "color_header": "#FFFFFF"
+          }
+        },
+        "1632783790cc55e1c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2 style=\"color:#fff;letter-spacing:.1em;text-transform:none;\">Food &amp; Emergency Supplies<\/h2>\n<p>We’re Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>",
+            "color_text": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "1632783790cc55e1c4-0",
+        "1632783790cc55e1c4-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/fog-rolls-through-forest-hillside_1200x_2f1f0bef-97fc-467c-8457-cf334700fec2.jpg",
+        "desktop_text_box_position": "center",
+        "desktop_text_box_alignment": "center"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
+    "1632783540e806397d",
     "1632499752a6ca6671",
-    "1632783540e806397d"
+    "1632783790cc55e1c4"
   ]
 }
