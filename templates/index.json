@@ -64,69 +64,6 @@
         "show_vendor": true
       }
     },
-    "163219982388a274c3": {
-      "type": "image-banner-parallax",
-      "blocks": {
-        "163219982388a274c3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ARE YOU READY?"
-          }
-        },
-        "163219982388a274c3-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "START HERE",
-            "button_link_1": "shopify:\/\/collections\/emergency-essentials-food",
-            "button_style_secondary_1": false
-          }
-        }
-      },
-      "block_order": [
-        "163219982388a274c3-0",
-        "163219982388a274c3-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/photo-1564032236772-dfc27a12feda.jpg",
-        "desktop_text_box_position": "center",
-        "desktop_text_box_alignment": "flex-start"
-      }
-    },
-    "163249896333c51b4e": {
-      "type": "image-banner-parallax",
-      "blocks": {
-        "163249896333c51b4e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "163249896333c51b4e-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163249896333c51b4e-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false
-          }
-        }
-      },
-      "block_order": [
-        "163249896333c51b4e-0",
-        "163249896333c51b4e-1",
-        "163249896333c51b4e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/fog-rolls-through-forest-hillside_1200x_2f1f0bef-97fc-467c-8457-cf334700fec2.jpg",
-        "desktop_text_box_position": "center",
-        "desktop_text_box_alignment": "center"
-      }
-    },
     "1632499752a6ca6671": {
       "type": "featured-blog",
       "settings": {
@@ -139,14 +76,48 @@
         "soft_background": true,
         "show_view_all": true
       }
+    },
+    "1632781547877e63af": {
+      "type": "image-banner-parallax",
+      "blocks": {
+        "1632781547877e63af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ARE YOU READY?"
+          }
+        },
+        "1632781547877e63af-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1632781547877e63af-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "START HERE",
+            "button_link_1": "shopify:\/\/collections\/freeze-dried-survival-food",
+            "button_style_secondary_1": false
+          }
+        }
+      },
+      "block_order": [
+        "1632781547877e63af-0",
+        "1632781547877e63af-1",
+        "1632781547877e63af-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/photo-1564032236772-dfc27a12feda.jpg",
+        "desktop_text_box_position": "center",
+        "desktop_text_box_alignment": "left"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
-    "163219982388a274c3",
-    "163249896333c51b4e",
-    "1632499752a6ca6671"
+    "1632499752a6ca6671",
+    "1632781547877e63af"
   ]
 }
