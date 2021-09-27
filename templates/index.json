@@ -109,23 +109,15 @@
     "1632783790cc55e1c4": {
       "type": "image-banner-parallax",
       "blocks": {
-        "1632783790cc55e1c4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "SURVIVAL GEAR",
-            "color_header": "#FFFFFF"
-          }
-        },
         "1632783790cc55e1c4-1": {
           "type": "text",
           "settings": {
-            "text": "<div style=\"max-width:750px;margin:auto;text-align:center;color:#fff;\">\n<h1 style=\"color:#fff;margin-bottom:0px;font-weight:bold;\">Survival Gear<\/h1>\n<h2 style=\"margin-top:3px;font-size:1.5em;color:#fff;font-weight:normal;\">Food &amp; Emergency Supplies<\/h2>We’re Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.\n<\/div>",
+            "text": "<div style=\"max-width:750px;margin:auto;text-align:center;color:#fff;\">\n<h1 style=\"font-size:3rem;color:#fff;margin-bottom:0px;font-weight:bold;\">Survival Gear<\/h1>\n<h2 style=\"margin-top:3px;font-size:1.5em;color:#fff;font-weight:normal;\">Food &amp; Emergency Supplies<\/h2>We’re Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.\n<\/div>",
             "color_text": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "1632783790cc55e1c4-0",
         "1632783790cc55e1c4-1"
       ],
       "settings": {
