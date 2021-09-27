@@ -76,50 +76,12 @@
         "soft_background": true,
         "show_view_all": true
       }
-    },
-    "1632783213d60c3eb8": {
-      "type": "image-banner-parallax",
-      "blocks": {
-        "1632783213d60c3eb8-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "START HERE",
-            "color_header": "#FFFFFF"
-          }
-        },
-        "1632783213d60c3eb8-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "color_text": "#FFFFFF"
-          }
-        },
-        "1632783213d60c3eb8-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false
-          }
-        }
-      },
-      "block_order": [
-        "1632783213d60c3eb8-0",
-        "1632783213d60c3eb8-1",
-        "1632783213d60c3eb8-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/photo-1564032236772-dfc27a12feda.jpg",
-        "desktop_text_box_position": "center",
-        "desktop_text_box_alignment": "left"
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "1629904620f6cd3f3a",
-    "1632499752a6ca6671",
-    "1632783213d60c3eb8"
+    "1632499752a6ca6671"
   ]
 }
