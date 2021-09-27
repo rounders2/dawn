@@ -791,6 +791,9 @@
           "settings": {
             "text": {
               "label": "Description"
+            },
+            "color_text": {
+              "label": "Color"
             }
           }
         },
