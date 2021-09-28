@@ -147,6 +147,7 @@
         "16327978432bc410f4-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button": "Shop Now",
@@ -182,7 +183,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false
