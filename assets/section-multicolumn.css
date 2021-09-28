@@ -200,7 +200,7 @@
 
 .multicolumn-card__info .rte {
   font-size: 1.3rem;
-  color: rgba(var(--color-base-text), .75);
+  color: rgba(var(--color-base-text), .5);
 }
 
 .background-none .multicolumn-card__info {
