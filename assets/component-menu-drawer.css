@@ -116,7 +116,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__menu-item {
   padding: 1.1rem 3.2rem;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 .no-js .menu-drawer__menu-item {
@@ -185,13 +185,23 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin-top: 1.5rem;
   padding: 1.2rem 2.6rem;
   text-decoration: none;
+  position:relative;
   display: flex;
   align-items: center;
+  justify-content:center;
   font-size: 1.4rem;
   width: 100%;
   background-color: transparent;
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
+}
+.menu-drawer__close-button svg {
+  position: absolute;
+  left:2rem;
+}
+.menu-drawer__close-button span {
+  text-transform:uppercase;
+  font-size: 1.8rem;
 }
 
 .no-js .menu-drawer__close-button {
