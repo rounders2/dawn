@@ -61,7 +61,7 @@
                   <h3>{{ block.settings.title | escape }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.html }}</div>
+                  <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.button != blank -%}
                   <a class="block-link-button" {% if block.settings.link == blank %} aria-disabled="true" role="link"{% else %} href="{{ block.settings.link }}"{% endif %}>
