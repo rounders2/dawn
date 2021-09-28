@@ -777,7 +777,7 @@ summary::-webkit-details-marker {
 }
 
 .collection .title-wrapper-with-link .title {
-    border: 1px solid #375550;
+    border-bottom: 4px solid #eee;
 }
 
 .title-wrapper {
