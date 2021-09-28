@@ -65,7 +65,7 @@
                 {%- endif -%}
                 {%- if block.settings.button != blank -%}
                   <a {% if block.settings.link == blank %} aria-disabled="true" role="link"{% else %} href="{{ block.settings.link }}"{% endif %}>
-                    {{ block.settings.button | escape }}
+                    <h3>{{ block.settings.button | escape }}</h3>
                   </a>
 
                 {%- endif -%}
