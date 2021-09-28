@@ -68,7 +68,7 @@
             "image": "shopify:\/\/shop_images\/content-power-banner.jpg",
             "title": "",
             "text": "",
-            "button": "Shop Now",
+            "button": "",
             "link": ""
           }
         },
@@ -78,7 +78,7 @@
             "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
             "title": "",
             "text": "",
-            "button": "Shop Now",
+            "button": "",
             "link": ""
           }
         },
@@ -88,7 +88,7 @@
             "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
             "title": "",
             "text": "",
-            "button": "Shop Now",
+            "button": "",
             "link": ""
           }
         }
