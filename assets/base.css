@@ -1932,9 +1932,7 @@ input[type='checkbox'] {
   align-items: center;
   justify-content: center;
 }
-.header__icon {
-  margin:0 .75rem;
-}
+
 .header__icon span {
   height: 100%;
 }
