@@ -32,6 +32,7 @@
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}
                 {% endif %}
+                {% if block.settings.link == blank %}<a href="{{ block.settings.link }}">{% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
@@ -53,6 +54,7 @@
                     >
                   </div>
                 </div>
+                {% if block.settings.link == blank %}</a> {% endif %}
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
@@ -60,6 +62,12 @@
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.html }}</div>
+                {%- endif -%}
+                {%- if block.settings.button != blank -%}
+                  <a class="button button--primary"{% if block.settings.link == blank %} aria-disabled="true" role="link"{% else %} href="{{ block.settings.link }}"{% endif %}>
+                    {{ block.settings.button | escape }}
+                  </a>
+
                 {%- endif -%}
               </div>
             </div>
