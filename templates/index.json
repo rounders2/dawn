@@ -57,8 +57,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
             "title": "",
-            "text": "<p>some testing<\/p>",
-            "button": "Shop Now",
+            "text": "<p>Shop the latest brands like Altama, First Tactical &amp; Original S.W.A.T.<\/p>",
+            "button": "Shop All Footwear",
             "link": "shopify:\/\/collections\/30-day-buckets"
           }
         },
