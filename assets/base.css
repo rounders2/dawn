@@ -1955,8 +1955,8 @@ input[type='checkbox'] {
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 3.0rem;
-  width: 3.0rem;
+  height: 2.5rem;
+  width: 2.5rem;
   color:#fff;
 }
 .header__icon:hover .icon {
