@@ -1924,6 +1924,9 @@ input[type='checkbox'] {
 .menu-ads {
   text-decoration:none;
 }
+.menu-ads h4 {
+  margin-top:3px;
+}
 
 
 /* Header icons */
