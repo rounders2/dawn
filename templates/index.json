@@ -12,10 +12,10 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP SHOES",
-            "button_link_1": "shopify:\/\/collections\/altama-shoes-boots",
+            "button_label_1": "Water Bottles",
+            "button_link_1": "shopify:\/\/collections\/water-bottles",
             "button_style_secondary_1": true,
-            "button_label_2": "SHOP GEAR",
+            "button_label_2": "Camping Gear",
             "button_link_2": "shopify:\/\/collections\/outdoor-gear",
             "button_style_secondary_2": false
           }
@@ -27,9 +27,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
-        "image_2": "shopify:\/\/shop_images\/fenix-HM65R.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
