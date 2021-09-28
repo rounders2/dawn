@@ -45,7 +45,7 @@
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": true,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": true
       }
     },
@@ -201,6 +201,21 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "1632797912aeaca2da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Backpacks & Bags",
+        "collection": "bags",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": true
+      }
     }
   },
   "order": [
@@ -211,6 +226,7 @@
     "1629904620f6cd3f3a",
     "1632783790cc55e1c4",
     "1632784993350936a4",
-    "1632499752a6ca6671"
+    "1632499752a6ca6671",
+    "1632797912aeaca2da"
   ]
 }
