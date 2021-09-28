@@ -195,7 +195,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
 }
-
+.menu-drawer__close-button svg {
+  position: absolute;
+  left:2rem;
+}
 .menu-drawer__close-button span {
   text-transform:uppercase;
 }
