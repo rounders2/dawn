@@ -1,0 +1,180 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner-parallax.css' | asset_url | stylesheet_tag }}
+
+  {%- style -%}
+    .banner.banner-parallax {
+      min-height:20rem;
+    }
+    .banner-parallax .banner__box {
+      width:100%;
+    }
+    h2.h1.extra-large {
+      font-size:3.52941em;
+    }
+  {%- endstyle -%}
+
+
+<div id="Banner-{{ section.id }}" class="banner banner-parallax">
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center;background-size:cover;background-attachment:fixed;">
+    </div>
+  {%- endif -%}
+  <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};">
+    <div class="banner__box" style="text-align: {{ section.settings.desktop_text_box_alignment }}">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'heading' -%}
+            <h2 class="banner__heading h1 extra-large" {{ block.shopify_attributes }} style="color:{{ block.settings.color_header }}">
+              <span>{{ block.settings.heading | escape }}</span>
+            </h2>
+          {%- when 'text' -%}
+            <div class="banner__text" {{ block.shopify_attributes }} style="color:{{ block.settings.color_text }}">
+              <span>{{ block.settings.text }}</span>
+            </div>
+          {%- when 'buttons' -%}
+            <div class="banner__buttons" {{ block.shopify_attributes }}>
+              {%- if block.settings.button_label_1 != blank -%}
+                <a{% if block.settings.button_link_1 != blank %} href="{{ block.settings.button_link_1 }}"{% endif %} class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"{% if block.settings.button_link_1 == blank %} aria-disabled="true"{% endif %}>{{ block.settings.button_label_1 | escape }}</a>
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.image-banner-parallax.name",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner-parallax.settings.image.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_box_position",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__2.label"
+        },
+        {
+          "value": "flex-end",
+          "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner-parallax.settings.desktop_text_box_position.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_text_box_alignment",
+      "options": [
+      {
+        "value": "left",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_alignment.options__1.label"
+      },
+      {
+        "value": "center",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_alignment.options__2.label"
+      },
+      {
+        "value": "right",
+        "label": "t:sections.image-banner-parallax.settings.desktop_text_box_alignment.options__3.label"
+      }
+      ],
+      "default": "center",
+      "label": "t:sections.image-banner-parallax.settings.desktop_text_box_alignment.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.image-banner-parallax.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Image banner",
+          "label": "t:sections.image-banner-parallax.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "color",
+          "id": "color_header",
+          "default": "#FFFFFF",
+          "label": "t:sections.image-banner-parallax.blocks.heading.settings.color_header.label"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "name": "t:sections.image-banner-parallax.blocks.text.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "html",
+          "id": "text",
+          "default": "Give customers details about the banner image(s) or content on the template.",
+          "label": "t:sections.image-banner-parallax.blocks.text.settings.text.label"
+        },
+        {
+          "type": "color",
+          "id": "color_text",
+          "default": "#FFFFFF",
+          "label": "t:sections.image-banner-parallax.blocks.text.settings.color_text.label"
+        }
+      ]
+    },
+    {
+      "type": "buttons",
+      "name": "t:sections.image-banner-parallax.blocks.buttons.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label_1",
+          "default": "Button label",
+          "label": "t:sections.image-banner-parallax.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner-parallax.blocks.buttons.settings.button_label_1.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_1",
+          "label": "t:sections.image-banner-parallax.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "t:sections.image-banner-parallax.blocks.buttons.settings.button_style_secondary_1.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.image-banner-parallax.presets.name",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "text"
+        },
+        {
+          "type": "buttons"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

@@ -46,6 +46,23 @@
 .multicolumn .button {
   margin-top: 1.5rem;
 }
+.multicolumn-card a.image-link {
+  display:block;
+  margin: 1.2rem auto;
+}
+.block-link-button {
+  display:block;
+  margin-top:10px;
+  text-decoration:none;
+  color:rgb(var(--color-base-text));
+}
+.block-link-button:hover {
+  text-decoration:underline;
+}
+
+.block-link-button h3 {
+  font-size:1.5rem;
+}
 
 @media screen and (min-width: 750px) {
   .multicolumn .button {
@@ -182,6 +199,16 @@
 
 .multicolumn-card__info {
   padding: 2.5rem 2.5rem;
+}
+
+.multicolumn-card__info .rte {
+  font-size: 1.4rem;
+  color: rgba(var(--color-base-text), .5);
+}
+
+.multicolumn-card__info .rte p {
+  line-height:1.8rem;
+  margin-top:10px;
 }
 
 .background-none .multicolumn-card__info {

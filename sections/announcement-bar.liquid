@@ -10,7 +10,7 @@
                 <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
               {%- endif -%}
                   <p class="announcement-bar__message h5">
-                    {{ block.settings.text | escape }}
+                    {{ block.settings.text }}
                     {%- if block.settings.link != blank -%}
                       {% render 'icon-arrow' %}
                     {%- endif -%}
@@ -52,7 +52,6 @@
 }
 .slide p {
   transform: translateY(-100rem);
-
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -90,7 +89,7 @@ function nextSlide() {
       "name": "t:sections.announcement-bar.blocks.announcement.name",
       "settings": [
         {
-          "type": "text",
+          "type": "html",
           "id": "text",
           "default": "Welcome to our store",
           "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"

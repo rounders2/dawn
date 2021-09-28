@@ -9,6 +9,7 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "unica_one_n4",
     "type_body_font": "karla_n4",
+    "page_width": "1600",
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": true,
     "social_facebook_link": "https:\/\/facebook.com\/good2goco",
@@ -23,7 +24,7 @@
           "05c538ad-358f-4e41-b696-54a7fe59c311": {
             "type": "announcement",
             "settings": {
-              "text": "DUE TO HIGH ORDER VOLUMES - PLEASE ALLOW 7-10 BUSINESS DAYS FOR ORDERS TO BE PROCESSED.",
+              "text": "PLEASE ALLOW <strong>7-10<\/strong> BUSINESS DAYS FOR ORDERS TO BE PROCESSED.",
               "color_scheme": "inverse",
               "link": ""
             }
@@ -31,7 +32,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "*Free Shipping on $99 or More* CALL TOLL FREE 1.833.424.3777",
+              "text": "*Free Shipping on $99 or More* <span style=\"color:#a9c940;font-weight:bold;\">CALL TOLL FREE 1.833.424.3777<\/span>",
               "color_scheme": "inverse",
               "link": ""
             }
@@ -77,7 +78,7 @@
           "da7c4d96-3c43-4605-a198-028339ca17d8"
         ],
         "settings": {
-          "color_scheme": "background-2",
+          "color_scheme": "inverse",
           "newsletter_enable": true,
           "newsletter_heading": "Stay in the Know",
           "show_social": true,

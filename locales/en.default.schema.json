@@ -743,6 +743,80 @@
         }
       }
     },
+    "image-banner-parallax": {
+      "name": "Image banner Parallax",
+      "settings": {
+        "image": {
+          "label": "First image"
+        },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Bottom"
+          },
+          "label": "Desktop text position"
+        },
+        "desktop_text_box_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop text alignment"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            },
+            "color_header": {
+              "label": "Color"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Description"
+            },
+            "color_text": {
+              "label": "Color"
+            }
+          }
+        },
+        "buttons": {
+          "name": "Buttons",
+          "settings": {
+            "button_label_1": {
+              "label": "First button label",
+              "info": "Leave the label blank to hide the button."
+            },
+            "button_link_1": {
+              "label": "First button link"
+            },
+            "button_style_secondary_1": {
+              "label": "Use outline button style"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Image banner Parallax"
+      }
+    },
     "image-banner": {
       "name": "Image banner",
       "settings": {
@@ -1518,6 +1592,12 @@
             },
             "text": {
               "label": "Description"
+            },
+            "button": {
+              "label": "Button"
+            },
+            "link": {
+              "label": "Link"
             }
           }
         }
