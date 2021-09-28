@@ -48,6 +48,7 @@
 }
 
 .block-link-button {
+  display:block;
   margin-top:10px;
   text-decoration:none;
   color:rgb(var(--color-base-text));
