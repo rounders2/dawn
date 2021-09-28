@@ -199,12 +199,12 @@
 }
 
 .multicolumn-card__info .rte {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   color: rgba(var(--color-base-text), .5);
 }
 
 .multicolumn-card__info .rte p {
-  line-height:1.3rem;
+  line-height:1.8rem;
 }
 
 .background-none .multicolumn-card__info {
