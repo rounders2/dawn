@@ -11,6 +11,19 @@
     h2.h1.extra-large {
       font-size:3.52941em;
     }
+    @media (max-width:751px) {
+      .banner.banner-parallax {
+        position:relative;
+        display:block;
+      }
+      .banner__content.page-width {
+        position:absolute;
+        top:0;
+      }
+      .banner-parallax  .banner__media.media {
+        background-attachment:initial !important;
+      }
+    }
   {%- endstyle -%}
 
 
