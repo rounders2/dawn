@@ -1831,6 +1831,7 @@ input[type='checkbox'] {
     padding-bottom: 2rem;
   }
 
+
   .header--has-menu:not(.header--middle-left) {
     padding-bottom: 0;
   }
@@ -1917,6 +1918,22 @@ input[type='checkbox'] {
   .header--top-center .header__heading {
     justify-self: center;
   }
+}
+
+/* MENU ADS */
+.menu-ads {
+  text-decoration:none;
+}
+.menu-ads h4 {
+  margin-top:3px;
+}
+
+.menu-ads img {
+  transition: filter .3s ease;
+}
+
+.menu-ads:hover img {
+  filter: brightness(.75);
 }
 
 /* Header icons */
