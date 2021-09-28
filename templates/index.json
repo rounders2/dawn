@@ -49,67 +49,6 @@
         "show_vendor": true
       }
     },
-    "16327911553fd0ceeb": {
-      "type": "multicolumn",
-      "blocks": {
-        "16327911553fd0ceeb-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
-            "title": "",
-            "text": "<p>Shop the latest brands like Altama, First Tactical &amp; Original S.W.A.T.<\/p>",
-            "button": "Shop All Footwear",
-            "link": "shopify:\/\/collections\/30-day-buckets"
-          }
-        },
-        "16327911553fd0ceeb-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-power-banner.jpg",
-            "title": "",
-            "text": "",
-            "button": "",
-            "link": ""
-          }
-        },
-        "16327911553fd0ceeb-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
-            "title": "",
-            "text": "",
-            "button": "",
-            "link": ""
-          }
-        },
-        "6663643c-a9f9-45f5-8285-ad6b8021566e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
-            "title": "",
-            "text": "",
-            "button": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "16327911553fd0ceeb-0",
-        "16327911553fd0ceeb-1",
-        "16327911553fd0ceeb-2",
-        "6663643c-a9f9-45f5-8285-ad6b8021566e"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
     "1632783540e806397d": {
       "type": "image-banner-parallax",
       "blocks": {
@@ -206,7 +145,6 @@
   "order": [
     "image_banner",
     "featured_products",
-    "16327911553fd0ceeb",
     "1632783540e806397d",
     "1629904620f6cd3f3a",
     "1632783790cc55e1c4",
