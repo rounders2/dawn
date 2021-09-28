@@ -1928,6 +1928,9 @@ input[type='checkbox'] {
   margin-top:3px;
 }
 
+.menu-ads:hover img {
+  filter: brightness(.75);
+}
 
 /* Header icons */
 .header__icons {
