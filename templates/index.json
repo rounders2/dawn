@@ -71,8 +71,9 @@
         "16327911553fd0ceeb-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
+            "title": "",
+            "text": ""
           }
         },
         "6663643c-a9f9-45f5-8285-ad6b8021566e": {
