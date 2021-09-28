@@ -52,6 +52,9 @@
   display:block;
   text-decoration:none;
 }
+.block-link-button:hover {
+  text-decoration:underline;
+}
 
 .block-link-button h3 {
   font-size:1.5rem;
