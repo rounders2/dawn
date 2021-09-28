@@ -46,7 +46,9 @@
 .multicolumn .button {
   margin-top: 1.5rem;
 }
-
+.multicolumn-card a.image-link {
+  display:block;
+}
 .block-link-button {
   display:block;
   margin-top:10px;
