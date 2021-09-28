@@ -1958,7 +1958,6 @@ input[type='checkbox'] {
   height: 2.5rem;
   width: 2.5rem;
   color:#fff;
-  padding-left: 10px;
 }
 .header__icon:hover .icon {
   color: rgba(255,255,255, 0.75);
@@ -1966,6 +1965,7 @@ input[type='checkbox'] {
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+  margin-left:1.2rem;
 }
 
 @media screen and (max-width: 989px) {
