@@ -27,8 +27,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
-        "image_2": "shopify:\/\/shop_images\/fenix-HM65R.jpg",
-        "desktop_text_box_position": "flex-end",
+        "desktop_text_box_position": "center",
         "color_scheme": "inverse",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
