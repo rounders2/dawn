@@ -56,8 +56,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
-            "title": "",
-            "text": ""
+            "title": "test",
+            "text": "<p>test<\/p>"
           }
         },
         "16327911553fd0ceeb-1": {
