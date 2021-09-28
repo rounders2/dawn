@@ -24,7 +24,7 @@
           "05c538ad-358f-4e41-b696-54a7fe59c311": {
             "type": "announcement",
             "settings": {
-              "text": "PLEASE ALLOW 7-10 BUSINESS DAYS FOR ORDERS TO BE PROCESSED.",
+              "text": "PLEASE ALLOW <strong>7-10<\/strong> BUSINESS DAYS FOR ORDERS TO BE PROCESSED.",
               "color_scheme": "inverse",
               "link": ""
             }
