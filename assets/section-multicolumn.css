@@ -50,10 +50,10 @@
 .block-link-button {
   margin-top:10px;
   text-decoration:none;
-  border-bottom:1px solid #fff;
+  color:rgb(var(--color-base-text));
 }
 .block-link-button:hover {
-  border-bottom:1px solid rgb(var(--color-base-text));
+  text-decoration:underline;
 }
 
 .block-link-button h3 {
