@@ -11,12 +11,17 @@
     h2.h1.extra-large {
       font-size:3.52941em;
     }
+    @media (max-width:751px) {
+      .banner-parallax  .banner__media.media {
+        background-attachment:initial !important;
+      }
+    }
   {%- endstyle -%}
 
 
 <div id="Banner-{{ section.id }}" class="banner banner-parallax">
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center;background-size:cover;">
+    <div class="banner__media media{% if section.settings.image == blank %} placeholder{% endif %}"  style="background:url('{{ section.settings.image | img_url: '800x' }}')no-repeat center;background-size:cover;background-attachment:fixed;">
     </div>
   {%- endif -%}
   <div class="banner__content page-width" style="align-items: {{ section.settings.desktop_text_box_position }};">
