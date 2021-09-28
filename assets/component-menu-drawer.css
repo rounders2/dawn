@@ -196,6 +196,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   font-style: var(--font-body-style);
 }
 
+.menu-drawer__close-button span {
+  text-transform:uppercase;
+}
+
 .no-js .menu-drawer__close-button {
   display: none;
 }
