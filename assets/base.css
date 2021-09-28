@@ -1927,9 +1927,11 @@ input[type='checkbox'] {
 .menu-ads h4 {
   margin-top:3px;
 }
+
 .menu-ads img {
   transition: all .3s ease;
 }
+
 .menu-ads:hover img {
   filter: brightness(.75);
 }
