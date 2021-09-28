@@ -203,6 +203,10 @@
   color: rgba(var(--color-base-text), .5);
 }
 
+.multicolumn-card__info .rte p {
+  line-height:1.3rem;
+}
+
 .background-none .multicolumn-card__info {
   padding-top: 0;
   padding-left: 0;
