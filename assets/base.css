@@ -760,6 +760,10 @@ summary::-webkit-details-marker {
   margin: 3rem 0 2rem;
 }
 
+.link.featured-collection-title-link {
+  text-decoration: none;
+}
+
 .title-wrapper-with-link .title {
   margin: 0;
   color: #375550;
