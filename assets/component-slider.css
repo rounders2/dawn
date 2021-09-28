@@ -100,11 +100,11 @@ slider-component {
   }
 
 
-@media screen and (min-width: 750px) {
+
   .slider--mobile + .slider-buttons {
     display: none;
   }
-}
+
 
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
