@@ -1963,16 +1963,21 @@ input[type='checkbox'] {
   color: rgba(255,255,255, 0.75);
 }
 
-
-
 .header__icon--cart {
   position: relative;
   /* margin-right: -1rem; */
 }
 
+.header__icon.header__icon--cart, .header__icon.header__icon--account {
+  margin-left:2rem;
+}
+
 @media screen and (max-width: 989px) {
   menu-drawer ~ .header__icons .header__icon--account {
     display: none;
+  }
+  .header__icon.header__icon--cart, .header__icon.header__icon--account {
+    margin-left:.5rem;
   }
 }
 
