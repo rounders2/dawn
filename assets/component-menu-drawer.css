@@ -201,6 +201,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 .menu-drawer__close-button span {
   text-transform:uppercase;
+  font-size: 1.8rem;
 }
 
 .no-js .menu-drawer__close-button {
