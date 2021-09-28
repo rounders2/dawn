@@ -12,10 +12,10 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP SHOES",
-            "button_link_1": "shopify:\/\/collections\/altama-shoes-boots",
+            "button_label_1": "Water Bottles",
+            "button_link_1": "shopify:\/\/collections\/water-bottles",
             "button_style_secondary_1": true,
-            "button_label_2": "SHOP GEAR",
+            "button_label_2": "Camping Gear",
             "button_link_2": "shopify:\/\/collections\/outdoor-gear",
             "button_style_secondary_2": false
           }
