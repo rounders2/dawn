@@ -173,12 +173,23 @@
             "button": "Shop Now",
             "link": "shopify:\/\/collections\/lighting-headlamps-lanterns-flashlights-more"
           }
+        },
+        "b4eaf986-aefa-4a48-a155-ddc34b08be06": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
+            "title": "",
+            "text": "<p>Vegetables from the garden or wild meat from a successful hunt - LEM's high-quality products make it easy for you to process, prepare, and preserve.<\/p>",
+            "button": "SHOP LEM",
+            "link": "shopify:\/\/collections\/lem-meat-processing-equipment"
+          }
         }
       },
       "block_order": [
         "16327978432bc410f4-0",
         "16327978432bc410f4-1",
-        "16327978432bc410f4-2"
+        "16327978432bc410f4-2",
+        "b4eaf986-aefa-4a48-a155-ddc34b08be06"
       ],
       "settings": {
         "title": "Multicolumn",
