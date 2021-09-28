@@ -148,10 +148,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button": "Shop Now",
-            "link": ""
+            "title": "",
+            "text": "<p>Durable footwear built for the outdoors. Brands like Altama, First Tactical and Original S.W.A.T.<\/p>",
+            "button": "SHOP FOOTWEAR",
+            "link": "shopify:\/\/collections\/tactical-footwear-boots-socks"
           }
         },
         "16327978432bc410f4-1": {
