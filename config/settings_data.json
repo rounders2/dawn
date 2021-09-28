@@ -32,7 +32,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "*Free Shipping on $99 or More* CALL TOLL FREE 1.833.424.3777",
+              "text": "*Free Shipping on $99 or More* <span style=\"color:#a9c940;font-weight:bold;\">CALL TOLL FREE 1.833.424.3777<\/span>",
               "color_scheme": "inverse",
               "link": ""
             }
