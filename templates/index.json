@@ -125,6 +125,21 @@
         "swipe_on_mobile": false
       }
     },
+    "16327992785b8c2a0d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Biolite",
+        "collection": "biolite",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": false
+      }
+    },
     "1632783540e806397d": {
       "type": "image-banner-parallax",
       "blocks": {
@@ -223,6 +238,7 @@
     "featured_products",
     "1632797912aeaca2da",
     "16327978432bc410f4",
+    "16327992785b8c2a0d",
     "1632783540e806397d",
     "1629904620f6cd3f3a",
     "1632783790cc55e1c4",
