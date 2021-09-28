@@ -49,6 +49,67 @@
         "show_vendor": true
       }
     },
+    "16327978432bc410f4": {
+      "type": "multicolumn",
+      "blocks": {
+        "16327978432bc410f4-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
+            "title": "",
+            "text": "<p>Durable footwear built for the outdoors. Brands like Altama, First Tactical and Original S.W.A.T.<\/p>",
+            "button": "SHOP FOOTWEAR",
+            "link": "shopify:\/\/collections\/tactical-footwear-boots-socks"
+          }
+        },
+        "16327978432bc410f4-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-power-banner.jpg",
+            "title": "",
+            "text": "<p>Get the piece of mind that comes with portable power banks, solar kits and more!<\/p>",
+            "button": "SHOP PORTABLE POWER",
+            "link": "shopify:\/\/collections\/portable-power-banks-stations"
+          }
+        },
+        "16327978432bc410f4-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
+            "title": "",
+            "text": "<p>Don't get caught in the dark. Get headlamps, lanterns &amp; more from Fenix, Biolite &amp; Goal Zero.<\/p>",
+            "button": "SHOP LANTERNS",
+            "link": "shopify:\/\/collections\/lighting-headlamps-lanterns-flashlights-more"
+          }
+        },
+        "b4eaf986-aefa-4a48-a155-ddc34b08be06": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
+            "title": "",
+            "text": "<p>Vegetables or wild meat - LEM's high-quality products make it easy for you to process, prepare, and preserve.<\/p>",
+            "button": "SHOP LEM",
+            "link": "shopify:\/\/collections\/lem-meat-processing-equipment"
+          }
+        }
+      },
+      "block_order": [
+        "16327978432bc410f4-0",
+        "16327978432bc410f4-1",
+        "16327978432bc410f4-2",
+        "b4eaf986-aefa-4a48-a155-ddc34b08be06"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1632783540e806397d": {
       "type": "image-banner-parallax",
       "blocks": {
@@ -140,77 +201,16 @@
         "soft_background": false,
         "show_view_all": true
       }
-    },
-    "16327978432bc410f4": {
-      "type": "multicolumn",
-      "blocks": {
-        "16327978432bc410f4-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
-            "title": "",
-            "text": "<p>Durable footwear built for the outdoors. Brands like Altama, First Tactical and Original S.W.A.T.<\/p>",
-            "button": "SHOP FOOTWEAR",
-            "link": "shopify:\/\/collections\/tactical-footwear-boots-socks"
-          }
-        },
-        "16327978432bc410f4-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-power-banner.jpg",
-            "title": "",
-            "text": "<p>Get the piece of mind that comes with portable power banks, solar kits and more!<\/p>",
-            "button": "SHOP PORTABLE POWER",
-            "link": "shopify:\/\/collections\/portable-power-banks-stations"
-          }
-        },
-        "16327978432bc410f4-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
-            "title": "",
-            "text": "<p>Don't get caught in the dark. Get headlamps, lanterns &amp; more from Fenix, Biolite &amp; Goal Zero.<\/p>",
-            "button": "SHOP LANTERNS",
-            "link": "shopify:\/\/collections\/lighting-headlamps-lanterns-flashlights-more"
-          }
-        },
-        "b4eaf986-aefa-4a48-a155-ddc34b08be06": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
-            "title": "",
-            "text": "<p>Vegetables or wild meat - LEM's high-quality products make it easy for you to process, prepare, and preserve.<\/p>",
-            "button": "SHOP LEM",
-            "link": "shopify:\/\/collections\/lem-meat-processing-equipment"
-          }
-        }
-      },
-      "block_order": [
-        "16327978432bc410f4-0",
-        "16327978432bc410f4-1",
-        "16327978432bc410f4-2",
-        "b4eaf986-aefa-4a48-a155-ddc34b08be06"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
+    "16327978432bc410f4",
     "1632783540e806397d",
     "1629904620f6cd3f3a",
     "1632783790cc55e1c4",
     "1632784993350936a4",
-    "1632499752a6ca6671",
-    "16327978432bc410f4"
+    "1632499752a6ca6671"
   ]
 }
