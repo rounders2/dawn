@@ -48,6 +48,7 @@
 }
 .multicolumn-card a.image-link {
   display:block;
+  margin: 1.2rem auto;
 }
 .block-link-button {
   display:block;
