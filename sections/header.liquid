@@ -168,7 +168,7 @@
                                           <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce">
                                             <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                               {% render 'icon-arrow' %}
-                                              {{ childlink.title | escape }}
+                                              <span>{{ childlink.title | escape }}</span>
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
