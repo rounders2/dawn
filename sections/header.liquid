@@ -560,7 +560,13 @@
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
-        requestAnimationFrame(this.reveal.bind(this));
+        if (!this.preventReveal) {
+          requestAnimationFrame(this.reveal.bind(this));
+          } else {
+            window.clearTimeout(this.isScrolling);
+            this.isScrolling = setTimeout(() => {
+            this.preventReveal = false;
+          }, 66);            
       } else if (scrollTop <= this.headerBounds.top) {
         requestAnimationFrame(this.reset.bind(this));
       }
