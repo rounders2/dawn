@@ -94,17 +94,17 @@ slider-component {
   justify-content: center;
 }
 
-
+@media screen and (min-width: 990px) {
   .slider-buttons {
-    display: none;
+    display: block;
   }
+}
 
-
-
+@media screen and (min-width: 750px) {
   .slider--mobile + .slider-buttons {
-    display: none;
+    display: block;
   }
-
+}
 
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
