@@ -94,11 +94,11 @@ slider-component {
   justify-content: center;
 }
 
-@media screen and (min-width: 990px) {
+
   .slider-buttons {
     display: none;
   }
-}
+
 
 @media screen and (min-width: 750px) {
   .slider--mobile + .slider-buttons {
