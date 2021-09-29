@@ -556,7 +556,7 @@
 
     onScroll() {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
+      
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
@@ -567,11 +567,9 @@
           this.isScrolling = setTimeout(() => {
             this.preventReveal = false;
           }, 66);
-        }
       } else if (scrollTop <= this.headerBounds.top) {
         requestAnimationFrame(this.reset.bind(this));
       }
-
       this.currentScrollTop = scrollTop;
     }
 
