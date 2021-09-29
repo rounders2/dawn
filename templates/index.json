@@ -1,5 +1,49 @@
 {
   "sections": {
+    "163294940413c8e45d": {
+      "type": "image-banner",
+      "blocks": {
+        "163294940413c8e45d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "medium"
+          }
+        },
+        "163294940413c8e45d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163294940413c8e45d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163294940413c8e45d-0",
+        "163294940413c8e45d-1",
+        "163294940413c8e45d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/g2g-bottle-banner2.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 10,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "16327978432bc410f4": {
       "type": "multicolumn",
       "blocks": {
@@ -243,6 +287,7 @@
     }
   },
   "order": [
+    "163294940413c8e45d",
     "16327978432bc410f4",
     "featured_products",
     "1632797912aeaca2da",
