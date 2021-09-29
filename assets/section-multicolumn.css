@@ -54,6 +54,7 @@
   display:block;
   margin-top:10px;
   text-decoration:none;
+  text-underline-offset: 0.3rem;
   color:rgb(var(--color-base-text));
 }
 .block-link-button:hover {
