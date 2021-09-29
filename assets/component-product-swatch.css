@@ -15,8 +15,7 @@
 #CollectionFiltersForm .color-swatch {
   width:25px;
   height:25px;
-  margin:0;
-  margin-right:10px;
+  margin:0 10px 10px 0;
 }
 .color-swatch.selected {
   outline: 1px solid #999;
