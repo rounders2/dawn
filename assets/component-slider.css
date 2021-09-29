@@ -109,7 +109,7 @@ slider-component {
 
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
-  background: rgba(var(--color-base-accent-1),.35);
+  background: rgba(var(--color-base-accent-1),.15);
   border: none;
   cursor: pointer;
   width: 44px;
@@ -117,7 +117,7 @@ slider-component {
 }
 
 .slider-button[disabled] {
-  background: rgba(var(--color-base-accent-1),.15);
+  background: rgba(var(--color-base-accent-1),.05);
 }
 
 .slider-button:not([disabled]):hover {
