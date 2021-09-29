@@ -853,11 +853,11 @@ summary::-webkit-details-marker {
   flex-shrink: 0;
 }
 
-.collection .title-wrapper-with-link a {
+.collection a.underlined-link {
   text-decoration:none;
 }
 
-.collection .title-wrapper-with-link a.underlined-link {
+.collection a.underlined-link {
   text-decoration:underline;
 }
 
