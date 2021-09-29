@@ -243,6 +243,7 @@
     },
     "1632783790cc55e1c4": {
       "type": "image-banner-parallax",
+      "disabled": true,
       "blocks": {
         "1632783790cc55e1c4-1": {
           "type": "text",

@@ -59,13 +59,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "ed5c0e99-c90f-436e-820b-16aadcd57855": {
-            "type": "text",
-            "settings": {
-              "heading": "G2G Since 2018",
-              "subtext": "<p>Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>"
-            }
-          },
           "footer-0": {
             "type": "link_list",
             "settings": {
@@ -79,12 +72,19 @@
               "heading": "Customer Care",
               "menu": "customer-care"
             }
+          },
+          "ed5c0e99-c90f-436e-820b-16aadcd57855": {
+            "type": "text",
+            "settings": {
+              "heading": "G2G Since 2018",
+              "subtext": "<p>Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>"
+            }
           }
         },
         "block_order": [
-          "ed5c0e99-c90f-436e-820b-16aadcd57855",
           "footer-0",
-          "da7c4d96-3c43-4605-a198-028339ca17d8"
+          "da7c4d96-3c43-4605-a198-028339ca17d8",
+          "ed5c0e99-c90f-436e-820b-16aadcd57855"
         ],
         "settings": {
           "color_scheme": "inverse",
