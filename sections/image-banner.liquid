@@ -86,7 +86,7 @@
             </h2>
           {%- when 'text' -%}
             <div class="banner__text" {{ block.shopify_attributes }}>
-              <span>{{ block.settings.text | escape }}</span>
+              <span>{{ block.settings.text }}</span>
             </div>
           {%- when 'buttons' -%}
             <div class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_link_1 != blank and block.settings.button_label_2 != blank and block.settings.button_link_2 != blank %} banner__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
@@ -243,7 +243,7 @@
       "limit": 1,
       "settings": [
         {
-          "type": "text",
+          "type": "html",
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
