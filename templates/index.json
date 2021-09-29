@@ -161,7 +161,7 @@
       ],
       "settings": {
         "title": "Get  A HEad Start on Fall Camping",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "color_scheme": "background-2",
         "swipe_on_mobile": true,
         "image_padding": true,
