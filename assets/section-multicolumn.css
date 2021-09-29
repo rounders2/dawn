@@ -14,7 +14,11 @@
 
 @media screen and (min-width: 750px) {
   .multicolumn.no-heading:not(.background-secondary) {
+<<<<<<< HEAD
+    margin-top: 0rem;
+=======
     /* margin-top: 6rem; */
+>>>>>>> 8d8da3e2d0a8860e7dea2dcb1c57d49b60027f61
   }
 }
 
