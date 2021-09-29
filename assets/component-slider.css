@@ -96,15 +96,16 @@ slider-component {
 }
 
 @media screen and (min-width: 990px) {
-  .slider-buttons {
-    /* display: none; */
+  .blog .slider-buttons {
+    display: none;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .slider--mobile + .slider-buttons {
-    /* display: none; */
+  .blog .slider--mobile + .slider-buttons {
+    display: none;
   }
+
 }
 
 .slider-button {
