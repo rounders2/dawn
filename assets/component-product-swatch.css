@@ -17,6 +17,10 @@
   height:25px;
   margin:-4px 10px 0px 0;
 }
+
+#CollectionFiltersForm .color-label, #CollectionFiltersFormMobile .color-label {
+  font-size:1rem;
+}
 .color-swatch.selected {
   outline: 1px solid #999;
 }
