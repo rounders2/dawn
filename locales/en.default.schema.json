@@ -410,6 +410,9 @@
           "settings": {
             "collection": {
               "label": "Collection"
+            },
+            "collection_title": {
+              "label": "Collection Title"
             }
           }
         }
