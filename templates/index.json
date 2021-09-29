@@ -151,20 +151,13 @@
           "settings": {
             "collection": "tents-tarps-shelters-screen-houses"
           }
-        },
-        "117b194e-0631-4d4c-95c9-df125dd80a9b": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hunting-camping-knives"
-          }
         }
       },
       "block_order": [
         "16329332866a4a9336-0",
         "16329332866a4a9336-1",
         "464514ed-723a-49f1-bbc6-80d14eaf85eb",
-        "561ab1f3-95b0-4837-99fb-0284683dc070",
-        "117b194e-0631-4d4c-95c9-df125dd80a9b"
+        "561ab1f3-95b0-4837-99fb-0284683dc070"
       ],
       "settings": {
         "title": "Get  A HEad Start on Fall Camping",
