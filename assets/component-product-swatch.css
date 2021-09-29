@@ -12,9 +12,9 @@
   border-radius: .25rem;
   margin: .7rem .5rem .2rem 0;
 }
-.CollectionFiltersForm .color-swatch {
-  width:10px;
-  height:10px;
+#CollectionFiltersForm .color-swatch {
+  width:20px;
+  height:20px;
 }
 .color-swatch.selected {
   outline: 1px solid #999;
