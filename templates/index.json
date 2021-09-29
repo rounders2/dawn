@@ -96,10 +96,9 @@
     },
     "featured_products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Appliances",
-        "collection": "appliances",
+        "title": "Long Term Food Kits",
+        "collection": "long-term-food-kits",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
