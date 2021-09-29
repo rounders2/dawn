@@ -10,6 +10,12 @@
             "heading_size": "medium"
           }
         },
+        "56f1657b-2ee7-4e1d-9b0d-e52d39a85475": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
         "button": {
           "type": "buttons",
           "settings": {
@@ -20,18 +26,12 @@
             "button_link_2": "shopify:\/\/collections\/outdoor-gear",
             "button_style_secondary_2": false
           }
-        },
-        "56f1657b-2ee7-4e1d-9b0d-e52d39a85475": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
         }
       },
       "block_order": [
         "heading",
-        "button",
-        "56f1657b-2ee7-4e1d-9b0d-e52d39a85475"
+        "56f1657b-2ee7-4e1d-9b0d-e52d39a85475",
+        "button"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
