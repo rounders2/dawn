@@ -857,7 +857,7 @@ summary::-webkit-details-marker {
   text-decoration:none;
 }
 
-.collection .title-wrapper-with-link a {
+.collection .title-wrapper-with-link a.underlined-link {
   text-decoration:underline;
 }
 
