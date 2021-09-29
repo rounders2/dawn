@@ -141,25 +141,29 @@
         "16329332866a4a9336-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "outdoor-sleeping"
+            "collection": "outdoor-sleeping",
+            "collection_title": "Sleeping Bags, Pads & More"
           }
         },
         "16329332866a4a9336-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cookware"
+            "collection": "cookware",
+            "collection_title": "Camping Pots, Pants & More"
           }
         },
         "16329332866a4a9336-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "tents-tarps-shelters-screen-houses"
+            "collection": "tents-tarps-shelters-screen-houses",
+            "collection_title": "Tents, Tarps & More"
           }
         },
         "464514ed-723a-49f1-bbc6-80d14eaf85eb": {
           "type": "featured_collection",
           "settings": {
-            "collection": "portable-camping-stoves-accessories"
+            "collection": "portable-camping-stoves-accessories",
+            "collection_title": "Camping Stoves & Accessories"
           }
         }
       },
