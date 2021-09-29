@@ -2,10 +2,15 @@
 
   {%- style -%}
     .banner.banner-parallax {
-      min-height:20rem;
+      min-height: initial;
+      min-height:45rem;
     }
     .banner-parallax .banner__box {
       width:100%;
+      max-width: var(--page-width);
+    }
+    .banner-parallax .banner__box>.banner__buttons {
+      display:block;
     }
     h2.h1.extra-large {
       font-size:3.52941em;
