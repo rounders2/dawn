@@ -156,7 +156,7 @@
         "title": "Get  A HEad Start on Fall Camping",
         "image_ratio": "square",
         "color_scheme": "background-2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "image_padding": true,
         "show_view_all": false
       }
