@@ -92,6 +92,7 @@ slider-component {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top:4rem;
 }
 
 @media screen and (min-width: 990px) {
