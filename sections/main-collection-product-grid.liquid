@@ -3,6 +3,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-product-grid.css' | asset_url | stylesheet_tag }}
+{{ 'component-product-swatch.css' | asset_url | stylesheet_tag }}
 
 <link rel="preload" href="{{ 'component-rte.css' | asset_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
@@ -72,7 +73,11 @@
                                   <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
 
-                                {{ value.label | escape }} ({{ value.count }})
+                                {%- if filter.label == 'Color' and collection.handle != 'sunglasses' -%}
+                                  <span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}"> {{ value.label | escape }} </span>  <span class="color-label"> {{ value.label | escape }} </span> <span> ({{ value.count }}) </span>
+                                {%- else -%}
+                                  {{ value.label | escape }} ({{ value.count }})
+                                {%- endif -%}
                               </label>
                             </li>
                           {%- endfor -%}
