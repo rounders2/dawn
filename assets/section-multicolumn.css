@@ -174,7 +174,7 @@
   }
 
   .background-none .grid--2-col-tablet .multicolumn-list__item {
-    margin-top: 4rem;
+    margin-top: 0rem;
   }
 
   .grid--2-col-tablet .multicolumn-list__item:nth-of-type(-n + 2) {
