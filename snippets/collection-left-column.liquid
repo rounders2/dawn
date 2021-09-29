@@ -172,7 +172,7 @@
 
                 </svg>
                 {%- if filter.label == 'Color' -%}
-                <div style="display:flex;flex-direction:row;justify-content:space-between;"><span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}" style="flex-grow:2;">{{ value.label | escape }}</span>  <span class="color-label" style="">{{ value.label | escape }}</span> <span style="flex-grow:2;">({{ value.count }})</span></div>
+                <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:flex-start;"><span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}" style="flex-grow:2;">{{ value.label | escape }}</span>  <span class="color-label" style="">{{ value.label | escape }}</span> <span style="flex-grow:2;">({{ value.count }})</span></div>
                 {%- else -%}
                 {{ value.label | escape }} ({{ value.count }})
                 {%- endif -%}
