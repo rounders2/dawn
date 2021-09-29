@@ -1,3 +1,5 @@
+{%- if collection.description != blank -%}
+
 {{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
 
 <div class="collection-hero {{ collection.handle }} {% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %}">
@@ -36,6 +38,7 @@
 
   </div>
 </div>
+{%- endif -%}
 
 {% schema %}
 {
