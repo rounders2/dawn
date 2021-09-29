@@ -171,7 +171,7 @@
                   </svg>
 
                 </svg>
-                {{ value.label | escape }} ({{ value.count }})
+                <span class="{{ filter.label }} {{ value.label | handelize }}">{{ value.label | escape }} ({{ value.count }})</span>
               </label>
             </li>
             {%- endfor -%}
