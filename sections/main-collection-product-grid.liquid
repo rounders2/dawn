@@ -72,7 +72,7 @@
                                   <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
 
-                                <span class="{{ filter.label }} {{ value.label | handelize }}">{{ value.label | escape }} ({{ value.count }})</span>
+                                <span class="{{ filter.label | downcase }}-swatch {{ value.label | handelize }}">{{ value.label | escape }} ({{ value.count }})</span>
                               </label>
                             </li>
                           {%- endfor -%}
@@ -166,7 +166,7 @@
                         <div class="select">
                           <select name="sort_by" class="select__select" id="SortBy-mobile" aria-describedby="a11y-refresh-page-message">
                             {%- for option in collection.sort_options -%}
-                              <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }} </option>
+                              <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
                             {%- endfor -%}
                           </select>
                           {% render 'icon-caret' %}
