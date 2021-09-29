@@ -72,7 +72,7 @@
                                   <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
 
-                                {{ value.label | escape }} ({{ value.count }})
+                                <span class="filter_label {{ value.label | handelize }} ">{{ value.label | escape }} ({{ value.count }})</span>
                               </label>
                             </li>
                           {%- endfor -%}
