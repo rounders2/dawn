@@ -19,7 +19,7 @@
 }
 
 #CollectionFiltersForm .color-label, #CollectionFiltersFormMobile .color-label {
-
+  margin-right:.5rem;
 }
 .color-swatch.selected {
   outline: 1px solid #999;
