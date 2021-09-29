@@ -857,6 +857,10 @@ summary::-webkit-details-marker {
   text-decoration:none;
 }
 
+.collection .title-wrapper-with-link a {
+  text-decoration:underline;
+}
+
 @media screen and (min-width: 990px) {
   .title-wrapper-with-link.title-wrapper-with-link--no-heading {
     display: none;
