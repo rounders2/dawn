@@ -28,7 +28,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
+        "color_scheme": "inverse",
         "stack_images_on_mobile": false,
         "adapt_height_first_image": false
       }
@@ -140,24 +140,24 @@
             "collection": "cookware"
           }
         },
+        "16329332866a4a9336-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tents-tarps-shelters-screen-houses"
+          }
+        },
         "464514ed-723a-49f1-bbc6-80d14eaf85eb": {
           "type": "featured_collection",
           "settings": {
             "collection": "portable-camping-stoves-accessories"
-          }
-        },
-        "561ab1f3-95b0-4837-99fb-0284683dc070": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "tents-tarps-shelters-screen-houses"
           }
         }
       },
       "block_order": [
         "16329332866a4a9336-0",
         "16329332866a4a9336-1",
-        "464514ed-723a-49f1-bbc6-80d14eaf85eb",
-        "561ab1f3-95b0-4837-99fb-0284683dc070"
+        "16329332866a4a9336-2",
+        "464514ed-723a-49f1-bbc6-80d14eaf85eb"
       ],
       "settings": {
         "title": "Get  A HEad Start on Fall Camping",
