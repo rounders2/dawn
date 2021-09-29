@@ -145,18 +145,25 @@
           "settings": {
             "collection": "portable-camping-stoves-accessories"
           }
+        },
+        "561ab1f3-95b0-4837-99fb-0284683dc070": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "tents-tarps-shelters-screen-houses"
+          }
         }
       },
       "block_order": [
         "16329332866a4a9336-0",
         "16329332866a4a9336-1",
-        "464514ed-723a-49f1-bbc6-80d14eaf85eb"
+        "464514ed-723a-49f1-bbc6-80d14eaf85eb",
+        "561ab1f3-95b0-4837-99fb-0284683dc070"
       ],
       "settings": {
         "title": "Get  A HEad Start on Fall Camping",
         "image_ratio": "square",
         "color_scheme": "background-2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_padding": true,
         "show_view_all": false
       }
