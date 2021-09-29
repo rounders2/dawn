@@ -6,7 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "GET READY. BE READY"
+            "heading": "GET READY. BE READY",
+            "heading_size": "medium"
           }
         },
         "button": {
@@ -27,10 +28,13 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "flex-end",
+        "show_text_box": false,
+        "image_overlay_opacity": 30,
         "color_scheme": "inverse",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
+        "show_text_below": true
       }
     },
     "16327978432bc410f4": {
