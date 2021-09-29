@@ -6,24 +6,24 @@
         "163294940413c8e45d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Get Ready to CAMP",
+            "heading": "Stay Hydrated",
             "heading_size": "large"
           }
         },
         "163294940413c8e45d-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Never too late to get out in nature and no better way than to GO CAMPING!<\/p>"
+            "text": "<p>Hiking or camping, we've got water bottles and water filters just for you.<\/p>"
           }
         },
         "163294940413c8e45d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Water",
+            "button_label_1": "Water Bottles",
             "button_link_1": "shopify:\/\/collections\/water-bottles",
             "button_style_secondary_1": true,
-            "button_label_2": "Camping Gear",
-            "button_link_2": "shopify:\/\/collections\/hunting-camping",
+            "button_label_2": "Water Filters",
+            "button_link_2": "shopify:\/\/collections\/water-filters",
             "button_style_secondary_2": false
           }
         }
