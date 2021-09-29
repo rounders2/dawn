@@ -12,7 +12,7 @@
   border-radius: .25rem;
   margin: .7rem .5rem .2rem 0;
 }
-#CollectionFiltersForm .color-swatch {
+#CollectionFiltersForm .color-swatch, #CollectionFiltersFormMobile .color-swatch {
   width:25px;
   height:25px;
   margin:-4px 10px 0px 0;
