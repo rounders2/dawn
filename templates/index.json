@@ -174,11 +174,11 @@
         "464514ed-723a-49f1-bbc6-80d14eaf85eb"
       ],
       "settings": {
-        "title": "Get  A HEad Start on Fall Camping",
+        "title": "Gear Up For Fall Camping",
         "image_ratio": "square",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "swipe_on_mobile": true,
-        "image_padding": true,
+        "image_padding": false,
         "show_view_all": false
       }
     },
@@ -243,6 +243,7 @@
     },
     "1632783790cc55e1c4": {
       "type": "image-banner-parallax",
+      "disabled": true,
       "blocks": {
         "1632783790cc55e1c4-1": {
           "type": "text",
