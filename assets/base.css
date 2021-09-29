@@ -853,6 +853,14 @@ summary::-webkit-details-marker {
   flex-shrink: 0;
 }
 
+.collection a.underlined-link {
+  text-decoration:none;
+}
+
+.collection a.underlined-link:hover {
+  text-decoration:underline;
+}
+
 @media screen and (min-width: 990px) {
   .title-wrapper-with-link.title-wrapper-with-link--no-heading {
     display: none;
