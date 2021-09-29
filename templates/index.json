@@ -44,6 +44,21 @@
         "show_text_below": false
       }
     },
+    "1632797912aeaca2da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Backpacks & Bags",
+        "collection": "bags",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": true
+      }
+    },
     "16327978432bc410f4": {
       "type": "multicolumn",
       "blocks": {
@@ -110,21 +125,6 @@
       "settings": {
         "title": "Long Term Food Kits",
         "collection": "long-term-food-kits",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_image_outline": false,
-        "show_vendor": true
-      }
-    },
-    "1632797912aeaca2da": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Backpacks & Bags",
-        "collection": "bags",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -288,9 +288,9 @@
   },
   "order": [
     "163294940413c8e45d",
+    "1632797912aeaca2da",
     "16327978432bc410f4",
     "featured_products",
-    "1632797912aeaca2da",
     "16329332866a4a9336",
     "16327992785b8c2a0d",
     "1632783540e806397d",
