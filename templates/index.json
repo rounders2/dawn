@@ -30,7 +30,7 @@
         "desktop_text_box_position": "flex-end",
         "color_scheme": "inverse",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
+        "adapt_height_first_image": true
       }
     },
     "16327978432bc410f4": {
