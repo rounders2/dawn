@@ -78,7 +78,7 @@
                     {%- if block.settings.collection.title != blank -%}
                       {{- block.settings.collection.title | escape -}}{%- if block.settings.collection.description == blank -%}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>{% endif %}
                     {%- else -%}
-                      title
+                      {{ 'onboarding.collection_title' | t }}
                     {%- endif -%}
                   </h3>
 
@@ -206,6 +206,11 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "text",
+          "id": "collection_title",
+          "label": "t:sections.collection-list.blocks.featured_collection.settings.collection-title.label"
         }
       ]
     }
