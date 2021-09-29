@@ -73,7 +73,11 @@
                                   <path d="M1.5 3.5L2.83333 4.75L4.16667 6L9.5 1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
 
-                                <span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}">{{ value.label | escape }}</span> {%- if filter.label == 'Color' -%} <span class="color-label">{{ value.label | escape }}</span> {%- endif -%}  ({{ value.count }})
+                                {%- if filter.label == 'Color' -%}
+                                  <span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}"> {{ value.label | escape }} </span>  <span class="color-label"> {{ value.label | escape }} </span> <span> ({{ value.count }}) </span>
+                                {%- else -%}
+                                  {{ value.label | escape }} ({{ value.count }})
+                                {%- endif -%}
                               </label>
                             </li>
                           {%- endfor -%}
