@@ -172,7 +172,7 @@
 
 
                 {%- if filter.label == 'Color' -%}
-                  <span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}"> {{ value.label | escape }} </span>  <span class="color-label"> {{ value.label | escape }} </span> <span> ({{ value.count }}) </span>
+                  {%- unless collection.handle contains 'sunglasses' -%}<span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}"> {{ value.label | escape }} </span>  {%- endunless -%}<span class="color-label"> {{ value.label | escape }} </span> <span> ({{ value.count }}) </span>
                 {%- else -%}
                   {{ value.label | escape }} ({{ value.count }})
                 {%- endif -%}
