@@ -115,6 +115,10 @@ slider-component {
   height: 44px;
 }
 
+.slider-button[disabled] {
+  background: rgba(var(--color-base-accent-2),.45);
+}
+
 .slider-button:not([disabled]):hover {
   color: rgb(var(--color-foreground));
 }
