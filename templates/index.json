@@ -1,36 +1,62 @@
 {
   "sections": {
-    "image_banner": {
+    "163294940413c8e45d": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "163294940413c8e45d-0": {
           "type": "heading",
           "settings": {
-            "heading": "GET READY. BE READY"
+            "heading": "Stay Hydrated",
+            "heading_size": "large"
           }
         },
-        "button": {
+        "163294940413c8e45d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hiking or camping, we've got water bottles and water filters just for you.<\/p>"
+          }
+        },
+        "163294940413c8e45d-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Water Bottles",
             "button_link_1": "shopify:\/\/collections\/water-bottles",
             "button_style_secondary_1": true,
-            "button_label_2": "Camping Gear",
-            "button_link_2": "shopify:\/\/collections\/outdoor-gear",
+            "button_label_2": "Water Filters",
+            "button_link_2": "shopify:\/\/collections\/water-filters",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "163294940413c8e45d-0",
+        "163294940413c8e45d-1",
+        "163294940413c8e45d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/g2g-bottle-banner.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "inverse",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
+        "image": "shopify:\/\/shop_images\/g2g-bottle-banner2.jpg",
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "center",
+        "show_text_box": false,
+        "image_overlay_opacity": 20,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "1632797912aeaca2da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Backpacks & Bags",
+        "collection": "bags",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": false,
+        "add_image_padding": true,
+        "show_image_outline": false,
+        "show_vendor": true
       }
     },
     "16327978432bc410f4": {
@@ -96,25 +122,9 @@
     },
     "featured_products": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Appliances",
-        "collection": "appliances",
-        "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_image_outline": false,
-        "show_vendor": true
-      }
-    },
-    "1632797912aeaca2da": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Backpacks & Bags",
-        "collection": "bags",
+        "title": "Long Term Food Kits",
+        "collection": "long-term-food-kits",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
@@ -277,10 +287,10 @@
     }
   },
   "order": [
-    "image_banner",
+    "163294940413c8e45d",
+    "1632797912aeaca2da",
     "16327978432bc410f4",
     "featured_products",
-    "1632797912aeaca2da",
     "16329332866a4a9336",
     "16327992785b8c2a0d",
     "1632783540e806397d",
