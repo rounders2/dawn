@@ -857,7 +857,7 @@ summary::-webkit-details-marker {
   text-decoration:none;
 }
 
-.collection a.underlined-link {
+.collection a.underlined-link:hover {
   text-decoration:underline;
 }
 
