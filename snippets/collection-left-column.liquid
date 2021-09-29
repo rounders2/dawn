@@ -171,7 +171,7 @@
                   </svg>
 
                 </svg>
-                <div><span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}">{{ value.label | escape }}</span> {%- if filter.label == 'Color' -%} <span class="color-label">{{ value.label | escape }}</span> {%- endif -%} ({{ value.count }})</div>
+                <div style="display:flex;flex-direction:row;justify-content:center;"><span class="{{ filter.label | downcase }}-swatch {{ value.label | handleize }}">{{ value.label | escape }}</span> {%- if filter.label == 'Color' -%} <span class="color-label">{{ value.label | escape }}</span> {%- endif -%} ({{ value.count }})</div>
               </label>
             </li>
             {%- endfor -%}
