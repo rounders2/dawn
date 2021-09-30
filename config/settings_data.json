@@ -32,9 +32,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<a href=\"tel:1-833-424-3777\" style=\"color:#a9c940;font-weight:bold;\">CALL TOLL FREE 1.833.424.3777<\/a>",
+              "text": "<span style=\"color:#a9c940;font-weight:bold;\">CALL TOLL FREE 1.833.424.3777<\/span>",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "tel:1.833.424.3777"
             }
           },
           "afa17022-86a1-408c-b34c-d650ddca183c": {
