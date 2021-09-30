@@ -204,6 +204,11 @@
                       {% render 'icon-account' %}
                       <div>
                       <h3 class="account-greetings">HELLO</h3>
+                      {%- liquid
+                        if customer
+                          echo 'customer.name'
+                        endif
+                      -%}
                         {%- liquid
                           if customer
                             echo 'customer.account_fallback' | t
