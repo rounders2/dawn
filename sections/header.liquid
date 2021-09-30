@@ -199,6 +199,7 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
+                  <h2>Help & Settings</h2>
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link link--text focus-inset h5">
                       {% render 'icon-account' %}
