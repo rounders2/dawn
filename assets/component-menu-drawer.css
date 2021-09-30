@@ -42,7 +42,7 @@ menu-drawer > details[open] > summary::before {
   border-left: 0;
   background-color: rgb(var(--color-background));
   overflow-x: hidden;
-  height:100vh;
+  height:100vh !important;
 }
 
 .js .menu-drawer {
