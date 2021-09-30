@@ -31,8 +31,7 @@
   cursor: pointer;
   color:#fff;
   z-index:10;
-  border:1px solid #fff;
-  padding:.55rem;
+  padding:.57rem;
 }
 .country-switcher .shop-usd {
   overflow: hidden;
@@ -61,6 +60,7 @@
   background: #eee;
   padding: 10px 5px;
   left: -5px;
+  top:1rem;
 }
 .country-switcher:hover .alternate-country {
   display: block;
