@@ -25,6 +25,7 @@
   min-width: 70px;
   position: relative;
   cursor: pointer;
+  color:#fff;
 }
 .country-switcher .shop-usd {
   overflow: hidden;
@@ -56,6 +57,7 @@
 }
 .country-switcher:hover .alternate-country {
   display: block;
+  color:#444;
 }
 @media (max-width: 751px) {
   display: none;
