@@ -220,6 +220,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   background-size: 80%;
 }
 
+.menu-drawer__utility-links h3 {
+  margin:.5rem;
+}
+
 .menu-drawer__account {
   display: inline-flex;
   align-items: center;
