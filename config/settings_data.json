@@ -36,11 +36,20 @@
               "color_scheme": "inverse",
               "link": "tel:1-833-424-3777"
             }
+          },
+          "afa17022-86a1-408c-b34c-d650ddca183c": {
+            "type": "announcement",
+            "settings": {
+              "text": "Free Shipping on $99 or More",
+              "color_scheme": "inverse",
+              "link": ""
+            }
           }
         },
         "block_order": [
           "05c538ad-358f-4e41-b696-54a7fe59c311",
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "afa17022-86a1-408c-b34c-d650ddca183c"
         ],
         "settings": {
         }
