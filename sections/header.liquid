@@ -484,6 +484,10 @@
         </details>
       </details-modal>
 
+      <div class="country-switcher cdn-link"><span class="shop-can">CAD</span>
+        <div class="alternate-country"><a href="https://good2goco.com" class="shop-usd"> </a> USD</div>
+      </div>
+      
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link link--text focus-inset">
           {% render 'icon-account' %}
