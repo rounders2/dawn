@@ -32,8 +32,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<span style=\"color:#a9c940;font-weight:bold;\">CALL TOLL FREE 1.833.424.3777<\/span>",
-              "color_scheme": "inverse",
+              "text": "CALL TOLL FREE <span style=\"color:#a9c940;font-weight:bold;\">1.833.424.3777<\/span>",
+              "color_scheme": "accent-2",
               "link": "tel:1.833.424.3777"
             }
           },
