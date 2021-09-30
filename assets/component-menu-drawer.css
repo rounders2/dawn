@@ -238,6 +238,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 
 .menu-drawer__account h4.account-greetings {
   font-weight:bold;
+  margin:0;
 }
 
 .menu-drawer .list-social {
