@@ -205,7 +205,7 @@
                       <div>
                       <h3 class="account-greetings">HELLO</h3>
                       {%- if customer -%}
-                          {{ customer.first_name }} {% render 'icon-arrow' %}
+                          {%- if customer.first_name -%} {{ customer.first_name }} {%- else -%} {{ 'customer.account_fallback' | t }} {%- endif -%} {% render 'icon-arrow' %}
                       {%- else -%}
                       {{ 'customer.log_in' | t }}
                       {%- endif -%}
