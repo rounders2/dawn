@@ -217,8 +217,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   padding: 2rem;
   background-color: rgba(var(--color-foreground), 0.03);
   background: url('https://cdn.shopify.com/s/files/1/0480/8297/6934/files/g2g-trees.gif?v=1632180395') no-repeat bottom right;
-  background-size: 100%;
-  background-position: 115% 105%;
+  background-size: 80%;
 }
 
 .menu-drawer__account {
