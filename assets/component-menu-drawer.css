@@ -236,6 +236,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin-right: 1rem;
 }
 
+.menu-drawer__account h4.account-greetings {
+  font-weight:bold;
+}
+
 .menu-drawer .list-social {
   justify-content: flex-start;
   margin-left: -1.25rem;
