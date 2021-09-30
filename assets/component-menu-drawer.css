@@ -221,7 +221,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__utility-links h2 {
-  margin:.5rem;
+  margin:.5rem 0;
 }
 
 .menu-drawer__account {
