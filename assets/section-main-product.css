@@ -110,7 +110,7 @@
 
 .product-form__error-message-wrapper:not([hidden]) {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
@@ -120,7 +120,6 @@
   width: 2rem;
   height: 2rem;
   margin-right: 0.7rem;
-  margin-top: 0.5rem;
 }
 
 
