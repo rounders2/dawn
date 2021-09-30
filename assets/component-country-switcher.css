@@ -15,7 +15,7 @@
     height: 25px;
     padding-left:25px;
     text-indent: -999999px;
-    background: url('{{'usa-flag.jpg' | asset_url }}') no-repeat center;
+    background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/usa-flag.jpg?v=1633039910') no-repeat center;
     background-size: 100%;
     margin-left: 0px;
   }
@@ -24,7 +24,7 @@
     vertical-align: middle;
     padding-left: 35px;
     height: 20px;
-    background: url('{{'can-flag.jpg' | asset_url }}')no-repeat left;
+    background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/can-flag.jpg?v=1633039899')no-repeat left;
     background-size: 30px auto;
     margin-left: 0px;
   }
