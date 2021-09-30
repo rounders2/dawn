@@ -29,13 +29,19 @@ menu-drawer > details[open] > summary::before {
     visibility var(--duration-default) ease;
 }
 
+.menu-drawer-container.menu-opening {
+  position:fixed;
+  height:100vh;
+  top:0;
+}
+
 .menu-drawer {
   position: absolute;
   transform: translateX(-100%);
   visibility: hidden;
   z-index: 3;
   left: 0;
-  top: 0;
+  top: 100%;
   width: calc(100vw - 4rem);
   padding: 0;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
@@ -49,7 +55,6 @@ menu-drawer > details[open] > summary::before {
   height: calc(
     var(--viewport-height, 100vh) - (var(--header-bottom-position, 100%))
   );
-  height:100vh;
 }
 
 .js details[open] > .menu-drawer,
