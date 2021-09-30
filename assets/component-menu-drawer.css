@@ -236,7 +236,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin-right: 1rem;
 }
 
-.menu-drawer__account h4.account-greetings {
+.menu-drawer__account h3.account-greetings {
   font-weight:bold;
   margin:0;
 }
