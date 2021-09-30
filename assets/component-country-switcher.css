@@ -30,6 +30,7 @@
   min-width: 70px;
   cursor: pointer;
   color:#fff;
+  z-index:10;
 }
 .country-switcher .shop-usd {
   overflow: hidden;
