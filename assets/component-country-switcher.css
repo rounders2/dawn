@@ -1,3 +1,21 @@
+.shop-can {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 35px;
+  background: url('{{'can-flag.jpg' | asset_url }}')no-repeat left;
+  background-size: 30px auto;
+  margin-left: 20px;
+}
+.shop-usd {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 35px;
+  background: url('{{'usa-flag.jpg' | asset_url }}')no-repeat left;
+  background-size: 30px auto;
+  margin-left: 20px;
+}
+
 .country-switcher {
   margin: auto 20px auto 0;
   vertical-align: middle;
@@ -7,6 +25,7 @@
   min-width: 70px;
   position: relative;
   cursor: pointer;
+}
   .shop-usd {
     overflow: hidden;
     display: inline-block;
@@ -35,10 +54,9 @@
     padding: 10px 5px;
     left: -5px;
   }
-  &:hover .alternate-country {
-    display: block;
-  }
-  @media (max-width: 769px) {
-    display: none;
-  }
+.country-switcher:hover .alternate-country {
+  display: block;
+}
+@media (max-width: 751px) {
+  display: none;
 }
