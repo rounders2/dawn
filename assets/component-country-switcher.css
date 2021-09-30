@@ -26,34 +26,34 @@
   position: relative;
   cursor: pointer;
 }
-  .shop-usd {
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 25px;
-    padding-left:25px;
-    text-indent: -999999px;
-    background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/usa-flag.jpg?v=1633039910') no-repeat center;
-    background-size: 100%;
-    margin-left: 0px;
-  }
-  .shop-can {
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 35px;
-    height: 20px;
-    background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/can-flag.jpg?v=1633039899')no-repeat left;
-    background-size: 30px auto;
-    margin-left: 0px;
-  }
-  .alternate-country {
-    display: none;
-    position: absolute;
-    background: #233633;
-    padding: 10px 5px;
-    left: -5px;
-  }
+.country-switcher .shop-usd {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 25px;
+  padding-left:25px;
+  text-indent: -999999px;
+  background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/usa-flag.jpg?v=1633039910') no-repeat center;
+  background-size: 100%;
+  margin-left: 0px;
+}
+.country-switcher .shop-can {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 35px;
+  height: 20px;
+  background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/can-flag.jpg?v=1633039899')no-repeat left;
+  background-size: 30px auto;
+  margin-left: 0px;
+}
+.alternate-country {
+  display: none;
+  position: absolute;
+  background: #233633;
+  padding: 10px 5px;
+  left: -5px;
+}
 .country-switcher:hover .alternate-country {
   display: block;
 }
