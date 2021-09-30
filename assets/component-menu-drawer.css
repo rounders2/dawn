@@ -35,13 +35,14 @@ menu-drawer > details[open] > summary::before {
   visibility: hidden;
   z-index: 3;
   left: 0;
-  top: 100%;
+  top: 0;
   width: calc(100vw - 4rem);
   padding: 0;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
   border-left: 0;
   background-color: rgb(var(--color-background));
   overflow-x: hidden;
+  height:100vh;
 }
 
 .js .menu-drawer {
