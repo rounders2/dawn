@@ -224,7 +224,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin:.5rem 0;
 }
 
-.menu-drawer__account {
+.menu-drawer__account, .menu-drawer__help {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
@@ -234,7 +234,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   width:100%;
 }
 
-.menu-drawer__account .icon-account {
+.menu-drawer__account .icon-account, .menu-drawer__help .icon-help {
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
@@ -246,11 +246,6 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin:0;
 }
 
-.menu-drawer__help .icon-help{
-  height: 2rem;
-  width: 2rem;
-  margin-right: 1rem;
-}
 
 .menu-drawer .list-social {
   justify-content: flex-start;
