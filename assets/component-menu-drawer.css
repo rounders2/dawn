@@ -246,6 +246,12 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin:0;
 }
 
+.menu-drawer__help .icon-help{
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
+
 .menu-drawer .list-social {
   justify-content: flex-start;
   margin-left: -1.25rem;
