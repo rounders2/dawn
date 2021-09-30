@@ -29,6 +29,13 @@ menu-drawer > details[open] > summary::before {
     visibility var(--duration-default) ease;
 }
 
+.menu-drawer-container.menu-opening {
+  display:block;
+  position:fixed;
+  top:0;
+  height:100vh;
+}
+
 .menu-drawer {
   position: absolute;
   transform: translateX(-100%);
