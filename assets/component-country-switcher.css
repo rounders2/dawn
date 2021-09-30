@@ -58,8 +58,8 @@
   display: none;
   position: absolute;
   background: #eee;
-  padding: 10px 5px;
-  left: -5px;
+  padding: .5rem;
+  left: 0px;
   top:3.5rem;
 }
 .country-switcher:hover .alternate-country {
