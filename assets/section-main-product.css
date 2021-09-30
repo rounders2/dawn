@@ -46,8 +46,8 @@
 
   .product:not(.product--no-media):not(.featured-product) .product__info-wrapper {
     padding-left: 4rem;
-    max-width: 36%;
-    width: calc(36% - 1rem / 2);
+    max-width: 46%;
+    width: calc(56% - 1rem / 2);
   }
 }
 
