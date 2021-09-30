@@ -70,7 +70,4 @@
   .country-switcher {
     display: none;
   }
-  .menu-drawer__utility-links .country-switcher {
-    display:block;
-  }
 }
