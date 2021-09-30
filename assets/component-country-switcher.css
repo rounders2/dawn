@@ -20,8 +20,8 @@
 }
 .country-switcher {
   position: absolute;
-  top:0;
-  right:1rem;
+  top:.5rem;
+  right:0rem;
   margin: auto 20px auto 0;
   vertical-align: middle;
   font-size: 13px;
