@@ -199,7 +199,7 @@
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
-                  <h2>HELLO, {%- if customer.first_name -%} &nbps;{{ customer.first_name }} {%- endif -%}</h2>
+                  <h2>HELLO, {%- if customer.first_name -%} &nbsp;{{ customer.first_name }} {%- endif -%}</h2>
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link link--text focus-inset h5">
                         {% render 'icon-account' %}
@@ -211,7 +211,7 @@
                     </a>
                   {%- endif -%}
 
-                 <a href="https://good2goco.com" class="shop-usd link link--text focus-inset h5"> SWITCH TO THE USA</a>
+                 <a href="https://good2goco.com" class="shop-usd link link--text focus-inset h5"> SHOP IN USD</a>
 
                   <ul class="list list-social list-unstyled" role="list">
                     {%- if settings.social_twitter_link != blank -%}
