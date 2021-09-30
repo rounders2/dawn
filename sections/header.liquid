@@ -208,7 +208,6 @@
                       {%- else -%}
                       {{ 'customer.log_in' | t }}
                       {%- endif -%}
-                      {% render 'icon-account' %}
                       <div>
                       {%- if customer -%}
                           {%- if customer.first_name -%} {{ customer.first_name }} {%- else -%} {{ 'customer.account_fallback' | t }} {%- endif -%} {% render 'icon-arrow' %}
