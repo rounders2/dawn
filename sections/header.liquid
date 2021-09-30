@@ -206,9 +206,7 @@
                       <h3 class="account-greetings">HELLO</h3>
                       {%- if customer -%}
                           {{ customer.first_name }} &nbsp;
-
                       {%- endif -%}
-
                         {%- liquid
                           if customer
                             echo 'customer.account_fallback' | t
