@@ -65,7 +65,7 @@
   display: block;
   color:#444;
 }
-@media (max-width: 751px) {
+@media (max-width: 990px) {
   .country-switcher {
     display: none;
   }
