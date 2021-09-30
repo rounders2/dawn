@@ -17,6 +17,9 @@
 }
 
 .country-switcher {
+  position: absolute;
+  right:4rem;
+  top:0;
   margin: auto 20px auto 0;
   vertical-align: middle;
   font-size: 13px;
