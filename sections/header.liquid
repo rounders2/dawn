@@ -202,7 +202,7 @@
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link link--text focus-inset h5">
                       {% render 'icon-account' %}
-                      <h3>HELLO</h3> &nbsp;
+                      <h3 class="account-greetings">HELLO</h3> &nbsp;
                       {%- liquid
                         if customer
                           echo 'customer.account_fallback' | t
