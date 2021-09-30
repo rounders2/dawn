@@ -205,15 +205,11 @@
                       <div>
                       <h3 class="account-greetings">HELLO</h3>
                       {%- if customer -%}
-                          {{ customer.first_name }}<br>
+                          {{ customer.first_name }}
+
+                      {%- else -%}
+                      {{ 'customer.log_in' | t }}
                       {%- endif -%}
-                        {%- liquid
-                          if customer
-                            echo 'customer.account_fallback' | t
-                          else
-                            echo 'customer.log_in' | t
-                          endif
-                        -%}
                       </div>
                     </a>
                   {%- endif -%}
