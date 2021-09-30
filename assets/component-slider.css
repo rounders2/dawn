@@ -120,7 +120,7 @@ slider-component {
 }
 
 .slider-button[disabled] {
-  background: rgba(var(--color-base-accent-1),.05);
+  background: rgba(var(--color-base-accent-1),.0);
 }
 
 .slider-button:not([disabled]):hover {
