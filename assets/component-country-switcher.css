@@ -58,7 +58,7 @@
   position: absolute;
   background: #eee;
   padding: 10px 5px;
-  top:2rem;
+  top:3rem;
   left: -5px;
 }
 .country-switcher:hover .alternate-country {
