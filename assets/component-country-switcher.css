@@ -51,7 +51,7 @@
 .country-switcher .alternate-country {
   display: none;
   position: absolute;
-  background: #eee;
+  background: transparent;
   padding: 10px 5px;
   left: -5px;
 }
