@@ -1,0 +1,44 @@
+.country-switcher {
+  margin: auto 20px auto 0;
+  vertical-align: middle;
+  font-size: 13px;
+  letter-spacing: .1em;
+  font-weight: bold;
+  min-width: 70px;
+  position: relative;
+  cursor: pointer;
+  .shop-usd {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 25px;
+    padding-left:25px;
+    text-indent: -999999px;
+    background: url('{{'usa-flag.jpg' | asset_url }}') no-repeat center;
+    background-size: 100%;
+    margin-left: 0px;
+  }
+  .shop-can {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 35px;
+    height: 20px;
+    background: url('{{'can-flag.jpg' | asset_url }}')no-repeat left;
+    background-size: 30px auto;
+    margin-left: 0px;
+  }
+  .alternate-country {
+    display: none;
+    position: absolute;
+    background: #233633;
+    padding: 10px 5px;
+    left: -5px;
+  }
+  &:hover .alternate-country {
+    display: block;
+  }
+  @media (max-width: 769px) {
+    display: none;
+  }
+}
