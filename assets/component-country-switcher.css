@@ -13,6 +13,7 @@
   padding-left: 35px;
   background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/usa-flag.jpg?v=1633039910')no-repeat left;
   background-size: 20px auto;
+  text-decoration:none;
 }
 #shopify-section-announcement-bar {
   position:relative;
