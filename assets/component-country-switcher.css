@@ -20,15 +20,12 @@
 }
 .country-switcher {
   position: absolute;
-  right:4rem;
-  top:0;
   margin: auto 20px auto 0;
   vertical-align: middle;
   font-size: 13px;
   letter-spacing: .1em;
   font-weight: bold;
   min-width: 70px;
-  position: relative;
   cursor: pointer;
   color:#fff;
 }
