@@ -1781,6 +1781,7 @@ input[type='checkbox'] {
 @media screen and (min-width: 750px) {
   .announcement-bar__link .icon-arrow {
     height: 1.3rem;
+    width:2rem;
   }
 }
 
