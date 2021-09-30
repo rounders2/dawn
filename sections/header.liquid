@@ -206,7 +206,7 @@
                       <h3 class="account-greetings">HELLO</h3>
                       {%- liquid
                         if customer
-                          echo 'customer.name'
+                          echo 'customer.name' | t
                         endif
                       -%}
                         {%- liquid
