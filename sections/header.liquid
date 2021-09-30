@@ -54,8 +54,9 @@
     box-shadow: 0 2px 20px 10px rgb(0 0 0 / 15%);
     position:absolute;
     left:0;
-    background: url('https://cdn.shopify.com/s/files/1/0480/8297/6934/files/g2g-trees.gif?v=1632180395') no-repeat bottom right;
+    background: url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/g2g-trees.gif?v=1632180395') no-repeat bottom right;
     background-size: 800px;
+    background-position: 115% 100%;
   }
   .nav-dropdown__column {
     width:20%;
@@ -201,13 +202,14 @@
                   {%- if shop.customer_accounts_enabled -%}
                     <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="menu-drawer__account link link--text focus-inset h5">
                       {% render 'icon-account' %}
-                      {%- liquid
-                        if customer
-                          echo 'customer.account_fallback' | t
-                        else
-                          echo 'customer.log_in' | t
-                        endif
-                      -%}
+                      <div>
+                      <h3 class="account-greetings">HELLO</h3>
+                      {%- if customer -%}
+                          {%- if customer.first_name -%} {{ customer.first_name }} {%- else -%} {{ 'customer.account_fallback' | t }} {%- endif -%} {% render 'icon-arrow' %}
+                      {%- else -%}
+                      {{ 'customer.log_in' | t }}
+                      {%- endif -%}
+                      </div>
                     </a>
                   {%- endif -%}
                   <ul class="list list-social list-unstyled" role="list">

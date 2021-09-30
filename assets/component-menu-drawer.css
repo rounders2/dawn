@@ -216,6 +216,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__utility-links {
   padding: 2rem;
   background-color: rgba(var(--color-foreground), 0.03);
+  background: rgba(var(--color-foreground), 0.03) url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/g2g-forest2.png?v=1633031237') no-repeat bottom right;
+  background-size: 80%;
 }
 
 .menu-drawer__account {
@@ -225,12 +227,19 @@ details[open].menu-opening > .menu-drawer__submenu {
   padding: 1.2rem;
   margin-left: -1.2rem;
   font-size: 1.4rem;
+  width:100%;
 }
 
 .menu-drawer__account .icon-account {
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
+}
+
+.menu-drawer__account h3.account-greetings {
+  font-weight:bold;
+  font-size: 2rem;
+  margin:0;
 }
 
 .menu-drawer .list-social {
