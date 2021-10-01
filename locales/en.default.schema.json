@@ -1387,7 +1387,7 @@
         "whats_included": {
           "name": "What's Included",
           "settings": {
-            "text": {
+            "richtext": {
               "label": "Text"
             }
           }
