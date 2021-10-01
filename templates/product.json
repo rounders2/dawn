@@ -44,6 +44,13 @@
             "show_dynamic_checkout": false
           }
         },
+        "3dbd71d2-f7d8-4491-83be-b8651a8bc184": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.whats.included.value }}",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -58,6 +65,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "3dbd71d2-f7d8-4491-83be-b8651a8bc184",
         "description"
       ],
       "settings": {
