@@ -339,11 +339,13 @@
                 </pickup-availability>
               </div>
             </div>
-            <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
-              FOR METAFIELDS - What's Included:
-                {{ product.metafields.product.included | metafield_text }}
-                {{ variant.metafields.product.included | metafield_text }}
-            </div>
+            {%- if product.metafields.product.included or variant.metafields.product.included -%}
+              <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
+                FOR METAFIELDS - What's Included:
+                  {{ product.metafields.product.included | metafield_text }}
+                  {{ variant.metafields.product.included | metafield_text }}
+              </div>
+            {%- endif -%}
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- endcase -%}
         {%- endfor -%}
