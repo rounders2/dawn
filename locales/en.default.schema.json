@@ -1384,6 +1384,14 @@
         "pickup_availability": {
           "name": "Pickup availability"
         },
+        "included": {
+          "name": "What's Included",
+          "settings": {
+            "richtext": {
+              "label": "Text"
+            }
+          }
+        },
         "description": {
           "name": "Description"
         },
