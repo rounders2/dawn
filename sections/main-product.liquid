@@ -341,9 +341,9 @@
             </div>
             {%- if product.metafields.product.included or variant.metafields.product.included -%}
               <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
-                FOR METAFIELDS - What's Included:
-                  {{ product.metafields.product.included | metafield_text }}<br>
-                   {{ variant.metafields.variant.included | metafield_text }}
+                <h4>FOR METAFIELDS</h4>
+                  <strong>Product What's Included:</strong>{{ product.metafields.product.included | metafield_text }}<br>
+                   <strong>Variant What's Included:</strong>{{ variant.metafields.variant.included | metafield_text }}
 
                    {% capture 'meta_data' %}
                    {% for variant in product.variants %}
