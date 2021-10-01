@@ -1349,6 +1349,9 @@
             }
           }
         },
+        "richtext": {
+          "name": "Rich Text"
+        },
         "title": {
           "name": "Title"
         },
