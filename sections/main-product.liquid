@@ -154,10 +154,6 @@
                 </button>
               </quantity-input>
             </div>
-            <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
-                {{ product.metafields.product.included | metafield_text }}
-                {{ variant.metafields.product.included | metafield_text }}
-            </div>
           {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
@@ -199,6 +195,10 @@
                 </div>
               </details>
             </share-button>
+            <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
+                {{ product.metafields.product.included | metafield_text }}
+                {{ variant.metafields.product.included | metafield_text }}
+            </div>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
