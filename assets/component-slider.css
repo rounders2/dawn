@@ -85,7 +85,8 @@ slider-component {
 }
 
 .slider-counter {
-  margin: 0 1.2rem;
+  margin: 0;
+  visibility:hidden;
 }
 
 .slider-buttons {
@@ -110,15 +111,17 @@ slider-component {
 
 .slider-button {
   color: rgba(var(--color-foreground), 0.75);
-  background: rgba(var(--color-base-accent-1),.15);
+  background: rgba(var(--color-base-accent-1),.08);
   border: none;
   cursor: pointer;
   width: 44px;
   height: 44px;
+  border:1px solid rgba(var(--color-base-accent-1),.15);
+  border-radius:50%;
 }
 
 .slider-button[disabled] {
-  background: rgba(var(--color-base-accent-1),.05);
+  background: rgba(var(--color-base-accent-1),.0);
 }
 
 .slider-button:not([disabled]):hover {
