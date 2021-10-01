@@ -5,7 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="{{ canonical_url }}">
+
+    {% if template contains 'collection' and current_tags %}
+      <meta name="robots" content="noindex" /> <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+    {% elsif current_page != 1 %}
+      <meta name="robots" content="noindex" /> <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+    {% else %}
+      <link rel="canonical" href="{{ canonical_url }}" />
+    {% endif %}
+    <link rel="alternate" hreflang="en-ca" href="{{ canonical_url }}" />
+    <link rel="alternate" hreflang="en" href="{{ canonical_url | replace: shop.domain, 'www.good2goco.com' }}" />
+
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     {%- if settings.favicon != blank -%}
