@@ -3,12 +3,13 @@
     <ul class="menu-drawer__menu list-menu">
       {% include 'menu_links', menu: link.links[0] %}
       {% include 'menu_links', menu: link.links[1] %}
-      {% include 'menu_links', menu: link.links[2] %}
+
     </ul>
   </div>
 
   <div class="nav-dropdown__column">
     <ul class="menu-drawer__menu list-menu">
+      {% include 'menu_links', menu: link.links[2] %}    
       {% include 'menu_links', menu: link.links[3] %}
       {% include 'menu_links', menu: link.links[4] %}
       {% include 'menu_links', menu: link.links[5] %}
