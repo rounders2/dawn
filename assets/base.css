@@ -1770,19 +1770,12 @@ input[type='checkbox'] {
 
 .announcement-bar__link .icon-arrow {
   display: inline-block;
-  height: 1.2rem;
+  width: 2.5rem;
   pointer-events: none;
   margin-left: 0.8rem;
   padding-left: 1rem;
   vertical-align: middle;
-  margin-bottom: 0.2rem;
-}
-
-@media screen and (min-width: 750px) {
-  .announcement-bar__link .icon-arrow {
-    /* height: 1.3rem; */
-    width:2rem;
-  }
+  margin-bottom: 0.1rem;
 }
 
 .announcement-bar__link .announcement-bar__message {
@@ -1982,7 +1975,7 @@ input[type='checkbox'] {
 }
 
 .header__icon,
-.header__icon--cart .icon {
+.header__icon--cart .icon, .header__icon--search .icon {
   height: 2.5rem;
   width: 2.5rem;
   color:#fff;
@@ -2001,7 +1994,7 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 989px) {
-  menu-drawer ~ .header__icons .header__icon--account {
+  .header__icons .header__icon--account {
     display: none;
   }
   .header__icon.header__icon--cart, .header__icon.header__icon--account {

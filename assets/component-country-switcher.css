@@ -15,9 +15,11 @@
   background-size: 20px auto;
   text-decoration:none;
 }
+
 #shopify-section-announcement-bar {
   position:relative;
 }
+
 .country-switcher {
   position: absolute;
   top:0rem;
