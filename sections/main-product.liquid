@@ -347,7 +347,7 @@
 
                    {% capture 'meta_data' %}
                    {% for variant in product.variants %}
-                     {{ variant.sku | json }}: {{ variant.metafields.harvestright.included | json }}
+                     {{ variant.sku | json }}: {{ variant.metafields.product.included | json }}
                      {% unless forloop.last %},{% endunless %}
                    {% endfor %}
                    {% endcapture %}
