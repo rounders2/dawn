@@ -1384,7 +1384,7 @@
         "pickup_availability": {
           "name": "Pickup availability"
         },
-        "included": {
+        "whats_included": {
           "name": "What's Included",
           "settings": {
             "text": {
