@@ -71,6 +71,13 @@
   }
 }
 
+@media screen and (forced-colors: active) {
+  .customer table {
+    border-top: 0.1rem solid transparent;
+    border-bottom: 0.1rem solid transparent;
+  }
+}
+
 .customer tbody {
   color: rgb(var(--color-foreground));
 }
