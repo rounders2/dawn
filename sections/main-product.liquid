@@ -95,9 +95,6 @@
 
             </div>
 
-            {% include 'product-whats-included' %}
-            hello
-
           {%- when 'description' -%}
             {%- if product.description != blank -%}
             {%- assign description_parts = product.description | split: '<!-- split -->' -%}
