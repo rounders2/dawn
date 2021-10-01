@@ -1,4 +1,4 @@
-$(function() {
+
 
   function updateWhatsIncluded(e) {
     var $currentOption = $('#ProductSelect-product-template-swatch option:selected');
@@ -22,4 +22,3 @@ $(function() {
 
   $('[data-swatch-options]').on('change', 'input[type=radio]', updateWhatsIncluded);
   updateWhatsIncluded();
-});
