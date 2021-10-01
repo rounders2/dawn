@@ -1,37 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
-
-@rounders2
-Shopify
-/
-dawn
-Public
-128
-1.1k1.4k
-Code
-Issues
-249
-Pull requests
-28
-Actions
-Projects
-1
-Security
-Insights
-dawn/assets/cart.js /
-@ludoboludo
-ludoboludo Cart error issue (#633)
-…
-Latest commit 2b3f8f6 14 days ago
- History
- 19 contributors
-@martinamarien@ludoboludo@tauthomas01@LucasLacerdaUX@shopify-online-store@melissaperreault@sofiamatulis@charlespwd@KaichenWang@movermeyer@Thibaut@macournoyer
-137 lines (114 sloc)  4.43 KB
-
 class CartRemoveButton extends HTMLElement {
   constructor() {
     super();
@@ -169,16 +135,3 @@ class CartItems extends HTMLElement {
 }
 
 customElements.define('cart-items', CartItems);
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
