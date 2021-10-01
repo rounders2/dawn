@@ -72,6 +72,7 @@
         hello
         {{ variant.metafields.product.included | metafield_tag }}
         {{ variant.metafields.product.included | metafield_text }}
+        {{ variant.metafields.product.included.value}}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
