@@ -20,6 +20,8 @@
   position:relative;
 }
 .country-switcher .icon-caret {
+  visibility: hidden;
+  opacity:0;
   display:inline-block;
   height:1rem;
   width:1rem;
