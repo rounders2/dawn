@@ -1,4 +1,5 @@
 <script>
+
   $(function() {
 
     function updateWhatsIncluded(e) {
@@ -25,4 +26,5 @@
 
     updateWhatsIncluded();
   });
+
 </script>
