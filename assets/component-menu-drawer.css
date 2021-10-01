@@ -234,7 +234,7 @@ details[open].menu-opening > .menu-drawer__submenu {
   width:100%;
 }
 
-.menu-drawer__account .icon-account, .menu-drawer__help .icon-help {
+.menu-drawer__account .icon-account, .menu-drawer__help .icon-help, .menu-drawer__help .icon-logout {
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
