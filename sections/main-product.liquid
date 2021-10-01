@@ -92,7 +92,9 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
+
               {% include 'product-whats-included' %}
+              hello
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
