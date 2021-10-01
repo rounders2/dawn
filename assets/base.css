@@ -2001,7 +2001,7 @@ input[type='checkbox'] {
 }
 
 @media screen and (max-width: 989px) {
-  menu-drawer ~ .header__icons .header__icon--account {
+  .header__icons .header__icon--account {
     display: none;
   }
   .header__icon.header__icon--cart, .header__icon.header__icon--account {
