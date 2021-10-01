@@ -15,8 +15,14 @@
   background-size: 20px auto;
   text-decoration:none;
 }
+
 #shopify-section-announcement-bar {
   position:relative;
+}
+.country-switcher .icon-caret {
+  display:inline-block;
+  height:2rem;
+  width:2rem;
 }
 .country-switcher {
   position: absolute;
