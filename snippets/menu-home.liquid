@@ -24,8 +24,10 @@
   </div>
 
   <div class="nav-dropdown__column">
-  {% include 'menu_links', menu: link.links[9] %}
-  {% include 'menu_links', menu: link.links[10] %}  
+    <ul class="menu-drawer__menu list-menu">
+      {% include 'menu_links', menu: link.links[9] %}
+      {% include 'menu_links', menu: link.links[10] %}
+    </ul>
   </div>
 
   <div class="nav-dropdown__column">
