@@ -317,8 +317,9 @@
                     </svg>
                     <span class="product-form__error-message"></span>
                   </div>
+                  hello
                   {{ variant.metafields.product.included | metafield_tag }}
-                  {{ product.metafields.recommended_products.product_1 | metafield_text }}
+                  {{ variant.metafields.product.included | metafield_text }}
                 </product-form>
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
