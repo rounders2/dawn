@@ -48,13 +48,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "11ff8dd4-112b-42a8-8362-e21d4496e91f": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.title }}",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
@@ -65,11 +58,10 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "11ff8dd4-112b-42a8-8362-e21d4496e91f"
+        "description"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "hide_variants": true,
         "enable_video_looping": false
       }
