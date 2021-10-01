@@ -1778,13 +1778,6 @@ input[type='checkbox'] {
   margin-bottom: 0.1rem;
 }
 
-@media screen and (min-width: 750px) {
-  .announcement-bar__link .icon-arrow {
-    /* height: 1.3rem; */
-    width:2.5rem;
-  }
-}
-
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
 }
