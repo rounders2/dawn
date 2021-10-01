@@ -209,7 +209,14 @@
                         {{ 'customer.log_in' | t }}
                         {%- endif -%}
                     </a>
+                    {%- if customer -%}
+                      <a href="{%- if customer -%}{{ routes.account_logout_url }}{%- endif -%}" class="menu-drawer__account link link--text focus-inset h5">
+                          {% render 'icon-logout' %}
+                          {{ 'customer.log_out' | t }}
+                      </a>
+                    {%- endif -%}
                   {%- endif -%}
+
                 <a href="/pages/contact" class="menu-drawer__help link link--text focus-inset h5">{% render 'icon-help' %} CONTACT US</a>
                  <a href="https://good2goco.com" class="shop-usd link link--text focus-inset h5"> SHOP IN USD</a>
 
