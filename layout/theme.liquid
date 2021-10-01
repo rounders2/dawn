@@ -13,7 +13,7 @@
     {% else %}
       <link rel="canonical" href="{{ canonical_url }}" />
     {% endif %}
-    
+
     <link rel="alternate" hreflang="en-ca" href="{{ canonical_url }}" />
     <link rel="alternate" hreflang="en" href="{{ canonical_url | replace: shop.domain, 'www.good2goco.com' }}" />
 
@@ -180,6 +180,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% render 'structured-data' %}
 
   </body>
 </html>
