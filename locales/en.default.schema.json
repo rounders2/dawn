@@ -1384,9 +1384,6 @@
         "pickup_availability": {
           "name": "Pickup availability"
         },
-        "included": {
-          "name": "What's Included"
-        },
         "description": {
           "name": "Description"
         },
