@@ -177,7 +177,7 @@
   background:#314262;
 }
 .color-swatch.green-book-tan-cover {
-  background:url('{{'green-book-tan-cover.png' | asset_url}}')no-repeat center;
+  background: linear-gradient(to bottom left, #457c31 50%, #93814c 50%);
 }
 .color-swatch.tan-book-multicam-cover {
   background:url('{{'tan-multicam.png' | asset_url}}')no-repeat center;
