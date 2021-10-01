@@ -32,7 +32,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "CALL TOLL FREE <span style=\"color:#00bd47;font-weight:bold;\">1.833.424.3777<\/span>",
+              "text": "CALL TOLL FREE <span style=\"color:#6ea49b;font-weight:bold;\">1.833.424.3777<\/span>",
               "color_scheme": "inverse",
               "link": "tel:1.833.424.3777"
             }
@@ -58,7 +58,7 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/g2glogo-white.png",
-          "logo_width": 220,
+          "logo_width": 200,
           "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": false,
