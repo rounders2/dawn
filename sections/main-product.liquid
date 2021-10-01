@@ -316,10 +316,6 @@
                   </div>
                 </product-form>
 
-                <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
-                    {{ product.metafields.product.included | metafield_text }}
-                    {{ variant.metafields.product.included | metafield_text }}
-                </div>
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
@@ -347,6 +343,12 @@
           {%- endcase -%}
         {%- endfor -%}
       </div>
+
+      <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
+          {{ product.metafields.product.included | metafield_text }}
+          {{ variant.metafields.product.included | metafield_text }}
+      </div>
+
     </div>
   </div>
 
