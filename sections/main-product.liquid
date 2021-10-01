@@ -343,7 +343,7 @@
               <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
                 <h4>WHAT'S INCLUDED</h4>
                   <strong>Product:</strong>{{ product.metafields.product.included | metafield_text }}<br>
-                   <strong>Variant:</strong>{{ productvariant.metafields.variant.included | metafield_text }}
+                   <strong>Variant:</strong>{{ variant.metafields.variant.included | metafield_text }}
 
                    {% capture 'meta_data' %}
                    {% for variant in product.variants %}
