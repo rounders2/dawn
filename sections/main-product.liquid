@@ -91,9 +91,7 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
-
             </div>
-
           {%- when 'description' -%}
             {%- if product.description != blank -%}
             {%- assign description_parts = product.description | split: '<!-- split -->' -%}
@@ -101,7 +99,6 @@
             {%- assign description_first_part = description_parts | first -%}
             {%- assign description_last_part = description_parts | last -%}
             {%- assign description_parts_count = all_parts | size %}
-
               <div class="product__description rte">
                 {{ description_first_part }}
               </div>
@@ -318,11 +315,6 @@
                     <span class="product-form__error-message"></span>
                   </div>
                 </product-form>
-
-                hello
-                {{ variant.metafields.product.included | metafield_tag }}
-                {{ variant.metafields.product.included | metafield_text }}
-                {{ variant.metafields.product.included.value}}
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
