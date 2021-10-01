@@ -18,6 +18,7 @@
 {%- endif -%}
 
 {{ product.metafields.product.included | metafield_text }}
+{{ variant.metafields.product.included | metafield_text }}
 
 <section class="page-width">
   <div class="product grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
