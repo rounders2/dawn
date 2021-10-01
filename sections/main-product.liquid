@@ -92,9 +92,6 @@
                 <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                 {{ form | payment_terms }}
               {%- endform -%}
-
-              {% include 'product-whats-included' %}
-              hello
             </div>
           {%- when 'description' -%}
             {%- if product.description != blank -%}
@@ -103,6 +100,8 @@
             {%- assign description_first_part = description_parts | first -%}
             {%- assign description_last_part = description_parts | last -%}
             {%- assign description_parts_count = all_parts | size %}
+            {% include 'product-whats-included' %}
+            hello
               <div class="product__description rte">
                 {{ description_first_part }}
               </div>
