@@ -317,6 +317,7 @@
                     </svg>
                     <span class="product-form__error-message"></span>
                   </div>
+                  {{ variant.metafields.product.included | metafield_tag }}
                 </product-form>
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
