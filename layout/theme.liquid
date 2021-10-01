@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="{{ canonical_url }}">
+
+    {% if template contains 'collection' and current_tags %}
+      <meta name="robots" content="noindex" /> <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+    {% elsif current_page != 1 %}
+      <meta name="robots" content="noindex" /> <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+    {% else %}
+      <link rel="canonical" href="{{ canonical_url }}" />
+    {% endif %}
+
+    <link rel="alternate" hreflang="en-ca" href="{{ canonical_url }}" />
+    <link rel="alternate" hreflang="en" href="{{ canonical_url | replace: shop.domain, 'www.good2goco.com' }}" />
+
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
 
     {%- if settings.favicon != blank -%}
@@ -16,13 +27,27 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
-    <title>{{ page_title }}</title>
+    <title>
+      {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    </title>
 
     {% if page_description %}
-      <meta name="description" content="{{ page_description | escape }}">
+      {% if template == 'product' %}
+        {% if product.metafields.global.description_tag != blank %}
+          <meta name="description" content="{{ product.metafields.global.description_tag | escape }}">
+        {% else %}
+          <meta name="description" content="{{ product.title | escape }}. Great for survival and emergency preparedness, as well as camping and homesteading. Ships free with $99 order!">
+        {% endif %}
+      {% else %}
+        <meta name="description" content="{{ page_description | escape }} Ships free with $99 order!">
+      {% endif %}
+    {% else %}
+      <meta name="description" content="{{ page_title | escape }}. Great for survival and emergency preparedness, as well as camping and homesteading. Ships free with $99 order!">
     {% endif %}
 
     {% render 'meta-tags' %}
+    {% render 'robots-indexing' %}
+    {% render 'site-verification-code' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     {{ content_for_header }}
@@ -155,6 +180,8 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% render 'structured-data' %}
 
   </body>
 </html>
