@@ -1,4 +1,4 @@
-
+$(function() {
 
   function updateWhatsIncluded(e) {
     var $currentOption = $('#ProductSelect-product-template-swatch option:selected');
@@ -18,6 +18,9 @@
         $mesgElement.hide();
       }
     }
-    ('[data-swatch-options]').on('change', 'input[type=radio]', updateWhatsIncluded);
-    updateWhatsIncluded();    
   }
+
+  $('[data-swatch-options]').on('change', 'input[type=radio]', updateWhatsIncluded);
+
+  updateWhatsIncluded();
+});
