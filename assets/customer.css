@@ -213,6 +213,13 @@
   background: rgba(var(--color-foreground), 0.2);
 }
 
+@media screen and (forced-colors: active) {
+  .customer thead::after,
+  .customer tfoot::before {
+    background: CanvasText;
+  }
+}
+
 /* mobile table overrides */
 @media screen and (max-width: 749px) {
   .customer thead,
