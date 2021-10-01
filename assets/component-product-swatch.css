@@ -36,10 +36,12 @@
   background:#a0a3a7;
 }
 .color-swatch[class*="camo"], .color-swatch.multicam {
-  background:url('{{'multicam_50x.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/multicam.png?v=1633105925')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.black-camo {
-  background:url('{{'black-camo_x50.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/black-camo.png?v=1633106014')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.coyote-brown, .color-swatch[class*="coyote"] {
   background:#69451A;
@@ -177,40 +179,51 @@
   background:#314262;
 }
 .color-swatch.green-book-tan-cover {
-  background:url('{{'green-book-tan-cover.png' | asset_url}}')no-repeat center;
+  background: linear-gradient(to bottom left, #457c31 50%, #93814c 50%);
 }
 .color-swatch.tan-book-multicam-cover {
-  background:url('{{'tan-multicam.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/tan-multicam.png?v=1633105925')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.realtree-xtra {
-  background:url('{{'realtree-extra.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/realtree-extra.png?v=1633106232')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.mirage  {
-  background:url('{{'mirage.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/mirage.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.mountain  {
-  background:url('{{'mountain.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/mountain.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.skye  {
-  background:url('{{'skye.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/skye.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.unicam-ii  {
-  background:url('{{'unicam-ii.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/unicam-ii.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.doppelganger-winter  {
-  background:url('{{'doppelganger-winter.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/doppelganger-winter.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.snow-digital  {
-  background:url('{{'snow-digital.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/snow-digital.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.mountain-orange  {
-  background:url('{{'mountain-orange.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/mountain-orange.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.unicam-ii-orange  {
-  background:url('{{'unicam-ii-orange.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/unicam-ii-orange.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 .color-swatch.coyote-winter  {
-  background:url('{{'coyote-winter.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/coyote-winter.png?v=1633105894')no-repeat center;
+  background-size:contain;
 }
 
 .color-swatch.hawaii-happy-gray-green-polar, .color-swatch.ansi-rx-matte-black-hd-gray-green-polarized, .color-swatch.ansi-rx-matte-black-hd-gray-green, .color-swatch.ansi-rx-black-hd-gray-green-polarized, .color-swatch.black-happy-gray-green-polar, .color-swatch.black-hd-gray-green-polarized, .color-swatch.matte-black-hd-gray-green-polarized, .color-swatch.black-hd-gray-green-polar, .color-swatch.black-ansi-rx-happy-gray-green-polar, .color-swatch.soft-matte-black-happy-gray-green-polar, .color-swatch.matte-black-ansi-rx-happy-gray-green-polar {
