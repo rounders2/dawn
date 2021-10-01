@@ -163,6 +163,12 @@
   }
 }
 
+@media screen and (forced-colors: active) {
+  .customer tbody tr {
+    border-top: 0.1rem solid transparent;
+  }
+}
+
 .customer tfoot td:first-of-type,
 .customer tfoot td {
   padding-top: 0.6rem;
