@@ -39,7 +39,7 @@
   background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/multicam.png?v=1633105925')no-repeat center;
 }
 .color-swatch.black-camo {
-  background:url('{{'black-camo_x50.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/black-camo.png?v=1633106014')no-repeat center;
 }
 .color-swatch.coyote-brown, .color-swatch[class*="coyote"] {
   background:#69451A;
