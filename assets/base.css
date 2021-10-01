@@ -1770,7 +1770,7 @@ input[type='checkbox'] {
 
 .announcement-bar__link .icon-arrow {
   display: inline-block;
-  height: 1.2rem;
+  height: 3rem;
   pointer-events: none;
   margin-left: 0.8rem;
   padding-left: 1rem;
@@ -1781,7 +1781,7 @@ input[type='checkbox'] {
 @media screen and (min-width: 750px) {
   .announcement-bar__link .icon-arrow {
     /* height: 1.3rem; */
-    width:2rem;
+    width:4rem;
   }
 }
 
