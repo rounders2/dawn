@@ -192,10 +192,10 @@
   background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/mountain.png?v=1633105894')no-repeat center;
 }
 .color-swatch.skye  {
-  background:url('{{'skye.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/skye.png?v=1633105894')no-repeat center;
 }
 .color-swatch.unicam-ii  {
-  background:url('{{'unicam-ii.png' | asset_url}}')no-repeat center;
+  background:url('//cdn.shopify.com/s/files/1/0480/8297/6934/files/unicam-ii.png?v=1633105894')no-repeat center;
 }
 .color-swatch.doppelganger-winter  {
   background:url('{{'doppelganger-winter.png' | asset_url}}')no-repeat center;
