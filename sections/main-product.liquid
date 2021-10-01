@@ -343,7 +343,19 @@
               <div class="whats-included" style="background:#eee;text-align:left;width:100%;">
                 FOR METAFIELDS - What's Included:
                   {{ product.metafields.product.included | metafield_text }}
-                   {{ variant.metafields.harvestright.included | metafield_text }} 
+                   {{ variant.metafields.harvestright.included | metafield_text }}
+
+                   {% capture 'meta_data' %}
+                   {% for variant in product.variants %}
+                     {{ variant.sku | json }}: {{ variant.metafields.harvestright.included | json }}
+                     {% unless forloop.last %},{% endunless %}
+                   {% endfor %}
+                   {% endcapture %}
+
+                   <script>
+                     var metaData = { {{ meta_data }} }
+                   </script>
+
               </div>
             {%- endif -%}
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
