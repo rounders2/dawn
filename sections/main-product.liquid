@@ -69,7 +69,9 @@
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-
+        hello
+        {{ variant.metafields.product.included | metafield_tag }}
+        {{ variant.metafields.product.included | metafield_text }}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
@@ -317,9 +319,6 @@
                     </svg>
                     <span class="product-form__error-message"></span>
                   </div>
-                  hello
-                  {{ variant.metafields.product.included | metafield_tag }}
-                  {{ variant.metafields.product.included | metafield_text }}
                 </product-form>
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
