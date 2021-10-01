@@ -1,4 +1,4 @@
-(function() {
+$(function() {
 
   function updateWhatsIncluded(e) {
     var $currentOption = $('#ProductSelect-product-template-swatch option:selected');
