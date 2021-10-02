@@ -87,7 +87,7 @@ slider-component {
 .slider-counter {
   margin: 0;
 }
-.slider-counter span {
+.collection .slider-counter span {
   visibility:hidden;
 }
 
