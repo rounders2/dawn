@@ -100,16 +100,14 @@
               <p>{{ block.settings.rich-text }}</p>
             </div>
           {%- endif -%}
-
-          <div class="whats-included">
-            <h4>Variant Included:</h4>
-            {% for variant in product.variants %}
-              {% if variant.metafields.customvariant.included %}
-                {{variant.metafields.customvariant.included | json}}
-              {% endif %}
-            {% endfor %}
-          </div>
-
+          {% for variant in product.variants %}
+            {% if variant.metafields.customvariant.included %}
+              <div class="whats-included">
+                <h4>Variant Included:</h4>
+                  {{variant.metafields.customvariant.included | json}}
+              </div>
+            {% endif %}
+          {% endfor %}
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
