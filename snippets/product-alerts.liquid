@@ -1,0 +1,43 @@
+<div id="product-alert-box" class="product-alert-box"></div>
+
+<style>
+ .hidden {
+   display: none;
+ }
+</style>
+<script>
+  var momocato = { alerts: {}};
+  {% for variant in product.variants %}
+    {% if variant.metafields.momocato.alert %}
+      momocato.alerts['{{variant.id}}'] = {{variant.metafields.momocato.alert | json}}
+    {% endif %}
+  {% endfor %}
+
+ function getVariant() {
+   var queryString = window.location.search;
+   var urlParams = new URLSearchParams(queryString);
+   var variantID = urlParams.get('variant');
+   if (variantID) {
+     console.log("current variant is ", variantID);
+     return variantID;
+   } else {
+     console.log("current variant is ", meta.product.variants[0].id);
+     return meta.product.variants[0].id;
+   }
+ }
+
+ momocato.update = function() {
+   var el = document.getElementById('product-alert-box');
+   var alert = momocato.alerts[getVariant()];
+
+   if (alert) {
+     el.innerHTML = alert;
+     el.classList.remove("hidden");
+   } else {
+     el.classList.add("hidden");
+     el.innerHTML = ""
+   }
+ }
+
+ momocato.update();
+</script>
