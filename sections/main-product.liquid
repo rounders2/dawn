@@ -94,7 +94,7 @@
             </div>
           {%- when 'richtext' -%}
           hello
-          {{ block.settings.rich-text | json }}
+          {{ block.settings.rich-text | escape }}
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
