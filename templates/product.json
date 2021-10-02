@@ -47,7 +47,7 @@
         "4c1bf8af-53f5-4419-b73a-55266e77d0b6": {
           "type": "richtext",
           "settings": {
-            "rich-text": "<p>WHAT'S Included:{{ product.metafields.customproduct.included | metafield_tag }}<\/p>"
+            "rich-text": "<p>{{ product.metafields.customproduct.included | metafield_tag }}<\/p>"
           }
         },
         "description": {
