@@ -1398,6 +1398,9 @@
         "product-alert": {
           "name": "Product Alert"
         },
+        "complete-the-kit": {
+          "name": "Frequently Bought Together"
+        },
         "description": {
           "name": "Description"
         },
