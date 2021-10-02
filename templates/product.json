@@ -71,9 +71,11 @@
         "title",
         "subtitle",
         "price",
+        "product-alert",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "whats-included",
         "description"
       ],
       "settings": {
