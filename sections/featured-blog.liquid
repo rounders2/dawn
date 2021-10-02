@@ -33,16 +33,6 @@
 
     {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
       <slider-component class="slider-mobile-gutter">
-        <ul id="Slider-{{ section.id }}"
-          class="blog__posts articles-wrapper grid grid--peek grid--2-col-tablet grid--4-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
-          role="list"
-        >
-          {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-            <li class="blog__post grid__item article slider__slide slider__slide--full-width">
-              {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author %}
-            </li>
-          {%- endfor -%}
-        </ul>
         {%- if posts_exceed_limit -%}
           <div class="slider-buttons no-js-hidden{% if section.settings.post_limit < 3 %} medium-hide{% endif %}{% if section.settings.post_limit < 2 %} small-hide{% endif %}">
             <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'accessibility.previous_slide' | t }}">{% render 'icon-caret' %}</button>
@@ -54,7 +44,17 @@
             </div>
             <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
           </div>
-        {%- endif -%}
+        {%- endif -%}        
+        <ul id="Slider-{{ section.id }}"
+          class="blog__posts articles-wrapper grid grid--peek grid--2-col-tablet grid--4-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+          role="list"
+        >
+          {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
+            <li class="blog__post grid__item article slider__slide slider__slide--full-width">
+              {% render 'article-card', blog: section.settings.blog, article: article, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author %}
+            </li>
+          {%- endfor -%}
+        </ul>
       </slider-component>
 
       {%- if section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
