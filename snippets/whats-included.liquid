@@ -6,7 +6,7 @@
 {%- endif -%}
 
   <div class="whats-included">
-    <h4>Variant Included:</h4>
+    <h4>Variant What's Included:</h4>
       {% for variant in product.variants %}
         {{ variant.metafields.customvariant.included | json }}
       {% endfor %}
