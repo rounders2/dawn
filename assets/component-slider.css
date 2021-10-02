@@ -116,8 +116,6 @@ slider-component {
   cursor: pointer;
   width: 44px;
   height: 44px;
-  /* border:1px solid rgba(var(--color-base-accent-1),.15);
-  border-radius:50%; */
 }
 
 .slider-button[disabled] {
