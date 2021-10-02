@@ -94,20 +94,21 @@
             </div>
           {%- when 'richtext' -%}
 
-          {%- if product.metafields.customproduct.included -%}
+          {%- if product.metafields.customproduct.included or variant.metafields.customvariant.included -%}
             <div class="whats-included">
               <h4>What's Included:</h4>
               <p>{{ block.settings.rich-text }}</p>
             </div>
-          {%- endif -%}
-          {% for variant in product.variants %}
+            
+            {% for variant in product.variants %}
             {% if variant.metafields.customvariant.included %}
-              <div class="whats-included">
-                <h4>Variant Included:</h4>
-                  {{variant.metafields.customvariant.included | json}}
-              </div>
+            <div class="whats-included">
+              <h4>Variant Included:</h4>
+              {{ variant.metafields.customvariant.included | json }}
+            </div>
             {% endif %}
-          {% endfor %}
+            {% endfor %}
+          {%- endif -%}
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
