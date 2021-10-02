@@ -47,7 +47,7 @@
         "richtext": {
           "type": "richtext",
           "settings": {
-            "rich-text": "<p>{{ product.metafields.customproduct.included | metafield_tag }}<\/p>"
+            "rich-text": "<p><\/p>"
           }
         },
         "description": {
