@@ -775,7 +775,7 @@ summary::-webkit-details-marker {
   position:relative;
 }
 
-.title:before, .collection-list-title:before, .blog__title:before {
+div:not(.collection--empty) .title:before, .collection-list-title:before, .blog__title:before {
   content: "";
     position: absolute;
     display: block;
