@@ -282,7 +282,7 @@
       "settings": {
         "heading": "Good2Know",
         "blog": "good2goblog",
-        "post_limit": 3,
+        "post_limit": 4,
         "show_image": true,
         "show_date": true,
         "show_author": false,
