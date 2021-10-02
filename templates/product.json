@@ -25,6 +25,11 @@
           "type": "price",
           "settings": {}
         },
+        "product-alert": {
+          "type": "product-alert",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -41,8 +46,19 @@
             "show_dynamic_checkout": false
           }
         },
-        "richtext": {
-          "type": "richtext",
+        "whats-included": {
+          "type": "whats-included",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "complete-the-kit": {
+          "type": "complete-the-kit",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {
             "rich-text": "<p><\/p>"
           }
