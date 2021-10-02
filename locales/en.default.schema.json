@@ -1395,6 +1395,9 @@
         "whats-included": {
           "name": "What's Included"
         },
+        "product-alert": {
+          "name": "Proudct Alert"
+        },
         "description": {
           "name": "Description"
         },
