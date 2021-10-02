@@ -94,7 +94,7 @@
               {%- endform -%}
             </div>
           {%- when 'product-alert' -%}
-testing
+            {%- render 'product-alerts' -%}
 
           {%- when 'whats-included' -%}
           {%- if product.metafields.customproduct.included or variant.metafields.customvariant.included -%}
