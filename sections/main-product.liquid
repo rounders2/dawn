@@ -101,15 +101,13 @@
             </div>
           {%- endif -%}
 
-          {% for variant in product.variants %}
-          {% if variant.metafields.customvariant.included %}
-           {{variant.metafields.customvariant.included | json}}
-          {% endif %}
-          {% endfor %}
-
           <div class="whats-included">
             <h4>Variant Included:</h4>
-            <p>{{ variant.metafields.customvariant.included  }}</p>
+            {% for variant in product.variants %}
+              {% if variant.metafields.customvariant.included %}
+                {{variant.metafields.customvariant.included | json}}
+              {% endif %}
+            {% endfor %}
           </div>
 
 
