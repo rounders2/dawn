@@ -94,7 +94,7 @@
             </div>
           {%- when 'richtext' -%}
 
-          {%- if block.settings.rich-text  -%}
+          {%- if product.metafields.customproduct.included -%}
           <h4>What's Included:</h4>
             <p>{{ block.settings.rich-text }}</p>
           {%- endif -%}
