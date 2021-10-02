@@ -44,22 +44,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "richtext": {
-          "type": "richtext",
-          "settings": {
-            "rich-text": "<p><\/p>"
-          }
-        },
-        "whats-included": {
-          "type": "text",
-          "settings": {
-          }
-        },
-        "product-alert": {
-          "type": "text",
-          "settings": {
-          }
-        },
         "description": {
           "type": "description",
           "settings": {
@@ -74,7 +58,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "richtext",
         "description"
       ],
       "settings": {
