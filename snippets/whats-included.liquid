@@ -17,14 +17,15 @@
 var metaData = { {{ meta_data }} }
 </script>
 
-{%- if variant.metafields.customvariant.included -%}
+
+
   <div class="whats-included">
     <h4>Variant What's Included:</h4>
       {% for variant in product.variants %}
         {{ variant.metafields.customvariant.included }}
       {% endfor %}
   </div>
-  {%- endif -%}
+
 
 
 
