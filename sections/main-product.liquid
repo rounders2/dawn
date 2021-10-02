@@ -93,13 +93,15 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
-            
+
           {%- when 'product-alert' -%}
             {%- render 'product-alerts' -%}
 
           {%- when 'whats-included' -%}
             {%- render 'whats-included' -%}
 
+          {%- when 'complete-the-kit' -%}
+            
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
