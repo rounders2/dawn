@@ -1,18 +1,18 @@
-{%- if product.metafields.customproduct.included or variant.metafields.customvariant.included -%}
+{%- if product.metafields.customproduct.included -%}
   <div class="whats-included">
     <h4>What's Included:</h4>
     <p>{{ block.settings.rich-text }}</p>
   </div>
-
-  {% for variant in product.variants %}
-  {% if variant.metafields.customvariant.included %}
-  <div class="whats-included">
-    <h4>Variant Included:</h4>
-    {{ variant.metafields.customvariant.included | json }}
-  </div>
-  {% endif %}
-  {% endfor %}
 {%- endif -%}
+
+{% for variant in product.variants %}
+{% if variant.metafields.customvariant.included %}
+<div class="whats-included">
+  <h4>Variant Included:</h4>
+  {{ variant.metafields.customvariant.included | json }}
+</div>
+{% endif %}
+{% endfor %}
 
 {% capture 'meta_data' %}
 {% for variant in product.variants %}
