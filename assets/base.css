@@ -775,7 +775,7 @@ summary::-webkit-details-marker {
   position:relative;
 }
 
-div:not(.collection--empty) .title:before, .collection-list-title:before, .blog__title:before {
+.title:before, .collection-list-title:before, .blog__title:before {
   content: "";
     position: absolute;
     display: block;
@@ -785,6 +785,9 @@ div:not(.collection--empty) .title:before, .collection-list-title:before, .blog_
     height: 10px;
     z-index: -1;
     background-color: #eaf2e6;
+}
+.collection--empty .title:before {
+  display:none;
 }
 
 .collection .title-wrapper-with-link .title {
