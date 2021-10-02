@@ -763,10 +763,19 @@ summary::-webkit-details-marker {
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 0rem;
+}
+
+.link.featured-collection-title-link {
+  text-decoration: none;
+}
+
+.title-wrapper-with-link .title, .collection-list-title, .blog__title {
+  margin: 0;
+  font-size:3rem;
   position:relative;
 }
 
-.title:before {
+.title:before, .collection-list-title:before, .blog__title:before {
   content: "";
     position: absolute;
     display: block;
@@ -776,16 +785,6 @@ summary::-webkit-details-marker {
     height: 10px;
     z-index: -1;
     background-color: #e1f7f6;
-}
-
-
-.link.featured-collection-title-link {
-  text-decoration: none;
-}
-
-.title-wrapper-with-link .title, .collection-list-title, .blog__title {
-  margin: 0;
-  font-size:3rem;
 }
 
 .collection .title-wrapper-with-link .title {
