@@ -795,7 +795,7 @@ summary::-webkit-details-marker {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin: 3rem 0 1rem;
+  margin: 1rem 0;
   flex-wrap: wrap;
 }
 
