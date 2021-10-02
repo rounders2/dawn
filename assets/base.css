@@ -784,7 +784,7 @@ summary::-webkit-details-marker {
     bottom: 0;
     height: 10px;
     z-index: -1;
-    background-color: #e9f7e1;
+    background-color: var(--color-base-background-2);
 }
 
 .collection .title-wrapper-with-link .title {
