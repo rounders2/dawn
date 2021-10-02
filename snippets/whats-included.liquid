@@ -1,7 +1,7 @@
 {%- if product.metafields.customproduct.included -%}
   <div class="whats-included">
     <h4>What's Included:</h4>
-    <p>{{ block.settings.rich-text }}</p>
+    <p>{{ product.metafields.customproduct.included }}</p>
   </div>
 {%- endif -%}
 
