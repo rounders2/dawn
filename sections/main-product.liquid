@@ -101,7 +101,7 @@
             {%- render 'whats-included' -%}
 
           {%- when 'complete-the-kit' -%}
-            
+
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
@@ -661,6 +661,11 @@
     {
       "type": "whats-included",
       "name": "t:sections.main-product.blocks.whats-included.name",
+      "limit": 1
+    },
+    {
+      "type": "complete-the-kit",
+      "name": "t:sections.main-product.blocks.complete-the-kit.name",
       "limit": 1
     },
     {
