@@ -33,7 +33,7 @@ var metaData = { {{ meta_data }} }
 $(function() {
 
   function updateWhatsIncluded(e) {
-    var $currentOption = $('#ProductSelect-product-template-swatch option:selected');
+    var $currentOption = $('option:selected');
     var $mesgElement = $('#product-whats-included');
 
     if (typeof metaData === "undefined") {
