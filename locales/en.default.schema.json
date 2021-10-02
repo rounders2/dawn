@@ -1401,6 +1401,9 @@
         "complete-the-kit": {
           "name": "Frequently Bought Together"
         },
+        "sale-banner": {
+          "name": "Sale Banner"
+        },
         "description": {
           "name": "Description"
         },
