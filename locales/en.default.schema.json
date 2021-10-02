@@ -1392,6 +1392,9 @@
         "pickup_availability": {
           "name": "Pickup availability"
         },
+        "whats-included": {
+          "name": "What's Included"
+        },
         "description": {
           "name": "Description"
         },
