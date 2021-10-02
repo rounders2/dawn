@@ -99,7 +99,7 @@
               <h4>What's Included:</h4>
               <p>{{ block.settings.rich-text }}</p>
             </div>
-            
+
             {% for variant in product.variants %}
             {% if variant.metafields.customvariant.included %}
             <div class="whats-included">
@@ -364,7 +364,7 @@
       </div>
     </div>
   </div>
-
+testing
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
