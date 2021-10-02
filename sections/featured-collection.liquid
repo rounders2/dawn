@@ -21,10 +21,6 @@
     <a href="{{ section.settings.collection.url }}" class="link featured-collection-title-link"
       aria-label="{{ 'sections.featured_collection.view_all_label' | t: collection_name: section.settings.collection.title }}"
     ><h2 class="title{% if section.settings.title == blank %} title--no-heading{% endif %}">{{ section.settings.title | escape }}</h2></a>
-
-    {%- if section.settings.show_view_all and section.settings.swipe_on_mobile -%}
-      <a href="{{ section.settings.collection.url }}" class="link underlined-link ">{{ 'sections.featured_collection.view_all' | t }}</a>
-    {%- endif -%}
   </div>
 
   <slider-component class="slider-mobile-gutter">
