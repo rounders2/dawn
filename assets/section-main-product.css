@@ -317,6 +317,13 @@ a.product__text {
   display: none;
 }
 
+.product .whats-included h4 {
+  margin-bottom:.5rem;
+}
+.product .whats-included p {
+  font-size: 1.4rem;
+}
+
 @media screen and (min-width: 750px) {
   .product__info-container .price--on-sale .price-item--regular {
     font-size: 1.6rem;

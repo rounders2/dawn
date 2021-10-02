@@ -66,6 +66,7 @@
         </button>
       {%- endif -%}
     </div>
+
     <div class="product__info-wrapper grid__item">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
@@ -92,6 +93,19 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+
+          {%- when 'product-alert' -%}
+            {%- render 'product-alerts' -%}
+
+          {%- when 'whats-included' -%}
+            {%- render 'whats-included' -%}
+
+          {%- when 'complete-the-kit' -%}
+            {% render 'complete-the-kit-products' %}
+
+            {%- when 'sale-banner' -%}
+              {%- render 'product-sale-banner' -%}
+
           {%- when 'description' -%}
             {%- if product.description != blank -%}
             {%- assign description_parts = product.description | split: '<!-- split -->' -%}
@@ -316,6 +330,7 @@
                   </div>
                 </product-form>
 
+
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
                 {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
@@ -338,6 +353,7 @@
                 </pickup-availability>
               </div>
             </div>
+
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- endcase -%}
         {%- endfor -%}
@@ -577,6 +593,18 @@
       ]
     },
     {
+      "type": "richtext",
+      "name": "t:sections.main-product.blocks.richtext.name",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "rich-text",
+          "default": "<p>text</p>",
+          "label": "t:sections.main-product.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
       "limit": 1
@@ -627,6 +655,26 @@
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
         }
       ]
+    },
+    {
+      "type": "product-alert",
+      "name": "t:sections.main-product.blocks.product-alert.name",
+      "limit": 1
+    },
+    {
+      "type": "whats-included",
+      "name": "t:sections.main-product.blocks.whats-included.name",
+      "limit": 1
+    },
+    {
+      "type": "complete-the-kit",
+      "name": "t:sections.main-product.blocks.complete-the-kit.name",
+      "limit": 1
+    },
+    {
+      "type": "sale-banner",
+      "name": "t:sections.main-product.blocks.sale-banner.name",
+      "limit": 1
     },
     {
       "type": "description",

@@ -1,0 +1,61 @@
+{% assign productTags = product.tags | join: ', ' %}
+
+{% comment %}30 DAY FOOD BUCKETS - 2 FREE MH Pouches{% endcomment %}
+{% if product.handle == 'readywise-package-of-long-term-emergency-food-supply-240-servings' or product.handle == 'ready-hour-4-week-emergency-food-supply-2-000-calories-day-1'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/30day-giveaway.jpg?v=1631752585" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART. ** WHILE SUPPLIES LAST</span>
+  </div>
+{% endif %}
+
+
+{% comment %}3 MONTH FOOD BUCKETS - FREE BIOLITE LANTERN{% endcomment %}
+{% if product.handle == 'readywise-package-of-long-term-emergency-food-supply-1080-servings' or product.handle == 'ready-hour-3-month-emergency-food-supply-2-000-calories-day'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/3-month-giveaway.jpg?v=1631752746" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART. ** WHILE SUPPLIES LAST</span>
+  </div>
+{% endif %}
+
+{% comment %}6 MONTH FOOD BUCKETS - FREE STANLEY COOLER{% endcomment %}
+{% if product.handle == 'ready-hour-6-month-emergency-food-supply' or product.handle == 'readywise-package-of-long-term-emergency-food-supply-2160-servings'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/6-month-giveaway.jpg?v=1631752958" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART. ** WHILE SUPPLIES LAST</span>
+  </div>
+{% endif %}
+
+{% comment %}1 YEAR FOOD BUCKETS - FREE SOLAR PANEL,COOLER, DRIED VEGGIE{% endcomment %}
+{% if product.handle == 'ready-hour-1-year-emergency-food-supply' or product.handle == 'readywise-long-term-emergency-food-supply-4320-servings'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/1-year-giveaway.jpg?v=1631753556" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART. ** WHILE SUPPLIES LAST</span>
+  </div>
+{% endif %}
+
+
+{% comment %}FREE FIREPIT FIRE POKER{% endcomment %}
+{% if product.handle == 'biolite-firepit-bundle' %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/firepit-firepoker.jpg?v=1631754527" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART.</span>
+  </div>
+{% endif %}
+
+
+{% comment %}3 GALLON CROCK - TATTLER LIDS{% endcomment %}
+{% if product.handle == 'ohio-stoneware-preserving-crock-starter-kits'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/3gallon-crock-giveaway.jpg?v=1631754696" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART.</span>
+  </div>
+{% endif %}
+
+
+{% comment %}ROOSTER EBIKE GIVEAWAY{% endcomment %}
+{% if product.handle == 'rambo-rooster-electric-bike'  %}
+  <div class="product-sale-banner" style="text-align:center;">
+    <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/rambo-product-bundle2.jpg?v=1632267699" alt="{{product.title}} DEAL!!" style="width:100%;max-width:100%;">
+    <br><span style="font-size:10px;">* LIMITED QUANTITY. WHILE SUPPLIES LAST <br> ** FREE GIFT WILL BE AUTOMATICALLY ADDED TO YOUR CART.</span>
+  </div>
+{% endif %}

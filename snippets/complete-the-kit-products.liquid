@@ -1,0 +1,186 @@
+{% assign complete-the-kit_handles = '' %}
+
+{% case product.handle %}
+   {% when 'solo-stove-bonfire' %}
+      {% assign complete-the-kit_handles = 'solo-stove-bonfire-stand|solo-stove-bonfire-shelter|solo-stove-bonfire-shield|starters' %}
+   {% when 'solo-stove-bonfire-stand' %}
+      {% assign complete-the-kit_handles = 'solo-stove-bonfire|solo-stove-bonfire-shelter|solo-stove-bonfire-shield|starters' %}
+   {% when 'solo-stove-bonfire-shelter' %}
+      {% assign complete-the-kit_handles = 'solo-stove-bonfire|solo-stove-bonfire-stand|solo-stove-bonfire-shield|starters' %}
+   {% when 'solo-stove-bonfire-shield' %}
+      {% assign complete-the-kit_handles = 'solo-stove-bonfire|solo-stove-bonfire-stand|solo-stove-bonfire-shelter|starters' %}
+
+   {% when 'solo-stove-ranger' %}
+      {% assign complete-the-kit_handles = 'solo-stove-ranger-stand-pre-order|solo-stove-ranger-shelter|solo-stove-ranger-shield|starters' %}
+   {% when 'solo-stove-ranger-stand-pre-order' %}
+      {% assign complete-the-kit_handles = 'solo-stove-ranger|solo-stove-ranger-shelter|solo-stove-ranger-shield|starters' %}
+   {% when 'solo-stove-ranger-shelter' %}
+      {% assign complete-the-kit_handles = 'solo-stove-ranger|solo-stove-ranger-stand-pre-order|solo-stove-ranger-shield|starters' %}
+   {% when 'solo-stove-ranger-shield' %}
+      {% assign complete-the-kit_handles = 'solo-stove-ranger|solo-stove-ranger-stand-pre-order|solo-stove-ranger-shelter|starters' %}
+
+   {% when 'new-solo-stove-yukon' %}
+      {% assign complete-the-kit_handles = 'new-solo-stove-yukon-27-stand|solo-stove-yukon-27-shelter|solo-stove-yukon-27-shield|starters' %}
+   {% when 'new-solo-stove-yukon-27-stand' %}
+      {% assign complete-the-kit_handles = 'new-solo-stove-yukon|solo-stove-yukon-27-shelter|solo-stove-yukon-27-shield|starters' %}
+   {% when 'solo-stove-yukon-27-shelter' %}
+      {% assign complete-the-kit_handles = 'new-solo-stove-yukon|new-solo-stove-yukon-27-stand|solo-stove-yukon-27-shield|starters' %}
+   {% when 'solo-stove-yukon-27-shield' %}
+      {% assign complete-the-kit_handles = 'new-solo-stove-yukon|new-solo-stove-yukon-27-stand|solo-stove-yukon-27-shelter|starters' %}
+   {% when 'solo-stove-yukon-27-stand' %}
+      {% assign complete-the-kit_handles = 'solo-stove-yukon-27-shelter|starters' %}
+   {% when 'solo-stove-tripod' %}
+      {% assign complete-the-kit_handles = 'solo-stove-pot-1800|solo-stove-2-pot-set' %}
+   {% when 'solo-stove-lite' %}
+      {% assign complete-the-kit_handles = 'solo-stove-pot-900|aluminum-stove-windscreen|starters'%}
+   {% when 'solo-stove-pot-900' %}
+      {% assign complete-the-kit_handles = 'solo-stove-lite'%}
+   {% when 'solo-stove-titan' %}
+      {% assign complete-the-kit_handles = 'solo-stove-pot-1800|aluminum-stove-windscreen|starters'%}
+   {% when 'solo-stove-pot-1800' %}
+      {% assign complete-the-kit_handles = 'solo-stove-titan'%}
+   {% when 'solo-stove-campfire' %}
+      {% assign complete-the-kit_handles = 'solo-stove-pot-4000|solo-stove-campfire-cooking-ring-replacement|starters'%}
+   {% when 'solo-stove-pot-4000' %}
+      {% assign complete-the-kit_handles = 'solo-stove-campfire'%}
+   {% when 'solo-stove-2-pot-set' %}
+      {% assign complete-the-kit_handles = 'solo-stove-campfire'%}
+   {% when 'solo-stove-grill-ultimate-bundle' %}
+      {% assign complete-the-kit_handles = 'all-natural-charcoal-4-pack'%}
+   {% when 'all-natural-charcoal-4-pack' %}
+      {% assign complete-the-kit_handles = 'solo-stove-grill-ultimate-bundle'%}
+
+   {% when 'set-of-large-trays' %}
+      {% assign complete-the-kit_handles = 'set-of-large-silicone-mats'%}
+   {% when 'set-of-large-silicone-mats' %}
+      {% assign complete-the-kit_handles = 'set-of-large-trays'%}
+   {% when 'harvest-right-set-of-small-trays' %}
+      {% assign complete-the-kit_handles = 'set-of-medium-silicone-mats'%}
+   {% when 'set-of-medium-silicone-mats' %}
+      {% assign complete-the-kit_handles = 'harvest-right-set-of-small-trays'%}
+   {% when 'harvest-right-set-of-small-trays' %}
+      {% assign complete-the-kit_handles = 'set-of-small-silicone-mats'%}
+   {% when 'set-of-small-silicone-mats' %}
+      {% assign complete-the-kit_handles = 'harvest-right-set-of-small-trays'%}
+
+   {% when 'sos-emergency-ration-bar-case-20-rations-3600-kcal' %}
+      {% assign complete-the-kit_handles = 'mainstay-emergency-drinking-water-125-ml-pouch'%}
+   {% when 'mainstay-emergency-drinking-water-125-ml-pouch' %}
+      {% assign complete-the-kit_handles = 'sos-emergency-ration-bar-case-20-rations-3600-kcal'%}
+   {% when 'sos-emergency-ration-bar-case-3600-kcal' %}
+      {% assign complete-the-kit_handles = 'mainstay-emergency-drinking-water-125-ml-packet-case-of-60'%}
+   {% when 'mainstay-emergency-drinking-water-125-ml-packet-case-of-60' %}
+      {% assign complete-the-kit_handles = 'sos-emergency-ration-bar-case-3600-kcal'%}
+
+   {% when '8x12-mylar-bag-50-pack' %}
+      {% assign complete-the-kit_handles = 'harvest-right-12-impulse-sealer|750cc-oxygen-absorbing-packet-25-count'%}
+   {% when '1-gallon-mylar-bag-50-pack' %}
+      {% assign complete-the-kit_handles = 'harvest-right-12-impulse-sealer|300cc-oxygen-absorbing-packet-50-count'%}
+   {% when '5-gallon-mylar-bag' %}
+      {% assign complete-the-kit_handles = '6-portable-mylar-bag-sealer|750cc-oxygen-absorbing-packet-25-count'%}
+   {% when '6-portable-mylar-bag-sealer' %}
+      {% assign complete-the-kit_handles = '5-gallon-mylar-bag'%}
+
+   {% when 'white-food-grade-bucket-5-gallon-without-lid-3-pack' %}
+      {% assign complete-the-kit_handles = '500cc-oxygen-absorbing-packet-50-count'%}
+   {% when 'white-food-grade-bucket-5-gallon-without-lid' %}
+      {% assign complete-the-kit_handles = 'white-lid-for-5-gallon-bucket|500cc-oxygen-absorbing-packet-50-count'%}
+   {% when 'white-lid-for-5-gallon-bucket' %}
+      {% assign complete-the-kit_handles = 'white-food-grade-bucket-5-gallon-without-lid|500cc-oxygen-absorbing-packet-50-count'%}
+   {% when 'white-food-grade-bucket-with-lid-5-gallon-12-pack' %}
+      {% assign complete-the-kit_handles = '1000cc-oxygen-absorbing-packet-20-count'%}
+   {% when 'white-food-grade-bucket-with-lid-5-gallon-6-pack' %}
+      {% assign complete-the-kit_handles = '750cc-oxygen-absorbing-packet-25-count'%}
+
+   {% when 'hultafors-dry-marker' %}
+      {% assign complete-the-kit_handles = 'hultafors-dry-marker-refills-graphite|hultafors-folding-rule-61-1m-6-sections'%}
+
+
+   {% when 'all-american-941-pressure-canner-41-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+   {% when 'all-american-930-pressure-canner-30-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+   {% when 'all-american-925-pressure-canner-25-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+   {% when 'all-american-921-pressure-canner-21-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+   {% when 'all-american-915-pressure-canner-15-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+   {% when 'all-american-910-pressure-canner-10-quart-bundle' %}
+      {% assign complete-the-kit_handles = 'all-american-pressure-cooker-2040-over-pressure-plug|all-american-pressure-cooker-69-vent-pipe'%}
+
+{% endcase %}
+
+<style>
+
+h4.complete-the-kit-title {
+  margin-bottom:10px;
+  margin-top:30px;
+}
+.complete-the-kit-container {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  padding:5px;
+  margin:5px auto;
+  justify-content: space-between;
+  background: #FCFBFC;
+  position: relative;
+}
+.complete-the-kit-container a {
+  text-decoration:none;
+}
+.complete-the-kit-container img {
+  max-width:100px;
+}
+.complete-the-kit-container .complete-the-kit-details {
+  width:33.3%;
+}
+.complete-the-kit-container h4 {
+  font-family: "Unica One", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.complete-the-kit-container .price {
+  font-size:.85em;
+  color:#4b746d;
+  font-weight:bold;
+}
+.complete-the-kit-container .button.complete-the-kit-cta {
+  right: 8px;
+  font-size: 1.2rem;
+  background:#444;
+  border:1px solid #444;
+  transition:background .3s ease;
+  min-width:initial;
+  box-shadow:none;
+  min-height:initial;
+}
+.complete-the-kit-container .button.complete-the-kit-cta:hover {
+  background:#FCFBFC;
+  color:#444;
+  box-shadow:none;
+}
+</style>
+
+
+{% assign complete-the-kit_handles_array = complete-the-kit_handles | split: "|" %}
+{% if complete-the-kit_handles_array.size > 0 %}<h4 class="complete-the-kit-title">FREQUENTLY BOUGHT TOGETHER</h4>{% endif %}
+{% for handle in complete-the-kit_handles_array %}
+   {% assign the_product = all_products[handle] %}
+   {% if the_product.available %}
+      <div class="complete-the-kit-container">
+        <a href="{{the_product.url}}"><img src="{{ the_product.featured_image | img_url: '100x' }}"></a>
+        <div class="complete-the-kit-details">
+          <a href="{{the_product.url}}"><h4>{{the_product.title}}</h4></a>
+          <span class="price">{{the_product.price | money }}</span>
+        </div>
+        <a href="{{the_product.url}}" class="button button--small complete-the-kit-cta">View</a>
+      </div>
+   {% endif %}
+{% endfor %}

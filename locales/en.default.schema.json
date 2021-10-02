@@ -1349,6 +1349,14 @@
             }
           }
         },
+        "richtext": {
+          "name": "Rich Text",
+          "settings": {
+            "richtext": {
+              "label": "Rich Text"
+            }
+          }
+        },
         "title": {
           "name": "Title"
         },
@@ -1383,6 +1391,18 @@
         },
         "pickup_availability": {
           "name": "Pickup availability"
+        },
+        "whats-included": {
+          "name": "What's Included"
+        },
+        "product-alert": {
+          "name": "Product Alert"
+        },
+        "complete-the-kit": {
+          "name": "Frequently Bought Together"
+        },
+        "sale-banner": {
+          "name": "Sale Banner"
         },
         "description": {
           "name": "Description"

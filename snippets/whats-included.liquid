@@ -1,0 +1,58 @@
+{%- if product.metafields.customproduct.included -%}
+  <div class="whats-included">
+    <h4>What's Included:</h4>
+    <p>{{ product.metafields.customproduct.included }}</p>
+  </div>
+{%- endif -%}
+<div class="whats-included">
+  <h4>Variant What's Included:</h4>
+  {% for variant in product.variants %}
+  {{ variant.metafields.customvariant.included }}
+  {% endfor %}
+</div>
+
+
+
+{% capture 'meta_data' %}
+  {% for variant in product.variants %}
+    {{ variant.id | json }}: {{ variant.metafields.customvariant.included | json }}
+  {% unless forloop.last %},{% endunless %}
+
+  {% endfor %}
+{% endcapture %}
+
+<script>
+var metaData = { {{ meta_data }} }
+</script>
+
+<div id="product-whats-included"></div>
+
+<script>
+  $(function() {
+
+    function updateWhatsIncluded(e) {
+      var $currentOption = $('.product-form__input input:selected');
+      var $mesgElement = $('#product-whats-included');
+
+      if (typeof metaData === "undefined") {
+        return;
+      }
+
+      if ($currentOption) {
+        var variantID = Number($currentOption.val());
+        var mesg = metaData[variantID];
+
+        if (mesg) {
+          $mesgElement.html(mesg).show();
+        } else {
+          $mesgElement.hide();
+        }
+      }
+    }
+
+    $('[product-form__input]').on('change', 'input[type=radio]', updateWhatsIncluded);
+
+    updateWhatsIncluded();
+  });
+
+</script>
