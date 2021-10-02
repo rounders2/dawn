@@ -87,7 +87,9 @@ slider-component {
 .slider-counter {
   margin: 0 1.2rem;
 }
-
+.collection .slider-counter span {
+  display:none;
+}
 .slider-buttons {
   display: flex;
   align-items: center;
