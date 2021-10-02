@@ -760,6 +760,19 @@ summary::-webkit-details-marker {
 }
 
 /* component-title */
+
+.title:before {
+  content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    z-index: -1;
+    background-color: #e1f7f6;
+}
+
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 0rem;
