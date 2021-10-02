@@ -763,7 +763,7 @@ summary::-webkit-details-marker {
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 2rem;
-  font-size:4.5rem;
+  font-size:2.5rem;
 }
 
 .link.featured-collection-title-link {
@@ -776,7 +776,6 @@ summary::-webkit-details-marker {
   margin-bottom: 10px;
   padding: 2px 10px;
   letter-spacing: .15em;
-  font-size: 1.52941em;
   line-height: 1.1;
   z-index: 1;
   transition: all .2s ease;
