@@ -203,6 +203,10 @@
   padding: 2rem 2rem 0;
 }
 
+.price-item.price-item--sale {
+  color: rgb(var(--color-badge-background));
+}
+
 @media screen and (min-width: 750px) {
   .card__media-spacer {
     padding: 3rem 3rem 0;
