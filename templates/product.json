@@ -51,6 +51,7 @@
         },
         "whats-included": {
           "type": "whats-included",
+          "disabled": true,
           "settings": {
           }
         },
@@ -61,11 +62,6 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
-        },
-        "sale-banner": {
-          "type": "sale-banner",
           "settings": {
           }
         }
