@@ -763,6 +763,7 @@ summary::-webkit-details-marker {
 .title,
 .title-wrapper-with-link {
   margin: 3rem 0 2rem;
+  font-size:3rem;
 }
 
 .link.featured-collection-title-link {
@@ -782,7 +783,7 @@ summary::-webkit-details-marker {
 }
 
 .collection .title-wrapper-with-link .title {
-    border: 1px solid #375550;
+    /* border: 1px solid #375550; */
 }
 
 .title-wrapper {
