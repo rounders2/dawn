@@ -20,7 +20,7 @@
 <div class="blog{% if section.settings.soft_background %} background-secondary{% endif %}{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop{% if posts_displayed < 3 %} page-width-tablet{% endif %}">
     <div class="title-wrapper-with-link{% if section.settings.heading == blank %} title-wrapper-with-link--no-heading{% endif %} {% if posts_displayed > 2 %}title-wrapper--self-padded-tablet-down{% else %}title-wrapper--self-padded-mobile{% endif %}">
-      <h2 class="blog__title">{{ section.settings.heading | escape }}</h2>
+      <href=""><h2 class="blog__title">{{ section.settings.heading | escape }}</h2></a>
 
       {%- if section.settings.blog != blank and section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
         <a href="{{ section.settings.blog.url }}"
@@ -44,7 +44,7 @@
             </div>
             <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'accessibility.next_slide' | t }}">{% render 'icon-caret' %}</button>
           </div>
-        {%- endif -%}        
+        {%- endif -%}
         <ul id="Slider-{{ section.id }}"
           class="blog__posts articles-wrapper grid grid--peek grid--2-col-tablet grid--4-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
           role="list"
