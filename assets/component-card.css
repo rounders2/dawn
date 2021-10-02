@@ -220,7 +220,7 @@
 }
 
 .card__badge {
-  bottom: 1rem;
+  top: 1rem;
   display: flex;
   flex-wrap: wrap;
   left: 1rem;
