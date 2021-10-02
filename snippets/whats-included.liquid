@@ -5,16 +5,13 @@
   </div>
 {%- endif -%}
 
-{{variant.metafields.customvariant.included[0]}}
-{{variant.metafields.customvariant.included[1]}}
-{% if variant.metafields.customvariant.included %}
   <div class="whats-included">
     <h4>Variant Included:</h4>
       {% for variant in product.variants %}
         {{ variant.metafields.customvariant.included | json }}
       {% endfor %}
   </div>
-{% endif %}
+
 
 {% capture 'meta_data' %}
 {% for variant in product.variants %}
