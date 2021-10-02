@@ -51,12 +51,12 @@
           }
         },
         "whats-included": {
-          "type": "text",
+          "type": "whats-included",
           "settings": {
           }
         },
         "product-alert": {
-          "type": "text",
+          "type": "product-alert",
           "settings": {
           }
         },
