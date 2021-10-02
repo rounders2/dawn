@@ -103,6 +103,8 @@
           {%- when 'complete-the-kit' -%}
             {% render 'complete-the-kit-products' %}
 
+            {%- when 'sale-banner' -%}
+              {%- render 'product-sale-banner' -%}
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
@@ -667,6 +669,11 @@
     {
       "type": "complete-the-kit",
       "name": "t:sections.main-product.blocks.complete-the-kit.name",
+      "limit": 1
+    },
+    {
+      "type": "sale-banner",
+      "name": "t:sections.main-product.blocks.sale-banner.name",
       "limit": 1
     },
     {
