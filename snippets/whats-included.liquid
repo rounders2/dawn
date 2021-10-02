@@ -4,6 +4,14 @@
     <p>{{ product.metafields.customproduct.included }}</p>
   </div>
 {%- endif -%}
+<div class="whats-included">
+  <h4>Variant What's Included:</h4>
+  {% for variant in product.variants %}
+  {{ variant.metafields.customvariant.included }}
+  {% endfor %}
+</div>
+
+
 
 {% capture 'meta_data' %}
   {% for variant in product.variants %}
@@ -17,12 +25,6 @@
 var metaData = { {{ meta_data }} }
 </script>
 
-<div class="whats-included">
-  <h4>Variant What's Included:</h4>
-    {% for variant in product.variants %}
-      {{ variant.metafields.customvariant.included }}
-    {% endfor %}
-</div>
 
 
 
