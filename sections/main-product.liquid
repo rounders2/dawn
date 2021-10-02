@@ -99,12 +99,13 @@
               <h4>What's Included:</h4>
               <p>{{ block.settings.rich-text }}</p>
             </div>
-
-            <div class="whats-included">
-              <h4>Variant Included:</h4>
-              <p>{{ product.metafields.customvariant.included }}</p>
-            </div>
           {%- endif -%}
+
+          <div class="whats-included">
+            <h4>Variant Included:</h4>
+            <p>{{ variant.metafields.customvariant.included }}</p>
+          </div>
+
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
