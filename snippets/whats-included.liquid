@@ -13,3 +13,48 @@
   {% endif %}
   {% endfor %}
 {%- endif -%}
+
+{% capture 'meta_data' %}
+{% for variant in product.variants %}
+
+{{ variant.id | json }}: {{ variant.metafields.customvariant.included | json }}
+{% unless forloop.last %},{% endunless %}
+
+{% endfor %}
+{% endcapture %}
+
+<script>
+var metaData = { {{ meta_data }} }
+</script>
+<div id="product-whats-included"></div>
+
+
+<script>
+$(function() {
+
+  function updateWhatsIncluded(e) {
+    var $currentOption = $('#ProductSelect-product-template-swatch option:selected');
+    var $mesgElement = $('#product-whats-included');
+
+    if (typeof metaData === "undefined") {
+      return;
+    }
+
+    if ($currentOption) {
+      var variantID = Number($currentOption.val());
+      var mesg = metaData[variantID];
+
+      if (mesg) {
+        $mesgElement.html(mesg).show();
+      } else {
+        $mesgElement.hide();
+      }
+    }
+  }
+
+  $('[data-swatch-options]').on('change', 'input[type=radio]', updateWhatsIncluded);
+
+  updateWhatsIncluded();
+});
+
+</script>
