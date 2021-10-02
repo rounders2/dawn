@@ -7,7 +7,7 @@
 
 {% capture 'meta_data' %}
   {% for variant in product.variants %}
-    {{ variant.id }}: {{ variant.metafields.customvariant.included }}
+    {{ variant.id | json }}: {{ variant.metafields.customvariant.included | json }}
   {% unless forloop.last %},{% endunless %}
 
   {% endfor %}
