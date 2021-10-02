@@ -93,7 +93,10 @@
               {%- endform -%}
             </div>
           {%- when 'richtext' -%}
+
+          {%- if block.settings.rich-text  -%}
             {{ block.settings.rich-text }}
+          {%- endif -%}
 
           {%- when 'description' -%}
             {%- if product.description != blank -%}
