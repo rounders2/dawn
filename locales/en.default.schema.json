@@ -1350,7 +1350,7 @@
           }
         },
         "richtext": {
-          "name": "What's Included",
+          "name": "Rich Text",
           "settings": {
             "richtext": {
               "label": "Rich Text"
