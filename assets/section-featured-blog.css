@@ -67,6 +67,9 @@
   margin-top: 0;
 }
 
+.title-wrapper-with-link a {
+  text-decoration:none;
+}
 .blog__title {
   margin: 0;
 }
