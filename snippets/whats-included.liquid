@@ -20,7 +20,7 @@ var metaData = { {{ meta_data }} }
   <div class="whats-included">
     <h4>Variant What's Included:</h4>
       {% for variant in product.variants %}
-        {{ variant.metafields.customvariant.included | json }}
+        {{ variant.metafields.customvariant.included }}
       {% endfor %}
   </div>
 
