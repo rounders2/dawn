@@ -761,8 +761,8 @@ summary::-webkit-details-marker {
 
 /* component-title */
 .title,
-.title-wrapper-with-link {
-  margin: 3rem 0 2rem;
+.title-wrapper-with-link, .collection-list-title, .blog__title {
+  margin: 0;
   font-size:3rem;
 }
 
