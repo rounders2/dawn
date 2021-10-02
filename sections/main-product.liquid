@@ -93,6 +93,8 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+          {%- when 'product-alert' -%}
+testing
 
           {%- when 'whats-included' -%}
           {%- if product.metafields.customproduct.included or variant.metafields.customvariant.included -%}
