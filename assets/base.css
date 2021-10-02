@@ -760,6 +760,11 @@ summary::-webkit-details-marker {
 }
 
 /* component-title */
+.title,
+.title-wrapper-with-link {
+  margin: 3rem 0 0rem;
+  position:relative;
+}
 
 .title:before {
   content: "";
@@ -773,10 +778,6 @@ summary::-webkit-details-marker {
     background-color: #e1f7f6;
 }
 
-.title,
-.title-wrapper-with-link {
-  margin: 3rem 0 0rem;
-}
 
 .link.featured-collection-title-link {
   text-decoration: none;
