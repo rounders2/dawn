@@ -27,11 +27,6 @@
           "settings": {
           }
         },
-        "product-alert": {
-          "type": "product-alert",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -49,12 +44,23 @@
             "show_dynamic_checkout": false
           }
         },
+        "richtext": {
+          "type": "richtext",
+          "settings": {
+            "rich-text": "<p><\/p>"
+          }
+        },
         "whats-included": {
           "type": "whats-included",
           "settings": {
           }
         },
-        "44c78fa3-f905-4848-8581-defa79aac011": {
+        "product-alert": {
+          "type": "product-alert",
+          "settings": {
+          }
+        },
+        "complete-the-kit": {
           "type": "complete-the-kit",
           "settings": {
           }
@@ -75,7 +81,7 @@
         "quantity_selector",
         "buy_buttons",
         "whats-included",
-        "44c78fa3-f905-4848-8581-defa79aac011",
+        "complete-the-kit",
         "description"
       ],
       "settings": {
