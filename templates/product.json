@@ -49,11 +49,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "e38d9315-f8d2-4e7f-afa7-d5520cb9f0b2": {
-          "type": "sale-banner",
-          "settings": {
-          }
-        },
         "whats-included": {
           "type": "whats-included",
           "disabled": true,
@@ -80,7 +75,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "e38d9315-f8d2-4e7f-afa7-d5520cb9f0b2",
         "whats-included",
         "complete-the-kit",
         "description"
