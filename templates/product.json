@@ -48,7 +48,8 @@
         "whats-included": {
           "type": "whats-included",
           "disabled": true,
-          "settings": {}
+          "settings": {
+          }
         },
         "complete-the-kit": {
           "type": "complete-the-kit",
@@ -56,7 +57,8 @@
         },
         "description": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -73,7 +75,7 @@
         "description"
       ],
       "settings": {
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "hide_variants": true,
         "enable_video_looping": false
       }
@@ -81,7 +83,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "heading": "You may also like",
+        "heading": "You may also like...",
         "image_ratio": "square",
         "show_secondary_image": false,
         "add_image_padding": true,
