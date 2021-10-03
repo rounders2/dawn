@@ -53,3 +53,7 @@
 .newsletter-form__button .icon {
   width: 1.5rem;
 }
+
+input:-internal-autofill-selected svg {
+  color:#444;
+}
