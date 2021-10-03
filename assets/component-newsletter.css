@@ -55,5 +55,5 @@
 }
 
 #mc_embed_signup input:-internal-autofill-selected + svg {
-  color: #444;
+  color: #444 !important;
 }
