@@ -97,14 +97,14 @@ slider-component {
 }
 
 @media screen and (min-width: 990px) {
-  .slider-buttons {
-    /* display: none; */
+  .product .slider-buttons {
+    display: none;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .slider--mobile + .slider-buttons {
-    /* display: none; */
+  .product .slider--mobile + .slider-buttons {
+    display: none;
   }
 }
 
