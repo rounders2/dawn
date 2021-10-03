@@ -54,6 +54,6 @@
   width: 1.5rem;
 }
 
-#mc_embed_signup input:-internal-autofill-selected svg {
-  color: -internal-light-dark(rgb(232, 240, 254), rgba(70, 90, 126, 0.4)) !important;
+#mc_embed_signup input:-internal-autofill-selected + svg {
+  color: #444;
 }
