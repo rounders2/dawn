@@ -58,6 +58,6 @@ input:-internal-autofill-selected svg {
   color:#444;
 }
 
-.color-inverse .newsletter-form__field-wrapper input:-internal-autofill-selected + svg {
+.color-inverse input:-internal-autofill-selected + svg {
   color:#444;
 }
