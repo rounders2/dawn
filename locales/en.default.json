@@ -127,7 +127,7 @@
         "refresh": "Refresh"
       },
       "price": {
-        "from_price_html": "Starting from {{ price }}",
+        "from_price_html": "Starting at {{ price }}",
         "regular_price": "Regular price",
         "sale_price": "Sale price",
         "unit_price": "Unit price"
