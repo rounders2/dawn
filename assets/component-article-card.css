@@ -180,6 +180,6 @@
 }
 
 
-.rte-width.article-card-footer {
-  text-align:left;
+.article-card-footer {
+  padding:3rem;
 }
