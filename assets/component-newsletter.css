@@ -54,7 +54,8 @@
   width: 1.5rem;
 }
 
-#mc_embed_signup input.field__input:-webkit-autofill ~ svg {
+.color-inverse #mc_embed_signup input.field__input:-webkit-autofill ~ svg {
   color: #444 !important;
   background:#444 !important
+  --color-foreground:#444;
 }
