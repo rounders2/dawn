@@ -57,5 +57,5 @@
 .color-inverse #mc_embed_signup input.field__input svg {
   color: #444 !important;
   background:#444 !important
-  --color-foreground:#444;
+  --color-foreground:#444 !important;
 }
