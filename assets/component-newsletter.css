@@ -56,4 +56,5 @@
 
 #mc_embed_signup input:-webkit-autofill ~ svg {
   color: #444 !important;
+  background:#444 !important
 }
