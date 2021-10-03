@@ -16,6 +16,7 @@
   width:25px;
   height:25px;
   margin:-4px 10px 0px 0;
+  min-width:25px;
 }
 
 #CollectionFiltersForm .color-label, #CollectionFiltersFormMobile .color-label {
