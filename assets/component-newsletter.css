@@ -53,3 +53,9 @@
 .newsletter-form__button .icon {
   width: 1.5rem;
 }
+
+.footer.color-inverse .field__input:-webkit-autofill ~ svg {
+  color: #444 !important;
+  background:#444 !important
+  --color-foreground:#444 !important;
+}
