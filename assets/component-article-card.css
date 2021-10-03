@@ -180,9 +180,10 @@
 }
 
 
- {
+.article-card-footer {
   padding:3rem;
 }
+
 .article-content:hover .article-card-footer .icon-arrow path {
-  transform: translateX(-.05rem);
+  transform: translateX(-.08rem);
 }
