@@ -210,6 +210,10 @@ s.price-item.price-item--regular {
 .price-item.price-item--sale {
   color: rgb(var(--color-base-accent-2));
 }
+.price-item.price-item--sale span {
+  font-size:.8rem;
+}
+
 
 @media screen and (min-width: 750px) {
   .card__media-spacer {
