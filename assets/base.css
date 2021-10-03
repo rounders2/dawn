@@ -786,6 +786,9 @@ summary::-webkit-details-marker {
     z-index: -1;
     background-color: #eaf2e6;
 }
+.collection--empty .title:before {
+  display:none;
+}
 
 .collection .title-wrapper-with-link .title {
     /* border: 1px solid #375550; */
@@ -1256,6 +1259,7 @@ deferred-media {
 .share-button {
   display: block;
   position: relative;
+  max-width: 31rem;
 }
 
 .share-button details {
@@ -1265,8 +1269,7 @@ deferred-media {
 .share-button__button {
   font-size: 1.4rem;
   display: flex;
-  min-height: 2.4rem;
-  align-items: center;
+  align-items: baseline;
   color: rgba(var(--color-link), var(--alpha-link));
   margin-left: 0;
   padding-left: 0;
@@ -1283,6 +1286,29 @@ details[open] > .share-button__fallback {
 .share-button__button:hover {
   text-decoration: underline;
   text-underline-offset: 0.3rem;
+}
+
+.share-button__button,
+.share-button__fallback button {
+  cursor: pointer;
+  background: rgb(var(--color-background));
+  border: none;
+}
+
+.share-button__button .icon-share {
+  margin-right: 1rem;
+}
+
+.share-button__fallback {
+  background: rgb(var(--color-background));
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 3rem;
+  left: 0.1rem;
+  z-index: 3;
+  width: 100%;
+  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
 }
 
 .share-button__fallback button {
@@ -1312,54 +1338,24 @@ details[open] > .share-button__fallback {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-
-.share-button__button,
-.share-button__fallback button {
-  cursor: pointer;
-  background: rgb(var(--color-background));
-  border: none;
 }
 
-.share-button__button .icon-share {
-  margin-right: 1rem;
+.share-button__fallback .icon {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .share-button__message:not(:empty) {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
-  background: rgb(var(--color-background));
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 3rem;
-  left: 0.1rem;
-  z-index: 3;
   width: 100%;
   height: 100%;
   margin-top: 0;
   padding: 0.8rem 0 0.8rem 1.5rem;
-  flex-direction: column;
-  min-width: 31rem;
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-foreground), 0.55);
 }
 
 .share-button__message:not(:empty):not(.hidden) ~ * {
   display: none;
-}
-
-.share-button__fallback .button {
-  margin-top: 1rem;
-}
-
-.share-button__fallback .icon-clipboard {
-  height: 1.4rem;
-  width: 1.8rem;
-}
-
-.share-button__message:not(:empty) {
-  font-size: 1.2rem;
-  text-align: right;
-  display: block;
-  margin-top: 0.5rem;
 }
 
 /* component-form */
@@ -2322,7 +2318,7 @@ details-disclosure > details {
 
 .badge {
   border: 1px solid transparent;
-  border-radius: 4rem;
+  /* border-radius: 4rem; */
   display: inline-block;
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
