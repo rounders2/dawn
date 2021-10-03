@@ -183,7 +183,6 @@
  {
   padding:3rem;
 }
-
-.article-card-footer .animate-arrow:hover .icon-arrow path {
+.article-content:hover .article-card-footer .icon-arrow path {
   transform: translateX(-.05rem);
 }
