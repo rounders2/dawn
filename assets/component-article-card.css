@@ -185,5 +185,5 @@
 }
 
 .article-content:hover .article-card-footer .icon-arrow path {
-  transform: translateX(-1.2rem);
+  transform: translateX(-.05rem);
 }
