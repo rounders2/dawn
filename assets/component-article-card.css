@@ -178,3 +178,21 @@
     padding-bottom: 40.7rem;
   }
 }
+
+
+.article-card-footer {
+  padding:3rem;
+}
+
+.article-content .article-card-footer .icon-arrow path {
+  transform: translateX(-.25rem);
+  transition: transform var(--duration-short) ease;
+}
+
+.article-content span {
+  text-transform:uppercase;
+}
+
+.article-content:hover .article-card-footer .icon-arrow path {
+  transform: translateX(-.05rem);
+}
