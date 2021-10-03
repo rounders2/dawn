@@ -54,6 +54,6 @@
   width: 1.5rem;
 }
 
-#mc_embed_signup input:-internal-autofill-selected ~ svg {
+#mc_embed_signup input::-webkit-autofill ~ svg {
   color: #444 !important;
 }
