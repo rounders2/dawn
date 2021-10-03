@@ -3,13 +3,13 @@
 }
 
 .article-template__hero-container {
-  max-width: 130rem;
+  /* max-width: 130rem; */
   margin: 0 auto;
 }
 
 @media screen and (min-width: 1320px) {
   .article-template__hero-container:first-child {
-    margin-top: 5rem;
+    margin-top: 0rem;
   }
 }
 
