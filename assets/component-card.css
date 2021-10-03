@@ -211,7 +211,7 @@ s.price-item.price-item--regular {
   color: rgb(var(--color-base-accent-2));
 }
 .price-item.price-item--sale span {
-  font-size:1rem;
+  font-size:1.2rem;
 }
 
 
