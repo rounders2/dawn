@@ -65,7 +65,7 @@
       ],
       "settings": {
         "color_scheme": "background-2",
-        "full_width": false
+        "full_width": true
       }
     }
   },
