@@ -30,9 +30,9 @@
             </div>
           </div>
         {%- endif -%}
-<div class="page-width page-width--narrow">
+
         {%- when 'title'-%}
-          <header class="" {{ block.shopify_attributes }}>
+          <header class="page-width page-width--narrow" {{ block.shopify_attributes }}>
             <h1 class="article-template__title" itemprop="headline">{{ article.title | escape }}</h1>
             {%- if block.settings.blog_show_date -%}
               <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">{{ article.published_at | time_tag: format: 'month_year' }}</span>
@@ -90,7 +90,7 @@
           </div>
     {%- endcase -%}
   {%- endfor -%}
-</div>
+
   <div class="element-margin center">
     <a href="{{ blog.url }}" class="article-template__link link animate-arrow{% if blog.comments_enabled? == false %} spaced-section{% endif %}">
       <span class="icon-wrap">{% render 'icon-arrow' %}</span>
