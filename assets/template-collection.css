@@ -293,10 +293,6 @@
   line-height: 1.3;
 }
 
-.facets__summary .icon-caret {
-  /* right: 0; */
-}
-
 .facets__display {
   background-color: rgb(var(--color-background));
   position: absolute;
