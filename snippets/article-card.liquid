@@ -64,8 +64,8 @@
         {%- if article.comments_count > 0 and blog.comments_enabled? -%}
           <span>{{ 'blogs.article.comments' | t: count: article.comments_count }}</span>
         {%- endif -%}
-        <a href="{{ article.url }}">{{ 'sections.featured_blog.view_all' | t }}</a>
       </div>
+      <a href="{{ article.url }}">{{ 'sections.featured_blog.view_all' | t }}</a>
     </div>
   </a>
 </article>
