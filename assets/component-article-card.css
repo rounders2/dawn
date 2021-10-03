@@ -178,3 +178,8 @@
     padding-bottom: 40.7rem;
   }
 }
+
+
+.rte-width.article-card-footer {
+  text-align:left;
+}
