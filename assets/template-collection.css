@@ -336,7 +336,7 @@
   position: relative;
   font-size: 1.4rem;
   display: flex;
-  word-break: break-word;
+  word-break: keep-all;
 }
 
 .facet-checkbox input[type='checkbox'] {
