@@ -277,6 +277,7 @@
 
 .facets__summary span {
   transition: text-decoration var(--duration-short) ease;
+  margin-left:20px;
 }
 
 .facets__summary:hover span {
@@ -299,7 +300,7 @@
 .facets__display {
   background-color: rgb(var(--color-background));
   position: absolute;
-  /* border: 1px solid rgba(var(--color-foreground), 0.2); */
+  border: 1px solid rgba(var(--color-foreground), 0.2);
   top: calc(100% + 0.5rem);
   left: -1.2rem;
   width: 35rem;
