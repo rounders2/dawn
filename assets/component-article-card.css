@@ -193,10 +193,6 @@
   text-transform:uppercase;
 }
 
-.article-content:hover span {
-  text-decoration:underline;
-}
-
 .article-content:hover .article-card-footer .icon-arrow path {
   transform: translateX(-.05rem);
 }
