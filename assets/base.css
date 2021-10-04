@@ -2082,9 +2082,11 @@ input[type='checkbox'] {
   /* margin-right: -1rem; */
 }
 
-.header__icon.header__icon--cart, .header__icon.header__icon--account {
+.header__icon.header__icon--cart {
   margin-left:2rem;
 }
+
+
 
 @media screen and (max-width: 989px) {
   .header__icons .header__icon--account {
