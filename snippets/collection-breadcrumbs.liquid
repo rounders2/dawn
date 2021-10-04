@@ -1,0 +1,73 @@
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
+  <div class="breadcrumb-container">
+    <nav class="breadcrumb page-width" role="navigation" aria-label="breadcrumbs">
+    {% assign foundit = false %}
+    {% for link in linklists.main-menu.links %}
+
+     {% assign link_title_parts = link.title | split: '-' %}
+          {% if link.links != blank %}
+
+          {% unless link.title == 'Brands' %}
+
+           {% assign link-handle = link.url | remove: "/collections/" %}
+            {% if link-handle == collection.handle  %}
+              {{ link.title | replace: '-', ' ' | link_to: link.url }} {%- render 'icon-caret' -%} {{ link.title | replace: '-', ' ' | remove: '-' | prepend: "All " | link_to: link.url}}
+            {% endif %}
+
+              {% for child_link in link.links %}
+                {% assign child-link-handle = child_link.url | remove: "/collections/" %}
+                {% if child-link-handle == collection.handle and foundit == false  %}
+                  <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> {%- render 'icon-caret' -%} <a href= "{{ child_link.url }}">{{ child_link.title }}</a>
+                  {% assign foundit = true %}
+                {% else %}
+
+                {% endif %}
+
+                {% if child_link.links != blank %}
+                  {% for grandchild_link in child_link.links %}
+                  {% assign grandchild-link-handle = grandchild_link.url | remove: "/collections/" %}
+
+                    {% if grandchild-link-handle == collection.handle and foundit == false %}
+                     <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> {%- render 'icon-caret' -%} <a href= "{{ child_link.url }}">{{ child_link.title }}</a>  {%- render 'icon-caret' -%} {{ grandchild_link.title }}
+                     {% assign foundit = true %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+           {% endunless %}
+          {% endif %}
+    {% endfor %}
+
+
+    </nav>
+  </div>
+{% endunless %}
+
+
+<style>
+.breadcrumb-container {
+  background: #f5f5f5;
+  padding:1rem;
+  font-size: 1.1rem;
+  text-transform:uppercase;
+}
+
+.breadcrumb-container .breadcrumb a {
+  margin-right: 1rem;
+  text-decoration:none;
+  color:var(--color-base-text);
+  text-underline-offset: 0.3rem;
+  transition:all .3s ease;
+}
+.breadcrumb-container .breadcrumb a:hover {
+  text-decoration:underline;
+}
+.breadcrumb-container .icon-caret {
+  width:1rem;
+  height:1rem;
+  transform: rotate(-90deg);
+  vertical-align:middle;
+  margin-right:1rem;
+}
+
+</style>
