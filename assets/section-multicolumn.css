@@ -58,6 +58,11 @@
   display:block;
   margin: 1.2rem auto;
 }
+
+.multicolumn-list__item .multicolumn-card a.image-link:hover img {
+  transform: scale(1.03);
+}
+
 .block-link-button {
   display:block;
   margin-top:10px;
