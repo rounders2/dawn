@@ -296,7 +296,7 @@
 
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
-        {%- render 'icon-help' -%}
+        <a href="/pages/contact_us">{%- render 'icon-help' -%}</a>
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link link--text focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
