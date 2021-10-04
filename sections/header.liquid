@@ -154,7 +154,7 @@
                               <div class="menu-drawer__inner-submenu">
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
-                                  <span>{{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}</span>
+                                  <h4>{{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}</h4>
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {%- for childlink in link.links -%}
