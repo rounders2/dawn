@@ -69,6 +69,10 @@
     text-transform:uppercase;
     margin-bottom: .7rem;
   }
+  .header__menu-title h4, .menu-drawer__menu-item.list-menu__item h4 {
+    margin-top:0;
+    margin-bottom:0;
+  }
   .grandchild-list {
     margin: -1rem 0 1.5rem .3rem;
   }
@@ -142,7 +146,7 @@
                         {%- if link.links != blank -%}
                           <details>
                             <summary class="menu-drawer__menu-item list-menu__item link link--text focus-inset{% if link.child_active %} menu-drawer__menu-item--active{% endif %}">
-                              {{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}
+                              <h4>{{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}</h4>
                               {% render 'icon-arrow' %}
                               {% render 'icon-caret' %}
                             </summary>
@@ -150,26 +154,26 @@
                               <div class="menu-drawer__inner-submenu">
                                 <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                   {% render 'icon-arrow' %}
-                                  <span>{{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}</span>
+                                  <h4>{{ link_title_parts[0] }} {% if link_title_parts[1] %}{{ link_title_parts[1] }}{%endif%}</h4>
                                 </button>
                                 <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                   {%- for childlink in link.links -%}
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                          {{ childlink.title | escape }}
+                                          <h4>{{ childlink.title | escape }}</h4>
                                         </a>
                                       {%- else -%}
                                         <details>
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
-                                            {{ childlink.title | escape }}
+                                            <h4>{{ childlink.title | escape }}</h4>
                                             {% render 'icon-arrow' %}
                                             {% render 'icon-caret' %}
                                           </summary>
                                           <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce">
                                             <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                               {% render 'icon-arrow' %}
-                                              <span>{{ childlink.title | escape }}</span>
+                                              <h4>{{ childlink.title | escape }}</h4>
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}

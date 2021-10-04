@@ -775,7 +775,7 @@ summary::-webkit-details-marker {
   position:relative;
 }
 
-.title:before, .collection-list-title:before, .blog__title:before {
+main:not(.template-cart, .template-collection) .title:before, .collection-list-title:before, .blog__title:before {
   content: "";
     position: absolute;
     display: block;
@@ -784,7 +784,7 @@ summary::-webkit-details-marker {
     bottom: 0;
     height: 10px;
     z-index: -1;
-    background-color: #eaf2e6;
+    background-color: #eee;
 }
 .collection--empty .title:before {
   display:none;
@@ -2188,6 +2188,8 @@ details[open] .modal-overlay::after {
   height: 100%;
   padding: 0 5rem 0 1rem;
   line-height: 1.8;
+  background: url('')no-repeat bottom right;
+  background-size:500px;
 }
 
 .search-modal__form {
