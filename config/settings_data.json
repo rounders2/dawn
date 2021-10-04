@@ -84,6 +84,7 @@
           },
           "4ecf02d3-36d0-4397-8a32-14d024e33265": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "My Account",
               "menu": "my-account"
@@ -92,8 +93,8 @@
           "ed5c0e99-c90f-436e-820b-16aadcd57855": {
             "type": "text",
             "settings": {
-              "heading": "Good2Goco since 2018",
-              "subtext": "<p>Canada’s source for survival foods and gear for emergency preparedness. Whether you’re a homesteader, a camper or hunter, or stockpiling emergency supplies for a disaster, we’ve got the food, water storage, camping stoves, and survival gear you need to be ready for anything.<\/p>"
+              "heading": "Outdoor Gear & Survival Food",
+              "subtext": "<p>We’re Canada’s source for outdoor gear, as well as the survival foods you trust in your emergency supplies. Whether you’re spending a night under the stars or a week on the hunt, we’ve got the outdoor gear, food, clothing, and everything else you need to be prepared. We’re family-owned by people like you. We research and use all of the outdoor gear we sell so we know that we’re bringing you the best. So go ahead -- brave the wilderness with the best names in outdoor gear, stockpile emergency supplies for a disaster, or upgrade your homestead and garden today with Good2GoCo.<\/p>"
             }
           }
         },
