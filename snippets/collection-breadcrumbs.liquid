@@ -11,7 +11,7 @@
 
            {% assign link-handle = link.url | remove: "/collections/" %}
             {% if link-handle == collection.handle  %}
-              {{ link.title | replace: '-', ' ' | link_to: link.url }} {{ link.title | replace: '-', ' ' | remove: '-' | prepend: "All " | link_to: link.url}}
+              {{ link.title | replace: '-', ' ' | link_to: link.url }} {%- render 'icon-caret' -%} {{ link.title | replace: '-', ' ' | remove: '-' | prepend: "All " | link_to: link.url}}
             {% endif %}
 
               {% for child_link in link.links %}
