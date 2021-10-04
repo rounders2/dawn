@@ -784,7 +784,7 @@ summary::-webkit-details-marker {
     bottom: 0;
     height: 10px;
     z-index: -1;
-    background-color: #eaf2e6;
+    background-color: #eee;
 }
 .collection--empty .title:before {
   display:none;
