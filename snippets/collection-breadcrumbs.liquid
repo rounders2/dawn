@@ -1,0 +1,65 @@
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
+  <div class="page-width breadcrumb-container">
+    <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
+
+    {% if template contains 'page' %}
+      <a href="/" title="Home">Home</a> <span>{{ page.title }}</span>
+
+    {% elsif template contains 'collection' and collection.handle %}
+
+    {% assign foundit = false %}
+    {% for link in linklists.main-menu.links %}
+
+     {% assign link_title_parts = link.title | split: '-' %}
+          {% if link.links != blank %}
+
+          {% unless link.title == 'Brands' %}
+
+           {% assign link-handle = link.url | remove: "/collections/" %}
+            {% if link-handle == collection.handle  %}
+              {{ link.title | replace: '-', ' ' | link_to: link.url }} {{ link.title | replace: '-', ' ' | remove: '-' | prepend: "All " | link_to: link.url}}
+            {% endif %}
+
+              {% for child_link in link.links %}
+                {% assign child-link-handle = child_link.url | remove: "/collections/" %}
+                {% if child-link-handle == collection.handle and foundit == false  %}
+                  <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a>  <a href= "{{ child_link.url }}">{{ child_link.title }}</a>
+                  {% assign foundit = true %}
+                {% else %}
+
+                {% endif %}
+
+                {% if child_link.links != blank %}
+                  {% for grandchild_link in child_link.links %}
+                  {% assign grandchild-link-handle = grandchild_link.url | remove: "/collections/" %}
+
+                    {% if grandchild-link-handle == collection.handle and foundit == false %}
+                     <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> <a href= "{{ child_link.url }}">{{ child_link.title }}</a> <a href= "{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                     {% assign foundit = true %}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+           {% endunless %}
+          {% endif %}
+    {% endfor %}
+
+    {% if current_tags %}
+      {% capture url %}/collections/{{ collection.handle }}{% endcapture %}
+       <span class="collection-tag-sort">{{ current_tags | join: ' + ' | replace: '_custom_', '' }}</span>
+    {% endif %}
+
+    {% elsif template == 'blog' %}
+      <a href="/" title="Home">Home</a>
+      {{ blog.title | link_to: blog.url }}
+    {% elsif template == 'article' %}
+
+      {{ blog.title | link_to: blog.url }}
+
+      <span>{{ article.title }}</span>
+    {% else %}
+
+    {% endif %}
+    </nav>
+  </div>
+{% endunless %}
