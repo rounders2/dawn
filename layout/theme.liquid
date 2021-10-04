@@ -36,13 +36,13 @@
         {% if product.metafields.global.description_tag != blank %}
           <meta name="description" content="{{ product.metafields.global.description_tag | escape }}">
         {% else %}
-          <meta name="description" content="{{ product.title | escape }}. Great for survival and emergency preparedness, as well as camping and homesteading. Ships free with $99 order!">
+          <meta name="description" content="{{ product.title | escape }}. Canada's home for outdoor gear & survival foods for any emergency. Supplies for homesteading, hunting, camping -- everything outdoors. Ships free with $99 order!">
         {% endif %}
       {% else %}
         <meta name="description" content="{{ page_description | escape }} Ships free with $99 order!">
       {% endif %}
     {% else %}
-      <meta name="description" content="{{ page_title | escape }}. Great for survival and emergency preparedness, as well as camping and homesteading. Ships free with $99 order!">
+      <meta name="description" content="{{ page_title | escape }}. Canada's home for outdoor gear & survival foods for any emergency. Supplies for homesteading, hunting, camping -- everything outdoors. Ships free with $99 order!">
     {% endif %}
 
     {% render 'meta-tags' %}
