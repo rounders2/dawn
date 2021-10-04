@@ -2068,7 +2068,7 @@ input[type='checkbox'] {
 }
 
 .header__icon,
-.header__icon--cart .icon, .header__icon--search .icon, .icon-account {
+.header__icon--cart .icon, .header__icon--search .icon, .header__icon .icon.icon-account {
   height: 2.5rem;
   width: 2.5rem;
   color:#fff;
