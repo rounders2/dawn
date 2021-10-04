@@ -2188,6 +2188,7 @@ details[open] .modal-overlay::after {
   height: 100%;
   padding: 0 5rem 0 1rem;
   line-height: 1.8;
+  background:#f5f5f5;
 }
 
 .search-modal__form {
