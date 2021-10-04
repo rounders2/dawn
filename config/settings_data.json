@@ -84,6 +84,7 @@
           },
           "4ecf02d3-36d0-4397-8a32-14d024e33265": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "My Account",
               "menu": "my-account"
