@@ -2086,8 +2086,6 @@ input[type='checkbox'] {
   margin-left:2rem;
 }
 
-
-
 @media screen and (max-width: 989px) {
   .header__icons .header__icon--account {
     display: none;
