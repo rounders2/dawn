@@ -2055,7 +2055,7 @@ menu-drawer + .header__search {
 
   .header__icon--help {
     color:#fff;
-    max-height:25px;
+    max-height:22px;
   }
     margin-left:40px;
   .header:not(.header--top-center) > .header__search,
