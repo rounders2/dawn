@@ -939,10 +939,3 @@ input.mobile-facets__checkbox {
 .breadcrumb-container .breadcrumb a:hover {
   text-decoration:underline;
 }
-.breadcrumb-container .icon-caret {
-  width:1rem;
-  height:1rem;
-  transform: rotate(-90deg);
-  vertical-align:middle;
-  margin-right:1rem;
-}
