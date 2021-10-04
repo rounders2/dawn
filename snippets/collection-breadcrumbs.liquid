@@ -1,9 +1,6 @@
 {% unless template == 'index' or template == 'cart' or template == 'list-collections' %}
   <div class="page-width breadcrumb-container">
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
-
-
-
     {% assign foundit = false %}
     {% for link in linklists.main-menu.links %}
 
@@ -50,3 +47,10 @@
     </nav>
   </div>
 {% endunless %}
+
+
+<style>
+.breadcrumb-container {
+  background:var(--color-base-accent-1);
+}
+</style>
