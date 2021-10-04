@@ -28,7 +28,7 @@
                   {% assign grandchild-link-handle = grandchild_link.url | remove: "/collections/" %}
 
                     {% if grandchild-link-handle == collection.handle and foundit == false %}
-                     <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> <a href= "{{ child_link.url }}">{{ child_link.title }}</a> {{ grandchild_link.title }}
+                     <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> {%- render 'icon-caret' -%} <a href= "{{ child_link.url }}">{{ child_link.title }}</a>  {%- render 'icon-caret' -%} {{ grandchild_link.title }}
                      {% assign foundit = true %}
                     {% endif %}
                   {% endfor %}
