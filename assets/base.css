@@ -2048,12 +2048,15 @@ menu-drawer + .header__search {
   .header--top-center > .header__search {
     display: inline-flex;
   }
+  .header:not(.header--top-center) * > .header__search details,
+  .header--top-center > .header__search details {
+    margin-left:40px;
+  }
 
   .header__icon--help {
     color:#fff;
   }
-
-
+    margin-left:40px;
   .header:not(.header--top-center) > .header__search,
   .header--top-center * > .header__search {
     display: none;
