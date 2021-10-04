@@ -2,10 +2,7 @@
   <div class="page-width breadcrumb-container">
     <nav class="breadcrumb" role="navigation" aria-label="breadcrumbs">
 
-    {% if template contains 'page' %}
-      <a href="/" title="Home">Home</a> <span>{{ page.title }}</span>
 
-    {% elsif template contains 'collection' and collection.handle %}
 
     {% assign foundit = false %}
     {% for link in linklists.main-menu.links %}
@@ -49,17 +46,7 @@
        <span class="collection-tag-sort">{{ current_tags | join: ' + ' | replace: '_custom_', '' }}</span>
     {% endif %}
 
-    {% elsif template == 'blog' %}
-      <a href="/" title="Home">Home</a>
-      {{ blog.title | link_to: blog.url }}
-    {% elsif template == 'article' %}
 
-      {{ blog.title | link_to: blog.url }}
-
-      <span>{{ article.title }}</span>
-    {% else %}
-
-    {% endif %}
     </nav>
   </div>
 {% endunless %}
