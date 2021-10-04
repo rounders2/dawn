@@ -2132,8 +2132,9 @@ menu-drawer + .header__search {
     margin-left:40px;
   }
   .header__icon--help {
-    color:#fff;
+    rgba(255,255,255,1);
     max-height:2rem;
+    vertical-align: middle;
   }
   .header__icon--help:hover {
     transform: scale(1.03);
