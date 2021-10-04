@@ -2057,6 +2057,11 @@ menu-drawer + .header__search {
     color:#fff;
     max-height:2.2rem;
   }
+  .header__icon--help:hover {
+    transform: scale(1.07);
+    color: rgba(255,255,255,.75);
+  }
+
     margin-left:40px;
   .header:not(.header--top-center) > .header__search,
   .header--top-center * > .header__search {
