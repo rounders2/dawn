@@ -2137,7 +2137,7 @@ menu-drawer + .header__search {
     max-height:2.2rem;
   }
   .header__icon--help:hover {
-    transform: scale(1.07);
+    transform: scale(1.03);
     color: rgba(255,255,255,.75);
   }
 
