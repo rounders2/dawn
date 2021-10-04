@@ -166,7 +166,7 @@
                                       {%- else -%}
                                         <details>
                                           <summary class="menu-drawer__menu-item link link--text list-menu__item focus-inset">
-                                            {{ childlink.title | escape }}
+                                            <h4>{{ childlink.title | escape }}</h4>
                                             {% render 'icon-arrow' %}
                                             {% render 'icon-caret' %}
                                           </summary>
