@@ -161,7 +161,7 @@
                                     <li>
                                       {%- if childlink.links == blank -%}
                                         <a href="{{ childlink.url }}" class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if childlink.current %} menu-drawer__menu-item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
-                                          {{ childlink.title | escape }}
+                                          <h4>{{ childlink.title | escape }}</h4>
                                         </a>
                                       {%- else -%}
                                         <details>
@@ -173,7 +173,7 @@
                                           <div id="childlink-{{ childlink.title | escape }}" class="menu-drawer__submenu motion-reduce">
                                             <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
                                               {% render 'icon-arrow' %}
-                                              <span>{{ childlink.title | escape }}</span>
+                                              <h4>{{ childlink.title | escape }}</h4>
                                             </button>
                                             <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
                                               {%- for grandchildlink in childlink.links -%}
