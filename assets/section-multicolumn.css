@@ -58,7 +58,9 @@
   display:block;
   margin: 1.2rem auto;
 }
-
+.multicolumn-list__item .multicolumn-card a.image-link img {
+  transition:all 1s ease;
+}
 .multicolumn-list__item .multicolumn-card a.image-link:hover img {
   transform: scale(1.03);
 }
