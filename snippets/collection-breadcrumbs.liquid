@@ -17,7 +17,7 @@
               {% for child_link in link.links %}
                 {% assign child-link-handle = child_link.url | remove: "/collections/" %}
                 {% if child-link-handle == collection.handle and foundit == false  %}
-                  <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> {%- render 'icon-caret' -%} <a href= "{{ child_link.url }}">{{ child_link.title }}</a>
+                  <a href= "{{ link.url }}">{{ link_title_parts[0] }} {{ link_title_parts[1] }}</a> {%- render 'icon-caret' -%} <a href= "{{ child_link.url }}">{{ child_link.title }}</a> hello
                   {% assign foundit = true %}
                 {% else %}
 
