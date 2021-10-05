@@ -63,6 +63,13 @@
           "type": "description",
           "settings": {
           }
+        },
+        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2": {
+          "type": "popup",
+          "settings": {
+            "text": "{{ product.metafields.customproduct.popup_title.value }}",
+            "page": "{{ product.metafields.customproduct.popup_content.value }}"
+          }
         }
       },
       "block_order": [
@@ -76,7 +83,8 @@
         "buy_buttons",
         "whats-included",
         "complete-the-kit",
-        "description"
+        "description",
+        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2"
       ],
       "settings": {
         "enable_sticky_info": true,
