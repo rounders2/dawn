@@ -49,6 +49,11 @@
             "show_dynamic_checkout": false
           }
         },
+        "whats-included": {
+          "type": "whats-included",
+          "settings": {
+          }
+        },
         "popup": {
           "type": "popup",
           "settings": {
@@ -76,6 +81,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "whats-included",
         "complete-the-kit",
         "description"
       ],
