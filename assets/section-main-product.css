@@ -756,10 +756,9 @@ a.product__text {
   transition: text-decoration-thickness var(--duration-short) ease;
 }
 .product-popup-modal__button .icon-arrow path{
+  transform: none;
   transition: transform var(--duration-short) ease;
 }
-
-
 .product-popup-modal__button:hover {
   text-decoration-thickness: 0.2rem;
 }
