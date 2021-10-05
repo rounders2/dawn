@@ -54,16 +54,16 @@
           "settings": {
           }
         },
-        "popup": {
+        "complete-the-kit": {
+          "type": "complete-the-kit",
+          "settings": {
+          }
+        },
+        "e3d188f3-60f2-40cf-bdb9-d5e7a4364bfa": {
           "type": "popup",
           "settings": {
             "text": "{{ product.metafields.customproduct.popup_title.value }}",
             "page": "{{ product.metafields.customproduct.popup_content.value }}"
-          }
-        },
-        "complete-the-kit": {
-          "type": "complete-the-kit",
-          "settings": {
           }
         },
         "description": {
@@ -83,6 +83,7 @@
         "buy_buttons",
         "whats-included",
         "complete-the-kit",
+        "e3d188f3-60f2-40cf-bdb9-d5e7a4364bfa",
         "description"
       ],
       "settings": {
