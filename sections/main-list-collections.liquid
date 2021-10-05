@@ -71,9 +71,9 @@
       {%- endfor -%}
 
     {%- else -%}
-
+      {%- assign collection = collections[block.settings.collection] -%}
       {% for block in section.blocks %}
-        {%- assign collection = collections[block.settings.collection] -%}
+
 
         <li class="collection-list__item grid__item">
           <a{% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}
