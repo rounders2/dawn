@@ -11,48 +11,48 @@
   {% endfor %}
 </div>
 
-
-
-{% capture 'meta_data' %}
-  {% for variant in product.variants %}
-    {{ variant.id | json }}: {{ variant.metafields.customvariant.included | json }}
-  {% unless forloop.last %},{% endunless %}
-
-  {% endfor %}
-{% endcapture %}
-
 <script>
-var metaData = { {{ meta_data }} }
+ var whatsIncluded = {};
+ {% for variant in product.variants %}
+   {% if variant.metafields.customvariant.included %}
+     whatsIncluded.['{{variant.id}}'] = {{ variant.metafields.customvariant.included | json }}
+   {% endif %}
+ {% endfor %}
 </script>
 
 <div id="product-whats-included"></div>
 
 <script>
-  $(function() {
+ (function() {
 
-    function updateWhatsIncluded(e) {
-      var $currentOption = $('.product-form__input input:selected');
-      var $mesgElement = $('#product-whats-included');
+   function getVariant() {
+     var queryString = window.location.search;
+     var urlParams = new URLSearchParams(queryString);
+     var variantID = urlParams.get('variant');
+     if (variantID) {
+       console.log("current variant is ", variantID);
+       return variantID;
+     } else {
+       console.log("current variant is ", meta.product.variants[0].id);
+       return meta.product.variants[0].id;
+     }
+   }
 
-      if (typeof metaData === "undefined") {
-        return;
-      }
 
-      if ($currentOption) {
-        var variantID = Number($currentOption.val());
-        var mesg = metaData[variantID];
+   whatsIncluded.update = function() {
+     var el = document.getElementById('product-whats-included');
+     var whatsIncludedMesg = whatsIncluded[getVariant()];
 
-        if (mesg) {
-          $mesgElement.html(mesg).show();
-        } else {
-          $mesgElement.hide();
-        }
-      }
-    }
+     if (whatsIncludedMesg) {
+       el.innerHTML = whatsIncludedMesg;
+       el.classList.remove("hidden");
+     } else {
+       el.classList.add("hidden");
+       el.innerHTML = ""
+     }
+   }
 
-    $('[product-form__input]').on('change', 'input[type=radio]', updateWhatsIncluded);
-
-    updateWhatsIncluded();
-  });
+   whatsIncluded.update();
+  })();
 
 </script>
