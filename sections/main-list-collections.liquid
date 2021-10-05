@@ -73,7 +73,7 @@
     {%- else -%}
 
       {% for block in section.blocks %}
-        {%- assign featured_collection = collections[block.settings.collection] -%}
+        {%- assign collection = collections[block.settings.collection] -%}
 
         <li class="collection-list__item grid__item">
           <a{% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}
