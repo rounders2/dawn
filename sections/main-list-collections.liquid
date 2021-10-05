@@ -83,6 +83,22 @@
       "default": "Collections"
     },
     {
+      "type": "radio",
+      "id": "display_type",
+      "label": "Select collections to show",
+      "default": "all",
+      "options": [
+        {
+          "value": "all",
+          "label": "All"
+        },
+        {
+          "value": "selected",
+          "label": "Selected"
+        }
+      ]
+    },    
+    {
       "type": "select",
       "id": "sort",
       "options": [
@@ -182,6 +198,6 @@
         }
       ]
     }
-  ]  
+  ]
 }
 {% endschema %}
