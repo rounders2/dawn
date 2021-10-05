@@ -934,7 +934,7 @@ input.mobile-facets__checkbox {
   text-decoration:none;
   color:var(--color-base-text);
   text-underline-offset: 0.3rem;
-  transition:all .3s ease;
+  transition:underline .3s ease;
 }
 .breadcrumb-container .breadcrumb a:hover {
   text-decoration:underline;
