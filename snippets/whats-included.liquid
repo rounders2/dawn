@@ -5,10 +5,11 @@
   </div>
 {%- endif -%}
 
-<div class="whats-included">
-  <div id="product-whats-included">
+  <div class="whats-included">
+    <h4>What's Included:</h4>
+    <div id="product-whats-included">
 
-  </div>
+    </div>
 </div>
 
 
@@ -23,20 +24,6 @@
 
 <script>
  (function() {
-
-   function getVariant() {
-     var queryString = window.location.search;
-     var urlParams = new URLSearchParams(queryString);
-     var variantID = urlParams.get('variant');
-     if (variantID) {
-       console.log("current variant is ", variantID);
-       return variantID;
-     } else {
-       console.log("current variant is ", meta.product.variants[0].id);
-       return meta.product.variants[0].id;
-     }
-   }
-
    good2goco.update = function(variantID) {
      var el = document.getElementById('product-whats-included');
      var whatsIncludedMesg = good2goco.whatsIncluded[variantID];
