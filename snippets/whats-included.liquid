@@ -13,10 +13,10 @@
 
 
 <script>
- var whatsIncluded = {};
+ var Good2GoCo = { whatsIncluded: {}};
  {% for variant in product.variants %}
    {% if variant.metafields.customvariant.included %}
-     whatsIncluded.['{{variant.id}}'] = {{ variant.metafields.customvariant.included | json }}
+     Good2GoCo.whatsIncluded['{{variant.id}}'] = {{ variant.metafields.customvariant.included | json }}
    {% endif %}
  {% endfor %}
 </script>
@@ -39,7 +39,7 @@
 
    whatsIncluded.update = function() {
      var el = document.getElementById('product-whats-included');
-     var whatsIncludedMesg = whatsIncluded[getVariant()];
+     var whatsIncludedMesg = Good2GoCo.whatsIncluded[getVariant()];
 
      if (whatsIncludedMesg) {
        el.innerHTML = whatsIncludedMesg;
