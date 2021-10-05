@@ -521,7 +521,7 @@ class VariantSelects extends HTMLElement {
       this.updateMedia();
       this.updateURL();
 
-      debugger
+      debugger;
       // updates the product alert box
       momocato.update();
 
