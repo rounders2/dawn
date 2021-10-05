@@ -48,11 +48,9 @@
         "whats-included": {
           "type": "whats-included",
           "settings": {
-            "text": "{{ product.metafields.customproduct.popup_title.value }}",
-            "page": "{{ product.metafields.customproduct.popup_content.value }}"
           }
         },
-        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2": {
+        "popup": {
           "type": "popup",
           "settings": {
             "text": "{{ product.metafields.customproduct.popup_title.value }}",

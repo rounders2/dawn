@@ -746,7 +746,9 @@ a.product__text {
 }
 
 .product-popup-modal__button {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
+  font-family:var(--font-heading-family);
+  text-transform:uppercase;
   padding-right: 1.3rem;
   padding-left: 0;
   height: 4.4rem;
@@ -754,11 +756,15 @@ a.product__text {
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
 }
-
+.product-popup-modal__button .icon-arrow path{
+  transition: transform var(--duration-short) ease;
+}
 .product-popup-modal__button:hover {
   text-decoration-thickness: 0.2rem;
 }
-
+.product-popup-modal__button:hover .icon-arrow path {
+  transform: translateX(.08rem);
+}
 .product-popup-modal__content-info {
   padding-right: 4.4rem;
 }
