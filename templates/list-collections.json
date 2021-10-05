@@ -6,19 +6,19 @@
         "18c0e24e-be5a-48ff-9643-fe6bbc6aa864": {
           "type": "collection",
           "settings": {
-            "collection": "alexapure"
+            "collection-block": "alexapure"
           }
         },
         "daaf9d2a-1b64-47c4-8db6-83a16be3084f": {
           "type": "collection",
           "settings": {
-            "collection": "all-american-pressure-canner"
+            "collection-block": "all-american-pressure-canner"
           }
         },
         "6fcd2639-dea3-4c40-963e-a408d967cd65": {
           "type": "collection",
           "settings": {
-            "collection": "augason-farms-emergency-food"
+            "collection-block": "augason-farms-emergency-food"
           }
         }
       },
