@@ -29,6 +29,7 @@
       ],
       "settings": {
         "title": "Collections",
+        "display_type": "selected",
         "sort": "alphabetical",
         "image_ratio": "square",
         "color_scheme": "background-1",
