@@ -763,7 +763,7 @@ a.product__text {
   text-decoration-thickness: 0.2rem;
 }
 .product-popup-modal__button:hover .icon-arrow path {
-  transform: translateX(.25rem);
+  transform: translateX(.08rem);
 }
 .product-popup-modal__content-info {
   padding-right: 4.4rem;
