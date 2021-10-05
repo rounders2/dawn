@@ -51,7 +51,6 @@
         },
         "whats-included": {
           "type": "whats-included",
-          "disabled": true,
           "settings": {
           }
         },
