@@ -37,9 +37,9 @@
      }
    }
 
-   good2goco.update = function() {
+   good2goco.update = function(variantID) {
      var el = document.getElementById('product-whats-included');
-     var whatsIncludedMesg = good2goco.whatsIncluded[getVariant()];
+     var whatsIncludedMesg = good2goco.whatsIncluded[variantID];
 
      if (whatsIncludedMesg) {
        el.innerHTML = whatsIncludedMesg;
@@ -50,7 +50,7 @@
      }
    }
 
-   good2goco.update();
+   good2goco.update(meta.product.variants[0].id);
   })();
 
 </script>
