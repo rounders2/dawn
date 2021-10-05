@@ -24,7 +24,8 @@
         },
         "content": {
           "type": "content",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -33,7 +34,8 @@
         "share",
         "content"
       ],
-      "settings": {}
+      "settings": {
+      }
     },
     "1633225341e7330443": {
       "type": "newsletter",
@@ -52,7 +54,8 @@
         },
         "1633225341e7330443-2": {
           "type": "email_form",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
