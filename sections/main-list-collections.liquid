@@ -71,7 +71,7 @@
       {%- endfor -%}
 
     {%- else -%}
-      {%- assign collection = collections[block.settings.collection] -%}
+      {%- assign collection = collections[block.settings.collection-block] -%}
       {% for block in section.blocks %}
 
 
