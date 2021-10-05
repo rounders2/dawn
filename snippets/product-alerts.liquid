@@ -63,9 +63,14 @@
    }
  }
 
- momocato.update = function() {
+ momocato.update = function(variantID) {
    var el = document.getElementById('product-alert-box');
-   var alert = momocato.alerts[getVariant()];
+
+   if (!variantID) {
+     variantID = meta.product.variants[0].id;
+   }
+
+   var alert = momocato.alerts[variantID];
 
    if (alert) {
      el.innerHTML = alert;
