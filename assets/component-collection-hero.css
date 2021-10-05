@@ -618,6 +618,8 @@
   }
 }
 
+
+
 @media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .collection-hero {
     background-size: contain;
