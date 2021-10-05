@@ -755,11 +755,17 @@ a.product__text {
   text-decoration-thickness: 0.1rem;
   transition: text-decoration-thickness var(--duration-short) ease;
 }
+.product-popup-modal__button .icon-arrow {
+  transition: transform var(--duration-short) ease;
+}
+
 
 .product-popup-modal__button:hover {
   text-decoration-thickness: 0.2rem;
 }
+.product-popup-modal__button:hover .icon-arrow {
 
+}
 .product-popup-modal__content-info {
   padding-right: 4.4rem;
 }
