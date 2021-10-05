@@ -54,13 +54,6 @@
           "settings": {
           }
         },
-        "popup": {
-          "type": "popup",
-          "settings": {
-            "text": "{{ product.metafields.customproduct.popup_title.value }}",
-            "page": "{{ product.metafields.customproduct.popup_content.value }}"
-          }
-        },
         "complete-the-kit": {
           "type": "complete-the-kit",
           "settings": {
@@ -69,6 +62,13 @@
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "4f1d605d-3d25-4da1-a2df-3a8456405735": {
+          "type": "popup-metafield",
+          "settings": {
+            "text": "{{ product.metafields.customproduct.popup_title.value }}",
+            "page": "happy-daisy-feeding-guidelines"
           }
         }
       },
@@ -83,7 +83,8 @@
         "buy_buttons",
         "whats-included",
         "complete-the-kit",
-        "description"
+        "description",
+        "4f1d605d-3d25-4da1-a2df-3a8456405735"
       ],
       "settings": {
         "enable_sticky_info": true,
