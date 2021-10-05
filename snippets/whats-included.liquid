@@ -5,6 +5,13 @@
   </div>
 {%- endif -%}
 
+<div class="whats-included">
+  <div id="product-whats-included">
+
+  </div>
+</div>
+
+
 <script>
  var whatsIncluded = {};
  {% for variant in product.variants %}
@@ -13,12 +20,6 @@
    {% endif %}
  {% endfor %}
 </script>
-
-<div class="whats-included">
-  <div id="product-whats-included">
-
-  </div>
-</div>
 
 <script>
  (function() {
@@ -35,7 +36,6 @@
        return meta.product.variants[0].id;
      }
    }
-
 
    whatsIncluded.update = function() {
      var el = document.getElementById('product-whats-included');
