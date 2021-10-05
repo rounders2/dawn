@@ -26,13 +26,27 @@
           "settings": {
             "collection-block": "avery-sporting-dog"
           }
+        },
+        "0ed0fb0d-aa5e-411a-841e-5d4258ded64b": {
+          "type": "collection",
+          "settings": {
+            "collection-block": "berkey-water-filter-systems"
+          }
+        },
+        "2b0cc4b5-4032-4ce2-b9a4-3590d61338e7": {
+          "type": "collection",
+          "settings": {
+            "collection-block": "biolite"
+          }
         }
       },
       "block_order": [
         "18c0e24e-be5a-48ff-9643-fe6bbc6aa864",
         "daaf9d2a-1b64-47c4-8db6-83a16be3084f",
         "6fcd2639-dea3-4c40-963e-a408d967cd65",
-        "9ede6080-76d9-4076-94b5-f2ea67aaf99d"
+        "9ede6080-76d9-4076-94b5-f2ea67aaf99d",
+        "0ed0fb0d-aa5e-411a-841e-5d4258ded64b",
+        "2b0cc4b5-4032-4ce2-b9a4-3590d61338e7"
       ],
       "settings": {
         "title": "Collections",
