@@ -5,7 +5,7 @@
   </div>
 {%- endif -%}
 
-  <div class="whats-included">
+  <div class="whats-included hidden">
     <h4>What's Included:</h4>
     <div id="product-whats-included">
 
@@ -30,9 +30,9 @@
 
      if (whatsIncludedMesg) {
        el.innerHTML = whatsIncludedMesg;
-       el.classList.remove("hidden");
+       el.parentElement.classList.remove("hidden");
      } else {
-       el.classList.add("hidden");
+       el.parentElement.classList.add("hidden");
        el.innerHTML = ""
      }
    }
