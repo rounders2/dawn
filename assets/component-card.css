@@ -312,3 +312,7 @@ s.price-item.price-item--regular {
 .template-list-collections .media {
   background:#fff;
 }
+
+.template-list-collections .media>img {
+  object-fit: none;
+}
