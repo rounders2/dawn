@@ -54,6 +54,13 @@
           "settings": {
           }
         },
+        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2": {
+          "type": "popup",
+          "settings": {
+            "text": "{{ product.metafields.customproduct.popup_title.value }}",
+            "page": "{{ product.metafields.customproduct.popup_content.value }}"
+          }
+        },
         "complete-the-kit": {
           "type": "complete-the-kit",
           "settings": {
@@ -62,13 +69,6 @@
         "description": {
           "type": "description",
           "settings": {
-          }
-        },
-        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2": {
-          "type": "popup",
-          "settings": {
-            "text": "{{ product.metafields.customproduct.popup_title.value }}",
-            "page": "{{ product.metafields.customproduct.popup_content.value }}"
           }
         }
       },
@@ -82,9 +82,9 @@
         "quantity_selector",
         "buy_buttons",
         "whats-included",
+        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2",
         "complete-the-kit",
-        "description",
-        "2da0b7c6-c5ab-4f0c-9edc-34346e235ae2"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
