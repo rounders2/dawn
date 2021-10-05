@@ -750,7 +750,6 @@ a.product__text {
   font-family:var(--font-heading-family);
   padding-right: 1.3rem;
   padding-left: 0;
-  text-transform:uppercase;
   height: 4.4rem;
   text-underline-offset: 0.3rem;
   text-decoration-thickness: 0.1rem;
