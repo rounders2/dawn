@@ -38,6 +38,18 @@
           "settings": {
             "collection-block": "biolite"
           }
+        },
+        "f4b59037-550b-4a43-929d-1bf55b146f3a": {
+          "type": "collection",
+          "settings": {
+            "collection-block": "brinsea-bird-breeding-equipment"
+          }
+        },
+        "a3d360d2-fa09-4818-b1b4-555e296f0d19": {
+          "type": "collection",
+          "settings": {
+            "collection-block": "country-living-grain-mills"
+          }
         }
       },
       "block_order": [
@@ -46,7 +58,9 @@
         "6fcd2639-dea3-4c40-963e-a408d967cd65",
         "9ede6080-76d9-4076-94b5-f2ea67aaf99d",
         "0ed0fb0d-aa5e-411a-841e-5d4258ded64b",
-        "2b0cc4b5-4032-4ce2-b9a4-3590d61338e7"
+        "2b0cc4b5-4032-4ce2-b9a4-3590d61338e7",
+        "f4b59037-550b-4a43-929d-1bf55b146f3a",
+        "a3d360d2-fa09-4818-b1b4-555e296f0d19"
       ],
       "settings": {
         "title": "Collections",
