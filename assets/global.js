@@ -522,7 +522,7 @@ class VariantSelects extends HTMLElement {
       this.updateURL();
 
       // updates the product alert box
-      momocato.update();
+      momocato.update(this.currentVariant.id);
       good2goco.update();
 
       this.updateVariantInput();
