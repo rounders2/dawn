@@ -316,3 +316,7 @@ s.price-item.price-item--regular {
 .template-list-collections .media>img {
   object-fit: scale-down;
 }
+
+.template-list-collections .h3 {
+  font-size: 1.3rem;
+}
