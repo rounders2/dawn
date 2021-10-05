@@ -72,7 +72,7 @@
 
     {%- else -%}
 
-      {%- for collection in collections -%}
+      {%- for collection in block -%}
 
       <li class="collection-list__item grid__item">
         <a{% if collection.all_products_count > 0 %} href="{{ collection.url }}"{% endif %}
