@@ -314,5 +314,5 @@ s.price-item.price-item--regular {
 }
 
 .template-list-collections .media>img {
-  object-fit: none;
+  object-fit: scale-down;
 }
