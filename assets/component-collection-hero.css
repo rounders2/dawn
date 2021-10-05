@@ -618,25 +618,6 @@
   }
 }
 
-.breadcrumb-container {
-  background: #f5f5f5;
-  padding:1rem;
-  font-size: 1.1rem;
-  text-transform:uppercase;
-}
-
-.breadcrumb-container .breadcrumb a {
-  margin-right: 1rem;
-  text-decoration:none;
-  color:var(--color-base-text);
-  text-underline-offset: 0.3rem;
-  transition:text-decoration .3s ease;
-}
-.breadcrumb-container .breadcrumb a:hover {
-  text-decoration:underline;
-}
-
-
 @media (max-width:1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .collection-hero {
     background-size: contain;
