@@ -50,19 +50,6 @@
     {% endif %}
   {% endfor %}
 
- function getVariant() {
-   var queryString = window.location.search;
-   var urlParams = new URLSearchParams(queryString);
-   var variantID = urlParams.get('variant');
-   if (variantID) {
-     console.log("current variant is ", variantID);
-     return variantID;
-   } else {
-     console.log("current variant is ", meta.product.variants[0].id);
-     return meta.product.variants[0].id;
-   }
- }
-
  momocato.update = function(variantID) {
    var el = document.getElementById('product-alert-box');
 
