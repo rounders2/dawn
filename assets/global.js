@@ -82,7 +82,7 @@ class QuantityInput extends HTMLElement {
     this.querySelectorAll('button').forEach(
       (button) => button.addEventListener('click', this.onButtonClick.bind(this))
     );
-    
+
     this.input.addEventListener('keydown', (event) => {
       if (event.key !== 'Enter') return;
       event.preventDefault();
@@ -520,6 +520,11 @@ class VariantSelects extends HTMLElement {
     } else {
       this.updateMedia();
       this.updateURL();
+
+      // updates the product alert box
+      momocato.update(this.currentVariant.id);
+      good2goco.update(this.currentVariant.id);
+
       this.updateVariantInput();
       this.renderProductInfo();
     }
