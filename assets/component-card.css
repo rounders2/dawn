@@ -305,3 +305,18 @@ s.price-item.price-item--regular {
     transition: background-color var(--duration-long) ease;
   }
 }
+
+
+/* Collection List */
+
+.template-list-collections .media {
+  background:#fff;
+}
+
+.template-list-collections .media>img {
+  object-fit: scale-down;
+}
+
+.template-list-collections .h3 {
+  font-size: 1.3rem;
+}
