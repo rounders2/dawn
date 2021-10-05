@@ -508,8 +508,6 @@ class VariantSelects extends HTMLElement {
   }
 
   onVariantChange() {
-    momocato.update();
-
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
@@ -522,6 +520,9 @@ class VariantSelects extends HTMLElement {
     } else {
       this.updateMedia();
       this.updateURL();
+
+      momocato.update();
+
       this.updateVariantInput();
       this.renderProductInfo();
     }
