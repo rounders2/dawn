@@ -1,7 +1,7 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width">
+<div class="page-width template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}">
   <h1 class="title title--primary">{{ section.settings.title | escape }}</h1>
 
   {%- liquid
