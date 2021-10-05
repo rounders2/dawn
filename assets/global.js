@@ -509,7 +509,7 @@ class VariantSelects extends HTMLElement {
 
   onVariantChange() {
     momocato.update();
-    console.log(`current variant is ${this.currentVariant}`);
+    console.log(`current variant is * ${this.currentVariant}`);
 
     this.updateOptions();
     this.updateMasterId();
