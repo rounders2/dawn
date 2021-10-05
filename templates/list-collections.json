@@ -20,12 +20,19 @@
           "settings": {
             "collection-block": "augason-farms-emergency-food"
           }
+        },
+        "9ede6080-76d9-4076-94b5-f2ea67aaf99d": {
+          "type": "collection",
+          "settings": {
+            "collection-block": "avery-sporting-dog"
+          }
         }
       },
       "block_order": [
         "18c0e24e-be5a-48ff-9643-fe6bbc6aa864",
         "daaf9d2a-1b64-47c4-8db6-83a16be3084f",
-        "6fcd2639-dea3-4c40-963e-a408d967cd65"
+        "6fcd2639-dea3-4c40-963e-a408d967cd65",
+        "9ede6080-76d9-4076-94b5-f2ea67aaf99d"
       ],
       "settings": {
         "title": "Collections",
