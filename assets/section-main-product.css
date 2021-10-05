@@ -746,10 +746,10 @@ a.product__text {
 }
 
 .product-popup-modal__button {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-family:var(--font-heading-family);
   text-transform:uppercase;
-  letter-spacing:.1rem;
+  letter-spacing:.05rem;
   padding-right: 1.3rem;
   padding-left: 0;
   height: 4.4rem;
