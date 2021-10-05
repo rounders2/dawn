@@ -522,6 +522,7 @@ class VariantSelects extends HTMLElement {
       this.updateURL();
 
       // updates the product alert box
+      console.log("testing 1 2 3");
       momocato.update();
 
       this.updateVariantInput();
