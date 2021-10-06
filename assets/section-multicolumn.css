@@ -73,7 +73,7 @@ a.block-link-button h3 .icon-arrow {
 }
 
 a.block-link-button:hover h3 .icon-arrow {
-  transform: translateX(-0.25rem);
+  transform: translateX(0.25rem);
 }
 
 .block-link-button h3 {
