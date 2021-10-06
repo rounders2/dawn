@@ -68,12 +68,12 @@
 .block-link-button:hover {
   text-decoration:underline;
 }
-.block-link-button .icon-arrow path {
+.block-link-button .icon-arrow {
   transition: transform var(--duration-long) ease;
 }
 
 
-.block-link-button:hover .icon-arrow path {
+.block-link-button:hover .icon-arrow  {
   transform: translateX(-0.05rem);
 }
 
