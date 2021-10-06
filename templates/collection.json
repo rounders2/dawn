@@ -5,6 +5,11 @@
       "settings": {
       }
     },
+    "sale-banner": {
+      "type": "main-collection-sale-banner",
+      "settings": {
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -29,6 +34,7 @@
   },
   "order": [
     "title",
+    "sale-banner",
     "product-grid",
     "banner"
   ]
