@@ -1,4 +1,6 @@
 
+$(function() {
+
   var configuration = {
 //  Solo Stove Bonfire
     18313979363446: {
@@ -153,3 +155,4 @@
     });
 
   });
+});
