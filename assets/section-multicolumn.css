@@ -68,7 +68,7 @@
 .block-link-button:hover {
   text-decoration:underline;
 }
-a.block-link-button h3 .icon-arrow {
+a.block-link-button h3 .icon-arrow path {
   transition: transform var(--duration-long) ease;
 }
 
