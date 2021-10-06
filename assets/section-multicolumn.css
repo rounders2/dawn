@@ -70,6 +70,7 @@
 }
 a.block-link-button h3 .icon-arrow path {
   transition: transform var(--duration-short) ease;
+  transform: translateX(-.25rem);
 }
 
 a.block-link-button:hover h3 .icon-arrow path{
