@@ -44,13 +44,18 @@
         "show_text_below": false
       }
     },
+    "1633545171247418b8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
+    },
     "1633536863c0d49d44": {
       "type": "multicolumn",
       "blocks": {
         "1633536863c0d49d44-0": {
           "type": "column",
           "settings": {
-            "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-delivery' %}<\/div>",
             "title": "",
             "text": "<h3>FREE SHIPPING<\/h3>\nFast &amp; free shipping<br>on orders over $99!",
             "button": "",
@@ -60,7 +65,6 @@
         "1633536863c0d49d44-1": {
           "type": "column",
           "settings": {
-            "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-cad' %}<\/div>",
             "title": "",
             "text": "<h3>100% CANADIAN<\/h3>\nProud to be Canadian<br>family owned and operated.",
             "button": "",
@@ -70,7 +74,6 @@
         "1633536863c0d49d44-2": {
           "type": "column",
           "settings": {
-            "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-support' %}<\/div>",
             "title": "",
             "text": "<h3>SUPPORT<\/h3>\nCall us toll free <br>1.833.424.3777",
             "button": "",
@@ -116,7 +119,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-altima-banner.jpg",
-            "custom_liquid": "",
             "title": "",
             "text": "<p>Durable footwear built for the outdoors. Brands like Altama, First Tactical and Original S.W.A.T.<\/p>",
             "button": "SHOP FOOTWEAR",
@@ -127,7 +129,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-power-banner.jpg",
-            "custom_liquid": "",
             "title": "",
             "text": "<p>Get the piece of mind that comes with portable power banks, solar kits and more!<\/p>",
             "button": "SHOP PORTABLE POWER",
@@ -138,7 +139,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-light-banner.jpg",
-            "custom_liquid": "",
             "title": "",
             "text": "<p>Don't get caught in the dark. Get headlamps, lanterns &amp; more from Fenix, Biolite &amp; Goal Zero.<\/p>",
             "button": "SHOP LANTERNS",
@@ -149,7 +149,6 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/content-meat-banner.jpg",
-            "custom_liquid": "",
             "title": "",
             "text": "<p>Vegetables or wild meat - LEM's high-quality products make it easy for you to process, prepare, and preserve.<\/p>",
             "button": "SHOP LEM",
@@ -347,6 +346,7 @@
   },
   "order": [
     "163294940413c8e45d",
+    "1633545171247418b8",
     "1633536863c0d49d44",
     "1632797912aeaca2da",
     "16327978432bc410f4",
