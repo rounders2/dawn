@@ -6,11 +6,6 @@
         "show_vendor": true
       }
     },
-    "cart-suggestions": {
-      "type": "cart-suggestions",
-      "settings": {
-      }
-    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -50,7 +45,6 @@
     }
   },
   "order": [
-    "cart-suggestions",
     "cart-items",
     "cart-footer",
     "featured-products"
