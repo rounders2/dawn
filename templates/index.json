@@ -70,8 +70,8 @@
         "1633536863c0d49d44-2": {
           "type": "column",
           "settings": {
-            "custom_liquid": "",
-            "title": "",
+            "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-support' %}<\/div>",
+            "title": "S",
             "text": "<strong>CALL US FOR HELP<\/strong><br>1.833.424.3777",
             "button": "",
             "link": ""
