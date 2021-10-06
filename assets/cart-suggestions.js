@@ -1,5 +1,5 @@
 
-$(function() {
+
 
   var configuration = {
 //  Solo Stove Bonfire
@@ -155,4 +155,3 @@ $(function() {
     });
 
   });
-});
