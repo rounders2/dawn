@@ -74,7 +74,7 @@ a.block-link-button h3 .icon-arrow path {
 }
 
 a.block-link-button:hover h3 .icon-arrow path{
-  transform: translateX(-.25rem);
+  transform: translateX(-.05rem);
 }
 
 .block-link-button h3 {
