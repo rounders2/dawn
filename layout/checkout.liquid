@@ -28,6 +28,7 @@
         <div class="main">
           <header class="main__header" role="banner">
             {{ content_for_logo }}
+            {%- include 'alert-notice-checkout' -%}
             {{ breadcrumb }}
             {{ alternative_payment_methods }}
           </header>
