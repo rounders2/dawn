@@ -44,6 +44,12 @@
         "show_text_below": false
       }
     },
+    "1633545484e36fc637": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"margin:0;background: #eee;width:100%;padding: .5rem;text-align:center;display:flex;flex-direction:row;justify-content:center;align-items:center;\">\n<div style=\"text-align:center;padding:0 4rem;\">\n<div style=\"max-width:7rem;margin:0 auto;\">{%- render 'icon-delivery' -%}<\/div>\n<h3>FREE SHIPPING<\/h3>\n<p>Fast & free shipping<br>on orders over $99<\/p>\n<\/div>\n<div style=\"text-align:center;padding:0 4rem;\">\n<div style=\"max-width:7rem;margin:0 auto;\">{%- render 'icon-cad' -%}<\/div>\n<h3>100% CANADIAN<\/h3>\n<p>Proud to be Canadian<br>family owned and operated.<\/p>\n<\/div>\n<div style=\"text-align:center;padding:0 4rem;\">\n<div style=\"max-width:7rem;margin:0 auto;\">{%- render 'icon-support' -%}<\/div>\n<h3>SUPPORT<\/h3>\n<p>Call our customer support<br>toll free at 1.833.424.3777<\/p>\n<\/div>\n<\/div>"
+      }
+    },
     "1632797912aeaca2da": {
       "type": "featured-collection",
       "settings": {
@@ -293,6 +299,7 @@
   },
   "order": [
     "163294940413c8e45d",
+    "1633545484e36fc637",
     "1632797912aeaca2da",
     "16327978432bc410f4",
     "featured_products",
