@@ -1155,6 +1155,11 @@
         }
       }
     },
+    "main-collection-sale-banner": {
+      "name": "Collection sale banner",
+      "settings": {
+      }
+    },
     "main-collection-product-grid": {
       "name": "Product grid",
       "settings": {
