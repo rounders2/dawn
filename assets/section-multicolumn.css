@@ -68,6 +68,14 @@
 .block-link-button:hover {
   text-decoration:underline;
 }
+.block-link-button .icon-arrow path {
+  transition: transform var(--duration-long) ease;
+}
+
+
+.block-link-button:hover .icon-arrow path {
+  transform: translateX(-0.05rem);
+}
 
 .block-link-button h3 {
   font-size:1.5rem;
