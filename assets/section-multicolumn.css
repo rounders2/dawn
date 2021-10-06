@@ -14,15 +14,8 @@
 
 @media screen and (min-width: 750px) {
   .multicolumn.no-heading:not(.background-secondary) {
-<<<<<<< HEAD
     margin-top: 0rem;
-=======
-<<<<<<< HEAD
-    margin-top: 0rem;
-=======
     /* margin-top: 6rem; */
->>>>>>> 8d8da3e2d0a8860e7dea2dcb1c57d49b60027f61
->>>>>>> 5afab3e783585a25a431ab0c5f9738d37c9da290
   }
 }
 
@@ -74,6 +67,14 @@
 }
 .block-link-button:hover {
   text-decoration:underline;
+}
+a.block-link-button h3 .icon-arrow path {
+  transition: transform var(--duration-short) ease;
+  transform: translateX(-.25rem);
+}
+
+a.block-link-button:hover h3 .icon-arrow path{
+  transform: translateX(-.05rem);
 }
 
 .block-link-button h3 {
