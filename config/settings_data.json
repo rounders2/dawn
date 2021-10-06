@@ -16,8 +16,15 @@
     "social_instagram_link": "https:\/\/instagram.com\/good2goco",
     "favicon": "shopify:\/\/shop_images\/G2G-initials.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/G2GLogo-01.jpg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#f5f5f5",
+    "checkout_heading_font": "Lato",
+    "checkout_body_font": "Open Sans",
+    "checkout_accent_color": "#688584",
+    "checkout_button_color": "#445958",
+    "checkout_error_color": "#990000",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
