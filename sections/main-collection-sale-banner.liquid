@@ -1,9 +1,64 @@
 <div class="collection-hero">
   <div class="collection-hero__inner page-width">
-    <div class="collection-hero__text-wrapper">
-testing
-    </div>
 
+  {% if collection.handle contains 'seychelle' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/30offseychelle.jpg?v=1616547025" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle == 'alpineaire' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/alpineairepromo-banners2.jpg?v=1631749805" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle == 'happy-yak' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/happyYakPromo-banners2.jpg?v=1631751887" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle == 'mountain-house' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/mountain-housepromo-collection2.jpg?v=1631749904" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle == 'biolite' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <a href="/collections/biolite/products/biolite-firepit-bundle"><img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/firepit-bundle-collection.jpg?v=1631812643" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;"></a>
+    </div>
+  {% endif %}
+  {% if collection.handle == 'long-term-food-kits' or collection.handle == 'ready-hour' or collection.handle == 'readywise' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/longtermfood-promo.jpg?v=1631746050" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle contains 'backpacks' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <a href="/collections/emergency-bag-supplies"><img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/backpackpromo-collection2.jpg?v=1631745703" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;"></a>
+    </div>
+  {% endif %}
+
+  {% if collection.handle contains 'emergency-bag-supplies' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/collection-emergencybags.jpg?v=1631743290" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
+
+  {% if collection.handle contains 'ohio-stoneware' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <a href="/products/ohio-stoneware-preserving-crock-starter-kits"><img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/3gallon-crock-giveaway2.jpg?v=1631755922" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;"></a>
+    </div>
+  {% endif %}
+
+  {% if collection.handle contains 'klymit' %}
+    <div class="collection-sale-banner" style="text-align:center;">
+      <img src="//cdn.shopify.com/s/files/1/0062/4374/5910/files/klymit-discount-collection.jpg?v=1631815179" alt="{{collection.title}} Deals!!" style="width:100%;max-width:100%;">
+    </div>
+  {% endif %}
   </div>
 </div>
 
