@@ -332,6 +332,10 @@
                     <span class="product-form__error-message"></span>
                   </div>
                 </product-form>
+                {% assign productTags = product.tags | join: ', ' %}
+                {% if productTags contains 'rations' or productTags contains 'Survival Kit' or productTags contains 'food' %}
+                  {% include 'food-refund' %}
+                {% endif %}
 
 
                 {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
