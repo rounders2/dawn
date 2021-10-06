@@ -59,7 +59,7 @@
           "settings": {
           }
         },
-        "5eddfcb1-f9e2-49a3-b9c2-c2e705386aa8": {
+        "popup": {
           "type": "popup",
           "settings": {
             "text": "{{ product.metafields.customproduct.popup_title.value }}",
@@ -83,7 +83,6 @@
         "buy_buttons",
         "whats-included",
         "complete-the-kit",
-        "5eddfcb1-f9e2-49a3-b9c2-c2e705386aa8",
         "description"
       ],
       "settings": {
