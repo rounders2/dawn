@@ -72,8 +72,8 @@ a.block-link-button h3 .icon-arrow {
   transition: transform var(--duration-long) ease;
 }
 
-a.block-link-button:hover h3 .icon-arrow {
-  transform: translateX(0.25rem);
+a.block-link-button:hover h3 .icon-arrow path{
+  transform: translateX(-0.05rem);
 }
 
 .block-link-button h3 {
