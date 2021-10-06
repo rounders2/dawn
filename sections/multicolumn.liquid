@@ -55,6 +55,9 @@
                       loading="lazy"
                     >
                   </div>
+                  {%- if block.settings.custom_liquid -%}
+                    {{ block.settings.custom_liquid }}
+                  {%- endif -%}
                 </div>
                 {% if block.settings.link != blank %}</a> {% endif %}
               {%- endif -%}
