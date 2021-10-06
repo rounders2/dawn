@@ -50,9 +50,9 @@
         "1633536863c0d49d44-0": {
           "type": "column",
           "settings": {
-            "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-delivery' %}<\/div>",
-            "title": "FREE SHIPPING",
-            "text": "On orders over $99!",
+            "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-delivery' %}<\/div>",
+            "title": "",
+            "text": "<h3>FREE SHIPPING<\/h3>\nFast &amp; free shipping<br>on orders over $99!",
             "button": "",
             "link": ""
           }
@@ -61,8 +61,8 @@
           "type": "column",
           "settings": {
             "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-cad' %}<\/div>",
-            "title": "100% CANADIAN",
-            "text": "Proud to be Canadian<br>family owned and operated.",
+            "title": "",
+            "text": "<h3>100% CANADIAN<\/h3>\nProud to be Canadian<br>family owned and operated.",
             "button": "",
             "link": ""
           }
@@ -71,8 +71,8 @@
           "type": "column",
           "settings": {
             "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-support' %}<\/div>",
-            "title": "SUPPORT",
-            "text": "Call us toll free <br>1.833.424.3777",
+            "title": "",
+            "text": "<h3>SUPPORT<\/h3>\nCall us toll free <br>1.833.424.3777",
             "button": "",
             "link": ""
           }
