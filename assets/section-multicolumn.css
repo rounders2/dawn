@@ -69,11 +69,11 @@
   text-decoration:underline;
 }
 a.block-link-button h3 .icon-arrow path {
-  transition: transform var(--duration-long) ease;
+  transition: transform var(--duration-short) ease;
 }
 
 a.block-link-button:hover h3 .icon-arrow path{
-  transform: translateX(-0.05rem);
+  transform: translateX(-.05rem);
 }
 
 .block-link-button h3 {
