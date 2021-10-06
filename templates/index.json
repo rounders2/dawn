@@ -44,6 +44,53 @@
         "show_text_below": false
       }
     },
+    "1633536863c0d49d44": {
+      "type": "multicolumn",
+      "blocks": {
+        "1633536863c0d49d44-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<strong>FREE SHIPPING<\/strong><br>on orders over $99!",
+            "button": "",
+            "link": ""
+          }
+        },
+        "1633536863c0d49d44-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<strong>100% CANADIAN<\/strong><br>Family owned and operated.",
+            "button": "",
+            "link": ""
+          }
+        },
+        "1633536863c0d49d44-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<strong>CAN WE HELP?<\/strong><br>1.833.424.3777",
+            "button": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1633536863c0d49d44-0",
+        "1633536863c0d49d44-1",
+        "1633536863c0d49d44-2"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "half",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
     "1632797912aeaca2da": {
       "type": "featured-collection",
       "settings": {
@@ -293,6 +340,7 @@
   },
   "order": [
     "163294940413c8e45d",
+    "1633536863c0d49d44",
     "1632797912aeaca2da",
     "16327978432bc410f4",
     "featured_products",
