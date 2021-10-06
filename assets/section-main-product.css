@@ -130,6 +130,12 @@
   display:flex;
   flex-direction:row;
 }
+
+@media (max-width:749px) {
+  .form-element-wrapper{
+    display:block;
+  }
+}
 .button-wrapper {
   flex: 0 0 60%;
 }
