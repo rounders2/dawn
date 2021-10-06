@@ -1,9 +1,8 @@
 {
   "sections": {
     "cart-items": {
-      "type": "main-cart-items",
+      "type": "cart-suggestions",
       "settings": {
-        "show_vendor": true
       }
     },
     "cart-footer": {
