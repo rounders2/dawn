@@ -1132,6 +1132,11 @@
         }
       }
     },
+    "cart-suggestions": {
+      "name": "Cart Suggestions",
+      "settings": {
+      }
+    },
     "main-cart-items": {
       "name": "Items",
       "settings": {
