@@ -61,8 +61,8 @@
           "type": "column",
           "settings": {
             "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-cad' %}<\/div>",
-            "title": "",
-            "text": "<strong>100% CANADIAN<\/strong><br>Family owned and operated.",
+            "title": "100% CANADIAN",
+            "text": "Proud to be Canadian<br>family owned and operated.",
             "button": "",
             "link": ""
           }
