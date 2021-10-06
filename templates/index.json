@@ -71,8 +71,8 @@
           "type": "column",
           "settings": {
             "custom_liquid": "<div style=\"max-width:6rem;margin:0 auto;\">{% render 'icon-support' %}<\/div>",
-            "title": "S",
-            "text": "<strong>CALL US FOR HELP<\/strong><br>1.833.424.3777",
+            "title": "SUPPORT",
+            "text": "Call us toll free <br>1.833.424.3777",
             "button": "",
             "link": ""
           }
