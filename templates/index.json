@@ -51,8 +51,8 @@
           "type": "column",
           "settings": {
             "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-delivery' %}<\/div>",
-            "title": "",
-            "text": "<strong>FREE SHIPPING<\/strong><br>on orders over $99!",
+            "title": "FREE SHIPPING",
+            "text": "On orders over $99!",
             "button": "",
             "link": ""
           }
