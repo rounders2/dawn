@@ -60,7 +60,7 @@
         "1633536863c0d49d44-1": {
           "type": "column",
           "settings": {
-            "custom_liquid": "",
+            "custom_liquid": "<div style=\"max-width:7rem;margin:0 auto;\">{% render 'icon-cad' %}<\/div>",
             "title": "",
             "text": "<strong>100% CANADIAN<\/strong><br>Family owned and operated.",
             "button": "",
