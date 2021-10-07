@@ -30,7 +30,8 @@
 
                     {%- unless block.settings.icon == 'none' -%}
 
-                       {% render 'icon-delivery' %}
+                    {% assign filename = block.settings.icon %}
+                       {% render filename %}
 
                     {%- endunless -%}
                   </div>
