@@ -1157,8 +1157,7 @@
     },
     "main-collection-sale-banner": {
       "name": "Collection sale banner",
-      "settings": {
-      }
+      "settings": {}
     },
     "main-collection-product-grid": {
       "name": "Product grid",
@@ -1701,7 +1700,7 @@
           "options__3": {
             "label": "Full width of column"
           }
-        },        
+        },
         "column_alignment": {
           "label": "Column alignment",
           "options__1": {
@@ -1742,7 +1741,6 @@
               "options__1": {
                 "label": "None"
               },
-              "label": "Icon",
               "options__2": {
                 "label": "G2G Truck"
               },

@@ -2137,11 +2137,12 @@ menu-drawer + .header__search {
   }
   .header:not(.header--top-center) * > .header__search details,
   .header--top-center > .header__search details {
-    margin-left:40px;
+    margin-left:20px;
   }
   .header__icon--help {
     color: rgba(255,255,255,1);
-    max-height:2rem;
+    max-height:2.3rem;
+    width:2.3rem;
     vertical-align: middle;
   }
   .header__icon--help:hover {
