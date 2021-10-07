@@ -76,12 +76,23 @@
             "button": "",
             "link": ""
           }
+        },
+        "a9f6fc75-6740-4bb0-a36d-5e89958b480e": {
+          "type": "column",
+          "settings": {
+            "icon": "icon-hiring",
+            "title": "WORK WITH US",
+            "text": "<p>We are a growing fast, offering remote &amp; location specific careers.<\/p>",
+            "button": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "1633567807b95e7f9d-0",
         "1633567807b95e7f9d-1",
-        "1633567807b95e7f9d-2"
+        "1633567807b95e7f9d-2",
+        "a9f6fc75-6740-4bb0-a36d-5e89958b480e"
       ],
       "settings": {
         "title": "",
@@ -89,7 +100,7 @@
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "1633545484e36fc637": {
