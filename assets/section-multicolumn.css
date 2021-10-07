@@ -277,7 +277,9 @@ a.block-link-button:hover h3 .icon-arrow path{
 .multicolumn-icons.background-secondary {
   padding:0;
 }
-
+.multicolumn-icons.background-secondary .multicolumn-list {
+  margin:0;
+}
 .multicolumn-icons .media.media-icons svg {
   position:relative;
   max-width:100%;
