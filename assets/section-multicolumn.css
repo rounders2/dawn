@@ -272,6 +272,11 @@ a.block-link-button:hover h3 .icon-arrow path{
     padding-right: 1.5rem;
   }
 }
+/* Multicolumn Icons Section */
+
+.multicolumn-icons.background-secondary {
+  padding:0;
+}
 
 .multicolumn-icons .media.media-icons svg {
   position:relative;
