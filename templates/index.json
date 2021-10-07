@@ -245,8 +245,8 @@
     "16327992785b8c2a0d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Biolite",
-        "collection": "biolite",
+        "title": "Camping Stoves",
+        "collection": "stoves",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
