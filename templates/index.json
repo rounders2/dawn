@@ -64,7 +64,7 @@
             "title": "100% CANADIAN",
             "text": "<p>Proud to be Canadian, family owned and operated.<\/p>",
             "button": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/about-us"
           }
         },
         "1633567807b95e7f9d-2": {
@@ -74,7 +74,7 @@
             "title": "LIVE SUPPORT",
             "text": "<p>Our team is standing by toll free at <a href=\"tel:1.833.424.3777\">1.833.424.3777<\/a><\/p>",
             "button": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/contact-us"
           }
         },
         "a9f6fc75-6740-4bb0-a36d-5e89958b480e": {
@@ -84,7 +84,7 @@
             "title": "WORK WITH US",
             "text": "<p>Offering remote &amp; location specific careers.<\/p>",
             "button": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/careers"
           }
         }
       },
