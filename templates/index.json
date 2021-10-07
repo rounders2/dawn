@@ -57,9 +57,9 @@
           "type": "column",
           "settings": {
             "icon": "primary",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button": "Shop Now",
+            "title": "FREE SHIPPING",
+            "text": "<p>Fast &amp; free shipping on orders over $99.<\/p>",
+            "button": "",
             "link": ""
           }
         },
@@ -67,9 +67,9 @@
           "type": "column",
           "settings": {
             "icon": "primary",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button": "Shop Now",
+            "title": "100% CANADIAN",
+            "text": "<p>Proud to be Canadian\nfamily owned and operated.<\/p>",
+            "button": "",
             "link": ""
           }
         },
@@ -77,9 +77,9 @@
           "type": "column",
           "settings": {
             "icon": "primary",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button": "Shop Now",
+            "title": "LIVE SUPPORT",
+            "text": "<p>Our team is standing by\ntoll free at <a href=\"tel:1.833.424.3777\">1.833.424.3777<\/a><\/p>",
+            "button": "",
             "link": ""
           }
         },
@@ -87,9 +87,9 @@
           "type": "column",
           "settings": {
             "icon": "primary",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button": "Shop Now",
+            "title": "WORK WITH US",
+            "text": "<p>Come join the most fun team to work with<\/p>",
+            "button": "",
             "link": ""
           }
         }
