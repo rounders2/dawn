@@ -324,7 +324,12 @@ a.block-link-button:hover h3 .icon-arrow path{
   margin:0 auto;
   line-height:1.5rem;
 }
-.multicolumn-icons.background-secondary .multicolumn-card {
+
+.multicolumn-icons.multicolumn.background-secondary .multicolumn-card {
+    display:block;
+  }
+.multicolumn-icons.multicolumn.background-secondary .grid--2-col-tablet.grid--4-col-desktop .multicolumn-card {
+  display:flex;
   max-width:350px;
   margin:0 auto;
 }
