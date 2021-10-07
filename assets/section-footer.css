@@ -51,7 +51,7 @@
   background: rgba(var(--color-foreground), 1);
   color: rgb(var(--color-background));
   padding-top: .05rem;
-  padding-bottom:.05rem;
+  padding-bottom:2rem;
 }
 
 .footer__content-bottom:only-child {
