@@ -50,7 +50,7 @@
         "1633567807b95e7f9d-0": {
           "type": "column",
           "settings": {
-            "icon": "icon-delivery",
+            "icon": "icon-cad",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button": "Shop Now",
@@ -60,7 +60,7 @@
         "1633567807b95e7f9d-1": {
           "type": "column",
           "settings": {
-            "icon": "none",
+            "icon": "icon-cad",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button": "Shop Now",
@@ -70,7 +70,7 @@
         "1633567807b95e7f9d-2": {
           "type": "column",
           "settings": {
-            "icon": "none",
+            "icon": "icon-support",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button": "Shop Now",
