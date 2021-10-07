@@ -320,7 +320,7 @@ a.block-link-button:hover h3 .icon-arrow path{
   margin:0 auto;
 }
 .multicolumn-icons.background-secondary .multicolumn-card {
-  max-width:469px;
+  max-width:300px;
   @media (min-width:750px) {
     max-width:350px;
   }
