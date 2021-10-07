@@ -52,7 +52,7 @@
           "settings": {
             "icon": "icon-delivery",
             "title": "FREE SHIPPING",
-            "text": "<p>Fast &amp; free shipping on orders over $99.<\/p>",
+            "text": "<p>Fast &amp; free shipping on orders $99 or more. <\/p>",
             "button": "",
             "link": "shopify:\/\/pages\/shipping-returns"
           }
