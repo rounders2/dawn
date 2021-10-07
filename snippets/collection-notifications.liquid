@@ -1,0 +1,48 @@
+
+{% comment %} Solo Stove {% endcomment %}
+    {% if collection.handle contains 'solo-stove' %}
+    <style>.section-header__title {margin-bottom:0px;}</style>
+      <div class="restriction-text" style="font-size:.8rem;width:auto;max-width:750px;margin:5px auto 20px;">
+        <p style="line-height:1.2rem;">Good2GoCo <span style="padding:0; background:none;color:initial;border-bottom:1px solid #444;">will match</span> Canadian competitor advertised pricing on Solo Stove products.</p>
+      </div>
+    {% endif %}
+
+{% comment %} Goal Zero {% endcomment %}
+    {% if collection.handle contains 'goal-zero' or collection.handle contains 'gz' %}
+      <div class="restriction-text goal-zero" style="font-size:.9em;">
+        <span style="background:none;color:initial;">All Goal Zero Yeti Sales Are Final.</span> No refunds or exchanges.
+      </div>
+    {% endif %}
+
+{% comment %} All American Canners {% endcomment %}
+    {% if collection.handle contains 'all-american-canner' %}
+
+    {% endif %}
+
+    {% if collection.handle contains 'home-freeze' or collection.handle contains 'harvest-right' %}
+    <div class="product-alert-box">
+      <p>Harvest Right Home and Pharmaceutical Freeze Dryers are in high demand North America wide.</p>
+      <p><strong>IN STOCK NOW:</strong></p>
+      <ul style="margin-left:20px;margin-bottom:20px;">
+        <li style="text-align:left;">Medium Black</li>
+        <li style="text-align:left;">Large Black, White and Pharmaceutical</li>
+      </ul>
+
+      <p>Medium white, stainless & pharmaceutical and large stainless freeze dryers are back in stock at the <span class="highlight">late September.</span> We would encourage you to order early to secure your freeze dryer!</p>
+    </div>
+    {% endif %}
+
+
+    {% if collection.handle contains 'scientific-freeze' %}
+    <div class="product-alert-box">
+      <p>Harvest Right Scientific Freeze Dryers are in high demand North America wide. We have been notified by Harvest Right that there are component shortages causing significant manufacturing delay on the supply of freeze dryers and pumps.</p>
+      <p>Please expect approximately <span class="highlight">12 weeks delay</span> for delivery. We would encourage you to order early to secure your freeze dryer!</p>
+    </div>
+    {% endif %}
+
+
+    {% if collection.handle == 'sure-water' %}
+    <div class="product-alert-box">
+      <p>Sure Water storage tanks are in high demand North America wide.  The manufacturer notified Good2GoCo that production has been delayed due to a component shortage for the tanks.  The manufacturer anticipates that production will be scheduled to resume in October 2021 – eta for shipping will be <span class="highlight">late October/early November.</span></p>
+    </div>
+    {% endif %}
