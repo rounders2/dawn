@@ -97,7 +97,7 @@
       "settings": {
         "title": "",
         "image_width": "third",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
