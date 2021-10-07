@@ -25,7 +25,7 @@
             <div class="multicolumn-card">
 
               {%- if block.settings.icon != blank -%}
-                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+                <div class="multicolumn-card__image-wrapper">
                   <div class="media media-icons media--transparent">
 
                     {%- unless block.settings.icon == 'none' -%}
@@ -93,6 +93,7 @@
 </div>
 
 <style>
+
   .multicolumn.background-secondary .multicolumn-card {
     display:flex;
   }
