@@ -249,7 +249,6 @@
 </div>
 
 <div id="CollectionProductGrid">
-testing
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="main-collection-product-grid" data-id="{{ section.id }}">
@@ -282,6 +281,7 @@ testing
             </div>
             <div>
               <div class="small-hide collection-product-count light" role="status">
+                testing
                 <p id="CollectionProductCountDesktop" class="collection-product-count__text">
                   {%- if collection.products_count == collection.all_products_count -%}
                   {{ 'sections.collection_template.product_count_simple' | t: count: collection.products_count }}
