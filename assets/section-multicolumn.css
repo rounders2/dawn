@@ -280,6 +280,12 @@ a.block-link-button:hover h3 .icon-arrow path{
 .multicolumn-icons.background-secondary .multicolumn-list {
   margin:0;
 }
+
+.multicolumn-icons .multicolumn-card-spacing {
+  padding:0;
+  margin:0;
+}
+
 .multicolumn-icons .media.media-icons svg {
   position:relative;
   max-width:7rem;
