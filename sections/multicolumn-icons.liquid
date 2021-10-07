@@ -29,9 +29,8 @@
                   <div class="media media-icons media--transparent">
 
                     {%- unless block.settings.icon == 'none' -%}
-
-                    {% assign filename = block.settings.icon %}
-                       {% render filename %}
+                  
+                       {% render 'icon-delivery' %}
 
                     {%- endunless -%}
                   </div>
