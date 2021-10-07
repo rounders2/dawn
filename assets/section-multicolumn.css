@@ -279,5 +279,5 @@ a.block-link-button:hover h3 .icon-arrow path{
   margin:0 auto;
 }
 .multicolumn-icons.background-secondary .multicolumn-card {
-  background:transparent;
+  /* background:transparent; */
 }
