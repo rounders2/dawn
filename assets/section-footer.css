@@ -48,7 +48,7 @@
 }
 
 .footer__content-bottom {
-  border-top: solid 0.1rem rgba(var(--color-foreground), 0.2);
+  background: solid 0.1rem rgba(var(--color-foreground), 0.2);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
