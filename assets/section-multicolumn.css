@@ -273,8 +273,11 @@ a.block-link-button:hover h3 .icon-arrow path{
   }
 }
 
+.multicolumn-icons .media.media-icons {
+  position:relative;
+}
+
 .multicolumn-icons .media-icons {
-  position: relative;
   max-width:8rem;
   margin:0 auto;
 }
