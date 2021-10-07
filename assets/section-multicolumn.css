@@ -274,5 +274,5 @@ a.block-link-button:hover h3 .icon-arrow path{
 }
 
 .multicolumn-icons .media .icon svg {
-  width:100%;
+  position: relative;
 }
