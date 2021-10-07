@@ -1690,6 +1690,18 @@
         "title": {
           "label": "Heading"
         },
+        "image_width": {
+          "label": "Image width",
+          "options__1": {
+            "label": "One-third width of column"
+          },
+          "options__2": {
+            "label": "Half width of column"
+          },
+          "options__3": {
+            "label": "Full width of column"
+          }
+        },
         "column_alignment": {
           "label": "Column alignment",
           "options__1": {
