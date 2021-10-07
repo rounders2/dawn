@@ -50,6 +50,65 @@
         "custom_liquid": "<div style=\"color:#666; background:#eee; width:100%;padding:.5rem 0;display:flex;flex-direction:row;justify-content:center;\">\n  <div style=\"text-align:center;padding:0 2rem;max-width:300px;width:33.3%;display:flex;flex-direction:row; justify-content:center;\">\n    <div style=\"width:8rem;margin-right:1rem;\">{%- render 'icon-delivery' -%}<\/div>\n    <div style=\"text-align:left;\">\n      <h4 style=\"margin:.5rem auto;\">FREE SHIPPING<\/h4>\n      <p style=\"margin-top:0;font-size:1.2rem;line-height:1.4em;\">Fast & free shipping<br>on orders over $99<\/p>\n    <\/div>\n  <\/div>\n  <div style=\"text-align:center;padding:0 2rem;max-width:300px;width:33.3%;display:flex;flex-direction:row; justify-content:center;\">\n    <div style=\"width:8rem;margin-right:1rem;\">{%- render 'icon-cad' -%}<\/div>\n    <div style=\"text-align:left;\">\n    <h4 style=\"margin:.5rem auto;\">100% CANADIAN<\/h4>\n    <p style=\"margin-top:0;font-size:1.2rem;line-height:1.4em;\">Proud to be Canadian<br>family owned and operated.<\/p>\n    <\/div>\n  <\/div>\n  <div style=\"text-align:center;padding:0 2rem;max-width:300px;width:33.3%;display:flex;flex-direction:row; justify-content:center;\">\n    <div style=\"width:8rem;margin-right:1rem;\">{%- render 'icon-support' -%}<\/div>\n    <div style=\"text-align:left;\">  \n    <h4 style=\"margin:.5rem auto;\">LIVE SUPPORT<\/h4>\n    <p style=\"margin-top:0;font-size:1.2rem;line-height:1.4em;\">Our team is standing by<br>toll free at <a href=\"tel:1.833.424.3777\" style=\"color:#000;\">1.833.424.3777<\/a><\/p>\n    <\/div>\n  <\/div>\n<\/div>"
       }
     },
+    "163356631482d51de0": {
+      "type": "multicolumn-icons",
+      "blocks": {
+        "163356631482d51de0-0": {
+          "type": "column",
+          "settings": {
+            "icon": "primary",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button": "Shop Now",
+            "link": ""
+          }
+        },
+        "163356631482d51de0-1": {
+          "type": "column",
+          "settings": {
+            "icon": "primary",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button": "Shop Now",
+            "link": ""
+          }
+        },
+        "163356631482d51de0-2": {
+          "type": "column",
+          "settings": {
+            "icon": "primary",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button": "Shop Now",
+            "link": ""
+          }
+        },
+        "a7c80232-bbd9-4dcd-b063-789e16c43b9f": {
+          "type": "column",
+          "settings": {
+            "icon": "primary",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163356631482d51de0-0",
+        "163356631482d51de0-1",
+        "163356631482d51de0-2",
+        "a7c80232-bbd9-4dcd-b063-789e16c43b9f"
+      ],
+      "settings": {
+        "title": "",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "1632797912aeaca2da": {
       "type": "featured-collection",
       "settings": {
@@ -300,6 +359,7 @@
   "order": [
     "163294940413c8e45d",
     "1633545484e36fc637",
+    "163356631482d51de0",
     "1632797912aeaca2da",
     "16327978432bc410f4",
     "featured_products",
