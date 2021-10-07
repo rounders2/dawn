@@ -1740,10 +1740,13 @@
                 "label": "G2G Hiring"
               },
               "options__5": {
-                "label": "Help"
+                "label": "Clipboard"
               },
               "options__6": {
                 "label": "Arrow"
+              },
+              "options__7": {
+                "label": "Help"
               }
             },
             "title": {
