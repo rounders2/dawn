@@ -1726,7 +1726,25 @@
           "name": "Column",
           "settings": {
             "icon": {
-              "label": "Icon"
+              "label": "Icon",
+              "options__1": {
+                "label": "G2G Truck"
+              },
+              "options__2": {
+                "label": "G2G Leaf"
+              },
+              "options__3": {
+                "label": "G2G Chat"
+              },
+              "options__4": {
+                "label": "G2G Hiring"
+              },
+              "options__5": {
+                "label": "Help"
+              },
+              "options__6": {
+                "label": "Arrow"
+              }
             },
             "title": {
               "label": "Heading"
