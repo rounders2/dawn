@@ -103,7 +103,7 @@ slider-component {
 }
 
 @media screen and (min-width: 750px) {
-  .product .slider--mobile + .slider-buttons {
+  .product .slider--mobile + .slider-buttons, .multicolumn-icons .slider--mobile + .slider-buttons {
     display: none;
   }
 }

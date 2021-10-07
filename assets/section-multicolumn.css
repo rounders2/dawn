@@ -272,3 +272,64 @@ a.block-link-button:hover h3 .icon-arrow path{
     padding-right: 1.5rem;
   }
 }
+/* Multicolumn Icons Section */
+
+.multicolumn-icons.background-secondary, .multicolumn-icons.no-heading.background-secondary {
+  padding:0;
+}
+.multicolumn-icons.background-secondary .multicolumn-list {
+  margin:0;
+}
+
+.multicolumn-icons .multicolumn-card-spacing {
+  padding:0;
+  margin:0;
+}
+
+.multicolumn-icons .grid--2-col-tablet.grid--4-col-desktop .multicolumn-card__image-wrapper, .multicolumn-icons .grid--2-col-tablet.grid--4-col-desktop .multicolumn-list   a {
+  display:flex;
+  color:inherit;
+}
+.multicolumn-icons.multicolumn.background-secondary .multicolumn-card__image-wrapper--third-width {
+  width:initial;
+}
+
+.multicolumn-icons .media.media-icons svg {
+  position:relative;
+  max-width:7rem;
+  margin:0 auto;
+}
+.multicolumn-icons.background-secondary .multicolumn-card {
+  background:transparent;
+}
+.multicolumn-icons .multicolumn-list a {
+  text-decoration:none;
+  color:inherit;
+}
+.multicolumn-icons .multicolumn-list h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color:inherit;
+}
+.multicolumn-icons .multicolumn-card__info  {
+  padding:1.5rem;
+}
+
+.multicolumn-icons .multicolumn-card__info .rte {
+  margin-top:.1rem;
+  color:inherit;
+}
+.multicolumn-icons .multicolumn-list p {
+  font-size: 1.2rem;
+  margin:0 auto;
+  line-height:1.5rem;
+}
+
+.multicolumn-icons.multicolumn.background-secondary .multicolumn-card {
+    display:block;
+  }
+.multicolumn-icons.multicolumn.background-secondary .grid--2-col-tablet.grid--4-col-desktop .multicolumn-card {
+  display:flex;
+  max-width:350px;
+  margin:0 auto;
+}
