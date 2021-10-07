@@ -278,3 +278,6 @@ a.block-link-button:hover h3 .icon-arrow path{
   max-width:100%;
   margin:0 auto;
 }
+.multicolumn-icons.background-secondary .multicolumn-card {
+  background:transparent;
+}
