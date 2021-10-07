@@ -2141,7 +2141,7 @@ menu-drawer + .header__search {
   }
   .header__icon--help {
     color: rgba(255,255,255,1);
-    max-height:2.5rem;
+    max-height:2.2rem;
     width:2.5rem;
     vertical-align: middle;
   }
