@@ -286,7 +286,7 @@ a.block-link-button:hover h3 .icon-arrow path{
   margin:0;
 }
 
-.multicolumn-icons .multicolumn-card__image-wrapper, .multicolumn-icons .multicolumn-list a {
+.multicolumn-icons .multicolumn-card__image-wrapper, .multicolumn-icons .multicolumn-list > a {
   display:flex;
 }
 .multicolumn-icons.multicolumn.background-secondary .multicolumn-card__image-wrapper--third-width {
