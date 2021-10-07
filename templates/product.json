@@ -59,7 +59,7 @@
           "settings": {
           }
         },
-        "popup": {
+        "f59ac655-778b-4eac-93c8-04120c23e130": {
           "type": "popup",
           "settings": {
             "text": "{{ product.metafields.customproduct.popup_title.value }}",
@@ -83,6 +83,7 @@
         "buy_buttons",
         "whats-included",
         "complete-the-kit",
+        "f59ac655-778b-4eac-93c8-04120c23e130",
         "description"
       ],
       "settings": {
