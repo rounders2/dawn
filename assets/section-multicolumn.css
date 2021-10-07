@@ -285,6 +285,9 @@ a.block-link-button:hover h3 .icon-arrow path{
   padding:0;
   margin:0;
 }
+.multicolumn-icons .multicolumn-card__image-wrapper {
+  display:flex;
+}
 
 .multicolumn-icons .media.media-icons svg {
   position:relative;
