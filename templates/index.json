@@ -183,8 +183,8 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Long Term Food Kits",
-        "collection": "long-term-food-kits",
+        "title": "Backpacks & Bags",
+        "collection": "bags",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": true,
