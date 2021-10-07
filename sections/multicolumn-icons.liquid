@@ -31,7 +31,7 @@
 
                     {%- unless block.settings.icon == 'none' -%}
 
-                       {{ block.settings.icon }}
+                       {% render 'icon-name' %}
 
                     {%- endunless -%}
                   </div>
@@ -160,7 +160,7 @@
               "label": "t:sections.multicolumn-icons.blocks.column.settings.icon.options__1.label"
             },
             {
-              "value": "{% render 'icon-delivery' %}",
+              "value": "icon-delivery",
               "label": "t:sections.multicolumn-icons.blocks.column.settings.icon.options__2.label"
             },
             {
