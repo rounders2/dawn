@@ -96,8 +96,8 @@
       ],
       "settings": {
         "title": "",
-        "image_width": "third",
-        "column_alignment": "left",
+        "image_width": "full",
+        "column_alignment": "center",
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
