@@ -287,6 +287,7 @@ a.block-link-button:hover h3 .icon-arrow path{
 }
 .multicolumn-icons .multicolumn-card__image-wrapper {
   display:flex;
+  width:20%;
 }
 
 .multicolumn-icons .media.media-icons svg {
