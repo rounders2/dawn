@@ -281,7 +281,9 @@ a.block-link-button:hover h3 .icon-arrow path{
 .multicolumn-icons.background-secondary .multicolumn-card {
   background:transparent;
 }
-.multicolumn-icons .multicolumn-list h3 {
-  font-size: 1.4rem;
+.multicolumn-icons .multicolumn-list a {
   text-decoration:none;
+}
+.multicolumn-icons .multicolumn-list h3 {
+  font-size: 1.5rem;
 }
