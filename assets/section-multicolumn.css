@@ -317,12 +317,12 @@ a.block-link-button:hover h3 .icon-arrow path{
 
 .multicolumn-icons .multicolumn-card__info .rte {
   margin-top:.1rem;
+  color:inherit;
 }
 .multicolumn-icons .multicolumn-list p {
   font-size: 1.2rem;
   margin:0 auto;
   line-height:1.5rem;
-  color:inherit;
 }
 .multicolumn-icons.background-secondary .multicolumn-card {
   max-width:350px;
