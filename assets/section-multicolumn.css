@@ -305,6 +305,7 @@ a.block-link-button:hover h3 .icon-arrow path{
   margin:0 auto;
 }
 .multicolumn-icons .multicolumn-card__info  {
+  padding:1.5rem;
 }
 
 .multicolumn-icons .multicolumn-card__info .rte {
