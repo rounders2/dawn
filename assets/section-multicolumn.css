@@ -272,3 +272,7 @@ a.block-link-button:hover h3 .icon-arrow path{
     padding-right: 1.5rem;
   }
 }
+
+.multicolumn-icons .media .icon svg {
+  width:100%;
+}
