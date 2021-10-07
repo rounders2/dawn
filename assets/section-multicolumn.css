@@ -289,6 +289,10 @@ a.block-link-button:hover h3 .icon-arrow path{
   display:flex;
 }
 
+.multicolumn-icons .icons-link {
+  
+}
+
 .multicolumn-icons .media.media-icons svg {
   position:relative;
   max-width:7rem;
@@ -315,7 +319,6 @@ a.block-link-button:hover h3 .icon-arrow path{
   font-size: 1.2rem;
   margin:0 auto;
 }
-
 .multicolumn-icons.background-secondary .multicolumn-card {
   max-width:350px;
   margin:0 auto;
