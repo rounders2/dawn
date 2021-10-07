@@ -273,12 +273,8 @@ a.block-link-button:hover h3 .icon-arrow path{
   }
 }
 
-.multicolumn-icons .media.media-icons {
+.multicolumn-icons .media.media-icons svg {
   position:relative;
   max-width:8rem;
-  margin:0 auto;  
-}
-
-.multicolumn-icons .media-icons {
-
+  margin:0 auto;
 }
