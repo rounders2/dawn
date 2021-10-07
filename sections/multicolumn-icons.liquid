@@ -29,9 +29,15 @@
                   <div class="media media-icons media--transparent">
 
                     {%- unless block.settings.icon == 'none' -%}
-                  
+                    {% assign filename = block.settings.icon %}
+                    {%- case filename -%}
+                    {% when 'icon-delivery' %}
                        {% render 'icon-delivery' %}
-
+                    {% when 'icon-cad' %}
+                      {% render 'icon-cad' %}
+                      {% when 'icon-support' %}
+                        {% render 'icon-support' %}                      
+                    {%- endcase -%}
                     {%- endunless -%}
                   </div>
                 </div>
