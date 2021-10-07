@@ -318,4 +318,5 @@ a.block-link-button:hover h3 .icon-arrow path{
 
 .multicolumn-icons.background-secondary .multicolumn-card {
   max-width:250px;
+  margin:0 auto;
 }
