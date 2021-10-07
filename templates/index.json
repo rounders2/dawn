@@ -79,6 +79,7 @@
         },
         "a9f6fc75-6740-4bb0-a36d-5e89958b480e": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "icon": "icon-hiring",
             "title": "WORK WITH US",
