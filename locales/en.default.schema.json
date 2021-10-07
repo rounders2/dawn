@@ -1728,24 +1728,27 @@
             "icon": {
               "label": "Icon",
               "options__1": {
-                "label": "G2G Truck"
+                "label": "None"
               },
               "options__2": {
-                "label": "G2G Leaf"
+                "label": "G2G Truck"
               },
               "options__3": {
-                "label": "G2G Chat"
+                "label": "G2G Leaf"
               },
               "options__4": {
-                "label": "G2G Hiring"
+                "label": "G2G Chat"
               },
               "options__5": {
-                "label": "Clipboard"
+                "label": "G2G Hiring"
               },
               "options__6": {
-                "label": "Arrow"
+                "label": "Clipboard"
               },
               "options__7": {
+                "label": "Arrow"
+              },
+              "options__8": {
                 "label": "Help"
               }
             },
