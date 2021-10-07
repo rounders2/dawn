@@ -21,10 +21,10 @@
       >
         {%- for block in section.blocks -%}
           <li class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}" {{ block.shopify_attributes }}>
+            {% if block.settings.link != blank %}<a class="icons-link" href="{{ block.settings.link }}">{% endif %}
             <div class="multicolumn-card">
-              {%- if block.settings.icon != blank -%}
 
-                {% if block.settings.link != blank %}<a class="icons-link" href="{{ block.settings.link }}">{% endif %}
+              {%- if block.settings.icon != blank -%}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
                   <div class="media media-icons media--transparent">
 
@@ -47,7 +47,7 @@
                     {%- endunless -%}
                   </div>
                 </div>
-                {% if block.settings.link != blank %}</a> {% endif %}
+
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
@@ -64,6 +64,7 @@
                 {%- endif -%}
               </div>
             </div>
+            {% if block.settings.link != blank %}</a> {% endif %}
           </li>
         {%- endfor -%}
       </ul>
