@@ -282,7 +282,7 @@ a.block-link-button:hover h3 .icon-arrow path{
 }
 .multicolumn-icons .media.media-icons svg {
   position:relative;
-  max-width:100%;
+  max-width:7rem;
   margin:0 auto;
 }
 .multicolumn-icons.background-secondary .multicolumn-card {
