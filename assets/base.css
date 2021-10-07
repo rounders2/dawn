@@ -2137,7 +2137,7 @@ menu-drawer + .header__search {
   }
   .header:not(.header--top-center) * > .header__search details,
   .header--top-center > .header__search details {
-    /* margin-left:40px; */
+    margin-left:10px;
   }
   .header__icon--help {
     color: rgba(255,255,255,1);
