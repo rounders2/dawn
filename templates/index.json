@@ -96,7 +96,7 @@
       ],
       "settings": {
         "title": "",
-        "image_width": "third",
+        "image_width": "full",
         "column_alignment": "left",
         "background_style": "secondary",
         "button_label": "",
