@@ -274,7 +274,7 @@ a.block-link-button:hover h3 .icon-arrow path{
 }
 /* Multicolumn Icons Section */
 
-.multicolumn-icons.background-secondary {
+.multicolumn-icons.background-secondary, .multicolumn-icons.no-heading.background-secondary {
   padding:0;
 }
 .multicolumn-icons.background-secondary .multicolumn-list {
