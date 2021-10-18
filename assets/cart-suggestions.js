@@ -80,7 +80,7 @@ class CartSuggestions extends HTMLElement {
   }
 
   function variantInCart(variandID) {
-    return variantsInCart.indexOf(variantID) != variantID
+    return this.variantsInCart.indexOf(variantID) != variantID
   }
 
   render() {
