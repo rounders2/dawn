@@ -113,7 +113,7 @@ class CartSuggestions extends HTMLElement {
         upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
         upsells[handle].variant = variant;
         upsells[handle].variant.formatted_price = `${variant.price}`;
-      });
+      }));
     });
 
     Promise.all(promises).then(() => {
