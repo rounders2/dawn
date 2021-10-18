@@ -15,7 +15,6 @@ class CartSuggestions extends HTMLElement {
         mesg: "Deez beens are da best!",
         addToCart: true
       }
-
     }
 
     this.render();
