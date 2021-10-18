@@ -1,7 +1,8 @@
 class CartSuggestions extends HTMLElement {
   constructor() {
     super();
-    console.log("instantiated cart-suggestions element");
+
+
     this.configuration = {
       36191353241766: {
         upsellProductHandle: "lifestraw-go",
