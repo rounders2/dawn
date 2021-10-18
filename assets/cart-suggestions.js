@@ -74,7 +74,7 @@ class CartSuggestions extends HTMLElement {
     });
   }
 
-  function fetchProductJSON(handle) {
+  fetchProductJSON(handle) {
     return fetch(`${window.location.origin}/products/${handle}.json`);
   }
 
