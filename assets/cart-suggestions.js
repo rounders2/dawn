@@ -86,7 +86,7 @@ class CartSuggestions extends HTMLElement {
   render() {
     this.variantsInCart.forEach((variantID) => {
       console.log(`checking ${variantID}`);
-      if (this.configuration[variantID] && !this.isInCart(variantID)) {
+      if (this.configuration[variantID] && !this.isInCart(this.configurations[variantID].upsellVariant)) {
         console.log(`${variantID} needs upselling`);
       } else {
         console.log(`no dice for ${variantID}`);
