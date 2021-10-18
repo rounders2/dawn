@@ -68,7 +68,7 @@ class CartSuggestions extends HTMLElement {
     });
 
     Promise.all(promises).then(() => {
-      this.innerHTML = upsells.map((upsell) {
+      this.innerHTML = upsells.map((upsell) => {
         return this.template(upsell);
       }).join();
     });
