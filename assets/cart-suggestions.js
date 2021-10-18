@@ -118,9 +118,9 @@
     // }));
   }
 
-  for (var k=0; k < upsellProductHandles.length; k++) {
-    fetchProductJson(upsellProductHandles[k]);
-  }
+  // for (var k=0; k < upsellProductHandles.length; k++) {
+  //   fetchProductJson(upsellProductHandles[k]);
+  // }
 
   // $.when.apply($, promises).then(function() {
   //   $cartSuggestions.append(template(upsells));
