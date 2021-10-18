@@ -84,13 +84,16 @@ class CartSuggestions extends HTMLElement {
 
   addUpsellToCart(e) {
     e.preventDefault();
-    console.log("clicked ", e.target);
+
+    let addLink = e.target;
+    addLink.setAttribute('aria-disabled', true);
+    addLink.classList.add('loading');
 
     let config = fetchConfig('javascript');
     config.headers['X-Requested-With'] = 'XMLHttpRequest';
     config.body = JSON.stringify({
       items: [
-        { quantity: 1, id: e.target.dataset.variantId }
+        { quantity: 1, id: addLink.dataset.variantId }
       ]
     })
 
