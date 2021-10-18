@@ -93,6 +93,7 @@ class CartItems extends HTMLElement {
         const lineItem =  document.getElementById(`CartItem-${line}`);
         if (lineItem && lineItem.querySelector(`[name="${name}"]`)) lineItem.querySelector(`[name="${name}"]`).focus();
 
+        // update cart suggestions
         this.renderCartSuggestions();
 
         this.disableLoading();
