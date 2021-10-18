@@ -109,7 +109,8 @@ class CartSuggestions extends HTMLElement {
         console.error(e);
       })
       .finally(() => {
-        location.reload();
+        addLink.classList.remove('loading');
+        addLink.removeAttribute('aria-disabled', true);
       });
   }
 
