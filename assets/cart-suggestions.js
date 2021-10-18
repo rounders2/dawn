@@ -79,6 +79,10 @@ class CartSuggestions extends HTMLElement {
   }
 
   getSizedImageUrl(src, size) {
+    function removeProtocol(path) {
+      return path.replace(/http(s)?:/, '');
+    }
+
     if (size === null) {
       return src;
     }
