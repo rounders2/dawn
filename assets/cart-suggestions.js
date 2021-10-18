@@ -84,7 +84,7 @@ class CartSuggestions extends HTMLElement {
 
   bindEvents() {
     Array.from(document.querySelectorAll('[data-add-cart-suggestions]')).forEach((element) => {
-      element.addEventListener('click', this.addUpsellToCart));
+      element.addEventListener('click', this.addUpsellToCart);
     });
   }
 
