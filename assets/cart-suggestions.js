@@ -71,9 +71,15 @@ class CartSuggestions extends HTMLElement {
     this.render();
   }
 
+  function variantInCart(variandID) {
+    return variantsInCart.indexOf(variantID) != variantID
+  }
+
   render() {
 
   }
+
+
 
   get variantsInCart() {
     return JSON.parse(this.getAttribute('variants'));
