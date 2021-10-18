@@ -31,7 +31,6 @@ class CartItems extends HTMLElement {
   }
 
   renderCartSuggestions() {
-    console.log("rendering cart suggestions");
     document.querySelector('cart-suggestions').render();
   }
 
