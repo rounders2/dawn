@@ -100,6 +100,11 @@ class CartSuggestions extends HTMLElement {
     });
   }
 
+  get productJson(handle) {
+
+
+  }
+
 
   get variantsInCart() {
     return JSON.parse(this.getAttribute('variants'));
