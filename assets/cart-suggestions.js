@@ -71,3 +71,5 @@ class CartSuggestions extends HTMLElement {
     }
   }
 }
+
+customElements.define('cart-suggestions', CartSuggestions);
