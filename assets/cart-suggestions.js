@@ -8,6 +8,12 @@ class CartSuggestions extends HTMLElement {
         upsellVariant: 36191168757926,
         mesg: "You gotta have this thing!",
         addToCart: true
+      },
+      37009363173542: {
+        upsellProductHandle: "santa-fe-black-veans-rice-emergency-essentials",
+        upsellVariant: 36191164039334,
+        mesg: "Deez beens are da best!",
+        addToCart: true
       }
 
     }
