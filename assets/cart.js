@@ -30,6 +30,10 @@ class CartItems extends HTMLElement {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
   }
 
+  renderCartSuggestions() {
+    document.querySelector('cart-suggestions').render();
+  }
+
   getSectionsToRender() {
     return [
       {
