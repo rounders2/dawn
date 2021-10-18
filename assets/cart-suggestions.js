@@ -43,13 +43,12 @@ class CartSuggestions extends HTMLElement {
         upsells[handle].product = data.product;
         console.log("foo: ", data)
         let variant = data.product.variants.find((v) => {
-          console.log(`comparing ${v.id} and ${upsells[handle].upsellVariant}`);
           return (v.id == upsells[handle].upsellVariant);
         });
 
-        // upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
-        // upsells[handle].variant = variant;
-        // upsells[handle].variant.formatted_price = `${variant.price}`;
+        upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
+        upsells[handle].variant = variant;
+        upsells[handle].variant.formatted_price = `${variant.price}`;
       }));
     });
 
