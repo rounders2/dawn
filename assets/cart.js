@@ -27,9 +27,7 @@ class CartItems extends HTMLElement {
   }
 
   onChange(event) {
-    this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name')).then(() => {
-      this.renderCartSuggestions();
-    });
+    this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
   }
 
   renderCartSuggestions() {
@@ -95,7 +93,7 @@ class CartItems extends HTMLElement {
         const lineItem =  document.getElementById(`CartItem-${line}`);
         if (lineItem && lineItem.querySelector(`[name="${name}"]`)) lineItem.querySelector(`[name="${name}"]`).focus();
 
-        this.updateCartSuggestions();
+        this.renderCartSuggestions();
 
         this.disableLoading();
       }).catch(() => {
