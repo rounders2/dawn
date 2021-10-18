@@ -15,6 +15,10 @@ class CartSuggestions extends HTMLElement {
     this.render();
   }
 
+  function template() {
+
+  }
+
   function isInCart(variantID) {
     return this.variantsInCart.indexOf(variantID) != -1
   }
