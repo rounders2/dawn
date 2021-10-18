@@ -99,10 +99,6 @@ class CartSuggestions extends HTMLElement {
     fetch(`${routes.cart_add_url}`, config)
       .then((response) => response.json())
       .then((response) => {
-        if (response.status) {
-          console.log("the response status is ", response.status);
-        }
-        console.log("The response is ", response);
       })
       .catch((e) => {
         console.error(e);
