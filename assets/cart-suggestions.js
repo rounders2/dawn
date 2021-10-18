@@ -111,6 +111,7 @@ class CartSuggestions extends HTMLElement {
       .finally(() => {
         addLink.classList.remove('loading');
         addLink.removeAttribute('aria-disabled', true);
+        location.reload();
       });
   }
 
