@@ -4,9 +4,9 @@ class CartSuggestions extends HTMLElement {
     console.log("instantiated cart-suggestions element");
     this.configuration = {
       36191353241766: {
-        upsellProductHandle: "2021-biolite-solarpower-10",
-        upsellVariant: 32106582638710,
-        mesg: "Don't Forget the Cream for your Coffee!",
+        upsellProductHandle: "lifestraw-go",
+        upsellVariant: 36191168757926,
+        mesg: "You gotta have this thing!",
         addToCart: true
       }
 
