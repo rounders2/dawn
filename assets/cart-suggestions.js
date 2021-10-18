@@ -101,8 +101,9 @@ class CartSuggestions extends HTMLElement {
   }
 
   get productJson(handle) {
-
-
+    fetch(`https://good2goco.ca/products/${handle}.json`).then((response) => {
+      console.log(`fetched json for ${handle}`, response);
+    });
   }
 
 
