@@ -103,7 +103,7 @@ class CartSuggestions extends HTMLElement {
     let promises = []
 
     upsellProductHandles.forEach((handle) => {
-      this.fetchProductJSON(handle);
+      promises.push(this.fetchProductJSON(handle))
     });
   }
 
