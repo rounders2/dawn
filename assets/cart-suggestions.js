@@ -88,6 +88,8 @@ class CartSuggestions extends HTMLElement {
       console.log(`checking ${variantID}`);
       if (this.configuration[variantID] && !this.isInCart(variantID)) {
         console.log(`${variantID} needs upselling`);
+      } else {
+        console.log(`no dice for ${variantID}`);
       }
     });
   }
