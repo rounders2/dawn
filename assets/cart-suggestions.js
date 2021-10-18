@@ -72,34 +72,34 @@
   var upsells = {};
   var option;
 
-  function variantInCart(variantID) {
-    var a =  theme.cartObject.items.some(function(item) {
-      return item.variant_id == variantID;
-    });
+  // function variantInCart(variantID) {
+  //   var a =  theme.cartObject.items.some(function(item) {
+  //     return item.variant_id == variantID;
+  //   });
 
-    return a;
-  }
+  //   return a;
+  // }
 
-  for (var i = 0; i < theme.cartObject.items.length; i++) {
-    for (var j = 0; j < qualifyingVariants.length; j++ ) {
-      if (theme.cartObject.items[i].variant_id == qualifyingVariants[j] && !variantInCart(configuration[qualifyingVariants[j]].upsellVariant)) {
-        option = configuration[qualifyingVariants[j]];
-        upsells[option.upsellProductHandle] = {
-          upsellVariant: option.upsellVariant,
-          mesg: option.mesg,
-          addToCart: option.addToCart
-        }
-      }
-    }
-  }
+  // for (var i = 0; i < theme.cartObject.items.length; i++) {
+  //   for (var j = 0; j < qualifyingVariants.length; j++ ) {
+  //     if (theme.cartObject.items[i].variant_id == qualifyingVariants[j] && !variantInCart(configuration[qualifyingVariants[j]].upsellVariant)) {
+  //       option = configuration[qualifyingVariants[j]];
+  //       upsells[option.upsellProductHandle] = {
+  //         upsellVariant: option.upsellVariant,
+  //         mesg: option.mesg,
+  //         addToCart: option.addToCart
+  //       }
+  //     }
+  //   }
+  // }
 
 
-  var source = $('#CartSuggestionsTemplate').html();
-  var template = Handlebars.compile(source);
+  // var source = $('#CartSuggestionsTemplate').html();
+  // var template = Handlebars.compile(source);
 
-  var $cartSuggestions = $('#cart-suggestions');
-  var upsellProductHandles = Object.keys(upsells);
-  var promises = []
+  // var $cartSuggestions = $('#cart-suggestions');
+  // var upsellProductHandles = Object.keys(upsells);
+  // var promises = []
 
   function fetchProductJson(handle) {
     // var variant;
