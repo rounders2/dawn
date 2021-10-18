@@ -15,7 +15,7 @@ class CartSuggestions extends HTMLElement {
     this.render();
   }
 
-  function template(upsell) {
+  template(upsell) {
     return `
       <div class="cart-upsell-item">
         <div class="cart-upsell-image">
