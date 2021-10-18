@@ -81,6 +81,27 @@ class CartSuggestions extends HTMLElement {
     e.preventDefault();
     console.log("clicked ", e.target);
 
+    let config = fetchConfig('javascript');
+
+    fetch(`${routes.cart_add_url}`, config)
+      .then((response) => response.json())
+      .then((response) => {
+        if (response.status) {
+          this.handleErrorMessage(response.description);
+          return;
+        }
+
+        this.cartNotification.renderContents(response);
+      })
+      .catch((e) => {
+        console.error(e);
+      })
+      .finally(() => {
+        submitButton.classList.remove('loading');
+        submitButton.removeAttribute('aria-disabled');
+      });
+
+
   }
 
   bindEvents() {
