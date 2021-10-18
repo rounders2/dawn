@@ -84,10 +84,18 @@ class CartSuggestions extends HTMLElement {
   }
 
   render() {
+    var upsells = {};
     this.variantsInCart.forEach((variantID) => {
-      console.log(`checking ${variantID}`);
-      if (this.configuration[variantID] && !this.isInCart(this.configuration[variantID].upsellVariant)) {
+      let option = this.configuration[variantID];
+
+      if (option && !this.isInCart(option.upsellVariant)) {
         console.log(`${variantID} needs upselling`);
+
+        upsells[option.upsellProductHandle] = {
+          upsellVariant: option.upsellVariant,
+          mesg: option.mesg,
+          addToCart: option.addToCart
+        }
       }
     });
   }
