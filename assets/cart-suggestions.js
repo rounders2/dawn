@@ -152,9 +152,12 @@ class CartSuggestions extends HTMLElement {
 
 
   get variantsInCart() {
-    return Array.from(document.querySelectorAll('.cart-item')).map((el) => {
+    let a = Array.from(document.querySelectorAll('.cart-item')).map((el) => {
       return el.dataset.variantId;
     });
+    console.log("the variantsInCart are ", a);
+
+    return a;
     // return JSON.parse(this.getAttribute('variants'));
   }
 }
