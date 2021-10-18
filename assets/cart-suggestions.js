@@ -46,11 +46,9 @@ class CartSuggestions extends HTMLElement {
           return (v.id == upsells[handle].upsellVariant);
         });
 
-        if (variant) {
-          upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
-          upsells[handle].variant = variant;
-          upsells[handle].variant.formatted_price = `${variant.price}`;
-        }
+        upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
+        upsells[handle].variant = variant;
+        upsells[handle].variant.formatted_price = `${variant.price}`;
       }));
     });
 
