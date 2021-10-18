@@ -79,14 +79,14 @@ class CartSuggestions extends HTMLElement {
     this.render();
   }
 
-  function variantInCart(variantID) {
+  function isInCart(variantID) {
     return this.variantsInCart.indexOf(variantID) != -1
   }
 
   render() {
     this.variantsInCart.forEach((variantID) => {
       console.log(`checking ${variantID}`);
-      if (this.configuration[variantID] && !this.variantInCart(variantID)) {
+      if (this.configuration[variantID] && !this.isInCart(variantID)) {
         console.log(`${variantID} needs upselling`);
       }
     });
