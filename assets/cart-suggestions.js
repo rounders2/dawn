@@ -116,8 +116,8 @@ class CartSuggestions extends HTMLElement {
       });
     });
 
-    Promise.all(promises).then((results) => {
-      console.log(`received `
+    Promise.all(promises).then(() => {
+      console.log("all promises done");
     });
   }
 
