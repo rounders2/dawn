@@ -79,7 +79,7 @@ class CartSuggestions extends HTMLElement {
 
   addUpsellToCart(e) {
     e.preventDefault();
-    console.log("clicked ", e.targetElement);
+    console.log("clicked ", e.target);
 
   }
 
