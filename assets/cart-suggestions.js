@@ -30,7 +30,7 @@ class CartSuggestions extends HTMLElement {
     `;
   }
 
-  function isInCart(variantID) {
+  isInCart(variantID) {
     return this.variantsInCart.indexOf(variantID) != -1
   }
 
