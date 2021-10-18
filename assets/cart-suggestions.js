@@ -70,7 +70,6 @@ class CartSuggestions extends HTMLElement {
   }
 
   get variantsInCart() {
-    debugger;
     return JSON.parse(this.getAttribute('variants'));
   }
 }
