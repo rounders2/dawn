@@ -1,5 +1,5 @@
 
-$(function() {
+(function() {
   console.log("cart suggestions loaded");
   var configuration = {
 //  Solo Stove Bonfire
@@ -102,57 +102,57 @@ $(function() {
   var promises = []
 
   function fetchProductJson(handle) {
-    var variant;
+    // var variant;
 
-    promises.push($.get("https://good2goco.ca/products/" + handle + ".json").then(data => {
-      upsells[handle].product = data.product;
+    // promises.push($.get("https://good2goco.ca/products/" + handle + ".json").then(data => {
+    //   upsells[handle].product = data.product;
 
-      variant = data.product.variants.find(function(v) {
-        return (v.id == upsells[handle].upsellVariant);
-      });
+    //   variant = data.product.variants.find(function(v) {
+    //     return (v.id == upsells[handle].upsellVariant);
+    //   });
 
-      upsells[handle].product.url = "/products/"+ handle + "?variant=" + variant.id;
+    //   upsells[handle].product.url = "/products/"+ handle + "?variant=" + variant.id;
 
-      upsells[handle].variant = variant;
-      upsells[handle].variant.formatted_price = theme.Currency.formatMoney(100*Number(variant.price), theme.moneyFormat);
-    }));
+    //   upsells[handle].variant = variant;
+    //   upsells[handle].variant.formatted_price = theme.Currency.formatMoney(100*Number(variant.price), theme.moneyFormat);
+    // }));
   }
 
   for (var k=0; k < upsellProductHandles.length; k++) {
     fetchProductJson(upsellProductHandles[k]);
   }
 
-  $.when.apply($, promises).then(function() {
-    $cartSuggestions.append(template(upsells));
-  });
+  // $.when.apply($, promises).then(function() {
+  //   $cartSuggestions.append(template(upsells));
+  // });
 
 
-  $(document).on('click', '[data-add-cart-suggestions]', function(e) {
-    e.preventDefault();
+  // $(document).on('click', '[data-add-cart-suggestions]', function(e) {
+  //   e.preventDefault();
 
-    $.ajax({
-      type: 'POST',
-      url: '/cart/add.js',
-      data: {
-        items: [
-          {
-            quantity: 1,
-            id: $(this).data('variant-id'),
-          }
-        ]
-      },
-      dataType: 'json',
-      success: function(result) {
-        if (window.location.pathname == "/cart") {
-          setTimeout(function() {
-            window.location.reload();
-          }, 500);
-        }
-      },
-      error: function(XMLHttpRequest, textStatus) {
-        console.log("error trying to add Free Product", textStatus);
-      }
-    });
+  //   $.ajax({
+  //     type: 'POST',
+  //     url: '/cart/add.js',
+  //     data: {
+  //       items: [
+  //         {
+  //           quantity: 1,
+  //           id: $(this).data('variant-id'),
+  //         }
+  //       ]
+  //     },
+  //     dataType: 'json',
+  //     success: function(result) {
+  //       if (window.location.pathname == "/cart") {
+  //         setTimeout(function() {
+  //           window.location.reload();
+  //         }, 500);
+  //       }
+  //     },
+  //     error: function(XMLHttpRequest, textStatus) {
+  //       console.log("error trying to add Free Product", textStatus);
+  //     }
+  //   });
 
-  });
-});
+  // });
+})();
