@@ -71,7 +71,14 @@ class CartSuggestions extends HTMLElement {
       this.innerHTML = upsellProductHandles.map((handle) => {
         return this.template(upsells[handle]);
       }).join();
+
+      this.bindEvents();
+
     });
+  }
+
+  bindEvents() {
+
   }
 
   fetchProductJSON(handle) {
