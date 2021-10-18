@@ -108,9 +108,7 @@ class CartSuggestions extends HTMLElement {
   }
 
   function fetchProductJSON(handle) {
-    fetch(`${window.location.origin}/products/${handle}.json`).then((response) => {
-      console.log(`fetched json for ${handle}`, response);
-    });
+    return fetch(`${window.location.origin}/products/${handle}.json`)
   }
 
 
