@@ -55,6 +55,8 @@ class CartSuggestions extends HTMLElement {
     Promise.all(promises).then(() => {
       console.log("all promises done");
     });
+
+
   }
 
   function fetchProductJSON(handle) {
