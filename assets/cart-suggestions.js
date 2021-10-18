@@ -67,6 +67,12 @@ class CartSuggestions extends HTMLElement {
         addToCart: true
       }
     }
+
+    this.render();
+  }
+
+  render() {
+
   }
 
   get variantsInCart() {
