@@ -102,7 +102,7 @@ class CartSuggestions extends HTMLElement {
     let upsellProductHandles = Object.keys(upsells);
 
     upsellProductHandles.forEach((handle) => {
-      fetchProductJSON(handle);
+      this.fetchProductJSON(handle);
     });
   }
 
