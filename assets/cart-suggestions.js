@@ -19,12 +19,12 @@ class CartSuggestions extends HTMLElement {
     return `
       <div class="cart-upsell-item">
         <div class="cart-upsell-image">
-          <a href="{{upsell.product.url}}" class="cart-upsell-product"><img src="{{upsell.product.image.src}}" class="cart__image" alt="{{upsell.product.title}}"></a>
+          <a href="${upsell.product.url}" class="cart-upsell-product"><img src="${upsell.product.image.src}" class="cart__image" alt="${upsell.product.title}"></a>
         </div>
         <div class="cart-upsell-deets">
-          <a href="{{upsell.product.url}}"><h4>{{upsell.mesg}}</h4></a>
-          <p><span>{{upsell.variant.formatted_price}}</span></p>
-          <a data-add-cart-suggestions data-variant-id="{{upsell.variant.id}}" href="#" class="btn cart-upsell-btn">Add Now</a>
+          <a href="${upsell.product.url}"><h4>${upsell.mesg}</h4></a>
+          <p><span>${upsell.variant.formatted_price}</span></p>
+          <a data-add-cart-suggestions data-variant-id="${upsell.variant.id}" href="#" class="btn cart-upsell-btn">Add Now</a>
         </div>
       </div>
     `;
