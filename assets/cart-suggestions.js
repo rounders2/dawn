@@ -101,7 +101,6 @@ class CartSuggestions extends HTMLElement {
   }
 
 
-
   get variantsInCart() {
     return JSON.parse(this.getAttribute('variants'));
   }
