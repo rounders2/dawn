@@ -85,6 +85,7 @@ class CartSuggestions extends HTMLElement {
 
   render() {
     this.variantsInCart.forEach((variantID) => {
+      console.log(`checking ${variantID}`);
       if (this.configuration[variantID] && !this.variantInCart(variantID)) {
         console.log(`${variantID} needs upselling`);
       }
