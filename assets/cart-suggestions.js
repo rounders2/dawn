@@ -1,6 +1,4 @@
 class CartSuggestions extends HTMLElement {
-  console.log("cart suggestions loaded");
-
   constructor() {
     super();
     console.log("instantiated cart-suggestions element");
