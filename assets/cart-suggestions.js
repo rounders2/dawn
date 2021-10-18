@@ -82,26 +82,27 @@ class CartSuggestions extends HTMLElement {
     console.log("clicked ", e.target);
 
     let config = fetchConfig('javascript');
+    config.headers['X-Requested-With'] = 'XMLHttpRequest';
+    config.body = JSON.stringify({
+      items: [
+        { quantity: 1, id: e.target.dataset.variantId }
+      ]
+    })
 
     fetch(`${routes.cart_add_url}`, config)
       .then((response) => response.json())
       .then((response) => {
         if (response.status) {
-          this.handleErrorMessage(response.description);
-          return;
+          console.log("the response status is ", response.status);
         }
-
-        this.cartNotification.renderContents(response);
+        console.log("The response is ", response);
       })
       .catch((e) => {
         console.error(e);
       })
       .finally(() => {
-        submitButton.classList.remove('loading');
-        submitButton.removeAttribute('aria-disabled');
+        location.reload();
       });
-
-
   }
 
   bindEvents() {
