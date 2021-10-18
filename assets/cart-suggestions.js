@@ -46,8 +46,6 @@ class CartSuggestions extends HTMLElement {
       let option = this.configuration[variantID];
 
       if (option && !this.isInCart(option.upsellVariant)) {
-        console.log(`${variantID} needs upselling`);
-
         upsells[option.upsellProductHandle] = {
           upsellVariant: option.upsellVariant,
           mesg: option.mesg,
