@@ -77,8 +77,15 @@ class CartSuggestions extends HTMLElement {
     });
   }
 
-  bindEvents() {
+  addUpsellToCart(e) {
+    e.preventDefault();
+    console.log("clicked ", e);
+  }
 
+  bindEvents() {
+    Array.from(document.querySelectorAll('[data-add-cart-suggestions]')).forEach((element) => {
+      element.addEventListener('click', this.addUpsellToCart));
+    });
   }
 
   fetchProductJSON(handle) {
