@@ -102,11 +102,11 @@ class CartSuggestions extends HTMLElement {
     let upsellProductHandles = Object.keys(upsells);
 
     upsellProductHandles.forEach((handle) => {
-      productJSON(handle);
+      fetchProductJSON(handle);
     });
   }
 
-  get productJson(handle) {
+  function fetchProductJSON(handle) {
     fetch(`https://good2goco.ca/products/${handle}.json`).then((response) => {
       console.log(`fetched json for ${handle}`, response);
     });
