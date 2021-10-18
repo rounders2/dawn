@@ -65,7 +65,15 @@ class CartSuggestions extends HTMLElement {
         upsellVariant: 32106582638710,
         mesg: "Don't Forget the Cream for your Coffee!",
         addToCart: true
+      },
+      //  Test
+      36191353241766: {
+        upsellProductHandle: "ready-hour-coffee-creamer",
+        upsellVariant: 32106582638710,
+        mesg: "Don't Forget the Cream for your Coffee!",
+        addToCart: true
       }
+
     }
 
     this.render();
