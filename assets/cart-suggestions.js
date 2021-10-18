@@ -3,7 +3,7 @@ class CartSuggestions extends HTMLElement {
 
   constructor() {
     super();
-
+    console.log("instantiated cart-suggestions element");
     this.configuration = {
       //  Solo Stove Bonfire
       18313979363446: {
