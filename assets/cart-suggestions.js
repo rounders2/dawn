@@ -68,6 +68,10 @@ class CartSuggestions extends HTMLElement {
       }
     }
   }
+
+  get variantsInCart() {
+    return JSON.parse(this.getAttribute('variants'));
+  }
 }
 
 customElements.define('cart-suggestions', CartSuggestions);
