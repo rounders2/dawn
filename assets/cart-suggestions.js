@@ -78,6 +78,27 @@ class CartSuggestions extends HTMLElement {
     return fetch(`${window.location.origin}/products/${handle}.json`);
   }
 
+  getSizedImageUrl(src, size) {
+    if (size === null) {
+      return src;
+    }
+
+    if (size === 'master') {
+      return removeProtocol(src);
+    }
+
+    const match = src.match(/\.(jpg|jpeg|gif|png|bmp|bitmap|tiff|tif)(\?v=\d+)?$/i);
+
+    if (match) {
+      const prefix = src.split(match[0]);
+      const suffix = match[0];
+
+      return removeProtocol(`${prefix[0]}_${size}${suffix}`);
+    } else {
+      return null;
+    }
+  }
+
 
   get variantsInCart() {
     return JSON.parse(this.getAttribute('variants'));
