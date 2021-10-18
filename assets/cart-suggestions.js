@@ -76,7 +76,9 @@ class CartSuggestions extends HTMLElement {
   }
 
   render() {
-
+    variantsInCart.forEach((variantID) => {
+      if (this.configuration[variantID] && !v
+    });
   }
 
 
