@@ -34,13 +34,13 @@ cart-suggestions .cart-upsell-deets p {
 
 }
 
-cart-suggestions .btn.cart-upsell-btn {
+cart-suggestions .button.cart-upsell-btn {
   font-size:11px;
   padding: 5px 15px;
   background:#999;
   transition:all .3s ease;
 }
-cart-suggestions .btn.cart-upsell-btn:hover {
+cart-suggestions .button.cart-upsell-btn:hover {
   background:#233633;
 }
 

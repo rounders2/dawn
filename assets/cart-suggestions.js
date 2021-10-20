@@ -30,7 +30,7 @@ class CartSuggestions extends HTMLElement {
         <div class="cart-upsell-deets">
           <a href="${upsell.product.url}"><h4>${upsell.mesg}</h4></a>
           <p><span>${upsell.variant.formatted_price}</span></p>
-          <a data-add-cart-suggestions data-variant-id="${upsell.variant.id}" href="#" class="btn cart-upsell-btn">Add Now</a>
+          <a data-add-cart-suggestions data-variant-id="${upsell.variant.id}" href="#" class="button cart-upsell-btn">Add Now</a>
         </div>
       </div>
     `;
