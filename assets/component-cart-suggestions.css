@@ -1,6 +1,6 @@
 /* Cart Suggestions */
 
-#cart-suggestions {
+cart-suggestions {
   display:flex;
   flex-direction:row;
   justify-content:center;
