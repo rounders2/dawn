@@ -2,14 +2,15 @@ class CartSuggestions extends HTMLElement {
   constructor() {
     super();
 
+    // edit as needed
     this.configuration = {
-      36191353241766: {
+      36191353241766 : { // franklins-finest-survival-coffee-720-servings-1-bucket
         upsellProductHandle: "lifestraw-go",
         upsellVariant: 36191168757926,
         mesg: "Add a Lifestraw GO Water Bottle in Teal for only:",
         addToCart: true
       },
-      37009363173542: {
+      37009363173542: { // womens-v2-tactical-pants
         upsellProductHandle: "santa-fe-black-veans-rice-emergency-essentials",
         upsellVariant: 36191164039334,
         mesg: "Add some extra protein to every meal for only:",
@@ -141,6 +142,11 @@ class CartSuggestions extends HTMLElement {
     } else {
       return null;
     }
+  }
+
+  variantImage(upsell) {
+
+
   }
 
 
