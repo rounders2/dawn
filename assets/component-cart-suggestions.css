@@ -58,4 +58,5 @@ cart-suggestions .cart-upsell-deets h4 {
 
 cart-suggestions .cart-upsell-deets h4 span {
   color:#444;
+  text-transform:none;
 }
