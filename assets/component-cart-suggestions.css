@@ -5,7 +5,8 @@ cart-suggestions {
   flex-direction:row;
   justify-content:center;
   margin:10px auto;
-  overflow-x:scroll;
+  overflow-y: hidden;
+  overflow-x: auto;
   min-width:350px;
 }
 
