@@ -9,6 +9,11 @@ cart-suggestions {
   overflow-x: auto;
   min-width:350px;
 }
+@media (max-width:768px) {
+  cart-suggestions {
+    justify-content:flex-start;
+  }
+}
 
 cart-suggestions .cart-upsell-item {
   display:flex;
