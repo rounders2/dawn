@@ -5,6 +5,7 @@ cart-suggestions {
   flex-direction:row;
   justify-content:center;
   margin:10px auto;
+  overflow-x:scroll;
 }
 
 cart-suggestions .cart-upsell-item {
