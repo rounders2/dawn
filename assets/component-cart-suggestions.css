@@ -54,6 +54,7 @@ cart-suggestions .cart-upsell-image {
 }
 cart-suggestions .cart-upsell-deets {
   width:70%;
+  padding-left:2rem;
 }
 
 cart-suggestions .cart-upsell-deets h4 {
@@ -61,4 +62,8 @@ cart-suggestions .cart-upsell-deets h4 {
   line-height:.8rem;
   margin-bottom:6px;
   color:#233633;
+}
+
+cart-suggestions .cart-upsell-deets h4 span {
+  color:#
 }
