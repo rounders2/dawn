@@ -6,27 +6,15 @@
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 {{ 'component-cart-suggestions.css' | asset_url | stylesheet_tag }}
 
-<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
-<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
-
 <script src="{{ 'cart.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'cart-suggestions.js' | asset_url }}" defer="defer"></script>
-
 
 <cart-items class="page-width{% if cart == empty %} is-empty{% endif %}">
   <div class="title-wrapper-with-link">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
   </div>
-
-  <slider-component class="slider-mobile-gutter">
-    <ul id="Slider-{{ section.id }}"
-      class="grid grid--peek grid--2-col-tablet grid--4-col-desktop slider slider--mobile"
-      role="list">
-    <li class="cart-suggestions"></li>
-    </ul>
-  </slider-component>
-
+  <cart-suggestions></cart-suggestions>
   <div class="cart__warnings">
     <h1 class="cart__empty-text">{{ 'sections.cart.empty' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="button">
