@@ -59,7 +59,7 @@ class CartSuggestions extends HTMLElement {
     upsellProductHandles.forEach((handle) => {
       promises.push(this.fetchProductJSON(handle).then(response => response.json()).then((data) => {
         upsells[handle].product = data.product;
-
+        window.foo = data;
         let variant = data.product.variants.find((v) => {
           return (v.id == upsells[handle].upsellVariant);
         });
