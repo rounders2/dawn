@@ -34,7 +34,8 @@ cart-suggestions .button.cart-upsell-btn {
   font-size:1rem;
   padding: 5px 15px;
   min-height:initial;
-  background:#eee;
+  background:#444;
+  border-color:transparent;
   transition:all .3s ease;
 }
 cart-suggestions .button.cart-upsell-btn:hover {
