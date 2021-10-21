@@ -142,12 +142,6 @@ class CartSuggestions extends HTMLElement {
     }
   }
 
-  variantImage(upsell) {
-
-
-  }
-
-
   get variantsInCart() {
     let a = Array.from(document.querySelectorAll('.cart-item')).map((el) => {
       return Number(el.dataset.variantId);
