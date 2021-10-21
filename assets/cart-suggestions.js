@@ -146,10 +146,8 @@ class CartSuggestions extends HTMLElement {
     let a = Array.from(document.querySelectorAll('.cart-item')).map((el) => {
       return Number(el.dataset.variantId);
     });
-    console.log("the variantsInCart are ", a);
 
     return a;
-    // return JSON.parse(this.getAttribute('variants'));
   }
 }
 
