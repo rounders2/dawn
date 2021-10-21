@@ -49,12 +49,12 @@ cart-suggestions .cart-upsell-deets {
   padding-left:3rem;
 }
 
-cart-suggestions .cart-upsell-deets h4 {
+cart-suggestions .cart-upsell-deets p {
   font-size:1.4rem;
   line-height:1.8rem;
   margin-bottom:6px;
   color:#233633;
 }
 
-cart-suggestions .cart-upsell-deets h4 span {
+cart-suggestions .cart-upsell-deets p span {
   color:#990000;
