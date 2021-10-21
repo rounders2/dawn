@@ -37,6 +37,7 @@ cart-suggestions .cart-upsell-deets p {
 cart-suggestions .button.cart-upsell-btn {
   font-size:11px;
   padding: 5px 15px;
+  min-height:initial;
   background:#999;
   transition:all .3s ease;
 }
