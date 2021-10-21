@@ -12,7 +12,7 @@ class CartSuggestions extends HTMLElement {
       37009363173542: {
         upsellProductHandle: "santa-fe-black-veans-rice-emergency-essentials",
         upsellVariant: 36191164039334,
-        mesg: "Add some extra protein to your meals!",
+        mesg: "Add some extra protein to every meal for only:",
         addToCart: true
       }
     }
