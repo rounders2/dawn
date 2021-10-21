@@ -74,7 +74,7 @@ class CartSuggestions extends HTMLElement {
     Promise.all(promises).then(() => {
       this.innerHTML = upsellProductHandles.map((handle) => {
         return this.template(upsells[handle]);
-      }).join();
+      }).join('');
 
       this.bindEvents();
 
