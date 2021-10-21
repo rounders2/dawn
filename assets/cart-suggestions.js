@@ -23,16 +23,18 @@ class CartSuggestions extends HTMLElement {
 
   template(upsell) {
     return `
-      <div class="cart-upsell-item">
-        <div class="cart-upsell-image">
-          <a href="${upsell.product.url}" class="cart-upsell-product"><img src="${this.getSizedImageUrl(upsell.product.image.src, '300x')}" class="cart__image" alt="${upsell.product.title}"></a>
+      <li class="slider__slide slider__slide--full-width">
+        <div class="cart-upsell-item">
+          <div class="cart-upsell-image">
+            <a href="${upsell.product.url}" class="cart-upsell-product"><img src="${this.getSizedImageUrl(upsell.product.image.src, '300x')}" class="cart__image" alt="${upsell.product.title}"></a>
+          </div>
+          <div class="cart-upsell-deets">
+            <a href="${upsell.product.url}"><h4>${upsell.mesg}</h4></a>
+            <p><span>${upsell.variant.formatted_price}</span></p>
+            <a data-add-cart-suggestions data-variant-id="${upsell.variant.id}" href="#" class="button cart-upsell-btn">Add Now</a>
+          </div>
         </div>
-        <div class="cart-upsell-deets">
-          <a href="${upsell.product.url}"><h4>${upsell.mesg}</h4></a>
-          <p><span>${upsell.variant.formatted_price}</span></p>
-          <a data-add-cart-suggestions data-variant-id="${upsell.variant.id}" href="#" class="button cart-upsell-btn">Add Now</a>
-        </div>
-      </div>
+      </li>
     `;
   }
 
