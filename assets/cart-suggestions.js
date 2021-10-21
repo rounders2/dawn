@@ -25,7 +25,7 @@ class CartSuggestions extends HTMLElement {
     return `
       <div class="cart-upsell-item">
         <div class="cart-upsell-image">
-          <a href="${upsell.product.url}" class="cart-upsell-product"><img src="${this.getSizedImageUrl(upsell.product.image.src, '300x')}" class="cart__image" alt="${upsell.product.title}"></a>
+          <a href="${upsell.product.url}" class="cart-upsell-product"><img src="${this.getSizedImageUrl(upsell.variantImage.src, '300x')}" class="cart__image" alt="${upsell.product.title}"></a>
         </div>
         <div class="cart-upsell-deets">
           <a href="${upsell.product.url}"><p>${upsell.mesg} <span>${upsell.variant.formatted_price}</span></p></a>
