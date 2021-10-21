@@ -18,9 +18,13 @@
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
     <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
   </div>
-  
+
   <slider-component class="slider-mobile-gutter">
-    <cart-suggestions></cart-suggestions>
+    <ul id="Slider-{{ section.id }}"
+      class="grid grid--peek grid--2-col-tablet grid--4-col-desktop slider slider--mobile"
+      role="list">
+    <li class="cart-suggestions"></li>
+    </ul>
   </slider-component>
 
   <div class="cart__warnings">
