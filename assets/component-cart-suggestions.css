@@ -20,6 +20,9 @@ cart-suggestions .cart-upsell-item {
   flex: 1 1 0px;
   max-width:350px;
 }
+cart-suggestions .cart-upsell-item a {
+  text-decoration:none;
+}
 cart-suggestions img.cart__image {
   max-width:12rem;
 }
@@ -54,7 +57,7 @@ cart-suggestions .cart-upsell-deets {
 }
 
 cart-suggestions .cart-upsell-deets h4 {
-  font-size:14px;
+  font-size:.8rem;
   line-height:1.1em;
   margin-bottom:6px;
   color:#233633;
