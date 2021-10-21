@@ -57,6 +57,11 @@ class CartSuggestions extends HTMLElement {
     let promises = []
 
     upsellProductHandles.forEach((handle) => {
+      if (upsells[handle].variant) {
+        console.log("item already cached");
+        return;
+      }
+
       promises.push(this.fetchProductJSON(handle).then(response => response.json()).then((data) => {
         upsells[handle].product = data.product;
         let variant = data.product.variants.find(v => v.id == upsells[handle].upsellVariant);
