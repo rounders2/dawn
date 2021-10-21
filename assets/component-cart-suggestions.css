@@ -30,16 +30,8 @@ cart-suggestions .cart-upsell-deets {
   padding: 0 5px;
 }
 
-cart-suggestions .cart-upsell-deets p {
-  text-transform:uppercase;
-  font-size:13px;
-  line-height:1.1em;
-  margin-bottom:6px;
-
-}
-
 cart-suggestions .button.cart-upsell-btn {
-  font-size:11px;
+  font-size:.8rem;
   padding: 5px 15px;
   min-height:initial;
   background:#999;
