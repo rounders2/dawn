@@ -6,7 +6,7 @@ class CartSuggestions extends HTMLElement {
       36191353241766: {
         upsellProductHandle: "lifestraw-go",
         upsellVariant: 36191168757926,
-        mesg: "Add a Lifestraw Water Bottle for only:",
+        mesg: "Add a Lifestraw Water Bottle and drink from any source for only:",
         addToCart: true
       },
       37009363173542: {
