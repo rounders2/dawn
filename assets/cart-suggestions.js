@@ -64,7 +64,7 @@ class CartSuggestions extends HTMLElement {
         upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
         upsells[handle].variant = variant;
         upsells[handle].variant.formatted_price = `${variant.price}`;
-        upsells[handle].variantImage = data.product.images.find(image => image.id == variant.image_id) || data.product.image.src;
+        upsells[handle].variantImage = data.product.images.find(image => image.id == variant.image_id) || data.product.image;
       }));
     });
 
