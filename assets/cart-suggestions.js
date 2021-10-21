@@ -61,6 +61,7 @@ class CartSuggestions extends HTMLElement {
         upsells[handle].product = data.product;
         window.foo = data;
         let variant = data.product.variants.find(v => v.id == upsells[handle].upsellVariant);
+        let variantImage = data.product.images.find(image => image.id == variant.image_id);
 
 
         upsells[handle].product.url = `/products/${handle}?variant=${variant.id}`;
