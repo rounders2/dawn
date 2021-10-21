@@ -54,9 +54,9 @@ cart-suggestions .cart-upsell-deets h4 {
   line-height:1.4rem;
   margin-bottom:6px;
   color:#233633;
+  text-transform:none;
+
 }
 
 cart-suggestions .cart-upsell-deets h4 span {
   color:#444;
-  text-transform:none;
-}
