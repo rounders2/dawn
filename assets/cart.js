@@ -30,6 +30,10 @@ class CartItems extends HTMLElement {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
   }
 
+  renderCartSuggestions() {
+    document.querySelector('cart-suggestions').render();
+  }
+
   getSectionsToRender() {
     return [
       {
@@ -87,6 +91,10 @@ class CartItems extends HTMLElement {
         this.updateLiveRegions(line, parsedState.item_count);
         const lineItem =  document.getElementById(`CartItem-${line}`);
         if (lineItem && lineItem.querySelector(`[name="${name}"]`)) lineItem.querySelector(`[name="${name}"]`).focus();
+
+        // update cart suggestions
+        this.renderCartSuggestions();
+
         this.disableLoading();
       }).catch(() => {
         this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
